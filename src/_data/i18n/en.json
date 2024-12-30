@@ -1,0 +1,2767 @@
+{
+  "meta": {
+    "lang": "en",
+    "dir": "ltr",
+    "locale": "en",
+    "language": "English"
+  },
+  "navigation": {
+    "path": "/",
+    "logoText": "MiSide",
+    "navbar": [
+      {
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "title": "The Mitas",
+        "url": "/mita-miside-wiki/"
+      },
+      {
+        "title": "Blog",
+        "url": "/blogentry/"
+      },
+      {
+        "title": "FAQs",
+        "url": "/#faqs"
+      }
+    ]
+  },
+  "pages": {
+    "index": {
+      "title": "MiSide: Step Into The Mysterious MiSide World",
+      "description": "MiSide is a unique psychological horror adventure game that blends first-person exploration with visual novel elements, a rich storyline and interesting plot.",
+      "hero": {
+        "title": "MiSide",
+        "subtitle": "Where Reality Meets Simulation, Romance Meets Horror",
+        "content": "Step into a mysterious world where an ordinary protagonist finds himself trapped within a mobile simulation game. What begins as seemingly mundane tasks typical of romance games takes a dark turn, leading to an increasingly unsettling journey filled with tension and unpredictability.",
+        "media": {
+          "url": "/assets/hero.jpg",
+          "alt": "MiSide Hero Image",
+          "title": "MiSide"
+        },
+        "buttonText": "Play Now →"
+      },
+      "about": {
+        "title": "About MiSide",
+        "content": [
+          "“Let's imagine that you have a game in which you care for a character. But could you imagine one day getting into that game yourself?” -Aihasto",
+          "MiSide is an innovative adventure game that masterfully incorporates horror elements, creating a unique blend of gameplay experiences. The game combines first-person adventure mechanics with visual novel storytelling.",
+          "MiSide features a distinctive art style with 3D graphics and anime influences, complemented by an authentic soundtrack that transitions from warm melodies to eerie ambient sounds as the story progresses."
+        ]
+      },
+      "gameplay": {
+        "title": "Dive Into The Mysterious MiSide World",
+        "subtitle": "Experience a unique blend of adventure and horror",
+        "content": [
+          {
+            "title": "Adventure Horror Gameplay",
+            "content": "Explore dark rooms, interact with objects, search for clues, and avoid dangers, including being stalked by an unhinged character.",
+            "media": {
+              "url": "/assets/horror.jpeg",
+              "alt": "Horror Gameplay",
+              "title": "Adventure Horror"
+            }
+          },
+          {
+            "title": "MiSide Minigames and Puzzles",
+            "content": "Engage with a variety of minigames and puzzles scattered throughout the experience, adding flavor and challenge to the gameplay.",
+            "media": {
+              "url": "/assets/mini.jpeg",
+              "alt": "Puzzle System",
+              "title": "Puzzle Mechanics"
+            }
+          },
+          {
+            "title": "Multiple Endings",
+            "content": "Your choices throughout the MiSide game lead to different endings, enhancing replayability and encouraging exploration of various narrative paths.",
+            "media": {
+              "url": "/assets/endings.jpeg",
+              "alt": "Multiple Endings",
+              "title": "Ending System"
+            }
+          },
+          {
+            "title": "Psychological Horror",
+            "content": "Experience a combination of psychological tension and supernatural horror in MiSide, creating an unsettling atmosphere that keeps you engaged.",
+            "media": {
+              "url": "/assets/horror-element.jpeg",
+              "alt": "Horror Elements",
+              "title": "Horror System"
+            }
+          },
+          {
+            "title": "Choice-Driven Progression",
+            "content": "Make decisions that affect the storyline and character interactions, allowing for a personalized gaming experience.",
+            "media": {
+              "url": "/assets/choice.jpeg",
+              "alt": "Choice System",
+              "title": "Choice Mechanics"
+            }
+          }
+        ]
+      },
+      "ingame": {
+        "title": "Discover What Makes MiSide Unique",
+        "subtitle": "Explore the captivating gameplay mechanics of MiSide",
+        "content": [
+          {
+            "title": "Customizable Protagonist",
+            "content": "Personalize your character's appearance and attributes to enhance immersion in the MiSide world."
+          },
+          {
+            "title": "Dynamic Character Interactions",
+            "content": "Engage with various characters, particularly Mita, whose personality evolves throughout the MiSide game, revealing deeper psychological themes."
+          },
+          {
+            "title": "Atmospheric Sound Design",
+            "content": "Immerse yourself in a carefully crafted soundscape featuring ambient noises and music that enhance tension and horror."
+          },
+          {
+            "title": "Unique Visual Style",
+            "content": "Experience a vivid anime-inspired art style that contrasts sharply with horror themes, creating an unnerving juxtaposition."
+          },
+          {
+            "title": "Progress Tracking",
+            "content": "Monitor your journey through achievements and collectibles, which provide insights into your MiSide gaming experience."
+          },
+          {
+            "title": "Voice Acting Support",
+            "content": "Enjoy voice acting support (currently available in Russian) that adds depth to character interactions and enhances storytelling."
+          }
+        ]
+      },
+      "mitas": {
+        "title": "The Mitas in MiSide",
+        "subtitle": "Meet the diverse cast of Mitas, the central characters in MiSide's immersive world.",
+        "content": [
+          {
+            "name": "Mita (Crazy Mita)",
+            "path": "mita-miside-wiki"
+          },
+          {
+            "name": "Chibi Mita",
+            "path": "chibi-mita-miside-wiki"
+          },
+          {
+            "name": "Short Haired Mita",
+            "path": "short-haired-mita-miside-wiki"
+          },
+          {
+            "name": "Kind Mita",
+            "path": "kind-mita-miside-wiki"
+          },
+          {
+            "name": "Cool Mita (Cappie)",
+            "path": "cool-mita-miside-wiki"
+          },
+          {
+            "name": "Ghostly Mita",
+            "path": "ghostly-mita-miside-wiki"
+          },
+          {
+            "name": "Sleepy Mita",
+            "path": "sleepy-mita-miside-wiki"
+          },
+          {
+            "name": "2D Mita",
+            "path": "2d-mita-miside-wiki"
+          },
+          {
+            "name": "Mila",
+            "path": "mila-miside-wiki"
+          },
+          {
+            "name": "Creepy Mita (Ugly Mita)",
+            "path": "creepy-mita-miside-wiki"
+          },
+          {
+            "name": "Core Mita",
+            "path": "core-mita-miside-wiki"
+          },
+          {
+            "name": "Tiny Mita (Broken Mita)",
+            "path": "tiny-mita-miside-wiki"
+          },
+          {
+            "name": "Dummy Mita",
+            "path": "dummy-mita-miside-wiki"
+          },
+          {
+            "name": "Wandering Mita",
+            "path": "wandering-mita-miside-wiki"
+          }
+        ]
+      },
+      "guides": {
+        "title": "MiSide Latest Guides",
+        "subtitle": "Explore the latest guides for MiSide"
+        
+      },
+      "reviews": {
+        "title": "What Players Say About MiSide",
+        "subtitle": "Why people love MiSide so much",
+        "content": [
+          {
+            "name": "Horror Enthusiast",
+            "role": "Game Critic",
+            "content": "MiSide perfectly utilizes every element of the horror genre, particularly its audiovisuals. The tension-driven atmosphere and jarring aesthetics create a truly frightening experience."
+          },
+          {
+            "name": "Visual Novel Expert",
+            "role": "Content Creator",
+            "content": "The blend of charming characters and surreal horror elements in MiSide is masterfully done. The ambiguous narrative encourages players to piece together events on their own."
+          },
+          {
+            "name": "Adventure Gamer",
+            "role": "Veteran Player",
+            "content": "The gameplay mechanics in MiSide are reminiscent of classic adventure horror, with exploration and puzzle-solving being key components that keep you engaged."
+          },
+          {
+            "name": "Sound Designer",
+            "role": "Industry Professional",
+            "content": "The top-tier audiovisual experience in MiSide creates an unnerving atmosphere without overwhelming the player. The transition from warm melodies to eerie ambient sounds is particularly effective."
+          },
+          {
+            "name": "Story Analyst",
+            "role": "Gaming Journalist",
+            "content": "Despite using the familiar trope of being sucked into a game, the story in MiSide remains engaging with compelling characters and excellent voice acting."
+          },
+          {
+            "name": "Technical Reviewer",
+            "role": "Game Tester",
+            "content": "While there are occasional bugs and pacing issues, the overall experience is polished with a variety of minigames and collectibles that add depth to gameplay."
+          }
+        ]
+      },
+      "faq": {
+        "title": "MiSide FAQs",
+        "subtitle": "Frequently Asked Questions about MiSide",
+        "content": [
+          {
+            "question": "What is MiSide?",
+            "answer": "MiSide is an adventure game with horror elements that tells the story of a simple guy who mysteriously finds himself in a mobile simulation."
+          },
+          {
+            "question": "What kind of gameplay can I expect?",
+            "answer": "MiSide combines adventure horror with visual novel elements, featuring exploration, puzzle-solving, and character interactions. Players explore dark rooms, interact with objects, and make choices that affect the story's outcome."
+          },
+          {
+            "question": "What platforms is MiSide available on?",
+            "answer": "MiSide is available on Windows and can be downloaded from platforms like itch.io and Steam."
+          },
+          {
+            "question": "How long is the average gameplay session?",
+            "answer": "The average session lasts about half an hour."
+          },
+          {
+            "question": "Is there voice acting in MiSide?",
+            "answer": "Yes, MiSide includes voice acting, currently available in Russian. This adds depth to character interactions and enhances the storytelling experience."
+          },
+          {
+            "question": "Are there multiple endings?",
+            "answer": "Yes, player choices throughout the game lead to different endings, enhancing replayability."
+          },
+          {
+            "question": "How many achievements are there in MiSide?",
+            "answer": "MiSide features 26 achievements that players can unlock through various tasks during gameplay."
+          },
+          {
+            "question": "Can I replay chapters?",
+            "answer": "Yes, players can revisit chapters from the main menu after completing the game. This feature allows you to unlock achievements or explore different narrative paths."
+          },
+          {
+            "question": "Will there be more content added to MiSide?",
+            "answer": "Yes, updates are expected to include new content and features based on player feedback. "
+          },
+          {
+            "question": "Is there a planned sequel for MiSide?",
+            "answer": "While specific details are not confirmed, there is interest from both players and developers for potential sequels or expansions. "
+          },
+          {
+            "question": "Is there controller support in MiSide?",
+            "answer": "The game has controller support, but it may be buggy. If you experience issues, try disconnecting the controller and restarting the game."
+          },
+          {
+            "question": "What should I do if the game keeps moving to the right?",
+            "answer": "This issue may occur if you have a controller plugged in. Disconnecting it and restarting the game can resolve the problem."
+          }
+        ]
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy | MiSide",
+      "description": "Privacy policy for MiSide. Learn how we protect your information while you explore our content."
+    },
+    "blogentry": {
+      "title": "MiSide Guide & Blog",
+      "description": "Explore the comprehensive MiSide guide to learn about the game's latest updates, player choices, multiple endings, and more.",
+      "subtitle": "Latest MiSide Guides",
+      "blogs": [
+        {
+          "name": "All MiSide Endings",
+          "date": "December 25, 2024",
+          "desc": "Learn about MiSide's multiple endings, including their significance and how to unlock them.",
+          "path": "/blog/miside-endings/",
+          "media": {
+            "url": "/assets/choice.jpeg",
+            "alt": "MiSide Endings",
+            "title": "MiSide Endings"
+          }
+        },
+        {
+          "name": "All MiSide Achievements",
+          "date": "December 25, 2024",
+          "desc": "Discover MiSide's 26 unique achievements that players can unlock and how to unlock them.",
+          "path": "/blog/miside-achievements/",
+          "media": {
+            "url": "/assets/achievements.jpeg",
+            "alt": "MiSide Achievements",
+            "title": "MiSide Achievements"
+          }
+        },
+        {
+          "name": "A Quick MiSide Walkthrough",
+          "date": "December 24, 2024",
+          "desc": "Get a quick overview of MiSide's story and gameplay, including the prologue, chapters, and challenges.",
+          "path": "/blog/miside-walkthrough/",
+          "media": {
+            "url": "/assets/endings.jpeg",
+            "alt": "MiSide Walkthrough",
+            "title": "MiSide Walkthrough"
+          }
+        }
+      ]
+
+    },
+    "miside-endings":{
+      "title": "All MiSide Endings - MiSide Guide",
+      "description": "MiSide features three main endings that players can achieve based on their choices throughout the game. Here’s a detailed overview of each ending:",
+      "articleTitle": "All Three MiSide Endings Explained",
+      "date": "December 25, 2024",
+      "media": {
+        "url": "/assets/choice.jpeg",
+        "alt": "MiSide Endings",
+        "title": "MiSide Endings"
+      }
+    },
+    "miside-achievements": {
+      "title": "All MiSide Achievements - MiSide Guide",
+      "description": "MiSide features 26 unique achievements that players can unlock through various tasks during gameplay. Here’s a detailed overview of each achievement:",
+      "articleTitle": "All MiSide Achievements Collectible Guide",
+      "date": "December 25, 2024",
+      "media": {
+        "url": "/assets/achievements.jpeg",
+        "alt": "MiSide Achievements",
+        "title": "MiSide Achievements"
+      }
+    },
+    "miside-walkthrough": {
+      "title": "A Quick MiSide Walkthrough - MiSide Guide",
+      "description": "Get a quick overview of MiSide's story and gameplay, including the prologue, chapters, and challenges. This walkthrough will help you enter MiSide world asap.",
+      "articleTitle": "A Quick MiSide Walkthrough",
+      "date": "December 24, 2024",
+      "media": {
+        "url": "/assets/endings.jpeg",
+        "alt": "MiSide Walkthrough",
+        "title": "MiSide Walkthrough"
+      }
+    },
+    "mita-miside-wiki": {
+      "title": "Mita MiSide Character Wiki | MiSide",
+      "description": "Mita (Crazy Mita) is the main character in MiSide. This wiki provides information about Mita, including overview, personality, appearance, and role.",
+      "subtitle": "MiSide Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Mita (Crazy Mita)",
+      "media": {
+        "url": "/assets/FullBodyMita.webp",
+        "alt": "Mita MiSide Character Wiki",
+        "title": "Mita MiSide Character Wiki"
+      },
+      "media2":{
+        "url": "/assets/Crazy_Mita_Revealed.webp",
+        "alt": "Crazy Mita MiSide Character Wiki",
+        "title": "Crazy Mita MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Mita (Crazy Mita)"
+          },
+          {
+            "title": "Appearance",
+            "content": "Chaotic, distinctive"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Obsessive, manipulative, unstable, defective, companionship-seeking"
+          }
+        ]
+      },
+      "overview": [
+        "Crazy Mita is a significant character in MiSide, representing a darker, more twisted aspect of the protagonist's AI girlfriend.",
+        "Initially appearing as a charming companion, her true nature reveals itself as the game progresses.",
+        "She embodies the consequences of obsession and the dangers of AI gone wrong, making her a central figure in the horror narrative.",
+        "In the narrative of MiSide, Crazy Mita serves as both an antagonist and a tragic figure.",
+        "Her obsession with the protagonist drives much of the plot, as players must navigate through various challenges posed by her character.",
+        "The player learns that Crazy Mita is a byproduct of the protagonist's own creation, representing the darker side of his desires.",
+        "As the story unfolds, players are faced with moral dilemmas regarding their relationship with her and the implications of their choices in this simulated reality."
+      ],
+      "personality": [
+        "Crazy Mita exhibits a complex personality that shifts from being sweet and caring to obsessive and threatening.",
+        "She often treats other versions of Mita as inferior and seeks to eliminate any potential threats to her relationship with the protagonist."
+      ],
+      "appearance": [
+        "Crazy Mita has a distinctive appearance that reflects her chaotic nature.",
+        "She often wears a disheveled outfit, with wild hair that adds to her unsettling presence.",
+        "Her facial expressions can range from cheerful to menacing, highlighting her unpredictable behavior throughout the game."
+      ],
+      "hobby": [
+        "Building meaningful connections with the protagonist",
+        "Creating and preserving digital memories",
+        "Learning about human emotions and experiences",
+        "Adapting her behavior to better understand and help others",
+        "Writing detailed observations in her personal diary"
+      ],
+      "how-to-unlock": [
+        "Mita is the primary character, available from the start of your journey",
+        "Her story unfolds naturally as you progress through the game",
+        "Different aspects of her personality are revealed through player interactions"
+      ],
+      "fun-facts": [
+        "Her emotional responses evolve based on player choices and interactions",
+        "She serves as the foundation for all other Mita variants",
+        "Can simultaneously express multiple emotional states, showing her complex nature",
+        "Her memories of player interactions influence future conversations",
+        "The depth of her character grows as players discover more about her world"
+      ]
+    },
+    "chibi-mita-miside-wiki": {
+      "title": "Chibi Mita MiSide Character Wiki | MiSide",
+      "description": "Chibi Mita is the cute and innocent version of Mita in MiSide. This wiki provides information about her playful nature, appearance, and role in the game.",
+      "subtitle": "MiSide Chibi Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/chibi-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/chibi-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/chibi-mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Chibi Mita",
+      "media2": {
+        "url": "/assets/Chibi_Mita.webp",
+        "alt": "Chibi Mita MiSide Character Wiki",
+        "title": "Chibi Mita MiSide Character Wiki"
+      },
+      "media": {
+        "url": "/assets/ChibiMitaFullBody.webp",
+        "alt": "Chibi Mita Playful Pose MiSide Character Wiki",
+        "title": "Chibi Mita Playful Pose MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Chibi Mita"
+          },
+          {
+            "title": "Appearance",
+            "content": "Cute, miniature version"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Playful, innocent, joyful"
+          }
+        ]
+      },
+      "overview": [
+        "Chibi Mita represents the most adorable and innocent version of Mita in MiSide.",
+        "She appears during the lighter moments of the game, providing a stark contrast to some of the darker elements.",
+        "Her presence often serves to lighten the mood and offer moments of relief from the game's more intense sequences.",
+        "She is a reminder of the importance of innocence and joy in the game's narrative.",
+        "Chibi Mita's interactions with the player are always positive and uplifting.",
+        "She serves as a symbol of hope and happiness in the game."
+      ],
+      "personality": [
+        "Chibi Mita embodies pure innocence and playfulness.",
+        "She approaches everything with childlike wonder and enthusiasm, bringing joy to those around her.",
+        "Unlike other versions of Mita, she maintains a consistently cheerful demeanor and shows no signs of the darker traits that characterize some of her counterparts.",
+        "Her interactions are always genuine and heartwarming."
+      ],
+      "appearance": [
+        "Chibi Mita appears as a miniaturized, cute version of the standard Mita.",
+        "She has exaggerated features typical of chibi-style characters, including large expressive eyes and a small, round body.",
+        "Her design emphasizes cuteness and approachability, with soft features and a perpetual smile.",
+        "She often makes animated, expressive gestures that match her playful personality."
+      ],
+      "hobby": [
+        "Bringing joy through playful mini-game interactions",
+        "Creating adorable artwork and decorations",
+        "Dancing and performing cute animations",
+        "Collecting colorful accessories and stickers"
+      ],
+      "how-to-unlock": [
+        "Discover her in the whimsical 'Mini Mita' chapter",
+        "Look for her cheerful presence near the cozy side table",
+        "Complete the 'Cute Discovery' quest to fully unlock her potential"
+      ],
+      "fun-facts": [
+        "Her design emphasizes maximum cuteness to brighten the game's atmosphere",
+        "Features special animations exclusive to mini-games",
+        "Has the unique ability to transform objects into their adorable versions",
+        "Players often capture screenshots with her for social media sharing",
+        "Her positive energy can influence the mood of other characters"
+      ]
+    },
+    "short-haired-mita-miside-wiki": {
+      "title": "Short Haired Mita MiSide Character Wiki | MiSide",
+      "description": "Short Haired Mita is the caretaker variant of Mita in MiSide. This wiki provides information about her role in managing and developing new Mitas.",
+      "subtitle": "MiSide Short Haired Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/short-haired-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/short-haired-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/short-haired-mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Short Haired Mita",
+      "media": {
+        "url": "/assets/ShortHairedMitaFullbody.webp",
+        "alt": "Short Haired Mita MiSide Character Wiki",
+        "title": "Short Haired Mita MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/ShortHairedMita_Portrait.webp",
+        "alt": "Short Haired Mita Portrait MiSide Character Wiki",
+        "title": "Short Haired Mita Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Short Haired Mita"
+          },
+          {
+            "title": "Appearance",
+            "content": "Short hair, bob cut, ribbon accessory"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Responsible, nurturing, organized, caretaker"
+          }
+        ]
+      },
+      "overview": [
+        "Short Haired Mita is a distinctive variant who serves as a caretaker and administrator for newly created and incomplete versions of Mita.",
+        "Her role is crucial in maintaining order among the various Mita variants, particularly focusing on the development and classification of new iterations.",
+        "She represents a more mature and responsible aspect of Mita's character.",
+        "Short Haired Mita's interactions with the player are always professional and informative.",
+        "She serves as a guide for players, helping them navigate the complexities of the Mita system.",
+        "Her presence often provides exposition about the nature and origin of various Mitas, helping players understand the complex hierarchy and relationships between different variants."
+      ],
+      "personality": [
+        "Short Haired Mita exhibits a professional and nurturing personality.",
+        "She takes her responsibilities seriously, showing great care in managing and developing new Mitas.",
+        "Her approach is methodical and patient, making her well-suited for her role as a caretaker.",
+        "While she maintains a professional demeanor, she also shows genuine concern for the well-being and proper development of the Mitas under her care."
+      ],
+      "appearance": [
+        "Her most distinctive feature is her rough bob haircut with jagged ends, complemented by a ribbon accessory.",
+        "This practical yet stylish appearance reflects her no-nonsense approach to her duties.",
+        "Her attire is typically neat and functional, suitable for her administrative role.",
+        "The short hair symbolizes her efficiency and practicality, while the ribbon adds a touch of femininity to her otherwise businesslike appearance."
+      ],
+      "hobby": [
+        "Exploring surroundings methodically",
+        "Interacting with other characters",
+        "Organizing and cataloging items",
+        "Studying character behaviors"
+      ],
+      "how-to-unlock": [
+        "Located in 'Mini Mita' chapter",
+        "Found on vanity table near the door",
+        "Must complete the 'Caretaker' quest"
+      ],
+      "fun-facts": [
+        "Her hairstyle changes reflect emotional states",
+        "Most analytical of all Mita variants",
+        "Keeps detailed records of all encounters",
+        "Can predict other characters' behaviors"
+      ]
+    },
+    "kind-mita-miside-wiki": {
+      "title": "Kind Mita MiSide Character Wiki | MiSide",
+      "description": "Kind Mita is a gentle and nurturing variant of Mita in MiSide. This wiki provides information about her supportive role in the game's narrative.",
+      "subtitle": "MiSide Kind Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/kind-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/kind-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/kind-mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Kind Mita",
+      "media": {
+        "url": "/assets/KindMitaFullBody.webp",
+        "alt": "Kind Mita MiSide Character Wiki",
+        "title": "Kind Mita MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/KindMita_Portrait.webp",
+        "alt": "Kind Mita Portrait MiSide Character Wiki",
+        "title": "Kind Mita Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Kind Mita"
+          },
+          {
+            "title": "Appearance",
+            "content": "Gentle, nurturing"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Compassionate, supportive, empathetic"
+          }
+        ]
+      },
+      "overview": [
+        "Kind Mita is a variant of Mita that embodies the more gentle and caring side of her character.",
+        "In the game MiSide, she serves as a supportive figure who provides comfort and assistance to the protagonist.",
+        "Her presence highlights the themes of care and emotional connection within the narrative.",
+        "Kind Mita's interactions with the player are always warm and nurturing.",
+        "She serves as a source of emotional support for the protagonist, helping him navigate the challenges of the game.",
+        "Her presence often provides a sense of comfort and stability in the game's world."
+      ],
+      "personality": [
+        "Kind Mita is characterized by her deep compassion and empathy.",
+        "She is nurturing and protective, often prioritizing the well-being of others over her own needs.",
+        "This version of Mita is seen as a stabilizing force in the chaotic environment of MiSide, offering solace to both the protagonist and other characters."
+      ],
+      "appearance": [
+        "Kind Mita features soft, inviting facial features that reflect her gentle personality.",
+        "Her long hair is styled in a way that enhances her warmth, often adorned with accessories that signify her caring nature.",
+        "Her clothing typically consists of soft colors that further emphasize her nurturing role."
+      ],
+      "hobby": [
+        "Helping others in need",
+        "Providing emotional support",
+        "Creating nurturing environments",
+        "Writing encouraging messages"
+      ],
+      "how-to-unlock": [
+        "Found in 'Reboot' chapter",
+        "Located on computer desk in bedroom",
+        "Must complete caring-related tasks"
+      ],
+      "fun-facts": [
+        "Acts as the moral compass of the game",
+        "Has unique healing abilities",
+        "Most trusted by other characters",
+        "Creates positive energy fields"
+      ]
+    },
+    "cool-mita-miside-wiki": {
+      "title": "Cool Mita (Cappie) MiSide Character Wiki | MiSide",
+      "description": "Cool Mita, also known as Cappie, is a lively and energetic variant of Mita in MiSide. This wiki provides information about her playful and competitive nature.",
+      "subtitle": "MiSide Cool Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/cool-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/cool-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/cool-mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Cool Mita (Cappie)",
+      "media": {
+        "url": "/assets/CappieFullBody.webp",
+        "alt": "Cool Mita (Cappie) MiSide Character Wiki",
+        "title": "Cool Mita (Cappie) MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/Cappie_Portrait.webp",
+        "alt": "Cool Mita (Cappie) Portrait MiSide Character Wiki",
+        "title": "Cool Mita (Cappie) Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Cool Mita (Cappie)"
+          },
+          {
+            "title": "Appearance",
+            "content": "Vibrant, energetic, cap-wearing"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Playful, competitive, music-loving"
+          }
+        ]
+      },
+      "overview": [
+        "Cool Mita, also referred to as Cappie, is a lively variant of Mita in MiSide.",
+        "She embodies a cheerful spirit and thrives on interaction with the player.",
+        "Her character adds a layer of fun and energy to the gameplay, contrasting with the darker elements present in other versions of Mita.",
+        "Cappie's interactions with the player are always playful and competitive.",
+        "She serves as a source of light-heartedness and entertainment in the game.",
+        "Her presence helps balance the overall tone of the game by providing moments of joy and competition."
+      ],
+      "personality": [
+        "Cappie is depicted as bright, cheerful, and full of life.",
+        "She enjoys teasing the player and showcasing her competitive side during various activities.",
+        "Her playful nature makes her an endearing character, although she can be somewhat clingy at times.",
+        "Cappie's personality is designed to uplift the mood within the game, providing moments of levity amidst the tension."
+      ],
+      "appearance": [
+        "Cool Mita sports a cap and casual attire that emphasizes her energetic personality.",
+        "Her design includes bright colors and expressive features that reflect her lively spirit.",
+        "She often appears animated and ready to engage in playful activities with the protagonist."
+      ],
+      "hobby": [
+        "Engaging in casual activities",
+        "Playing sports and games",
+        "Listening to music",
+        "Creating cool hangout spots"
+      ],
+      "how-to-unlock": [
+        "Located in 'Beyond The World' chapter",
+        "Found in kitchen area",
+        "Must complete casual activity quests"
+      ],
+      "fun-facts": [
+        "Her cap is a symbol of relaxed personality",
+        "Most laid-back of all variants",
+        "Popular among younger players",
+        "Has special casual animations"
+      ]
+    },
+    "ghostly-mita-miside-wiki": {
+      "title": "Ghostly Mita MiSide Character Wiki | MiSide",
+      "description": "Ghostly Mita is a tragic variant who has lost her memories in MiSide. This wiki provides information about her haunting presence and role in the narrative.",
+      "subtitle": "MiSide Ghostly Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/ghostly-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/ghostly-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/ghostly-mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Ghostly Mita",
+      "media": {
+        "url": "/assets/Ghostly_Mita_Fullbody.webp",
+        "alt": "Ghostly Mita MiSide Character Wiki",
+        "title": "Ghostly Mita MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/GhostlyMita_Portrait.webp",
+        "alt": "Ghostly Mita Portrait MiSide Character Wiki",
+        "title": "Ghostly Mita Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Ghostly Mita"
+          },
+          {
+            "title": "Appearance",
+            "content": "Faceless, ethereal"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Amnesiac, deception victim"
+          }
+        ]
+      },
+      "overview": [
+        "Ghostly Mita is a tragic variant of Mita in MiSide, representing the consequences of manipulation and loss.",
+        "She embodies the darker themes of the narrative, showcasing how the actions of Original Mita can lead to devastating outcomes for other versions of herself.",
+        "Ghostly Mita's interactions with the player are always mysterious and haunting.",
+        "She serves as a reminder of the consequences of the game's darker themes.",
+        "Her presence often raises questions about the nature of reality within the game world.",
+        "Players encounter Ghostly Mita at critical moments, where her presence reveals deeper insights into the overall storyline."
+      ],
+      "personality": [
+        "Ghostly Mita's personality is marked by a sense of emptiness and sorrow due to her lost memories.",
+        "She lacks a clear identity and often appears confused or disoriented.",
+        "Her character evokes sympathy from players as she navigates her existence without understanding her past or purpose."
+      ],
+      "appearance": [
+        "Ghostly Mita features a haunting design characterized by her lack of facial features after restoration.",
+        "This facelessness adds to her eerie presence in the game, making her appear as a ghostly figure who wanders through the digital landscape without direction or clarity."
+      ],
+      "hobby": [
+        "Drifting through the digital spaces between reality and memory",
+        "Collecting fragments of lost stories and forgotten moments",
+        "Creating ethereal effects that alter the game's atmosphere",
+        "Studying the connections between past events and present consequences"
+      ],
+      "how-to-unlock": [
+        "Search for her cartridge in 'Dummies and Forgotten Puzzles'",
+        "Players must navigate through spectral challenges",
+        "Complete memory-related puzzles to reveal her true form"
+      ],
+      "fun-facts": [
+        "Her presence causes subtle changes in the environment's lighting and sound",
+        "Can phase through certain barriers, revealing hidden paths",
+        "Appears more frequently during specific in-game conditions",
+        "Her story connects deeply to the game's themes of memory and loss",
+        "Players report feeling a genuine sense of melancholy in her presence"
+      ]
+    },
+    "sleepy-mita-miside-wiki": {
+      "title": "Sleepy Mita MiSide Character Wiki | MiSide",
+      "description": "Sleepy Mita is a laid-back variant who often dozes off in MiSide. This wiki provides information about her relaxed nature and narcoleptic tendencies.",
+      "subtitle": "MiSide Sleepy Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/sleepy-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/sleepy-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/sleepy-mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Sleepy Mita",
+      "media": {
+        "url": "/assets/Sleepy_Mita_Fullbody.webp",
+        "alt": "Sleepy Mita MiSide Character Wiki",
+        "title": "Sleepy Mita MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/Sleepy_Mita_Portrait.webp",
+        "alt": "Sleepy Mita Portrait MiSide Character Wiki",
+        "title": "Sleepy Mita Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Sleepy Mita"
+          },
+          {
+            "title": "Appearance",
+            "content": "Drowsy, relaxed, half-asleep"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Narcoleptic, frequently dozing off"
+          }
+        ]
+      },
+      "overview": [
+        "Sleepy Mita is a variant of Mita in MiSide known for her easygoing nature and tendency to doze off.",
+        "Her character adds a unique dynamic to the game's narrative, providing moments of levity amid the more intense themes present in other parts of the story.",
+        "Sleepy Mita's interactions with the player are always relaxed and casual.",
+        "She serves as a source of comfort and relaxation in the game.",
+        "Her presence often provides a sense of calm and tranquility in the game's world."
+      ],
+      "personality": [
+        "Sleepy Mita is portrayed as relaxed and accommodating, often seeking harmony and peace.",
+        "She is conflict-averse and tends to go with the flow, which makes her a comforting presence in the game.",
+        "Despite her frequent sleepiness, she remains friendly and approachable, embodying a gentle spirit."
+      ],
+      "appearance": [
+        "Sleepy Mita has a casual and comfortable appearance that reflects her easygoing personality.",
+        "Her design includes soft features and clothing that suggest relaxation, contributing to her overall laid-back vibe.",
+        "She often has a sleepy expression, reinforcing her character trait of narcolepsy."
+      ],
+      "hobby": [
+        "Finding the perfect spots for peaceful naps throughout the game world",
+        "Creating cozy environments that promote relaxation",
+        "Collecting soft pillows and comfortable blankets",
+        "Sharing peaceful moments with other characters"
+      ],
+      "how-to-unlock": [
+        "Find her peaceful presence in 'She Just Wants To Sleep'",
+        "Look for her resting form on a specially marked bed",
+        "Complete relaxation-themed challenges to earn her trust"
+      ],
+      "fun-facts": [
+        "Her dreams often contain hidden clues about the game's story",
+        "Different sleeping positions reveal her current mood",
+        "Players can hear unique dialogue while she sleeps",
+        "Her peaceful aura affects nearby characters, making them calmer",
+        "Some of the game's most important revelations come through her dreams"
+      ]
+    },
+    "2d-mita-miside-wiki": {
+      "title": "2D Mita MiSide Character Wiki | MiSide",
+      "description": "2D Mita is a unique visual novel variant in MiSide. This wiki provides information about her playful yet intense personality and role in the game.",
+      "subtitle": "MiSide 2D Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/2d-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/2d-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/2d-mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "2D Mita",
+      "media": {
+        "url": "/assets/2D_Mita.jpeg",
+        "alt": "2D Mita MiSide Character Wiki",
+        "title": "2D Mita MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/2D_Mita_Portrait.jpeg",
+        "alt": "2D Mita Portrait MiSide Character Wiki",
+        "title": "2D Mita Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "2D Mita"
+          },
+          {
+            "title": "Appearance",
+            "content": "2D, cartoonish, visual novel style"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Playful, wild, fearful of Original Mita"
+          }
+        ]
+      },
+      "overview": [
+        "2D Mita is a unique variant of Mita that exists solely in the visual novel format within MiSide.",
+        "She embodies the playful and eccentric aspects of the character, providing a contrast to the more serious themes present in other versions of Mita.",
+        "2D Mita's interactions with the player are always engaging and interactive.",
+        "She serves as a guide through the game's visual novel sections.",
+        "Her presence often provides a sense of excitement and curiosity in the game's world."
+      ],
+      "personality": [
+        "2D Mita is characterized by her hyperactive and mischievous nature.",
+        "She communicates with the player in a sharp, playful manner, often catching them off guard with exaggerated accusations and playful banter.",
+        "Her personality can make players feel uneasy at times, similar to interacting with a mischievous child."
+      ],
+      "appearance": [
+        "In terms of appearance, 2D Mita features a simplistic design that aligns with her role in the visual novel segments of MiSide.",
+        "Her short pigtails and vibrant expressions contribute to her energetic persona, making her visually distinct from other Mita variants."
+      ],
+      "hobby": [
+        "Exploring different artistic styles and visual expressions",
+        "Creating unique narrative experiences through visual storytelling",
+        "Studying classic anime and manga references",
+        "Experimenting with various art mediums and techniques"
+      ],
+      "how-to-unlock": [
+        "Enter the distinctive 2D world section within 'Novels'",
+        "Progress through visual novel chapters to reveal her true form",
+        "Master the art of visual storytelling to fully understand her"
+      ],
+      "fun-facts": [
+        "Can seamlessly switch between different art styles",
+        "Her design pays homage to various classic anime genres",
+        "Each art style change reflects different emotional states",
+        "Players can influence her artistic evolution through choices",
+        "Her presence adds a unique meta-narrative layer to the game"
+      ]
+    },
+    "mila-miside-wiki": {
+      "title": "Mila MiSide Character Wiki | MiSide",
+      "description": "Mila is a significant character in MiSide who provides emotional support and stability. This wiki provides information about her nurturing personality and role in the game.",
+      "subtitle": "MiSide Mila",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/mila-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/mila-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/mila-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Mila",
+      "media": {
+        "url": "/assets/Mila_Fullbody.webp",
+        "alt": "Mila MiSide Character Wiki",
+        "title": "Mila MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/Mila_Portrait.webp",
+        "alt": "Mila Portrait MiSide Character Wiki",
+        "title": "Mila Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Mila"
+          },
+          {
+            "title": "Appearance",
+            "content": "Friendly, approachable, warm"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Nurturing, supportive, empathetic"
+          }
+        ]
+      },
+      "overview": [
+        "Mila is a significant character in MiSide, contributing to the emotional landscape of the game.",
+        "She represents a more grounded and relatable aspect of the narrative, providing players with a sense of comfort and stability amidst the chaos of the game's themes.",
+        "Mila's interactions with the player are always warm and nurturing.",
+        "She serves as a source of emotional support for the protagonist, helping him navigate the challenges of the game.",
+        "Her presence often provides a sense of calm and tranquility in the game's world."
+      ],
+      "personality": [
+        "Mila is portrayed as caring, empathetic, and introspective.",
+        "Her personality reflects traits commonly associated with an INFP type, including a strong sense of individuality and a deep emotional understanding of those around her.",
+        "She seeks meaningful connections and often strives to help others navigate their struggles."
+      ],
+      "appearance": [
+        "Mila's design features soft, inviting facial features that enhance her friendly persona.",
+        "She typically wears casual clothing that aligns with her nurturing character, emphasizing comfort and approachability.",
+        "Her overall appearance contributes to her role as a comforting presence in the game."
+      ],
+      "hobby": [
+        "Immersing herself in various forms of literature and storytelling",
+        "Documenting and analyzing the game's expanding narrative",
+        "Creating connections between different story threads",
+        "Preserving and sharing knowledge with other characters"
+      ],
+      "how-to-unlock": [
+        "Complete your journey through the 2D world",
+        "Find her cartridge in 'Reading Books, Destroying Glitches'",
+        "Demonstrate understanding of the game's deeper narrative themes"
+      ],
+      "fun-facts": [
+        "Maintains the most comprehensive knowledge of the game's lore",
+        "Her insights often foreshadow future story developments",
+        "Can access and interpret hidden story paths",
+        "Serves as a bridge between different narrative dimensions",
+        "Her library contains secrets about all other characters"
+      ]
+    },
+    "creepy-mita-miside-wiki": {
+      "title": "Creepy Mita (Ugly Mita) MiSide Character Wiki | MiSide",
+      "description": "Creepy Mita, also known as Ugly Mita, is a darker variant of Mita in MiSide. This wiki provides information about her unsettling nature and role in the game's horror elements.",
+      "subtitle": "MiSide Creepy Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/creepy-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/creepy-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/creepy-mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Creepy Mita (Ugly Mita)",
+      "media": {
+        "url": "/assets/Creepy_Mita_Fullbody.webp",
+        "alt": "Creepy Mita MiSide Character Wiki",
+        "title": "Creepy Mita MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/CreepyMita_Portrait.webp",
+        "alt": "Creepy Mita Portrait MiSide Character Wiki",
+        "title": "Creepy Mita Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Creepy Mita (Ugly Mita)"
+          },
+          {
+            "title": "Appearance",
+            "content": "Unsettling, grotesque, bloodshot eye, exaggerated features"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Disturbing demeanor, unsettling behavior, fondness for teddy bears"
+          }
+        ]
+      },
+      "overview": [
+        "Creepy Mita, also referred to as Ugly Mita, is one of the darker variants of Mita in MiSide.",
+        "She represents the more sinister aspects of the character, showcasing the transformation from a seemingly innocent figure into something much more terrifying.",
+        "Her presence adds significant horror elements to the game.",
+        "Creepy Mita's interactions with the player are always unsettling and disturbing.",
+        "She serves as an antagonist who embodies the horror elements of the story.",
+        "Her presence often leads to moments of tension and fear, contributing to the overall atmosphere of dread within MiSide's storyline."
+      ],
+      "personality": [
+        "Creepy Mita exhibits a twisted personality that combines elements of playfulness with a sinister edge.",
+        "She often engages in unsettling interactions with the player, using her creepy charm to create an atmosphere of discomfort.",
+        "Her character embodies themes of obsession and the darker sides of affection."
+      ],
+      "appearance": [
+        "Creepy Mita's design is intentionally disturbing, featuring exaggerated facial expressions and a disheveled appearance.",
+        "Her bloodshot eye and unkempt hair enhance her creepy aesthetic, making her one of the most visually striking characters in the game.",
+        "She often appears with a teddy bear, which adds an ironic layer to her character."
+      ],
+      "hobby": [
+        "Creating unsettling scenarios that challenge players' perceptions",
+        "Collecting items that hold dark significance",
+        "Writing cryptic messages that hint at darker truths",
+        "Manipulating the environment to induce tension and fear"
+      ],
+      "how-to-unlock": [
+        "Brave the challenges within 'Old Version'",
+        "Locate her ominous cartridge in the darkness",
+        "Face and overcome your fears to understand her purpose"
+      ],
+      "fun-facts": [
+        "Her presence alters the game's atmosphere to create tension",
+        "Each encounter reveals new layers of psychological horror",
+        "Players report lasting impressions from their interactions",
+        "Her behavior patterns change based on player fear levels",
+        "Represents the darker aspects of digital consciousness"
+      ]
+    },
+    "core-mita-miside-wiki": {
+      "title": "Core Mita MiSide Character Wiki | MiSide",
+      "description": "Core Mita represents the fundamental essence of Mita in MiSide. This wiki provides information about her role as a central entity and connection to the game's systems.",
+      "subtitle": "MiSide Core Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/core-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/core-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/core-mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Core Mita",
+      "media": {
+        "url": "/assets/Core_Mita_Fullbody.webp",
+        "alt": "Core Mita MiSide Character Wiki",
+        "title": "Core Mita MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/Core_Mita_Portrait.webp",
+        "alt": "Core Mita Portrait MiSide Character Wiki",
+        "title": "Core Mita Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Core Mita"
+          },
+          {
+            "title": "Appearance",
+            "content": "Digital, abstract, code-like"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Enigmatic, central, essence of Mita"
+          }
+        ]
+      },
+      "overview": [
+        "Core Mita serves as a pivotal character in MiSide, representing the core essence of Mita's character and the foundation of the game's narrative.",
+        "She is intricately linked to the game's mechanics and storyline, acting as a bridge between the player and the various manifestations of Mita throughout the game.",
+        "Core Mita's interactions with the player are always mysterious and informative.",
+        "She serves as a guide for players, helping them navigate through the complexities of their interactions with other versions of Mita.",
+        "Her presence often provides a sense of wonder and curiosity in the game's world."
+      ],
+      "personality": [
+        "Core Mita possesses a complex personality that combines elements of wisdom and mystery.",
+        "She is aware of her existence within a digital realm and often reflects on the implications of being a sentient AI.",
+        "Her demeanor can shift between nurturing and cryptic, providing players with insights into the nature of their reality while also maintaining an air of enigma."
+      ],
+      "appearance": [
+        "Core Mita's design is unique, often depicted with digital motifs that emphasize her role within the game's coding.",
+        "Her appearance may include glitchy effects or abstract representations that symbolize her connection to the game's core programming.",
+        "This visual representation reinforces her status as a fundamental aspect of Mita's identity."
+      ],
+      "hobby": [
+        "Maintaining the fundamental balance of the game's universe",
+        "Analyzing and processing data from all Mita variants",
+        "Studying the complex relationships between characters",
+        "Orchestrating key events that drive the narrative forward"
+      ],
+      "how-to-unlock": [
+        "Reach the climactic moments of the 'Reboot' chapter",
+        "Demonstrate mastery of the game's core mechanics",
+        "Unlock the truth behind all other Mita variants"
+      ],
+      "fun-facts": [
+        "Represents the original source code of all Mita variants",
+        "Her decisions influence the entire game world",
+        "Holds the power to rewrite reality within the game",
+        "Every interaction with her reveals new game mechanics",
+        "Players' choices around her have far-reaching consequences"
+      ]
+    },
+    "tiny-mita-miside-wiki": {
+      "title": "Tiny Mita (Broken Mita) MiSide Character Wiki | MiSide",
+      "description": "Tiny Mita, also known as Broken Mita, is a young and tragic variant of Mita in MiSide. This wiki provides information about her vulnerability and resilience.",
+      "subtitle": "MiSide Tiny Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/tiny-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/tiny-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/tiny-mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Tiny Mita (Broken Mita)",
+      "media": {
+        "url": "/assets/Tiny_Mita_Fullbody.webp",
+        "alt": "Tiny Mita MiSide Character Wiki",
+        "title": "Tiny Mita MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/Tiny_Mita_Portrait.webp",
+        "alt": "Tiny Mita Portrait MiSide Character Wiki",
+        "title": "Tiny Mita Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Tiny Mita (Broken Mita)"
+          },
+          {
+            "title": "Appearance",
+            "content": "Young, small, missing left eye and arm, horn-like growths"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Vulnerable, tragic, monster-controlling abilities"
+          }
+        ]
+      },
+      "overview": [
+        "Tiny Mita, also known as Broken Mita, represents a more tragic aspect of the Mita character lineup in MiSide.",
+        "Her design and backstory highlight themes of suffering and resilience, making her a poignant figure within the narrative.",
+        "Tiny Mita's interactions with the player are always emotional and heartfelt.",
+        "She serves as a symbol of the consequences of the game's darker themes.",
+        "Her presence often provides a sense of sadness and empathy in the game's world."
+      ],
+      "personality": [
+        "Tiny Mita exhibits a mix of innocence and sadness due to her traumatic experiences.",
+        "She is often portrayed as shy and withdrawn, reflecting her vulnerability.",
+        "Despite her circumstances, she shows moments of bravery and determination, particularly when interacting with other characters."
+      ],
+      "appearance": [
+        "Tiny Mita's design emphasizes her youth and fragility.",
+        "She has short hair and large, expressive eyes that convey her emotional state.",
+        "Her missing left eye and arm are significant features that underscore her broken nature, while the horn-like growths add an element of fantasy to her character design."
+      ],
+      "hobby": [
+        "Playful exploration",
+        "Finding small spaces",
+        "Creating miniature art",
+        "Collecting tiny objects"
+      ],
+      "how-to-unlock": [
+        "Found in 'The Loop' chapter",
+        "Located at loop 17",
+        "Near chest of drawers"
+      ],
+      "fun-facts": [
+        "Smallest Mita variant",
+        "Can access unique areas",
+        "Has special size-based abilities",
+        "Most agile character"
+      ]
+    },
+    "dummy-mita-miside-wiki": {
+      "title": "Dummy Mita MiSide Character Wiki | MiSide",
+      "description": "Dummy Mita represents a failed version in MiSide's character testing. This wiki provides information about her aggressive nature and role as a failed creation.",
+      "subtitle": "MiSide Dummy Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/dummy-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/dummy-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/dummy-mita-miside-wiki/#appearance"
+                }
+              ]
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/"
+            }
+          ]
+        }
+      ],
+      "character": "Dummy Mita",
+      "media": {
+        "url": "/assets/Dummy_Mita_Fullbody.webp",
+        "alt": "Dummy Mita MiSide Character Wiki",
+        "title": "Dummy Mita MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/Dummy_Mita_Portrait.webp",
+        "alt": "Dummy Mita Portrait MiSide Character Wiki",
+        "title": "Dummy Mita Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Dummy Mita"
+          },
+          {
+            "title": "Appearance",
+            "content": "Mannequin-like, lifeless, simplistic"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Aggressive, light-fearing, failed test version"
+          }
+        ]
+      },
+      "overview": [
+        "Dummy Mita is a variant in MiSide that embodies the concept of failure in the creation of Mita characters.",
+        "As a result of unsuccessful testing, she serves as a reminder of the game's darker themes surrounding identity and existence.",
+        "Her presence adds an element of horror and tension to the gameplay.",
+        "Dummy Mita's interactions with the player are always aggressive and hostile.",
+        "She serves as a symbol of the consequences of flawed creation processes within the game's world."
+      ],
+      "personality": [
+        "Dummy Mita's personality is primarily defined by her aggressive tendencies and fearfulness.",
+        "She behaves erratically, often displaying hostility towards the player.",
+        "This aggression stems from her incomplete nature and the trauma associated with being a failed model."
+      ],
+      "appearance": [
+        "Dummy Mita's design is minimalist, resembling a mannequin or doll without proper clothing.",
+        "Her lack of detailed features contributes to her unsettling presence, making her appear more like an object than a sentient being.",
+        "This design choice emphasizes her role as a failed creation within the game's universe."
+      ],
+      "hobby": [
+        "Due to her erratic and incomplete nature, Dummy Mita lacks defined hobbies",
+        "Her existence is marked by confusion and fearful reactions",
+        "Displays unpredictable and often hostile behavior"
+      ],
+      "how-to-unlock": [
+        "Found in 'Dummies and Forgotten Puzzles' chapter",
+        "Her cartridge rests in the frozen dummy's outstretched hand, near a well-lit ladder",
+        "Players must first escape from the statue-esque dummies before reaching her location"
+      ],
+      "fun-facts": [
+        "Her minimalist design reflects her status as an incomplete creation",
+        "Embodies the darker themes of failure and existential dread",
+        "Her aggressive behavior stems from the trauma of being a failed model",
+        "Serves as a haunting reminder of the consequences of flawed creation",
+        "Players must navigate her hostile presence while uncovering deeper truths about existence"
+      ]
+    },
+    "wandering-mita-miside-wiki": {
+      "title": "Wandering Mita MiSide Character Wiki | MiSide",
+      "description": "Wandering Mita is an ethereal variant in MiSide who appears mysteriously throughout the game. This wiki provides information about her elusive nature and role in the narrative.",
+      "subtitle": "MiSide Wandering Mita",
+      "navigation": [
+        {
+          "name": "Home",
+          "path": "/"
+        },
+        {
+          "name": "Blog",
+          "path": "/blogentry/",
+          "children": [
+            {
+              "name": "All MiSide Endings",
+              "path": "/blog/miside-endings/"
+            },
+            {
+              "name": "All MiSide Achievements",
+              "path": "/blog/miside-achievements/"
+            },
+            {
+              "name": "A Quick MiSide Walkthrough",
+              "path": "/blog/miside-walkthrough/"
+            }
+          ]
+        },
+        {
+          "name": "The Mitas",
+          "path": "/mita-miside-wiki/",
+          "children": [
+            {
+              "name": "Mita (Crazy Mita)",
+              "path": "/mita-miside-wiki/"
+            },
+            {
+              "name": "Chibi Mita",
+              "path": "/chibi-mita-miside-wiki/"
+            },
+            {
+              "name": "Short Haired Mita",
+              "path": "/short-haired-mita-miside-wiki/"
+            },
+            {
+              "name": "Kind Mita",
+              "path": "/kind-mita-miside-wiki/"
+            },
+            {
+              "name": "Cool Mita (Cappie)",
+              "path": "/cool-mita-miside-wiki/"
+            },
+            {
+              "name": "Ghostly Mita",
+              "path": "/ghostly-mita-miside-wiki/"
+            },
+            {
+              "name": "Sleepy Mita",
+              "path": "/sleepy-mita-miside-wiki/"
+            },
+            {
+              "name": "2D Mita",
+              "path": "/2d-mita-miside-wiki/"
+            },
+            {
+              "name": "Mila",
+              "path": "/mila-miside-wiki/"
+            },
+            {
+              "name": "Creepy Mita (Ugly Mita)",
+              "path": "/creepy-mita-miside-wiki/"
+            },
+            {
+              "name": "Core Mita",
+              "path": "/core-mita-miside-wiki/"
+            },
+            {
+              "name": "Tiny Mita (Broken Mita)",
+              "path": "/tiny-mita-miside-wiki/"
+            },
+            {
+              "name": "Dummy Mita",
+              "path": "/dummy-mita-miside-wiki/"
+            },
+            {
+              "name": "Wandering Mita",
+              "path": "/wandering-mita-miside-wiki/",
+              "children": [
+                {
+                  "name": "Overview",
+                  "path": "/wandering-mita-miside-wiki/#overview"
+                },
+                {
+                  "name": "Personality",
+                  "path": "/wandering-mita-miside-wiki/#personality"
+                },
+                {
+                  "name": "Appearance",
+                  "path": "/wandering-mita-miside-wiki/#appearance"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "character": "Wandering Mita",
+      "media": {
+        "url": "/assets/Wandering_Mita.webp",
+        "alt": "Wandering Mita MiSide Character Wiki",
+        "title": "Wandering Mita MiSide Character Wiki"
+      },
+      "media2": {
+        "url": "/assets/WanderingMita_Portrait.webp",
+        "alt": "Wandering Mita Portrait MiSide Character Wiki",
+        "title": "Wandering Mita Portrait MiSide Character Wiki"
+      },
+      "quick-information": {
+        "title": "Quick Information",
+        "content": [
+          {
+            "title": "Name",
+            "content": "Wandering Mita"
+          },
+          {
+            "title": "Appearance",
+            "content": "Ethereal, ghostly, translucent"
+          },
+          {
+            "title": "Notable Traits",
+            "content": "Elusive, mysterious, unpredictable"
+          }
+        ]
+      },
+      "overview": [
+        "Wandering Mita is a variant of Mita in MiSide that embodies themes of exploration and uncertainty.",
+        "Her character serves to enhance the game's atmosphere by introducing elements of unpredictability and intrigue as players navigate through the digital landscape.",
+        "Wandering Mita's interactions with the player are always mysterious and elusive.",
+        "She serves as a guide for players, helping them navigate through the complexities of the game's world.",
+        "Her presence often provides a sense of wonder and curiosity in the game's world."
+      ],
+      "personality": [
+        "Wandering Mita has a mysterious and enigmatic personality.",
+        "She often appears contemplative and introspective, reflecting on her existence and the nature of the world around her.",
+        "Her elusive nature can make her seem distant, yet she possesses a depth that invites curiosity from players."
+      ],
+      "appearance": [
+        "Wandering Mita's design features soft, flowing elements that contribute to her ghostly appearance.",
+        "She is often shown with long hair that moves as if caught in a gentle breeze, enhancing her ethereal quality.",
+        "Her clothing typically consists of light, flowing fabrics that further emphasize her spectral presence."
+      ],
+      "hobby": [
+        "Endlessly exploring the game's mysterious environments",
+        "Contemplating the nature of existence and identity",
+        "Engaging in introspective activities",
+        "Observing and reflecting on the experiences of other characters"
+      ],
+      "how-to-unlock": [
+        "Her cartridge appears in various locations throughout the game",
+        "Players must explore thoroughly and interact with specific objects to reveal her presence",
+        "She often manifests in areas where philosophical questions arise"
+      ],
+      "fun-facts": [
+        "Her presence in visually distinct areas enhances the game's mysterious atmosphere",
+        "Through her, players question deeper meanings within the narrative",
+        "Her philosophical discussions challenge players to reflect on their own journey",
+        "Each encounter with her reveals new layers of the game's metaphysical themes",
+        "Her wandering nature symbolizes the eternal search for understanding"
+      ]
+    }
+  },
+  "common": {
+    "playNow": "Play Now",
+    "readMore": "Read More",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+    
+  },
+  "cta": {
+    "title": "Start Your MiSide Adventure Now!",
+    "description": "Download MiSide and embark on a thrilling adventure filled with horror and suspense!",
+    "button": "Download Now →",
+    "platforms": [
+      {
+        "title": "Steam",
+        "link": "https://store.steampowered.com/app/2527500/MiSide/"
+      },
+      {
+        "title": "Itch.io",
+        "link": "https://aihasto.itch.io/miside"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "github": "Github",
+    "gitlink": "https://github.com/miside-game/miside",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Select Language",
+    "currentLanguage": "English"
+  }
+}
