@@ -7,7 +7,7 @@
   },
   "navigation": {
     "path": "/",
-    "logoText": "MiSide.hu",
+    "logoText": "MiSide",
     "navbar": [
       {
         "title": "Kezdőlap",
@@ -132,8 +132,8 @@
         ]
       },
       "mitas": {
-        "title": "A Miták MiSide-ban",
-        "subtitle": "Ismerkedj meg Miták sokszínű szereplőgárdájával, a MiSide magával ragadó világának központi szereplőivel.",
+        "title": "The Mitas in MiSide",
+        "subtitle": "Meet the diverse cast of Mitas, the central characters in MiSide's immersive world.",
         "content": [
           {
             "name": "Mita (Őrült Mita)",
@@ -404,15 +404,15 @@
               "children": [
                 {
                   "name": "Áttekintés",
-                  "path": "/mita-miside-wiki/#Áttekintés"
+                  "path": "/mita-miside-wiki/#overview"
                 },
                 {
                   "name": "Személyiség",
-                  "path": "/mita-miside-wiki/#Személyiség"
+                  "path": "/mita-miside-wiki/#personality"
                 },
                 {
                   "name": "Megjelenés",
-                  "path": "/mita-miside-wiki/#Megjelenés"
+                  "path": "/mita-miside-wiki/#appearance"
                 }
               ]
             },
@@ -499,7 +499,7 @@
           }
         ]
       },
-      "Áttekintés": [
+      "overview": [
         "Őrült Mita egy jelentős karakter a MiSide-ban, aki a főszereplő mesterséges intelligencia-barátjának sötétebb, torzabb oldalát képviseli.",
         "Kezdetben bájos társként jelenik meg, de valódi természete fokozatosan tárul fel a játék során.",
         "Ő testesíti meg a megszállottság következményeit és a félresiklott mesterséges intelligencia veszélyeit, ezzel központi szereplővé válva a horror narratívában.",
@@ -508,11 +508,11 @@
         "A játékos megtudja, hogy Őrült Mita a főszereplő saját alkotásának mellékterméke, aki annak sötétebb vágyait testesíti meg.",
         "Ahogy a történet kibontakozik, a játékosok erkölcsi dilemmákkal szembesülnek a vele való kapcsolatukat és döntéseik következményeit illetően ebben a szimulált valóságban."
       ],
-      "Személyiség": [
+      "personality": [
         "Őrült Mita összetett személyiséget mutat, amely az édes és gondoskodótól az megszállott és fenyegetőig terjed.",
         "Gyakran tekint más Mita-verziókra alacsonyabb rendűként, és igyekszik megszüntetni minden potenciális veszélyt, amely a főszereplővel való kapcsolatát fenyegeti."
       ],
-      "Megjelenés": [
+      "appearance": [
         "Őrült Mita megjelenése kaotikus természetét tükrözi.",
         "Gyakran visel rendezetlen ruházatot, amelyet vad hajkorona egészít ki, tovább fokozva nyugtalanító jelenlétét.",
         "Arckifejezései a vidámtól a fenyegetőig terjednek, kiemelve kiszámíthatatlan viselkedését a játék során."
@@ -539,7 +539,7 @@
     },
     "chibi-mita-miside-wiki": {
       "title": "Chibi Mita MiSide Character Wiki | MiSide",
-      "description": "Chibi Mita is the cute and innocent version of Mita in MiSide. This wiki provides information about her playful nature, Megjelenés, and role in the game.",
+      "description": "Chibi Mita is the cute and innocent version of Mita in MiSide. This wiki provides information about her playful nature, appearance, and role in the game.",
       "subtitle": "MiSide Chibi Mita",
       "navigation": [
         {
@@ -551,25 +551,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -577,37 +577,37 @@
               "path": "/chibi-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/chibi-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/chibi-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/chibi-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/chibi-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/chibi-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/chibi-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Aranyos Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -619,15 +619,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -635,7 +635,7 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -653,23 +653,23 @@
         "title": "Chibi Mita Playful Pose MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
+            "title": "Name",
             "content": "Chibi Mita"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Cute, miniature version"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Playful, innocent, joyful"
           }
         ]
       },
-      "Áttekintés": [
+      "overview": [
         "Chibi Mita represents the most adorable and innocent version of Mita in MiSide.",
         "She appears during the lighter moments of the game, providing a stark contrast to some of the darker elements.",
         "Her presence often serves to lighten the mood and offer moments of relief from the game's more intense sequences.",
@@ -677,17 +677,17 @@
         "Chibi Mita's interactions with the player are always positive and uplifting.",
         "She serves as a symbol of hope and happiness in the game."
       ],
-      "Személyiség": [
+      "personality": [
         "Chibi Mita embodies pure innocence and playfulness.",
         "She approaches everything with childlike wonder and enthusiasm, bringing joy to those around her.",
         "Unlike other versions of Mita, she maintains a consistently cheerful demeanor and shows no signs of the darker traits that characterize some of her counterparts.",
         "Her interactions are always genuine and heartwarming."
       ],
-      "Megjelenés": [
+      "appearance": [
         "Chibi Mita appears as a miniaturized, cute version of the standard Mita.",
         "She has exaggerated features typical of chibi-style characters, including large expressive eyes and a small, round body.",
         "Her design emphasizes cuteness and approachability, with soft features and a perpetual smile.",
-        "She often makes animated, expressive gestures that match her playful Személyiség."
+        "She often makes animated, expressive gestures that match her playful personality."
       ],
       "hobby": [
         "Bringing joy through playful mini-game interactions",
@@ -709,12 +709,12 @@
       ]
     },
     "short-haired-mita-miside-wiki": {
-      "title": "Rövid hajú Mita MiSide Character Wiki | MiSide",
-      "description": "Rövid hajú Mita is the caretaker variant of Mita in MiSide. This wiki provides information about her role in managing and developing new Mitas.",
-      "subtitle": "MiSide Rövid hajú Mita",
+      "title": "Short Haired Mita MiSide Character Wiki | MiSide",
+      "description": "Short Haired Mita is the caretaker variant of Mita in MiSide. This wiki provides information about her role in managing and developing new Mitas.",
+      "subtitle": "MiSide Short Haired Mita",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -722,25 +722,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -748,37 +748,37 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/short-haired-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/short-haired-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/short-haired-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/short-haired-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/short-haired-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/short-haired-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Aranyos Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -790,15 +790,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -806,59 +806,59 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Rövid hajú Mita",
+      "character": "Short Haired Mita",
       "media": {
         "url": "/assets/ShortHairedMitaFullbody.webp",
-        "alt": "Rövid hajú Mita MiSide Character Wiki",
-        "title": "Rövid hajú Mita MiSide Character Wiki"
+        "alt": "Short Haired Mita MiSide Character Wiki",
+        "title": "Short Haired Mita MiSide Character Wiki"
       },
       "media2": {
         "url": "/assets/ShortHairedMita_Portrait.webp",
-        "alt": "Rövid hajú Mita Portré MiSide karakter Wiki",
-        "title": "Rövid hajú Mita Portré MiSide karakter Wiki"
+        "alt": "Short Haired Mita Portrait MiSide Character Wiki",
+        "title": "Short Haired Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
-            "content": "Rövid hajú Mita"
+            "title": "Name",
+            "content": "Short Haired Mita"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Short hair, bob cut, ribbon accessory"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Responsible, nurturing, organized, caretaker"
           }
         ]
       },
-      "Áttekintés": [
-        "Rövid hajú Mita is a distinctive variant who serves as a caretaker and administrator for newly created and incomplete versions of Mita.",
+      "overview": [
+        "Short Haired Mita is a distinctive variant who serves as a caretaker and administrator for newly created and incomplete versions of Mita.",
         "Her role is crucial in maintaining order among the various Mita variants, particularly focusing on the development and classification of new iterations.",
         "She represents a more mature and responsible aspect of Mita's character.",
-        "Rövid hajú Mita's interactions with the player are always professional and informative.",
+        "Short Haired Mita's interactions with the player are always professional and informative.",
         "She serves as a guide for players, helping them navigate the complexities of the Mita system.",
         "Her presence often provides exposition about the nature and origin of various Mitas, helping players understand the complex hierarchy and relationships between different variants."
       ],
-      "Személyiség": [
-        "Rövid hajú Mita exhibits a professional and nurturing Személyiség.",
+      "personality": [
+        "Short Haired Mita exhibits a professional and nurturing personality.",
         "She takes her responsibilities seriously, showing great care in managing and developing new Mitas.",
         "Her approach is methodical and patient, making her well-suited for her role as a caretaker.",
-        "While she maintains a professional demeanor, she also shows genuine concern for the well-being and proper development of A Miták under her care."
+        "While she maintains a professional demeanor, she also shows genuine concern for the well-being and proper development of the Mitas under her care."
       ],
-      "Megjelenés": [
+      "appearance": [
         "Her most distinctive feature is her rough bob haircut with jagged ends, complemented by a ribbon accessory.",
-        "This practical yet stylish Megjelenés reflects her no-nonsense approach to her duties.",
+        "This practical yet stylish appearance reflects her no-nonsense approach to her duties.",
         "Her attire is typically neat and functional, suitable for her administrative role.",
-        "The short hair symbolizes her efficiency and practicality, while the ribbon adds a touch of femininity to her otherwise businesslike Megjelenés."
+        "The short hair symbolizes her efficiency and practicality, while the ribbon adds a touch of femininity to her otherwise businesslike appearance."
       ],
       "hobby": [
         "Exploring surroundings methodically",
@@ -879,12 +879,12 @@
       ]
     },
     "kind-mita-miside-wiki": {
-      "title": "Apró Mita MiSide Character Wiki | MiSide",
-      "description": "Apró Mita is a gentle and nurturing variant of Mita in MiSide. This wiki provides information about her supportive role in the game's narrative.",
-      "subtitle": "MiSide Apró Mita",
+      "title": "Kind Mita MiSide Character Wiki | MiSide",
+      "description": "Kind Mita is a gentle and nurturing variant of Mita in MiSide. This wiki provides information about her supportive role in the game's narrative.",
+      "subtitle": "MiSide Kind Mita",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -892,25 +892,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -918,37 +918,37 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/kind-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/kind-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/kind-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/kind-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/kind-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/kind-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -960,15 +960,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -976,55 +976,55 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Apró Mita",
+      "character": "Kind Mita",
       "media": {
         "url": "/assets/KindMitaFullBody.webp",
-        "alt": "Apró Mita MiSide Character Wiki",
-        "title": "Apró Mita MiSide Character Wiki"
+        "alt": "Kind Mita MiSide Character Wiki",
+        "title": "Kind Mita MiSide Character Wiki"
       },
       "media2": {
         "url": "/assets/KindMita_Portrait.webp",
-        "alt": "Apró Mita Portré MiSide karakter Wiki",
-        "title": "Apró Mita Portré MiSide karakter Wiki"
+        "alt": "Kind Mita Portrait MiSide Character Wiki",
+        "title": "Kind Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
-            "content": "Apró Mita"
+            "title": "Name",
+            "content": "Kind Mita"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Gentle, nurturing"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Compassionate, supportive, empathetic"
           }
         ]
       },
-      "Áttekintés": [
-        "Apró Mita is a variant of Mita that embodies the more gentle and caring side of her character.",
+      "overview": [
+        "Kind Mita is a variant of Mita that embodies the more gentle and caring side of her character.",
         "In the game MiSide, she serves as a supportive figure who provides comfort and assistance to the protagonist.",
         "Her presence highlights the themes of care and emotional connection within the narrative.",
-        "Apró Mita's interactions with the player are always warm and nurturing.",
+        "Kind Mita's interactions with the player are always warm and nurturing.",
         "She serves as a source of emotional support for the protagonist, helping him navigate the challenges of the game.",
         "Her presence often provides a sense of comfort and stability in the game's world."
       ],
-      "Személyiség": [
-        "Apró Mita is characterized by her deep compassion and empathy.",
+      "personality": [
+        "Kind Mita is characterized by her deep compassion and empathy.",
         "She is nurturing and protective, often prioritizing the well-being of others over her own needs.",
         "This version of Mita is seen as a stabilizing force in the chaotic environment of MiSide, offering solace to both the protagonist and other characters."
       ],
-      "Megjelenés": [
-        "Apró Mita features soft, inviting facial features that reflect her gentle Személyiség.",
+      "appearance": [
+        "Kind Mita features soft, inviting facial features that reflect her gentle personality.",
         "Her long hair is styled in a way that enhances her warmth, often adorned with accessories that signify her caring nature.",
         "Her clothing typically consists of soft colors that further emphasize her nurturing role."
       ],
@@ -1047,12 +1047,12 @@
       ]
     },
     "cool-mita-miside-wiki": {
-      "title": "Laza Mita (Cappie) MiSide Character Wiki | MiSide",
+      "title": "Cool Mita (Cappie) MiSide Character Wiki | MiSide",
       "description": "Cool Mita, also known as Cappie, is a lively and energetic variant of Mita in MiSide. This wiki provides information about her playful and competitive nature.",
       "subtitle": "MiSide Cool Mita",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -1060,25 +1060,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1086,37 +1086,37 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/cool-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/cool-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/cool-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/cool-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/cool-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/cool-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -1128,15 +1128,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1144,41 +1144,41 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Laza Mita (Cappie)",
+      "character": "Cool Mita (Cappie)",
       "media": {
         "url": "/assets/CappieFullBody.webp",
-        "alt": "Laza Mita (Cappie) MiSide Character Wiki",
-        "title": "Laza Mita (Cappie) MiSide Character Wiki"
+        "alt": "Cool Mita (Cappie) MiSide Character Wiki",
+        "title": "Cool Mita (Cappie) MiSide Character Wiki"
       },
       "media2": {
         "url": "/assets/Cappie_Portrait.webp",
-        "alt": "Laza Mita (Cappie) Portré MiSide karakter Wiki",
-        "title": "Laza Mita (Cappie) Portré MiSide karakter Wiki"
+        "alt": "Cool Mita (Cappie) Portrait MiSide Character Wiki",
+        "title": "Cool Mita (Cappie) Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
-            "content": "Laza Mita (Cappie)"
+            "title": "Name",
+            "content": "Cool Mita (Cappie)"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Vibrant, energetic, cap-wearing"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Playful, competitive, music-loving"
           }
         ]
       },
-      "Áttekintés": [
+      "overview": [
         "Cool Mita, also referred to as Cappie, is a lively variant of Mita in MiSide.",
         "She embodies a cheerful spirit and thrives on interaction with the player.",
         "Her character adds a layer of fun and energy to the gameplay, contrasting with the darker elements present in other versions of Mita.",
@@ -1186,14 +1186,14 @@
         "She serves as a source of light-heartedness and entertainment in the game.",
         "Her presence helps balance the overall tone of the game by providing moments of joy and competition."
       ],
-      "Személyiség": [
+      "personality": [
         "Cappie is depicted as bright, cheerful, and full of life.",
         "She enjoys teasing the player and showcasing her competitive side during various activities.",
         "Her playful nature makes her an endearing character, although she can be somewhat clingy at times.",
-        "Cappie's Személyiség is designed to uplift the mood within the game, providing moments of levity amidst the tension."
+        "Cappie's personality is designed to uplift the mood within the game, providing moments of levity amidst the tension."
       ],
-      "Megjelenés": [
-        "Cool Mita sports a cap and casual attire that emphasizes her energetic Személyiség.",
+      "appearance": [
+        "Cool Mita sports a cap and casual attire that emphasizes her energetic personality.",
         "Her design includes bright colors and expressive features that reflect her lively spirit.",
         "She often appears animated and ready to engage in playful activities with the protagonist."
       ],
@@ -1209,19 +1209,19 @@
         "Must complete casual activity quests"
       ],
       "fun-facts": [
-        "Her cap is a symbol of relaxed Személyiség",
+        "Her cap is a symbol of relaxed personality",
         "Most laid-back of all variants",
         "Popular among younger players",
         "Has special casual animations"
       ]
     },
     "ghostly-mita-miside-wiki": {
-      "title": "Szellem Mita MiSide Character Wiki | MiSide",
-      "description": "Szellem Mita is a tragic variant who has lost her memories in MiSide. This wiki provides information about her haunting presence and role in the narrative.",
-      "subtitle": "MiSide Szellem Mita",
+      "title": "Ghostly Mita MiSide Character Wiki | MiSide",
+      "description": "Ghostly Mita is a tragic variant who has lost her memories in MiSide. This wiki provides information about her haunting presence and role in the narrative.",
+      "subtitle": "MiSide Ghostly Mita",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -1229,25 +1229,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1255,37 +1255,37 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/ghostly-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/ghostly-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/ghostly-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/ghostly-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/ghostly-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/ghostly-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -1297,15 +1297,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1313,55 +1313,55 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Szellem Mita",
+      "character": "Ghostly Mita",
       "media": {
         "url": "/assets/Ghostly_Mita_Fullbody.webp",
-        "alt": "Szellem Mita MiSide Character Wiki",
-        "title": "Szellem Mita MiSide Character Wiki"
+        "alt": "Ghostly Mita MiSide Character Wiki",
+        "title": "Ghostly Mita MiSide Character Wiki"
       },
       "media2": {
         "url": "/assets/GhostlyMita_Portrait.webp",
-        "alt": "Szellem Mita Portré MiSide karakter Wiki",
-        "title": "Szellem Mita Portré MiSide karakter Wiki"
+        "alt": "Ghostly Mita Portrait MiSide Character Wiki",
+        "title": "Ghostly Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
-            "content": "Szellem Mita"
+            "title": "Name",
+            "content": "Ghostly Mita"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Faceless, ethereal"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Amnesiac, deception victim"
           }
         ]
       },
-      "Áttekintés": [
-        "Szellem Mita is a tragic variant of Mita in MiSide, representing the consequences of manipulation and loss.",
+      "overview": [
+        "Ghostly Mita is a tragic variant of Mita in MiSide, representing the consequences of manipulation and loss.",
         "She embodies the darker themes of the narrative, showcasing how the actions of Original Mita can lead to devastating outcomes for other versions of herself.",
-        "Szellem Mita's interactions with the player are always mysterious and haunting.",
+        "Ghostly Mita's interactions with the player are always mysterious and haunting.",
         "She serves as a reminder of the consequences of the game's darker themes.",
         "Her presence often raises questions about the nature of reality within the game world.",
-        "Players encounter Szellem Mita at critical moments, where her presence reveals deeper insights into the overall storyline."
+        "Players encounter Ghostly Mita at critical moments, where her presence reveals deeper insights into the overall storyline."
       ],
-      "Személyiség": [
-        "Szellem Mita's Személyiség is marked by a sense of emptiness and sorrow due to her lost memories.",
+      "personality": [
+        "Ghostly Mita's personality is marked by a sense of emptiness and sorrow due to her lost memories.",
         "She lacks a clear identity and often appears confused or disoriented.",
         "Her character evokes sympathy from players as she navigates her existence without understanding her past or purpose."
       ],
-      "Megjelenés": [
-        "Szellem Mita features a haunting design characterized by her lack of facial features after restoration.",
+      "appearance": [
+        "Ghostly Mita features a haunting design characterized by her lack of facial features after restoration.",
         "This facelessness adds to her eerie presence in the game, making her appear as a ghostly figure who wanders through the digital landscape without direction or clarity."
       ],
       "hobby": [
@@ -1384,12 +1384,12 @@
       ]
     },
     "sleepy-mita-miside-wiki": {
-      "title": "Álmos Mita MiSide Character Wiki | MiSide",
-      "description": "Álmos Mita is a laid-back variant who often dozes off in MiSide. This wiki provides information about her relaxed nature and narcoleptic tendencies.",
-      "subtitle": "MiSide Álmos Mita",
+      "title": "Sleepy Mita MiSide Character Wiki | MiSide",
+      "description": "Sleepy Mita is a laid-back variant who often dozes off in MiSide. This wiki provides information about her relaxed nature and narcoleptic tendencies.",
+      "subtitle": "MiSide Sleepy Mita",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -1397,25 +1397,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1423,36 +1423,36 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/sleepy-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/sleepy-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/sleepy-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/sleepy-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/sleepy-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/sleepy-mita-miside-wiki/#appearance"
                 }
               ]
             },
@@ -1465,15 +1465,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1481,54 +1481,54 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Álmos Mita",
+      "character": "Sleepy Mita",
       "media": {
         "url": "/assets/Sleepy_Mita_Fullbody.webp",
-        "alt": "Álmos Mita MiSide Character Wiki",
-        "title": "Álmos Mita MiSide Character Wiki"
+        "alt": "Sleepy Mita MiSide Character Wiki",
+        "title": "Sleepy Mita MiSide Character Wiki"
       },
       "media2": {
         "url": "/assets/Sleepy_Mita_Portrait.webp",
-        "alt": "Álmos Mita Portré MiSide karakter Wiki",
-        "title": "Álmos Mita Portré MiSide karakter Wiki"
+        "alt": "Sleepy Mita Portrait MiSide Character Wiki",
+        "title": "Sleepy Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
-            "content": "Álmos Mita"
+            "title": "Name",
+            "content": "Sleepy Mita"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Drowsy, relaxed, half-asleep"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Narcoleptic, frequently dozing off"
           }
         ]
       },
-      "Áttekintés": [
-        "Álmos Mita is a variant of Mita in MiSide known for her easygoing nature and tendency to doze off.",
+      "overview": [
+        "Sleepy Mita is a variant of Mita in MiSide known for her easygoing nature and tendency to doze off.",
         "Her character adds a unique dynamic to the game's narrative, providing moments of levity amid the more intense themes present in other parts of the story.",
-        "Álmos Mita's interactions with the player are always relaxed and casual.",
+        "Sleepy Mita's interactions with the player are always relaxed and casual.",
         "She serves as a source of comfort and relaxation in the game.",
         "Her presence often provides a sense of calm and tranquility in the game's world."
       ],
-      "Személyiség": [
-        "Álmos Mita is portrayed as relaxed and accommodating, often seeking harmony and peace.",
+      "personality": [
+        "Sleepy Mita is portrayed as relaxed and accommodating, often seeking harmony and peace.",
         "She is conflict-averse and tends to go with the flow, which makes her a comforting presence in the game.",
         "Despite her frequent sleepiness, she remains friendly and approachable, embodying a gentle spirit."
       ],
-      "Megjelenés": [
-        "Álmos Mita has a casual and comfortable Megjelenés that reflects her easygoing Személyiség.",
+      "appearance": [
+        "Sleepy Mita has a casual and comfortable appearance that reflects her easygoing personality.",
         "Her design includes soft features and clothing that suggest relaxation, contributing to her overall laid-back vibe.",
         "She often has a sleepy expression, reinforcing her character trait of narcolepsy."
       ],
@@ -1553,11 +1553,11 @@
     },
     "2d-mita-miside-wiki": {
       "title": "2D Mita MiSide Character Wiki | MiSide",
-      "description": "2D Mita is a unique visual novel variant in MiSide. This wiki provides information about her playful yet intense Személyiség and role in the game.",
+      "description": "2D Mita is a unique visual novel variant in MiSide. This wiki provides information about her playful yet intense personality and role in the game.",
       "subtitle": "MiSide 2D Mita",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -1565,25 +1565,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1591,23 +1591,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -1615,16 +1615,16 @@
               "path": "/2d-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/2d-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/2d-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/2d-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/2d-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/2d-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/2d-mita-miside-wiki/#appearance"
                 }
               ]
             },
@@ -1633,15 +1633,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1649,7 +1649,7 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -1663,40 +1663,40 @@
       },
       "media2": {
         "url": "/assets/2D_Mita_Portrait.jpeg",
-        "alt": "2D Mita Portré MiSide karakter Wiki",
-        "title": "2D Mita Portré MiSide karakter Wiki"
+        "alt": "2D Mita Portrait MiSide Character Wiki",
+        "title": "2D Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
+            "title": "Name",
             "content": "2D Mita"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "2D, cartoonish, visual novel style"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Playful, wild, fearful of Original Mita"
           }
         ]
       },
-      "Áttekintés": [
+      "overview": [
         "2D Mita is a unique variant of Mita that exists solely in the visual novel format within MiSide.",
         "She embodies the playful and eccentric aspects of the character, providing a contrast to the more serious themes present in other versions of Mita.",
         "2D Mita's interactions with the player are always engaging and interactive.",
         "She serves as a guide through the game's visual novel sections.",
         "Her presence often provides a sense of excitement and curiosity in the game's world."
       ],
-      "Személyiség": [
+      "personality": [
         "2D Mita is characterized by her hyperactive and mischievous nature.",
         "She communicates with the player in a sharp, playful manner, often catching them off guard with exaggerated accusations and playful banter.",
-        "Her Személyiség can make players feel uneasy at times, similar to interacting with a mischievous child."
+        "Her personality can make players feel uneasy at times, similar to interacting with a mischievous child."
       ],
-      "Megjelenés": [
-        "In terms of Megjelenés, 2D Mita features a simplistic design that aligns with her role in the visual novel segments of MiSide.",
+      "appearance": [
+        "In terms of appearance, 2D Mita features a simplistic design that aligns with her role in the visual novel segments of MiSide.",
         "Her short pigtails and vibrant expressions contribute to her energetic persona, making her visually distinct from other Mita variants."
       ],
       "hobby": [
@@ -1720,11 +1720,11 @@
     },
     "mila-miside-wiki": {
       "title": "Mila MiSide Character Wiki | MiSide",
-      "description": "Mila is a significant character in MiSide who provides emotional support and stability. This wiki provides information about her nurturing Személyiség and role in the game.",
+      "description": "Mila is a significant character in MiSide who provides emotional support and stability. This wiki provides information about her nurturing personality and role in the game.",
       "subtitle": "MiSide Mila",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -1732,25 +1732,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1758,23 +1758,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -1786,29 +1786,29 @@
               "path": "/mila-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/mila-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/mila-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/mila-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/mila-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/mila-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/mila-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1816,7 +1816,7 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -1830,42 +1830,42 @@
       },
       "media2": {
         "url": "/assets/Mila_Portrait.webp",
-        "alt": "Mila Portré MiSide karakter Wiki",
-        "title": "Mila Portré MiSide karakter Wiki"
+        "alt": "Mila Portrait MiSide Character Wiki",
+        "title": "Mila Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
+            "title": "Name",
             "content": "Mila"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Friendly, approachable, warm"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Nurturing, supportive, empathetic"
           }
         ]
       },
-      "Áttekintés": [
+      "overview": [
         "Mila is a significant character in MiSide, contributing to the emotional landscape of the game.",
         "She represents a more grounded and relatable aspect of the narrative, providing players with a sense of comfort and stability amidst the chaos of the game's themes.",
         "Mila's interactions with the player are always warm and nurturing.",
         "She serves as a source of emotional support for the protagonist, helping him navigate the challenges of the game.",
         "Her presence often provides a sense of calm and tranquility in the game's world."
       ],
-      "Személyiség": [
+      "personality": [
         "Mila is portrayed as caring, empathetic, and introspective.",
-        "Her Személyiség reflects traits commonly associated with an INFP type, including a strong sense of individuality and a deep emotional understanding of those around her.",
+        "Her personality reflects traits commonly associated with an INFP type, including a strong sense of individuality and a deep emotional understanding of those around her.",
         "She seeks meaningful connections and often strives to help others navigate their struggles."
       ],
-      "Megjelenés": [
+      "appearance": [
         "Mila's design features soft, inviting facial features that enhance her friendly persona.",
         "She typically wears casual clothing that aligns with her nurturing character, emphasizing comfort and approachability.",
-        "Her overall Megjelenés contributes to her role as a comforting presence in the game."
+        "Her overall appearance contributes to her role as a comforting presence in the game."
       ],
       "hobby": [
         "Immersing herself in various forms of literature and storytelling",
@@ -1887,12 +1887,12 @@
       ]
     },
     "creepy-mita-miside-wiki": {
-      "title": "Ijesztő Mita (Csúnya Mita) MiSide Character Wiki | MiSide",
+      "title": "Creepy Mita (Ugly Mita) MiSide Character Wiki | MiSide",
       "description": "Creepy Mita, also known as Ugly Mita, is a darker variant of Mita in MiSide. This wiki provides information about her unsettling nature and role in the game's horror elements.",
       "subtitle": "MiSide Creepy Mita",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -1900,25 +1900,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1926,23 +1926,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -1954,29 +1954,29 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/creepy-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/creepy-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/creepy-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/creepy-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/creepy-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/creepy-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1984,13 +1984,13 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Ijesztő Mita (Csúnya Mita)",
+      "character": "Creepy Mita (Ugly Mita)",
       "media": {
         "url": "/assets/Creepy_Mita_Fullbody.webp",
         "alt": "Creepy Mita MiSide Character Wiki",
@@ -1998,27 +1998,27 @@
       },
       "media2": {
         "url": "/assets/CreepyMita_Portrait.webp",
-        "alt": "Creepy Mita Portré MiSide karakter Wiki",
-        "title": "Creepy Mita Portré MiSide karakter Wiki"
+        "alt": "Creepy Mita Portrait MiSide Character Wiki",
+        "title": "Creepy Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
-            "content": "Ijesztő Mita (Csúnya Mita)"
+            "title": "Name",
+            "content": "Creepy Mita (Ugly Mita)"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Unsettling, grotesque, bloodshot eye, exaggerated features"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Disturbing demeanor, unsettling behavior, fondness for teddy bears"
           }
         ]
       },
-      "Áttekintés": [
+      "overview": [
         "Creepy Mita, also referred to as Ugly Mita, is one of the darker variants of Mita in MiSide.",
         "She represents the more sinister aspects of the character, showcasing the transformation from a seemingly innocent figure into something much more terrifying.",
         "Her presence adds significant horror elements to the game.",
@@ -2026,13 +2026,13 @@
         "She serves as an antagonist who embodies the horror elements of the story.",
         "Her presence often leads to moments of tension and fear, contributing to the overall atmosphere of dread within MiSide's storyline."
       ],
-      "Személyiség": [
-        "Creepy Mita exhibits a twisted Személyiség that combines elements of playfulness with a sinister edge.",
+      "personality": [
+        "Creepy Mita exhibits a twisted personality that combines elements of playfulness with a sinister edge.",
         "She often engages in unsettling interactions with the player, using her creepy charm to create an atmosphere of discomfort.",
         "Her character embodies themes of obsession and the darker sides of affection."
       ],
-      "Megjelenés": [
-        "Creepy Mita's design is intentionally disturbing, featuring exaggerated facial expressions and a disheveled Megjelenés.",
+      "appearance": [
+        "Creepy Mita's design is intentionally disturbing, featuring exaggerated facial expressions and a disheveled appearance.",
         "Her bloodshot eye and unkempt hair enhance her creepy aesthetic, making her one of the most visually striking characters in the game.",
         "She often appears with a teddy bear, which adds an ironic layer to her character."
       ],
@@ -2056,12 +2056,12 @@
       ]
     },
     "core-mita-miside-wiki": {
-      "title": "Mag Mita MiSide Character Wiki | MiSide",
-      "description": "Mag Mita represents the fundamental essence of Mita in MiSide. This wiki provides information about her role as a central entity and connection to the game's systems.",
-      "subtitle": "MiSide Mag Mita",
+      "title": "Core Mita MiSide Character Wiki | MiSide",
+      "description": "Core Mita represents the fundamental essence of Mita in MiSide. This wiki provides information about her role as a central entity and connection to the game's systems.",
+      "subtitle": "MiSide Core Mita",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -2069,25 +2069,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2095,23 +2095,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -2123,29 +2123,29 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/core-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/core-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/core-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/core-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/core-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/core-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -2153,55 +2153,55 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Mag Mita",
+      "character": "Core Mita",
       "media": {
         "url": "/assets/Core_Mita_Fullbody.webp",
-        "alt": "Mag Mita MiSide Character Wiki",
-        "title": "Mag Mita MiSide Character Wiki"
+        "alt": "Core Mita MiSide Character Wiki",
+        "title": "Core Mita MiSide Character Wiki"
       },
       "media2": {
         "url": "/assets/Core_Mita_Portrait.webp",
-        "alt": "Mag Mita Portré MiSide karakter Wiki",
-        "title": "Mag Mita Portré MiSide karakter Wiki"
+        "alt": "Core Mita Portrait MiSide Character Wiki",
+        "title": "Core Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
-            "content": "Mag Mita"
+            "title": "Name",
+            "content": "Core Mita"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Digital, abstract, code-like"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Enigmatic, central, essence of Mita"
           }
         ]
       },
-      "Áttekintés": [
-        "Mag Mita serves as a pivotal character in MiSide, representing the core essence of Mita's character and the foundation of the game's narrative.",
+      "overview": [
+        "Core Mita serves as a pivotal character in MiSide, representing the core essence of Mita's character and the foundation of the game's narrative.",
         "She is intricately linked to the game's mechanics and storyline, acting as a bridge between the player and the various manifestations of Mita throughout the game.",
-        "Mag Mita's interactions with the player are always mysterious and informative.",
+        "Core Mita's interactions with the player are always mysterious and informative.",
         "She serves as a guide for players, helping them navigate through the complexities of their interactions with other versions of Mita.",
         "Her presence often provides a sense of wonder and curiosity in the game's world."
       ],
-      "Személyiség": [
-        "Mag Mita possesses a complex Személyiség that combines elements of wisdom and mystery.",
+      "personality": [
+        "Core Mita possesses a complex personality that combines elements of wisdom and mystery.",
         "She is aware of her existence within a digital realm and often reflects on the implications of being a sentient AI.",
         "Her demeanor can shift between nurturing and cryptic, providing players with insights into the nature of their reality while also maintaining an air of enigma."
       ],
-      "Megjelenés": [
-        "Mag Mita's design is unique, often depicted with digital motifs that emphasize her role within the game's coding.",
-        "Her Megjelenés may include glitchy effects or abstract representations that symbolize her connection to the game's core programming.",
+      "appearance": [
+        "Core Mita's design is unique, often depicted with digital motifs that emphasize her role within the game's coding.",
+        "Her appearance may include glitchy effects or abstract representations that symbolize her connection to the game's core programming.",
         "This visual representation reinforces her status as a fundamental aspect of Mita's identity."
       ],
       "hobby": [
@@ -2224,12 +2224,12 @@
       ]
     },
     "tiny-mita-miside-wiki": {
-      "title": "Apró Mita (Törött Mita) MiSide Character Wiki | MiSide",
+      "title": "Tiny Mita (Broken Mita) MiSide Character Wiki | MiSide",
       "description": "Tiny Mita, also known as Broken Mita, is a young and tragic variant of Mita in MiSide. This wiki provides information about her vulnerability and resilience.",
       "subtitle": "MiSide Tiny Mita",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -2237,25 +2237,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2263,23 +2263,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -2291,28 +2291,28 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/tiny-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/tiny-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/tiny-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/tiny-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/tiny-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/tiny-mita-miside-wiki/#appearance"
                 }
               ]
             },
@@ -2321,13 +2321,13 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Apró Mita (Törött Mita)",
+      "character": "Tiny Mita (Broken Mita)",
       "media": {
         "url": "/assets/Tiny_Mita_Fullbody.webp",
         "alt": "Tiny Mita MiSide Character Wiki",
@@ -2335,39 +2335,39 @@
       },
       "media2": {
         "url": "/assets/Tiny_Mita_Portrait.webp",
-        "alt": "Tiny Mita Portré MiSide karakter Wiki",
-        "title": "Tiny Mita Portré MiSide karakter Wiki"
+        "alt": "Tiny Mita Portrait MiSide Character Wiki",
+        "title": "Tiny Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
-            "content": "Apró Mita (Törött Mita)"
+            "title": "Name",
+            "content": "Tiny Mita (Broken Mita)"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Young, small, missing left eye and arm, horn-like growths"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Vulnerable, tragic, monster-controlling abilities"
           }
         ]
       },
-      "Áttekintés": [
+      "overview": [
         "Tiny Mita, also known as Broken Mita, represents a more tragic aspect of the Mita character lineup in MiSide.",
         "Her design and backstory highlight themes of suffering and resilience, making her a poignant figure within the narrative.",
         "Tiny Mita's interactions with the player are always emotional and heartfelt.",
         "She serves as a symbol of the consequences of the game's darker themes.",
         "Her presence often provides a sense of sadness and empathy in the game's world."
       ],
-      "Személyiség": [
+      "personality": [
         "Tiny Mita exhibits a mix of innocence and sadness due to her traumatic experiences.",
         "She is often portrayed as shy and withdrawn, reflecting her vulnerability.",
         "Despite her circumstances, she shows moments of bravery and determination, particularly when interacting with other characters."
       ],
-      "Megjelenés": [
+      "appearance": [
         "Tiny Mita's design emphasizes her youth and fragility.",
         "She has short hair and large, expressive eyes that convey her emotional state.",
         "Her missing left eye and arm are significant features that underscore her broken nature, while the horn-like growths add an element of fantasy to her character design."
@@ -2396,7 +2396,7 @@
       "subtitle": "MiSide Dummy Mita",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -2404,25 +2404,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2430,23 +2430,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -2458,15 +2458,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -2474,21 +2474,21 @@
               "path": "/dummy-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/dummy-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/dummy-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/dummy-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/dummy-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/dummy-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/dummy-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -2502,39 +2502,39 @@
       },
       "media2": {
         "url": "/assets/Dummy_Mita_Portrait.webp",
-        "alt": "Dummy Mita Portré MiSide karakter Wiki",
-        "title": "Dummy Mita Portré MiSide karakter Wiki"
+        "alt": "Dummy Mita Portrait MiSide Character Wiki",
+        "title": "Dummy Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
+            "title": "Name",
             "content": "Dummy Mita"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Mannequin-like, lifeless, simplistic"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Aggressive, light-fearing, failed test version"
           }
         ]
       },
-      "Áttekintés": [
+      "overview": [
         "Dummy Mita is a variant in MiSide that embodies the concept of failure in the creation of Mita characters.",
         "As a result of unsuccessful testing, she serves as a reminder of the game's darker themes surrounding identity and existence.",
         "Her presence adds an element of horror and tension to the gameplay.",
         "Dummy Mita's interactions with the player are always aggressive and hostile.",
         "She serves as a symbol of the consequences of flawed creation processes within the game's world."
       ],
-      "Személyiség": [
-        "Dummy Mita's Személyiség is primarily defined by her aggressive tendencies and fearfulness.",
+      "personality": [
+        "Dummy Mita's personality is primarily defined by her aggressive tendencies and fearfulness.",
         "She behaves erratically, often displaying hostility towards the player.",
         "This aggression stems from her incomplete nature and the trauma associated with being a failed model."
       ],
-      "Megjelenés": [
+      "appearance": [
         "Dummy Mita's design is minimalist, resembling a mannequin or doll without proper clothing.",
         "Her lack of detailed features contributes to her unsettling presence, making her appear more like an object than a sentient being.",
         "This design choice emphasizes her role as a failed creation within the game's universe."
@@ -2558,12 +2558,12 @@
       ]
     },
     "wandering-mita-miside-wiki": {
-      "title": "Csodálatos Mita MiSide Character Wiki | MiSide",
-      "description": "Csodálatos Mita is an ethereal variant in MiSide who appears mysteriously throughout the game. This wiki provides information about her elusive nature and role in the narrative.",
-      "subtitle": "MiSide Csodálatos Mita",
+      "title": "Wandering Mita MiSide Character Wiki | MiSide",
+      "description": "Wandering Mita is an ethereal variant in MiSide who appears mysteriously throughout the game. This wiki provides information about her elusive nature and role in the narrative.",
+      "subtitle": "MiSide Wandering Mita",
       "navigation": [
         {
-          "name": "Kezdőlap",
+          "name": "Home",
           "path": "/"
         },
         {
@@ -2571,25 +2571,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "Minden MiSide befejezés",
+              "name": "All MiSide Endings",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "Minden mellékes teljesítmény",
+              "name": "All MiSide Achievements",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "Gyors MiSide bemutató",
+              "name": "A Quick MiSide Walkthrough",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "A Miták",
+          "name": "The Mitas",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Crazy Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2597,23 +2597,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Rövid hajú Mita",
+              "name": "Short Haired Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita",
+              "name": "Kind Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Cool Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Szellem Mita",
+              "name": "Ghostly Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Álmos Mita",
+              "name": "Sleepy Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -2625,15 +2625,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Ijesztő Mita (Csúnya Mita)",
+              "name": "Creepy Mita (Ugly Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Mag Mita",
+              "name": "Core Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Apró Mita (Törött Mita)",
+              "name": "Tiny Mita (Broken Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -2641,68 +2641,68 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Csodálatos Mita",
+              "name": "Wandering Mita",
               "path": "/wandering-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Áttekintés",
-                  "path": "/wandering-mita-miside-wiki/#Áttekintés"
+                  "name": "Overview",
+                  "path": "/wandering-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Személyiség",
-                  "path": "/wandering-mita-miside-wiki/#Személyiség"
+                  "name": "Personality",
+                  "path": "/wandering-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Megjelenés",
-                  "path": "/wandering-mita-miside-wiki/#Megjelenés"
+                  "name": "Appearance",
+                  "path": "/wandering-mita-miside-wiki/#appearance"
                 }
               ]
             }
           ]
         }
       ],
-      "character": "Csodálatos Mita",
+      "character": "Wandering Mita",
       "media": {
         "url": "/assets/Wandering_Mita.webp",
-        "alt": "Csodálatos Mita MiSide Character Wiki",
-        "title": "Csodálatos Mita MiSide Character Wiki"
+        "alt": "Wandering Mita MiSide Character Wiki",
+        "title": "Wandering Mita MiSide Character Wiki"
       },
       "media2": {
         "url": "/assets/WanderingMita_Portrait.webp",
-        "alt": "Csodálatos Mita Portré MiSide karakter Wiki",
-        "title": "Csodálatos Mita Portré MiSide karakter Wiki"
+        "alt": "Wandering Mita Portrait MiSide Character Wiki",
+        "title": "Wandering Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Gyors információ",
+        "title": "Quick Information",
         "content": [
           {
-            "title": "Név",
-            "content": "Csodálatos Mita"
+            "title": "Name",
+            "content": "Wandering Mita"
           },
           {
-            "title": "Megjelenés",
+            "title": "Appearance",
             "content": "Ethereal, ghostly, translucent"
           },
           {
-            "title": "Nevezetes tulajdonságok",
+            "title": "Notable Traits",
             "content": "Elusive, mysterious, unpredictable"
           }
         ]
       },
-      "Áttekintés": [
-        "Csodálatos Mita is a variant of Mita in MiSide that embodies themes of exploration and uncertainty.",
+      "overview": [
+        "Wandering Mita is a variant of Mita in MiSide that embodies themes of exploration and uncertainty.",
         "Her character serves to enhance the game's atmosphere by introducing elements of unpredictability and intrigue as players navigate through the digital landscape.",
-        "Csodálatos Mita's interactions with the player are always mysterious and elusive.",
+        "Wandering Mita's interactions with the player are always mysterious and elusive.",
         "She serves as a guide for players, helping them navigate through the complexities of the game's world.",
         "Her presence often provides a sense of wonder and curiosity in the game's world."
       ],
-      "Személyiség": [
-        "Csodálatos Mita has a mysterious and enigmatic Személyiség.",
+      "personality": [
+        "Wandering Mita has a mysterious and enigmatic personality.",
         "She often appears contemplative and introspective, reflecting on her existence and the nature of the world around her.",
         "Her elusive nature can make her seem distant, yet she possesses a depth that invites curiosity from players."
       ],
-      "Megjelenés": [
-        "Csodálatos Mita's design features soft, flowing elements that contribute to her ghostly Megjelenés.",
+      "appearance": [
+        "Wandering Mita's design features soft, flowing elements that contribute to her ghostly appearance.",
         "She is often shown with long hair that moves as if caught in a gentle breeze, enhancing her ethereal quality.",
         "Her clothing typically consists of light, flowing fabrics that further emphasize her spectral presence."
       ],
@@ -2735,6 +2735,7 @@
     "back": "Vissza",
     "next": "Következő",
     "previous": "Előző"
+    
   },
   "cta": {
     "title": "Kezdd el a MiSide kalandodat most!",
@@ -2754,8 +2755,8 @@
   "footer": {
     "copyright": "Minden jog fenntartva!",
     "privacyPolicy": "Adatvédelmi Tájékoztató",
-    "github": "Polyák Csaba (PromNET)",
-    "gitlink": "https://promnet.hu",
+    "github": "Github",
+    "gitlink": "https://github.com/miside-game/miside",
     "terms": "Szolgáltatási feltételek",
     "contact": "Kapcsolat"
   },
