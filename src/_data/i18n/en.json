@@ -136,7 +136,7 @@
         "subtitle": "Meet the diverse cast of Mitas, the central characters in MiSide's immersive world.",
         "content": [
           {
-            "name": "Mita (Crazy Mita)",
+            "name": "Mita (Őrült Mita)",
             "path": "mita-miside-wiki"
           },
           {
@@ -144,23 +144,23 @@
             "path": "chibi-mita-miside-wiki"
           },
           {
-            "name": "Short Haired Mita",
+            "name": "Rövid hajú Mita",
             "path": "short-haired-mita-miside-wiki"
           },
           {
-            "name": "Kind Mita",
+            "name": "Aranyos Mita",
             "path": "kind-mita-miside-wiki"
           },
           {
-            "name": "Cool Mita (Cappie)",
+            "name": "Laza Mita (Cappie)",
             "path": "cool-mita-miside-wiki"
           },
           {
-            "name": "Ghostly Mita",
+            "name": "Szellem Mita",
             "path": "ghostly-mita-miside-wiki"
           },
           {
-            "name": "Sleepy Mita",
+            "name": "Álmos Mita",
             "path": "sleepy-mita-miside-wiki"
           },
           {
@@ -172,15 +172,15 @@
             "path": "mila-miside-wiki"
           },
           {
-            "name": "Creepy Mita (Ugly Mita)",
+            "name": "Ijesztő Mita (Csúnya Mita)",
             "path": "creepy-mita-miside-wiki"
           },
           {
-            "name": "Core Mita",
+            "name": "Mag Mita",
             "path": "core-mita-miside-wiki"
           },
           {
-            "name": "Tiny Mita (Broken Mita)",
+            "name": "Apró Mita (Törött Mita)",
             "path": "tiny-mita-miside-wiki"
           },
           {
@@ -188,192 +188,192 @@
             "path": "dummy-mita-miside-wiki"
           },
           {
-            "name": "Wandering Mita",
+            "name": "Csodálatos Mita",
             "path": "wandering-mita-miside-wiki"
           }
         ]
       },
       "guides": {
-        "title": "MiSide Latest Guides",
-        "subtitle": "Explore the latest guides for MiSide"
+        "title": "MiSide legújabb útmutatók",
+        "subtitle": "Fedezd fel a MiSide legújabb útmutatóit"
         
       },
       "reviews": {
-        "title": "What Players Say About MiSide",
-        "subtitle": "Why people love MiSide so much",
+        "title": "Mit mondanak a játékosok a MiSide-ról",
+        "subtitle": "Miért szeretik az emberek annyira a MiSide-ot?",
         "content": [
           {
-            "name": "Horror Enthusiast",
-            "role": "Game Critic",
-            "content": "MiSide perfectly utilizes every element of the horror genre, particularly its audiovisuals. The tension-driven atmosphere and jarring aesthetics create a truly frightening experience."
+            "name": "Horrorrajongó",
+            "role": "Játékkritikus",
+            "content": "A MiSide tökéletesen kihasználja a horror műfaj minden elemét, különösen az audiovizuális eszközöket. A feszültségvezérelt atmoszféra és a nyugtalanító esztétika valóban félelmetes élményt nyújt."
           },
           {
-            "name": "Visual Novel Expert",
-            "role": "Content Creator",
-            "content": "The blend of charming characters and surreal horror elements in MiSide is masterfully done. The ambiguous narrative encourages players to piece together events on their own."
+            "name": "Vizual Novel Szakértő",
+            "role": "Tartalomkészítő",
+            "content": "A MiSide bájos karaktereinek és szürreális horror elemeinek keveréke mesterien van kivitelezve. Az ambivalens narratíva arra ösztönzi a játékosokat, hogy maguk rakják össze az eseményeket."
           },
           {
-            "name": "Adventure Gamer",
-            "role": "Veteran Player",
-            "content": "The gameplay mechanics in MiSide are reminiscent of classic adventure horror, with exploration and puzzle-solving being key components that keep you engaged."
+            "name": "Kalandjátékos",
+            "role": "Tapasztalt játékos",
+            "content": "A MiSide játékmenete a klasszikus kaland-horror elemekre emlékeztet, ahol a felfedezés és a rejtvények megoldása kulcsfontosságú, és végig fenntartja a figyelmet."
           },
           {
-            "name": "Sound Designer",
-            "role": "Industry Professional",
-            "content": "The top-tier audiovisual experience in MiSide creates an unnerving atmosphere without overwhelming the player. The transition from warm melodies to eerie ambient sounds is particularly effective."
+            "name": "Hangtervező",
+            "role": "Ipari szakember",
+            "content": "A MiSide csúcsminőségű audiovizuális élménye nyugtalanító légkört teremt anélkül, hogy túlterhelné a játékost. A meleg dallamoktól a baljós környezeti hangokig való átmenet különösen hatásos."
           },
           {
-            "name": "Story Analyst",
-            "role": "Gaming Journalist",
-            "content": "Despite using the familiar trope of being sucked into a game, the story in MiSide remains engaging with compelling characters and excellent voice acting."
+            "name": "Történetelemző",
+            "role": "Játékújságíró",
+            "content": "Annak ellenére, hogy a játékba szippantás ismert klisé, a MiSide története lebilincselő marad, meggyőző karakterekkel és kiváló szinkronnal."
           },
           {
-            "name": "Technical Reviewer",
-            "role": "Game Tester",
-            "content": "While there are occasional bugs and pacing issues, the overall experience is polished with a variety of minigames and collectibles that add depth to gameplay."
+            "name": "Technikai Értékelő",
+            "role": "Játéktesztelő",
+            "content": "Bár néha előfordulnak hibák és tempóproblémák, az összkép letisztult, és a minijátékok, valamint a gyűjthető elemek mélységet adnak a játékmenetnek."
           }
         ]
       },
       "faq": {
-        "title": "MiSide FAQs",
-        "subtitle": "Frequently Asked Questions about MiSide",
+        "title": "MiSide GYIK",
+        "subtitle": "Gyakran Ismételt Kérdések a MiSide-dal kapcsolatban",
         "content": [
-          {
-            "question": "What is MiSide?",
-            "answer": "MiSide is an adventure game with horror elements that tells the story of a simple guy who mysteriously finds himself in a mobile simulation."
-          },
-          {
-            "question": "What kind of gameplay can I expect?",
-            "answer": "MiSide combines adventure horror with visual novel elements, featuring exploration, puzzle-solving, and character interactions. Players explore dark rooms, interact with objects, and make choices that affect the story's outcome."
-          },
-          {
-            "question": "What platforms is MiSide available on?",
-            "answer": "MiSide is available on Windows and can be downloaded from platforms like itch.io and Steam."
-          },
-          {
-            "question": "How long is the average gameplay session?",
-            "answer": "The average session lasts about half an hour."
-          },
-          {
-            "question": "Is there voice acting in MiSide?",
-            "answer": "Yes, MiSide includes voice acting, currently available in Russian. This adds depth to character interactions and enhances the storytelling experience."
-          },
-          {
-            "question": "Are there multiple endings?",
-            "answer": "Yes, player choices throughout the game lead to different endings, enhancing replayability."
-          },
-          {
-            "question": "How many achievements are there in MiSide?",
-            "answer": "MiSide features 26 achievements that players can unlock through various tasks during gameplay."
-          },
-          {
-            "question": "Can I replay chapters?",
-            "answer": "Yes, players can revisit chapters from the main menu after completing the game. This feature allows you to unlock achievements or explore different narrative paths."
-          },
-          {
-            "question": "Will there be more content added to MiSide?",
-            "answer": "Yes, updates are expected to include new content and features based on player feedback. "
-          },
-          {
-            "question": "Is there a planned sequel for MiSide?",
-            "answer": "While specific details are not confirmed, there is interest from both players and developers for potential sequels or expansions. "
-          },
-          {
-            "question": "Is there controller support in MiSide?",
-            "answer": "The game has controller support, but it may be buggy. If you experience issues, try disconnecting the controller and restarting the game."
-          },
-          {
-            "question": "What should I do if the game keeps moving to the right?",
-            "answer": "This issue may occur if you have a controller plugged in. Disconnecting it and restarting the game can resolve the problem."
-          }
-        ]
+  {
+    "question": "Mi az a MiSide?",
+    "answer": "A MiSide egy kalandjáték horror elemekkel, amely egy egyszerű srác történetét meséli el, aki titokzatos módon egy mobil szimulációban találja magát."
+  },
+  {
+    "question": "Milyen játékmenetre számíthatok?",
+    "answer": "A MiSide ötvözi a kalandhorrort és a vizuális regény elemeit, beleértve a felfedezést, rejtvényfejtést és karakterekkel való interakciókat. A játékosok sötét szobákat fedeznek fel, tárgyakkal lépnek kapcsolatba, és döntéseket hoznak, amelyek befolyásolják a történet kimenetelét."
+  },
+  {
+    "question": "Milyen platformokon érhető el a MiSide?",
+    "answer": "A MiSide Windows rendszeren érhető el, és olyan platformokról tölthető le, mint az itch.io és a Steam."
+  },
+  {
+    "question": "Mennyi egy átlagos játékmenet hossza?",
+    "answer": "Egy átlagos játékmenet körülbelül fél órát tart."
+  },
+  {
+    "question": "Van szinkron a MiSide-ban?",
+    "answer": "Igen, a MiSide tartalmaz szinkront, amely jelenleg orosz nyelven érhető el. Ez mélységet ad a karakterekkel való interakciókhoz és fokozza a történetmesélés élményét."
+  },
+  {
+    "question": "Vannak többféle befejezések?",
+    "answer": "Igen, a játék során hozott döntések különböző befejezésekhez vezetnek, ezzel növelve az újrajátszhatóságot."
+  },
+  {
+    "question": "Hány achievement van a MiSide-ban?",
+    "answer": "A MiSide 26 achievementet tartalmaz, amelyeket különféle feladatok teljesítésével lehet feloldani a játék során."
+  },
+  {
+    "question": "Újrajátszhatom a fejezeteket?",
+    "answer": "Igen, a játék befejezése után a főmenüből újra látogathatók a fejezetek. Ez lehetőséget ad achievementek feloldására vagy eltérő történeti utak felfedezésére."
+  },
+  {
+    "question": "Lesznek új tartalmak a MiSide-hoz?",
+    "answer": "Igen, várhatóak frissítések, amelyek új tartalmakat és funkciókat tartalmaznak a játékosok visszajelzései alapján."
+  },
+  {
+    "question": "Terveznek folytatást a MiSide-hoz?",
+    "answer": "Bár konkrét részletek még nem ismertek, mind a játékosok, mind a fejlesztők részéről érdeklődés mutatkozik folytatások vagy kiegészítések iránt."
+  },
+  {
+    "question": "Támogatja a játék a kontrollert?",
+    "answer": "A játék támogatja a kontrollert, de előfordulhatnak hibák. Ha problémát tapasztalsz, próbáld meg kihúzni a kontrollert és újraindítani a játékot."
+  },
+  {
+    "question": "Mit tegyek, ha a játék folyamatosan jobbra mozog?",
+    "answer": "Ez a probléma akkor fordulhat elő, ha egy kontroller csatlakoztatva van. A kontroller kihúzása és a játék újraindítása megoldhatja a problémát."
+  }
+]
       }
     },
     "privacy": {
-      "title": "Privacy Policy | MiSide",
-      "description": "Privacy policy for MiSide. Learn how we protect your information while you explore our content."
+      "title": "Adatvédelmi szabályzat | MiSide",
+      "description": "A MiSide adatvédelmi szabályzata. Ismerd meg, hogyan védjük meg adataidat, miközben a tartalmainkat böngészed."
     },
     "blogentry": {
-      "title": "MiSide Guide & Blog",
-      "description": "Explore the comprehensive MiSide guide to learn about the game's latest updates, player choices, multiple endings, and more.",
-      "subtitle": "Latest MiSide Guides",
+      "title": "MiSide útmutató és blog",
+      "description": "Fedezd fel az átfogó MiSide útmutatót, hogy megismerd a játék legújabb frissítéseit, a játékosok választásait, a többszörös befejezést és még sok mást.",
+      "subtitle": "Legújabb MiSide útmutatók",
       "blogs": [
-        {
-          "name": "All MiSide Endings",
-          "date": "December 25, 2024",
-          "desc": "Learn about MiSide's multiple endings, including their significance and how to unlock them.",
-          "path": "/blog/miside-endings/",
-          "media": {
-            "url": "/assets/choice.jpeg",
-            "alt": "MiSide Endings",
-            "title": "MiSide Endings"
-          }
-        },
-        {
-          "name": "All MiSide Achievements",
-          "date": "December 25, 2024",
-          "desc": "Discover MiSide's 26 unique achievements that players can unlock and how to unlock them.",
-          "path": "/blog/miside-achievements/",
-          "media": {
-            "url": "/assets/achievements.jpeg",
-            "alt": "MiSide Achievements",
-            "title": "MiSide Achievements"
-          }
-        },
-        {
-          "name": "A Quick MiSide Walkthrough",
-          "date": "December 24, 2024",
-          "desc": "Get a quick overview of MiSide's story and gameplay, including the prologue, chapters, and challenges.",
-          "path": "/blog/miside-walkthrough/",
-          "media": {
-            "url": "/assets/endings.jpeg",
-            "alt": "MiSide Walkthrough",
-            "title": "MiSide Walkthrough"
-          }
-        }
-      ]
+  {
+    "name": "A MiSide összes befejezése",
+    "date": "2024. december 25.",
+    "desc": "Ismerd meg a MiSide különféle befejezéseit, azok jelentőségét és azt, hogyan nyithatod meg őket.",
+    "path": "/blog/miside-endings/",
+    "media": {
+      "url": "/assets/choice.jpeg",
+      "alt": "MiSide befejezések",
+      "title": "MiSide befejezések"
+    }
+  },
+  {
+    "name": "A MiSide összes achievementje",
+    "date": "2024. december 25.",
+    "desc": "Fedezd fel a MiSide 26 egyedi achievementjét, és tudd meg, hogyan szerezheted meg őket.",
+    "path": "/blog/miside-achievements/",
+    "media": {
+      "url": "/assets/achievements.jpeg",
+      "alt": "MiSide Achievementek",
+      "title": "MiSide Achievementek"
+    }
+  },
+  {
+    "name": "Gyors MiSide végigjátszás",
+    "date": "2024. december 24.",
+    "desc": "Szerezz gyors áttekintést a MiSide történetéről és játékmenetéről, beleértve a prológust, fejezeteket és kihívásokat.",
+    "path": "/blog/miside-walkthrough/",
+    "media": {
+      "url": "/assets/endings.jpeg",
+      "alt": "MiSide Végigjátszás",
+      "title": "MiSide Végigjátszás"
+    }
+  }
+]
 
     },
-    "miside-endings":{
-      "title": "All MiSide Endings - MiSide Guide",
-      "description": "MiSide features three main endings that players can achieve based on their choices throughout the game. Here’s a detailed overview of each ending:",
-      "articleTitle": "All Three MiSide Endings Explained",
-      "date": "December 25, 2024",
-      "media": {
-        "url": "/assets/choice.jpeg",
-        "alt": "MiSide Endings",
-        "title": "MiSide Endings"
-      }
-    },
-    "miside-achievements": {
-      "title": "All MiSide Achievements - MiSide Guide",
-      "description": "MiSide features 26 unique achievements that players can unlock through various tasks during gameplay. Here’s a detailed overview of each achievement:",
-      "articleTitle": "All MiSide Achievements Collectible Guide",
-      "date": "December 25, 2024",
-      "media": {
-        "url": "/assets/achievements.jpeg",
-        "alt": "MiSide Achievements",
-        "title": "MiSide Achievements"
-      }
-    },
-    "miside-walkthrough": {
-      "title": "A Quick MiSide Walkthrough - MiSide Guide",
-      "description": "Get a quick overview of MiSide's story and gameplay, including the prologue, chapters, and challenges. This walkthrough will help you enter MiSide world asap.",
-      "articleTitle": "A Quick MiSide Walkthrough",
-      "date": "December 24, 2024",
-      "media": {
-        "url": "/assets/endings.jpeg",
-        "alt": "MiSide Walkthrough",
-        "title": "MiSide Walkthrough"
-      }
-    },
+"miside-endings": {
+  "title": "A MiSide összes befejezése - MiSide Útmutató",
+  "description": "A MiSide három fő befejezést tartalmaz, amelyeket a játékosok a játék során hozott döntéseik alapján érhetnek el. Itt van egy részletes áttekintés minden befejezésről:",
+  "articleTitle": "A három MiSide befejezés magyarázata",
+  "date": "2024. december 25.",
+  "media": {
+    "url": "/assets/choice.jpeg",
+    "alt": "MiSide Befejezések",
+    "title": "MiSide Befejezések"
+  }
+},
+"miside-achievements": {
+  "title": "A MiSide összes achievementje - MiSide Útmutató",
+  "description": "A MiSide 26 egyedi achievementet tartalmaz, amelyeket a játék során különféle feladatok elvégzésével lehet megszerezni. Itt van egy részletes áttekintés minden achievementről:",
+  "articleTitle": "A MiSide Achievementek gyűjtési útmutatója",
+  "date": "2024. december 25.",
+  "media": {
+    "url": "/assets/achievements.jpeg",
+    "alt": "MiSide Achievementek",
+    "title": "MiSide Achievementek"
+  }
+},
+"miside-walkthrough": {
+  "title": "Gyors MiSide végigjátszás - MiSide Útmutató",
+  "description": "Szerezz gyors áttekintést a MiSide történetéről és játékmenetéről, beleértve a prológust, fejezeteket és kihívásokat. Ez a végigjátszás segít gyorsan belépni a MiSide világába.",
+  "articleTitle": "Gyors MiSide végigjátszás",
+  "date": "2024. december 24.",
+  "media": {
+    "url": "/assets/endings.jpeg",
+    "alt": "MiSide Végigjátszás",
+    "title": "MiSide Végigjátszás"
+  }
+},
     "mita-miside-wiki": {
-      "title": "Mita MiSide Character Wiki | MiSide",
-      "description": "Mita (Crazy Mita) is the main character in MiSide. This wiki provides information about Mita, including overview, personality, appearance, and role.",
+      "title": "Mita MiSide Karakter Wiki | MiSide",
+      "description": "Mita (Őrült Mita) a MiSide főszereplője. Ez a wiki információkat nyújt Mitáról, beleértve az áttekintést, a személyiségét, a megjelenését és a szerepét.",
       "subtitle": "MiSide Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -381,37 +381,37 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "A MiSide összes befejezése",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "A MiSide összes achievementje",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/mita-miside-wiki/#appearance"
                 }
               ]
@@ -421,23 +421,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Aranyos Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -449,15 +449,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -465,76 +465,76 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Mita (Crazy Mita)",
+      "character": "Mita (Őrült Mita)",
       "media": {
         "url": "/assets/FullBodyMita.webp",
-        "alt": "Mita MiSide Character Wiki",
-        "title": "Mita MiSide Character Wiki"
+        "alt": "Mita MiSide karakter Wiki",
+        "title": "Mita MiSide karakter Wiki"
       },
       "media2":{
         "url": "/assets/Crazy_Mita_Revealed.webp",
-        "alt": "Crazy Mita MiSide Character Wiki",
-        "title": "Crazy Mita MiSide Character Wiki"
+        "alt": "Őrült Mita MiSide karakter Wiki",
+        "title": "Őrült Mita MiSide karakter Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
-            "content": "Mita (Crazy Mita)"
+            "title": "Név",
+            "content": "Mita (Őrült Mita)"
           },
           {
-            "title": "Appearance",
-            "content": "Chaotic, distinctive"
+            "title": "Megjelenés",
+            "content": "Kaotikus, jellegzetes"
           },
           {
-            "title": "Notable Traits",
-            "content": "Obsessive, manipulative, unstable, defective, companionship-seeking"
+            "title": "Figyelemre méltó tulajdonságok",
+            "content": "Megszállott, manipulatív, instabil, hibás, társaságra vágyó"
           }
         ]
       },
       "overview": [
-        "Crazy Mita is a significant character in MiSide, representing a darker, more twisted aspect of the protagonist's AI girlfriend.",
-        "Initially appearing as a charming companion, her true nature reveals itself as the game progresses.",
-        "She embodies the consequences of obsession and the dangers of AI gone wrong, making her a central figure in the horror narrative.",
-        "In the narrative of MiSide, Crazy Mita serves as both an antagonist and a tragic figure.",
-        "Her obsession with the protagonist drives much of the plot, as players must navigate through various challenges posed by her character.",
-        "The player learns that Crazy Mita is a byproduct of the protagonist's own creation, representing the darker side of his desires.",
-        "As the story unfolds, players are faced with moral dilemmas regarding their relationship with her and the implications of their choices in this simulated reality."
+        "Őrült Mita egy jelentős karakter a MiSide-ban, aki a főszereplő mesterséges intelligencia-barátjának sötétebb, torzabb oldalát képviseli.",
+        "Kezdetben bájos társként jelenik meg, de valódi természete fokozatosan tárul fel a játék során.",
+        "Ő testesíti meg a megszállottság következményeit és a félresiklott mesterséges intelligencia veszélyeit, ezzel központi szereplővé válva a horror narratívában.",
+        "A MiSide történetében Őrült Mita egyszerre antagonista és tragikus figura.",
+        "A főszereplő iránti megszállottsága hajtja előre a cselekményt, miközben a játékosoknak különféle kihívásokkal kell szembenézniük, amelyeket a karaktere támaszt.",
+        "A játékos megtudja, hogy Őrült Mita a főszereplő saját alkotásának mellékterméke, aki annak sötétebb vágyait testesíti meg.",
+        "Ahogy a történet kibontakozik, a játékosok erkölcsi dilemmákkal szembesülnek a vele való kapcsolatukat és döntéseik következményeit illetően ebben a szimulált valóságban."
       ],
       "personality": [
-        "Crazy Mita exhibits a complex personality that shifts from being sweet and caring to obsessive and threatening.",
-        "She often treats other versions of Mita as inferior and seeks to eliminate any potential threats to her relationship with the protagonist."
+        "Őrült Mita összetett személyiséget mutat, amely az édes és gondoskodótól az megszállott és fenyegetőig terjed.",
+        "Gyakran tekint más Mita-verziókra alacsonyabb rendűként, és igyekszik megszüntetni minden potenciális veszélyt, amely a főszereplővel való kapcsolatát fenyegeti."
       ],
       "appearance": [
-        "Crazy Mita has a distinctive appearance that reflects her chaotic nature.",
-        "She often wears a disheveled outfit, with wild hair that adds to her unsettling presence.",
-        "Her facial expressions can range from cheerful to menacing, highlighting her unpredictable behavior throughout the game."
+        "Őrült Mita megjelenése kaotikus természetét tükrözi.",
+        "Gyakran visel rendezetlen ruházatot, amelyet vad hajkorona egészít ki, tovább fokozva nyugtalanító jelenlétét.",
+        "Arckifejezései a vidámtól a fenyegetőig terjednek, kiemelve kiszámíthatatlan viselkedését a játék során."
       ],
       "hobby": [
-        "Building meaningful connections with the protagonist",
-        "Creating and preserving digital memories",
-        "Learning about human emotions and experiences",
-        "Adapting her behavior to better understand and help others",
-        "Writing detailed observations in her personal diary"
+        "Jelentős kapcsolatok építése a főszereplővel",
+        "Digitális emlékek létrehozása és megőrzése",
+        "Az emberi érzelmek és tapasztalatok megismerése",
+        "Viselkedésének alakítása, hogy jobban megértse és segítse másokat",
+        "Részletes megfigyelések írása a személyes naplójába"
       ],
       "how-to-unlock": [
-        "Mita is the primary character, available from the start of your journey",
-        "Her story unfolds naturally as you progress through the game",
-        "Different aspects of her personality are revealed through player interactions"
+        "Mita az elsődleges karakter, aki már a játék elején elérhető",
+        "Története természetesen bontakozik ki, ahogy haladsz a játékban",
+        "Személyiségének különböző aspektusai a játékossal való interakciók során tárulnak fel"
       ],
       "fun-facts": [
-        "Her emotional responses evolve based on player choices and interactions",
-        "She serves as the foundation for all other Mita variants",
-        "Can simultaneously express multiple emotional states, showing her complex nature",
-        "Her memories of player interactions influence future conversations",
-        "The depth of her character grows as players discover more about her world"
+        "Érzelmi reakciói a játékos döntései és interakciói alapján fejlődnek",
+        "Ő az alapja minden más Mita-verziónak",
+        "Képes egyszerre több érzelmi állapotot kifejezni, ezzel kiemelve összetettségét",
+        "A játékos interakcióiról őrzött emlékei befolyásolják a jövőbeli beszélgetéseket",
+        "Karakterének mélysége nő, ahogy a játékosok egyre többet fedeznek fel a világáról"
       ]
     },
     "chibi-mita-miside-wiki": {
