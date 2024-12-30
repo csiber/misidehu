@@ -3,6 +3,7 @@ const i18n = require('eleventy-plugin-i18n');
 module.exports = function(eleventyConfig) {
   // Define supported languages
   const languages = [
+    'hu',     // Magyar
     'en',    // English (default)
     'zh', // Chinese (Simplified)
     'ja',    // Japanese
@@ -17,7 +18,7 @@ module.exports = function(eleventyConfig) {
     'de',    // German
     'pt'  // Portuguese (Brazil)
   ];
-  const defaultLanguage = 'en';
+  const defaultLanguage = 'hu';
 
   // Add i18n plugin
   eleventyConfig.addPlugin(i18n, {
@@ -71,6 +72,7 @@ module.exports = function(eleventyConfig) {
   // Add filter to get language name
   eleventyConfig.addFilter("getLanguageName", function(code) {
     const languageNames = {
+      'hu': 'Magyar',
       'en': 'English',
       'zh': '简体中文',
       'ja': '日本語',
