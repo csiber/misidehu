@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
     'de',    // German
     'pt'  // Portuguese (Brazil)
   ];
-  const defaultLanguage = 'hu';
+  const defaultLanguage = 'en';
 
   // Add i18n plugin
   eleventyConfig.addPlugin(i18n, {

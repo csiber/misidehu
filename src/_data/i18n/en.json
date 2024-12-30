@@ -1,20 +1,20 @@
 {
   "meta": {
-    "lang": "en",
+    "lang": "hu",
     "dir": "ltr",
-    "locale": "en",
-    "language": "English"
+    "locale": "hu",
+    "language": "Magyar"
   },
   "navigation": {
     "path": "/",
     "logoText": "MiSide",
     "navbar": [
       {
-        "title": "Home",
+        "title": "Kezdőlap",
         "url": "/"
       },
       {
-        "title": "The Mitas",
+        "title": "Miták",
         "url": "/mita-miside-wiki/"
       },
       {
@@ -22,112 +22,112 @@
         "url": "/blogentry/"
       },
       {
-        "title": "FAQs",
+        "title": "GYIK",
         "url": "/#faqs"
       }
     ]
   },
   "pages": {
     "index": {
-      "title": "MiSide: Step Into The Mysterious MiSide World",
+      "title": "MiSide: Lépj be a titokzatos MiSide világba",
       "description": "MiSide is a unique psychological horror adventure game that blends first-person exploration with visual novel elements, a rich storyline and interesting plot.",
       "hero": {
         "title": "MiSide",
-        "subtitle": "Where Reality Meets Simulation, Romance Meets Horror",
-        "content": "Step into a mysterious world where an ordinary protagonist finds himself trapped within a mobile simulation game. What begins as seemingly mundane tasks typical of romance games takes a dark turn, leading to an increasingly unsettling journey filled with tension and unpredictability.",
+        "subtitle": "Ahol a valóság találkozik a szimulációval, ott a romantika és a horror",
+        "content": "Lépj be egy titokzatos világba, ahol egy hétköznapi főszereplő egy mobil szimulációs játék csapdájában találja magát. A romantikus játékokra jellemző, látszólag hétköznapi feladatoknak induló sötét fordulatot vesz, ami egy egyre nyugtalanítóbb utazáshoz vezet, tele feszültséggel és kiszámíthatatlansággal.",
         "media": {
           "url": "/assets/hero.jpg",
           "alt": "MiSide Hero Image",
           "title": "MiSide"
         },
-        "buttonText": "Play Now →"
+        "buttonText": "Játsz most →"
       },
       "about": {
-        "title": "About MiSide",
+        "title": "A MiSide-ról",
         "content": [
-          "“Let's imagine that you have a game in which you care for a character. But could you imagine one day getting into that game yourself?” -Aihasto",
-          "MiSide is an innovative adventure game that masterfully incorporates horror elements, creating a unique blend of gameplay experiences. The game combines first-person adventure mechanics with visual novel storytelling.",
-          "MiSide features a distinctive art style with 3D graphics and anime influences, complemented by an authentic soundtrack that transitions from warm melodies to eerie ambient sounds as the story progresses."
+          "“Képzeljük el, hogy van egy játékod, amelyben törődsz egy karakterrel. De el tudod képzelni, hogy egy nap maga is belevág ebbe a játékba?” -Aihasto",
+          "A MiSide egy innovatív kalandjáték, amely mesterien építi be a horror elemeket, és a játékélmények egyedülálló keverékét hozza létre. A játék az első személyű kalandmechanikát ötvözi a vizuális újszerű történetmeséléssel.",
+          "A MiSide jellegzetes művészeti stílusa 3D-s grafikával és anime hatásokkal, amelyet autentikus hangsáv egészít ki, amely a történet előrehaladtával átvált a meleg dallamokból a kísérteties környezeti hangokba."
         ]
       },
       "gameplay": {
-        "title": "Dive Into The Mysterious MiSide World",
-        "subtitle": "Experience a unique blend of adventure and horror",
+        "title": "Merülj el a rejtélyes MiSide világában",
+        "subtitle": "Tapasztald meg a kaland és a horror egyedülálló keverékét",
         "content": [
           {
-            "title": "Adventure Horror Gameplay",
-            "content": "Explore dark rooms, interact with objects, search for clues, and avoid dangers, including being stalked by an unhinged character.",
+            "title": "Kaland horror játékmenet",
+            "content": "Fedezz fel sötét szobákat, lépj kapcsolatba tárgyakkal, keress nyomokat, és kerüld el a veszélyeket, például egy őrült karakter zaklatását.",
             "media": {
               "url": "/assets/horror.jpeg",
-              "alt": "Horror Gameplay",
-              "title": "Adventure Horror"
+              "alt": "Horror játékmenet",
+              "title": "Kaland horror"
             }
           },
           {
-            "title": "MiSide Minigames and Puzzles",
-            "content": "Engage with a variety of minigames and puzzles scattered throughout the experience, adding flavor and challenge to the gameplay.",
+            "title": "MiSide minijátékok és rejtvények",
+            "content": "Vegyél részt különféle minijátékokban és rejtvényekben, amelyek ízt és kihívást adnak a játékmenethez.",
             "media": {
               "url": "/assets/mini.jpeg",
-              "alt": "Puzzle System",
-              "title": "Puzzle Mechanics"
+              "alt": "Puzzle rendszer",
+              "title": "Puzzle mechanika"
             }
           },
           {
-            "title": "Multiple Endings",
-            "content": "Your choices throughout the MiSide game lead to different endings, enhancing replayability and encouraging exploration of various narrative paths.",
+            "title": "Többféle befejezés",
+            "content": "A MiSide játék során hozott döntéseid különböző befejezésekhez vezetnek, növelve az újrajátszhatóságot és ösztönözve a történet különböző útvonalainak felfedezését.",
             "media": {
               "url": "/assets/endings.jpeg",
-              "alt": "Multiple Endings",
-              "title": "Ending System"
+              "alt": "Többféle befejezés",
+              "title": "Befejezés rendszer"
             }
           },
           {
-            "title": "Psychological Horror",
-            "content": "Experience a combination of psychological tension and supernatural horror in MiSide, creating an unsettling atmosphere that keeps you engaged.",
+            "title": "Pszichológiai horror",
+            "content": "Tapasztald meg a pszichológiai feszültség és a természetfeletti horror keverékét a MiSide-ban, amely nyugtalanító légkört teremt és fenntartja az érdeklődést.",
             "media": {
               "url": "/assets/horror-element.jpeg",
-              "alt": "Horror Elements",
-              "title": "Horror System"
+              "alt": "Horror elemek",
+              "title": "Horror rendszer"
             }
           },
           {
-            "title": "Choice-Driven Progression",
-            "content": "Make decisions that affect the storyline and character interactions, allowing for a personalized gaming experience.",
+            "title": "Döntéseken alapuló előrehaladás",
+            "content": "Hozz döntéseket, amelyek befolyásolják a történetet és a karakterek közti interakciókat, lehetővé téve a személyre szabott játékélményt.",
             "media": {
               "url": "/assets/choice.jpeg",
-              "alt": "Choice System",
-              "title": "Choice Mechanics"
+              "alt": "Választó rendszer",
+              "title": "Választó mechanika"
             }
           }
         ]
       },
       "ingame": {
-        "title": "Discover What Makes MiSide Unique",
-        "subtitle": "Explore the captivating gameplay mechanics of MiSide",
+        "title": "Fedezd fel, mi teszi egyedivé a MiSide-t",
+        "subtitle": "Fedezd fel a MiSide lenyűgöző játékmenetét",
         "content": [
           {
-            "title": "Customizable Protagonist",
-            "content": "Personalize your character's appearance and attributes to enhance immersion in the MiSide world."
+            "title": "Testreszabható Főhős",
+            "content": "Testreszabhatod a karaktered megjelenését és tulajdonságait, hogy fokozd az élményt a MiSide világában."
           },
           {
-            "title": "Dynamic Character Interactions",
-            "content": "Engage with various characters, particularly Mita, whose personality evolves throughout the MiSide game, revealing deeper psychological themes."
+            "title": "Dinamikus Karakter Interakciók",
+            "content": "Kapcsolatba léphetsz különböző karakterekkel, különösen Mitával, akinek személyisége a MiSide játék során fejlődik, felfedve mélyebb pszichológiai témákat."
           },
           {
-            "title": "Atmospheric Sound Design",
-            "content": "Immerse yourself in a carefully crafted soundscape featuring ambient noises and music that enhance tension and horror."
+            "title": "Atmoszferikus Hangtervezés",
+            "content": "Merülj el egy gondosan megtervezett hangvilágban, amely környezeti zajokkal és zenével fokozza a feszültséget és a borzongást."
           },
           {
-            "title": "Unique Visual Style",
-            "content": "Experience a vivid anime-inspired art style that contrasts sharply with horror themes, creating an unnerving juxtaposition."
+            "title": "Egyedi Vizualitás",
+            "content": "Élvezd a élénk, anime ihlette művészeti stílust, amely éles kontrasztot alkot a horror témákkal, így egy nyugtalanító ellentétet teremtve."
           },
           {
-            "title": "Progress Tracking",
-            "content": "Monitor your journey through achievements and collectibles, which provide insights into your MiSide gaming experience."
+            "title": "Haladás Követés",
+            "content": "Kövesd a fejlődésedet eredmények és gyűjthető tárgyak segítségével, amelyek betekintést nyújtanak a MiSide játékmenet élményébe."
           },
           {
-            "title": "Voice Acting Support",
-            "content": "Enjoy voice acting support (currently available in Russian) that adds depth to character interactions and enhances storytelling."
+            "title": "Hangalámondás Támogatás",
+            "content": "Élvezd a hangalámondás támogatását (jelenleg japánul és oroszul elérhető), amely mélyebb dimenziókat ad a karakterek közötti interakciókhoz és fokozza a történetmesélést."
           }
         ]
       },
