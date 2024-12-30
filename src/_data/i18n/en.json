@@ -132,8 +132,8 @@
         ]
       },
       "mitas": {
-        "title": "The Mitas in MiSide",
-        "subtitle": "Meet the diverse cast of Mitas, the central characters in MiSide's immersive world.",
+        "title": "A Miták MiSide-ban",
+        "subtitle": "Ismerkedj meg Mitas sokszínű szereplőgárdájával, a MiSide magával ragadó világának központi szereplőivel.",
         "content": [
           {
             "name": "Mita (Őrült Mita)",
@@ -2755,8 +2755,8 @@
   "footer": {
     "copyright": "Minden jog fenntartva!",
     "privacyPolicy": "Adatvédelmi Tájékoztató",
-    "github": "Github",
-    "gitlink": "https://github.com/miside-game/miside",
+    "github": "Polyák Csaba - PromNET",
+    "gitlink": "https://promnet.hu",
     "terms": "Szolgáltatási feltételek",
     "contact": "Kapcsolat"
   },
