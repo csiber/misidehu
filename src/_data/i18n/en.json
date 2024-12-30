@@ -543,7 +543,7 @@
       "subtitle": "MiSide Chibi Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -2727,20 +2727,19 @@
     }
   },
   "common": {
-    "playNow": "Play Now",
-    "readMore": "Read More",
-    "loading": "Loading...",
-    "error": "Error",
-    "success": "Success",
-    "back": "Back",
-    "next": "Next",
-    "previous": "Previous"
-    
+    "playNow": "Játssz most",
+    "readMore": "Olvass tovább",
+    "loading": "Betöltés...",
+    "error": "Hiba",
+    "success": "Siker",
+    "back": "Vissza",
+    "next": "Következő",
+    "previous": "Előző"
   },
   "cta": {
-    "title": "Start Your MiSide Adventure Now!",
-    "description": "Download MiSide and embark on a thrilling adventure filled with horror and suspense!",
-    "button": "Download Now →",
+    "title": "Kezdd el a MiSide kalandodat most!",
+    "description": "Töltsd le a MiSide-ot, és indulj el egy izgalmas kalandban, tele horrorral és feszültséggel!",
+    "button": "Töltsd le most →",
     "platforms": [
       {
         "title": "Steam",
@@ -2753,15 +2752,15 @@
     ]
   },
   "footer": {
-    "copyright": "All rights reserved.",
-    "privacyPolicy": "Privacy Policy",
-    "github": "Github",
-    "gitlink": "https://github.com/miside-game/miside",
-    "terms": "Terms of Service",
-    "contact": "Contact Us"
+    "copyright": "Minden jog fenntartva!",
+    "privacyPolicy": "Adatvédelmi Tájékoztató",
+    "github": "Polyák Csaba (PromNET)",
+    "gitlink": "https://promnet.hu",
+    "terms": "Szolgáltatási feltételek",
+    "contact": "Kapcsolat"
   },
   "languageSwitcher": {
-    "selectLanguage": "Select Language",
-    "currentLanguage": "English"
+    "selectLanguage": "Válasz nyelvet",
+    "currentLanguage": "Magyar"
   }
 }
