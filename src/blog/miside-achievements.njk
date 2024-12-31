@@ -5,322 +5,341 @@ layout: base.njk
 {# 获取当前语言 #}
 {% set currentLang = "en" %}
 {% for lang in ["zh", "ja", "ko", "fil", "vi", "id", "ms", "th", "ru", "uk", "de", "pt"] %}
-  {% if page.url.startsWith("/" + lang + "/") %}
-    {% set currentLang = lang %}
-  {% endif %}
+    {% if page.url.startsWith("/" + lang + "/") %}
+        {% set currentLang = lang %}
+    {% endif %}
 {% endfor %}
-
 {# 获取当前页面的i18n数据 #}
 {% if i18n[currentLang] %}
-  {% set translations = i18n[currentLang] %}
+    {% set translations = i18n[currentLang] %}
 {% else %}
-  {% set translations = i18n["en"] %}
+    {% set translations = i18n["en"] %}
 {% endif %}
-
 {% set currentPage = page.url | replace("/" + currentLang + "/", "/") | replace("/blog/", "") | replace("/", "") %}
 {% if currentPage %}
-  {% set currentPage = currentPage %}
+    {% set currentPage = currentPage %}
 {% else %}
-  {% set currentPage = "index" %}
+    {% set currentPage = "index" %}
 {% endif %}
-
 <nav class="h-10 text-xs md:text-md px-4 text-light font-black bg-gradient-to-l from-green to-red flex items-center">
     <a href="/" class="nav-link hover:text-yellow hover:underline hover:decoration-2 hover:underline-offset-8">Home</a>
     >
-    <a href="/blogentry/" class="nav-link hover:text-yellow hover:underline hover:decoration-2 hover:underline-offset-8">Blog</a>
+    <a href="/blogentry/" class="nav-link hover:text-yellow hover:underline hover:decoration-2 hover:underline-offset-8">
+        Blog</a>
     >
-    <a href="/blog/miside-achievements/" class="nav-link hover:text-yellow underline hover:decoration-2 hover:underline-offset-8">All MiSide Achievements</a>
+    <a
+        href="/blog/miside-achievements/"
+        class="nav-link hover:text-yellow underline hover:decoration-2 hover:underline-offset-8">All MiSide Achievements</a>
 </nav>
-
 <article class="p-4 md:p-8 bg-green">
-    <div class="max-w-3xl mx-auto">
+    <div
+        class="max-w-3xl mx-auto">
         <!-- Header -->
         <header class="mb-8 text-center">
             <h1 class="text-2xl md:text-3xl font-black text-light mb-4">
                 {{ translations.pages[currentPage].articleTitle }}
             </h1>
-            <p class="text-sm italic mb-6">Last Updated: {{ translations.pages[currentPage].date }}</p>
-            <img src="{{ translations.pages[currentPage].media.url }}" 
-                alt="{{ translations.pages[currentPage].media.alt }}" 
-                title="{{ translations.pages[currentPage].media.alt }}"
-                class="w-full md:w-1/2 max-w-3xl mx-auto rounded-lg shadow-lg mb-6 object-cover">
-        </header>
-
-        <!-- Content -->
-        <div class="prose prose-invert mx-auto">
-            <div class="bg-red bg-opacity-20 p-4 rounded-lg mb-8 text-[#ffc107]">
-                <h3 class="text-lg font-bold mb-2">⚠️ Spoiler Warning</h3>
-                <p class="text-sm opacity-75">
-                    The following content contains spoilers for MiSide achievements. We recommend playing through the game before reading further.
+            <p class="text-sm italic mb-6">Utoljára frissítve: {{ translations.pages[currentPage].date }}</p>
+            <img src="{{ translations.pages[currentPage].media.url }}" alt="{{ translations.pages[currentPage].media.alt }}" title="{{ translations.pages[currentPage].media.alt }}" class="w-full md:w-1/2 max-w-3xl mx-auto rounded-lg shadow-lg mb-6 object-cover"></header>
+            <!-- Content -->
+            <div class="prose prose-invert mx-auto">
+                <div class="bg-red bg-opacity-20 p-4 rounded-lg mb-8 text-[#ffc107]">
+                    <h3 class="text-lg font-bold mb-2">⚠️ Spoiler veszély!</h3>
+                    <p class="text-sm opacity-75">
+                        A következő tartalom a MiSide eredményeivel kapcsolatos spoilereket tartalmaz. Játék végigjátszását javasoljuk, mielőtt
+                        tovább olvasnál.
+                    </p>
+                </div>
+                <p class="lead mb-8">
+                    A MiSide egy átfogó, 26 egyedi eredményből álló rendszert kínál, amelyeket a játékosok felfedezhetnek kalandjuk során. A
+                    mini-játékok mesteri elsajátításától kezdve a rejtett titkok felfedezéséig ezek az eredmények extra kihívást és
+                    felfedezést adnak a játékhoz. Nézzük meg, hogyan érheted el mindegyiket!
                 </p>
-            </div>
-
-            <p class="lead mb-8">
-                MiSide features a comprehensive set of 26 unique achievements that players can unlock throughout their journey. From mastering mini-games to discovering hidden secrets, these achievements add an extra layer of challenge and exploration to the game. Let's dive into how you can unlock each one!
-            </p>
-
-            <div class="mt-20 mb-12">
-                <h2 class="text-xl font-bold text-light mb-4">Story-Related Achievements</h2>
-                <div class="grid gap-6">
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Is This the End?</h3>
-                        <p class="text-sm mb-2 opacity-75">Of course it's the end!</p>
-                        <p class="text-sm opacity-75">How to Unlock: Get the bad ending by refusing Mita's offer at the start of your first playthrough in "Reboot."</p>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="font-bold mb-2 text-yellow">Safe of Life</h3>
-                        <img src="/assets/safeoflife.jpeg" 
-                            alt="Safe of Life - MiSide Achievements" 
-                            title="Safe of Life - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover">
-                        <p class="text-sm mb-2 opacity-75">Keep safe and sound.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Open the basement safe using the code 4 9 7 0 after achieving the bad ending.</p>
-                    
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Conditions Met</h3>
-                        <p class="text-sm mb-2 opacity-75">Can I Stay with You?</p>
-                        <p class="text-sm opacity-75">How to Unlock: Achieve the good ending by meeting specific conditions to stay with Mita in chapters "I'm Inside a Game?" and "Together At Last."</p>
-                    </div>
-                    
-                    {# adsterra Native Banner #}
-                    <div class="p-6">
-                        <script async="async" data-cfasync="false" src="//pl25394580.profitablecpmrate.com/eab122b053e4ac0bfb8d0492fdcec2fd/invoke.js"></script>
-                        <div id="container-eab122b053e4ac0bfb8d0492fdcec2fd"></div>
-                    </div>
-                    {# adsterra Native Banner #} 
-                </div>
-            </div>
-
-
-            <div class="mt-20 mb-12">
-                <h2 class="text-xl font-bold text-light mb-4">Mini-Game Achievements</h2>
-                <div class="grid gap-6">
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Penguin Conundrum!</h3>
-                        <p class="text-sm mb-2 opacity-75">Have a Snowball!</p>
-                        <p class="text-sm opacity-75">How to Unlock: Beat Mita at Penguin Piles in the chapter "Things Get Weird."</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Clabber</h3>
-                        <img src="/assets/clabber.jpeg" 
-                            alt="Clabber - MiSide Achievements" 
-                            title="Clabber - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                        <p class="text-sm mb-2 opacity-75">Beaten and sour.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Beat Mita on Dairy Scandal in the chapter "Things Get Weird."</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Going at Maximum Speed!</h3>
-                        <img src="/assets/speed.jpeg" 
-                            alt="Going at Maximum Speed! - MiSide Achievements" 
-                            title="Going at Maximum Speed! - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                        <p class="text-sm mb-2 opacity-75">Vroom!</p>
-                        <p class="text-sm opacity-75">How to Unlock: Collect all 10 coins in the Spacecar arcade machine before talking to Mita in the chapter "Beyond the World."</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Accelerate!</h3>
-                        <img src="/assets/accelerate.jpeg" 
-                            alt="Accelerate! - MiSide Achievements" 
-                            title="Accelerate! - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                        <p class="text-sm mb-2 opacity-75">Vroom-vroom!</p>
-                        <p class="text-sm opacity-75">How to Unlock: Get first place in the Spacecar arcade mini-game in the chapter "Beyond the World."</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">The Fly's Victory</h3>
-                        <img src="/assets/fly.jpeg" 
-                            alt="The Fly's Victory - MiSide Achievements" 
-                            title="The Fly's Victory - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                        <p class="text-sm mb-2 opacity-75">Croak-croak.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Stand still for about one minute and 50 seconds until Player One plays a game, then score 25 points in The Fly mini-game.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-20 mb-12">
-                <h2 class="text-xl font-bold text-light mb-4">Discovery Achievements</h2>
-                <div class="grid gap-6">
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Carrot</h3>
-                        <img src="/assets/carrot.jpeg" 
-                            alt="Carrot - MiSide Achievements" 
-                            title="Carrot - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                        <p class="text-sm mb-2 opacity-75">Find the teleporting carrot.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Locate and find the teleporting carrot seven times inside Mila's apartment during "Ready Books, Destroying Glitches."</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Caught Them All</h3>
-                        <p class="text-sm mb-2 opacity-75">Now, who's next?</p>
-                        <p class="text-sm opacity-75">How to Unlock: Find all Player Cartridges throughout various chapters.</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Hi, Mita</h3>
-                        <p class="text-sm mb-2 opacity-75">They're all unique.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Find all Character Profiles across multiple chapters.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-20 mb-12">
-                <h2 class="text-xl font-bold text-light mb-4">Interaction Achievements</h2>
-                <div class="grid gap-6">
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Delicious Love</h3>
-                        <p class="text-sm mb-2 opacity-75">What flour tastes like?</p>
-                        <p class="text-sm opacity-75">How to Unlock: Eat the sauce in the chapter "Together At Last."</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Dead Juice</h3>
-                        <img src="/assets/juice.jpeg" 
-                            alt="Dead Juice - MiSide Achievements" 
-                            title="Dead Juice - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                        <p class="text-sm mb-2 opacity-75">Made from the juice shown in the ad.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Drink the juice offered by Mita in the chapter "Together At Last."</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Creak in the Dark</h3>
-                        <p class="text-sm mb-2 opacity-75">So very dark…</p>
-                        <p class="text-sm opacity-75">How to Unlock: Refuse to stay when checking the closet in the chapter "Things Get Weird."</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Oh Great Mita</h3>
-                        <p class="text-sm mb-2 opacity-75">A special interaction with Mita.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Interact with Mita in a specific context that reflects her significance in the story.</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">I Found You!</h3>
-                        <img src="/assets/foundyou.jpeg" 
-                            alt="I Found You! - MiSide Achievements" 
-                            title="I Found You! - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                        <p class="text-sm mb-2 opacity-75">A moment of discovery.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Successfully discover or interact with a specific character or element within the game.</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Slap on the Head</h3>
-                        <img src="/assets/slap.jpeg" 
-                            alt="Slap on the Head - MiSide Achievements" 
-                            title="Slap on the Head - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                        <p class="text-sm mb-2 opacity-75">A playful moment with Mita.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Engage in a specific mini-game or interaction where you can "slap" Mita on the head.</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Long Tail</h3>
-                        <p class="text-sm mb-2 opacity-75">An interesting tail-related encounter.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Complete a specific interaction or event related to a character's tail.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-20 mb-12">
-                <h2 class="text-xl font-bold text-light mb-4">Challenge Achievements</h2>
-                <div class="grid gap-6">
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">The Great Dance</h3>
-                        {# <img src="/assets/dance.jpeg" 
-                            alt="The Great Dance - MiSide Achievements" 
-                            title="The Great Dance - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top"> #}
-                        <p class="text-sm mb-2 opacity-75">Perfect rhythm and timing.</p>
-                        <p class="text-sm opacity-75">How to Unlock: In the chapter "Beyond the World," defeat Cappie in a rhythm game by completing a full song without any mistakes.</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Hellish Victory</h3>
-                        <p class="text-sm mb-2 opacity-75">Triumph over a challenging adversary.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Overcome a particularly challenging scenario or enemy.</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Without Damage!?</h3>
-                        <p class="text-sm mb-2 opacity-75">Perfect defense.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Complete specific challenges or mini-games without taking any damage.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-20 mb-12">
-                <h2 class="text-xl font-bold text-light mb-4">Progress Achievements</h2>
-                <div class="grid gap-6">
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Any Achievement?</h3>
-                        <p class="text-sm mb-2 opacity-75">A door to new possibilities.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Progress to the "Old Version" chapter and successfully open the front door.</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">You Shall Not Pass!</h3>
-                        <p class="text-sm mb-2 opacity-75">Master of repairs.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Meet certain conditions related to repairs in the game.</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Phase 1 Logs</h3>
-                        <img src="/assets/log1.jpeg" 
-                            alt="Phase 1 Logs - MiSide Achievements" 
-                            title="Phase 1 Logs - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                        <p class="text-sm mb-2 opacity-75">Uncovering the first phase.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Collect logs or data related to Phase 1 of the game.</p>
-                    </div>
-                    <div class="p-6 rounded-lg">
-                        <h3 class="font-bold mb-2 text-yellow">Phase 2 Logs</h3>
-                        {# <img src="/assets/phase2.jpeg" 
-                            alt="Phase 2 Logs - MiSide Achievements" 
-                            title="Phase 2 Logs - MiSide Achievements"
-                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top"> #}
-                        <p class="text-sm mb-2 opacity-75">Discovering the second phase.</p>
-                        <p class="text-sm opacity-75">How to Unlock: Gather logs or information pertaining to Phase 2.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-20 mb-12">
-                <h2 class="text-xl font-bold text-light mb-4">Completionist Achievement</h2>
-                <div class="p-6 rounded-lg">
-                    <h3 class="font-bold mb-2 text-yellow">Pro Gamer</h3>
-                    <p class="text-sm mb-2 opacity-75">Checked just about everywhere.</p>
-                    <p class="text-sm opacity-75">How to Unlock: Collect all 26 achievements in MiSide.</p>
-                </div>
-            </div>
-
-            <div class="bg-red bg-opacity-20 p-6 rounded-lg mb-8">
-                <h3 class="text-lg font-bold mb-2">💡 Achievement Hunting Tips</h3>
-                <ul class="list-disc list-inside space-y-2 text-sm">
-                    <li>Use the chapter select option from the main menu to revisit specific chapters for missed achievements.</li>
-                    <li>Some achievements require specific conditions or multiple playthroughs to unlock.</li>
-                    <li>Pay attention to the environment and explore thoroughly in each chapter.</li>
-                    <li>Don't be afraid to experiment with different choices and interactions.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Related Reading -->
-        <section class="mt-20 mb-8">
-            <h2 class="text-2xl font-bold text-light mb-4">Related Reading</h2>
-            <div class="text-light">
-                <a href="/blog/miside-endings/" class="block p-4 transition-all duration-300 hover:bg-opacity-20">
-                    <div class="flex items-center gap-4">
-                        <img src="/assets/choice.jpeg" alt="MiSide Endings Guide" title="MiSide Endings Guide" class="w-24 h-24 object-cover rounded">
-                        <div>
-                            <h3 class="font-bold mb-2 underline text-light">All MiSide Endings Guide</h3>
-                            <p class="text-sm text-gray-300">Explore the three distinct endings in MiSide and learn how to unlock each one.</p>
+                <div class="mt-20 mb-12">
+                    <h2 class="text-xl font-bold text-light mb-4">Történettel kapcsolatos eredmények</h2>
+                    <div class="grid gap-6">
+                        <div class="p-6 rounded-lg">
+                            <h3 class="font-bold mb-2 text-yellow">Ez a vég?</h3>
+                            <p class="text-sm mb-2 opacity-75">Természetesen ez a vég!</p>
+                            <p class="text-sm opacity-75">Hogyan szerezd meg: Szerezd meg a rossz befejezést, ha visszautasítod Mita ajánlatát az
+                                első játékod elején a "Reboot" során.</p>
                         </div>
-                    </div>
-                </a>
-                
-                <a href="/blog/miside-walkthrough/" class="block p-4 transition-all duration-300 hover:bg-opacity-20">
-                    <div class="flex items-center gap-4">
-                        <img src="/assets/endings.jpeg" alt="MiSide Walkthrough Guide" title="MiSide Walkthrough Guide" class="w-24 h-24 object-cover rounded">
-                        <div>
-                            <h3 class="font-bold mb-2 underline text-light">MiSide Walkthrough Guide</h3>
-                            <p class="text-sm text-gray-300">A quick walkthrough of MiSide's story and gameplay</p>
+                        <div class="p-6">
+                            <h3 class="font-bold mb-2 text-yellow">Életmentő Páncél</h3>
+                            <img
+                                src="/assets/safeoflife.jpeg"
+                                alt="Életmentő Páncél - MiSide Eredmények"
+                                title="Életmentő Páncél - MiSide Eredmények"
+                                class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover">
+                                <p class="text-sm mb-2 opacity-75">Tartsd magad biztonságban és épségben.</p>
+                                <p class="text-sm opacity-75">Hogyan szerezd meg: Nyisd ki a pincei páncélt a 4 9 7 0 kóddal, miután elérted a rossz
+                                    befejezést.</p>
+                            </div>
+                            <div class="p-6 rounded-lg">
+                                <h3 class="font-bold mb-2 text-yellow">Teljesítve a Feltételek</h3>
+                                <p class="text-sm mb-2 opacity-75">Maradhatok veled?</p>
+                                <p class="text-sm opacity-75">Hogyan szerezd meg: Érd el a jó befejezést úgy, hogy teljesíted a speciális feltételeket,
+                                    hogy Mita-val maradhass a "Benn a játékban?" és "Végre együtt" fejezetekben.</p>
+                            </div>
+                            <!-- adsterra Native Banner -->
+                            <div class="p-6">
+                                <script
+                                    async="async"
+                                    data-cfasync="false"
+                                    src="//pl25394580.profitablecpmrate.com/eab122b053e4ac0bfb8d0492fdcec2fd/invoke.js"></script>
+                                <div id="container-eab122b053e4ac0bfb8d0492fdcec2fd"></div>
+                            </div>
+                            <!-- adsterra Native Banner -->
                         </div>
-                    </div>
-                </a>    
-            </div>
-        </section>
-    </div>
-</article>
+                        <div class="mt-20 mb-12">
+                            <h2 class="text-xl font-bold text-light mb-4">Minijátékban elért eredmények</h2>
+                            <div class="grid gap-6">
+                                <div class="p-6 rounded-lg">
+                                    <h3 class="font-bold mb-2 text-yellow">Pingvin Dilemma!</h3>
+                                    <p class="text-sm mb-2 opacity-75">Tarts egy hóembert!</p>
+                                    <p class="text-sm opacity-75">Hogyan szerezd meg: Győzd le Mitát a Pingvin Halmok játékban a "Fura dolgok történnek"
+                                        fejezetben.</p>
+                                </div>
+                                <div class="p-6 rounded-lg">
+                                    <h3 class="font-bold mb-2 text-yellow">Aludttej</h3>
+                                    <img
+                                        src="/assets/clabber.jpeg"
+                                        alt="Clabber - MiSide Achievements"
+                                        title="Clabber - MiSide Achievements"
+                                        class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
+                                        <p class="text-sm mb-2 opacity-75">Felvert és savanyú.</p>
+                                        <p class="text-sm opacity-75">Hogyan lehet feloldani: Győzd le Mitát a tejbotrányban a „Furcsikává válnak” fejezetben.</p>
+                                    </div>
+                                    <div class="p-6 rounded-lg">
+                                        <h3 class="font-bold mb-2 text-yellow">Maximális sebességgel haladunk!</h3>
+                                        <img
+                                            src="/assets/speed.jpeg"
+                                            alt="Maximális sebességgel haladunk! - MiSide Achievements"
+                                            title="Maximális sebességgel haladunk! - MiSide Achievements"
+                                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
+                                            <p class="text-sm mb-2 opacity-75">Vroom!</p>
+                                            <p class="text-sm opacity-75">Feloldás: Gyűjtsd össze mind a 10 érmét a Spacecar játékgépben, mielőtt beszélsz Mitával a
+                                                „Világon túl."</p>
+                                        </div>
+                                        <div class="p-6 rounded-lg">
+                                            <h3 class="font-bold mb-2 text-yellow">Gyorsíts!</h3>
+                                            <img
+                                                src="/assets/accelerate.jpeg"
+                                                alt="Gyorsíts! - MiSide Achievements"
+                                                title="Gyorsíts! - MiSide Achievements"
+                                                class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
+                                                <p class="text-sm mb-2 opacity-75">Vroom-vroom!</p>
+                                                <p class="text-sm opacity-75">Feloldás: Szerezd meg az első helyet a Spacecar arcade minijátékban a „Túl a Világ."</p>
+                                            </div>
+                                            <div class="p-6 rounded-lg">
+                                                <h3 class="font-bold mb-2 text-yellow">A légy győzelme</h3>
+                                                <img
+                                                    src="/assets/fly.jpeg"
+                                                    alt="A légy győzelme - MiSide Achievements"
+                                                    title="A légy győzelme - MiSide Achievements"
+                                                    class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
+                                                    <p class="text-sm mb-2 opacity-75">Károgás-krokkant.</p>
+                                                    <p class="text-sm opacity-75">A zárolás feloldása: Álljon mozdulatlanul körülbelül egy percig 50 másodpercig, amíg a
+                                                        Player One el nem játszik a játékban, majd szerezzen 25 pontot a The Fly minijátékban.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mt-20 mb-12">
+                                            <h2 class="text-xl font-bold text-light mb-4">Felfedezési eredmények</h2>
+                                            <div class="grid gap-6">
+                                                <div class="p-6 rounded-lg">
+                                                    <h3 class="font-bold mb-2 text-yellow">Répa</h3>
+                                                    <img
+                                                        src="/assets/carrot.jpeg"
+                                                        alt="Répa - MiSide Achievements"
+                                                        title="Répa - MiSide Achievements"
+                                                        class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
+                                                        <p class="text-sm mb-2 opacity-75">Keresd meg a teleportáló sárgarépát.</p>
+                                                        <p class="text-sm opacity-75">Feloldás: Keresd meg és találd meg hétszer a teleportáló sárgarépát Mila lakásában "Kész
+                                                            könyvek, hibák elpusztítása" alatt.</p>
+                                                    </div>
+                                                    <div class="p-6 rounded-lg">
+                                                        <h3 class="font-bold mb-2 text-yellow">Elkapta őket</h3>
+                                                        <p class="text-sm mb-2 opacity-75">Most ki a következő?</p>
+                                                        <p class="text-sm opacity-75">A feloldás módja: Keresd meg az összes kazettát a különböző fejezetekben.</p>
+                                                    </div>
+                                                    <div class="p-6 rounded-lg">
+                                                        <h3 class="font-bold mb-2 text-yellow">Szia, Mita</h3>
+                                                        <p class="text-sm mb-2 opacity-75">Mindegyik egyedi.</p>
+                                                        <p class="text-sm opacity-75">Feloldás: Keresd meg az összes karakterprofilt több fejezetben.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mt-20 mb-12">
+                                                <h2 class="text-xl font-bold text-light mb-4">Interakciós eredmények</h2>
+                                                <div class="grid gap-6">
+                                                    <div class="p-6 rounded-lg">
+                                                        <h3 class="font-bold mb-2 text-yellow">Ízletes szerelem</h3>
+                                                        <p class="text-sm mb-2 opacity-75">Milyen ízű a liszt?</p>
+                                                        <p class="text-sm opacity-75">Feloldás: Fogyaszd el a szószt a „Végre együtt” fejezetben.</p>
+                                                    </div>
+                                                    <div class="p-6 rounded-lg">
+                                                        <h3 class="font-bold mb-2 text-yellow">Holt lé</h3>
+                                                        <img
+                                                            src="/assets/juice.jpeg"
+                                                            alt="Holt lé - MiSide Achievements"
+                                                            title="Holt lé - MiSide Achievements"
+                                                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
+                                                            <p class="text-sm mb-2 opacity-75">A hirdetésben látható léből készült.</p>
+                                                            <p class="text-sm opacity-75">Hogyan lehet feloldani: Meg kell innod a Mita által kínált gyümölcslevet a "Végre együtt"
+                                                                fejezetben.</p>
+                                                        </div>
+                                                        <div class="p-6 rounded-lg">
+                                                            <h3 class="font-bold mb-2 text-yellow">Ropogás a Sötétben</h3>
+                                                            <p class="text-sm mb-2 opacity-75">Nagyon sötét van…</p>
+                                                            <p class="text-sm opacity-75">A zárolás feloldása: Ne maradj ott, amikor átnézi a szekrényt a „Furcsává váló dolgok”
+                                                                című fejezetben.</p>
+                                                        </div>
+                                                        <div class="p-6 rounded-lg">
+                                                            <h3 class="font-bold mb-2 text-yellow">Ó, nagy Mita</h3>
+                                                            <p class="text-sm mb-2 opacity-75">Különleges interakció Mitával.</p>
+                                                            <p class="text-sm opacity-75">Hogyan lehet feloldani: Lépj kapcsolatba Mitával olyan konkrét kontextusban, amely tükrözi
+                                                                jelentőségét a történetet.</p>
+                                                        </div>
+                                                        <div class="p-6 rounded-lg">
+                                                            <h3 class="font-bold mb-2 text-yellow">Megtaláltalak!</h3>
+                                                            <img
+                                                                src="/assets/foundyou.jpeg"
+                                                                alt="Megtaláltalak! - MiSide Achievements"
+                                                                title="Megtaláltalak! - MiSide Achievements"
+                                                                class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
+                                                                <p class="text-sm mb-2 opacity-75">A felfedezés pillanata.</p>
+                                                                <p class="text-sm opacity-75">Feloldás: Sikeresen fedezz fel egy adott karaktert vagy elemet, vagy lépj kapcsolatba
+                                                                    velük a játékon belül.</p>
+                                                            </div>
+                                                            <div class="p-6 rounded-lg">
+                                                                <h3 class="font-bold mb-2 text-yellow">Pofon a fejére</h3>
+                                                                <img
+                                                                    src="/assets/slap.jpeg"
+                                                                    alt="Pofon a fejére - MiSide Achievements"
+                                                                    title="Pofon a fejére - MiSide Achievements"
+                                                                    class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
+                                                                    <p class="text-sm mb-2 opacity-75">Egy játékos pillanat Mitával.</p>
+                                                                    <p class="text-sm opacity-75">A feloldás módja: Vegyél részt egy adott minijátékban vagy interakcióban, ahol
+                                                                        "rácsaphatsz" Mita fejére.</p>
+                                                                </div>
+                                                                <div class="p-6 rounded-lg">
+                                                                    <h3 class="font-bold mb-2 text-yellow">Hosszú farok</h3>
+                                                                    <p class="text-sm mb-2 opacity-75">Érdekes farokkal kapcsolatos találkozás.</p>
+                                                                    <p class="text-sm opacity-75">Feloldás: Végezz el egy adott interakciót vagy eseményt, amely egy karakter farkával
+                                                                        kapcsolatos.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mt-20 mb-12">
+                                                            <h2 class="text-xl font-bold text-light mb-4">Kihívás Eredmények</h2>
+                                                            <div class="grid gap-6">
+                                                                <div class="p-6 rounded-lg">
+                                                                    <h3 class="font-bold mb-2 text-yellow">A Nagy Tánc</h3>
+                                                                    {# <img src="/assets/dance.jpeg" 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                alt="A Nagy Tánc - MiSide Achievements" 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                title="A Nagy Tánc - MiSide Achievements"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top"> #}
+                                                                    <p class="text-sm mb-2 opacity-75">Tökéletes ritmus és időzítés.</p>
+                                                                    <p class="text-sm opacity-75">Hogyan lehet feloldani: A „Túl a világon” című fejezetben győzd le Cappie-t egy
+                                                                        ritmusjátékban. A teljes dalt hiba nélkül kell befejezni.</p>
+                                                                </div>
+                                                                <div class="p-6 rounded-lg">
+                                                                    <h3 class="font-bold mb-2 text-yellow">Pokoli Győzelem</h3>
+                                                                    <p class="text-sm mb-2 opacity-75">Győzelem egy kihívásokkal teli ellenfél felett.</p>
+                                                                    <p class="text-sm opacity-75">Hogyan lehet feloldani: Győzz le egy különösen nagy kihívást jelentő forgatókönyvet vagy
+                                                                        ellenséget.</p>
+                                                                </div>
+                                                                <div class="p-6 rounded-lg">
+                                                                    <h3 class="font-bold mb-2 text-yellow">Sérülés nélkül!?</h3>
+                                                                    <p class="text-sm mb-2 opacity-75">Tökéletes védekezés.</p>
+                                                                    <p class="text-sm opacity-75">Feloldás: Végezz el bizonyos kihívásokat vagy minijátékokat sérülés nélkül.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mt-20 mb-12">
+                                                            <h2 class="text-xl font-bold text-light mb-4">Haladás Eredmények</h2>
+                                                            <div class="grid gap-6">
+                                                                <div class="p-6 rounded-lg">
+                                                                    <h3 class="font-bold mb-2 text-yellow">Bármilyen eredmény?</h3>
+                                                                    <p class="text-sm mb-2 opacity-75">Egy ajtó az új lehetőségekhez.</p>
+                                                                    <p class="text-sm opacity-75">Feloldás: Lépj a „Régi verzió” fejezetre, és nyisd ki sikeresen a bejárati ajtót.</p>
+                                                                </div>
+                                                                <div class="p-6 rounded-lg">
+                                                                    <h3 class="font-bold mb-2 text-yellow">You Shall Not Pass!</h3>
+                                                                    <p class="text-sm mb-2 opacity-75">Master of repairs.</p>
+                                                                    <p class="text-sm opacity-75">How to Unlock: Meet certain conditions related to repairs in the game.</p>
+                                                                </div>
+                                                                <div class="p-6 rounded-lg">
+                                                                    <h3 class="font-bold mb-2 text-yellow">Phase 1 Logs</h3>
+                                                                    <img
+                                                                        src="/assets/log1.jpeg"
+                                                                        alt="Phase 1 Logs - MiSide Achievements"
+                                                                        title="Phase 1 Logs - MiSide Achievements"
+                                                                        class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
+                                                                        <p class="text-sm mb-2 opacity-75">Uncovering the first phase.</p>
+                                                                        <p class="text-sm opacity-75">How to Unlock: Collect logs or data related to Phase 1 of the game.</p>
+                                                                    </div>
+                                                                    <div class="p-6 rounded-lg">
+                                                                        <h3 class="font-bold mb-2 text-yellow">Phase 2 Logs</h3>
+                                                                        {# <img src="/assets/phase2.jpeg" 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                alt="Phase 2 Logs - MiSide Achievements" 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                title="Phase 2 Logs - MiSide Achievements"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top"> #}
+                                                                        <p class="text-sm mb-2 opacity-75">Discovering the second phase.</p>
+                                                                        <p class="text-sm opacity-75">How to Unlock: Gather logs or information pertaining to Phase 2.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mt-20 mb-12">
+                                                                <h2 class="text-xl font-bold text-light mb-4">Completionist Achievement</h2>
+                                                                <div class="p-6 rounded-lg">
+                                                                    <h3 class="font-bold mb-2 text-yellow">Pro Gamer</h3>
+                                                                    <p class="text-sm mb-2 opacity-75">Checked just about everywhere.</p>
+                                                                    <p class="text-sm opacity-75">How to Unlock: Collect all 26 achievements in MiSide.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="bg-red bg-opacity-20 p-6 rounded-lg mb-8">
+                                                                <h3 class="text-lg font-bold mb-2">💡 Achievement Hunting Tips</h3>
+                                                                <ul class="list-disc list-inside space-y-2 text-sm">
+                                                                    <li>Use the chapter select option from the main menu to revisit specific chapters for missed achievements.</li>
+                                                                    <li>Some achievements require specific conditions or multiple playthroughs to unlock.</li>
+                                                                    <li>Pay attention to the environment and explore thoroughly in each chapter.</li>
+                                                                    <li>Don't be afraid to experiment with different choices and interactions.</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Related Reading -->
+                                                        <section class="mt-20 mb-8">
+                                                            <h2 class="text-2xl font-bold text-light mb-4">Related Reading</h2>
+                                                            <div class="text-light">
+                                                                <a href="/blog/miside-endings/" class="block p-4 transition-all duration-300 hover:bg-opacity-20">
+                                                                    <div class="flex items-center gap-4">
+                                                                        <img
+                                                                            src="/assets/choice.jpeg"
+                                                                            alt="MiSide Endings Guide"
+                                                                            title="MiSide Endings Guide"
+                                                                            class="w-24 h-24 object-cover rounded">
+                                                                            <div>
+                                                                                <h3 class="font-bold mb-2 underline text-light">All MiSide Endings Guide</h3>
+                                                                                <p class="text-sm text-gray-300">Explore the three distinct endings in MiSide and learn how to unlock each one.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </a>
+                                                                    <a href="/blog/miside-walkthrough/" class="block p-4 transition-all duration-300 hover:bg-opacity-20">
+                                                                        <div class="flex items-center gap-4">
+                                                                            <img
+                                                                                src="/assets/endings.jpeg"
+                                                                                alt="MiSide Walkthrough Guide"
+                                                                                title="MiSide Walkthrough Guide"
+                                                                                class="w-24 h-24 object-cover rounded">
+                                                                                <div>
+                                                                                    <h3 class="font-bold mb-2 underline text-light">MiSide Walkthrough Guide</h3>
+                                                                                    <p class="text-sm text-gray-300">A quick walkthrough of MiSide's story and gameplay</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </div>
+                                                                </section>
+                                                            </div>
+                                                        </article>
