@@ -30,7 +30,7 @@
   "pages": {
     "index": {
       "title": "MiSide: Lépj be a titokzatos MiSide világba",
-      "description": "MiSide is a unique psychological horror adventure game that blends first-person exploration with visual novel elements, a rich storyline and interesting plot.",
+      "description": "A MiSide egy egyedülálló pszichológiai horror kalandjáték, amely az első személyű felfedezést ötvözi a vizuális regény elemeivel, gazdag történettel és érdekes cselekményekkel.",
       "hero": {
         "title": "MiSide",
         "subtitle": "Ahol a valóság találkozik a szimulációval, ott a romantika és a horror",
@@ -196,7 +196,6 @@
       "guides": {
         "title": "MiSide legújabb útmutatók",
         "subtitle": "Fedezd fel a MiSide legújabb útmutatóit"
-        
       },
       "reviews": {
         "title": "Mit mondanak a játékosok a MiSide-ról",
@@ -238,55 +237,55 @@
         "title": "MiSide GYIK",
         "subtitle": "Gyakran Ismételt Kérdések a MiSide-dal kapcsolatban",
         "content": [
-  {
-    "question": "Mi az a MiSide?",
-    "answer": "A MiSide egy kalandjáték horror elemekkel, amely egy egyszerű srác történetét meséli el, aki titokzatos módon egy mobil szimulációban találja magát."
-  },
-  {
-    "question": "Milyen játékmenetre számíthatok?",
-    "answer": "A MiSide ötvözi a kalandhorrort és a vizuális regény elemeit, beleértve a felfedezést, rejtvényfejtést és karakterekkel való interakciókat. A játékosok sötét szobákat fedeznek fel, tárgyakkal lépnek kapcsolatba, és döntéseket hoznak, amelyek befolyásolják a történet kimenetelét."
-  },
-  {
-    "question": "Milyen platformokon érhető el a MiSide?",
-    "answer": "A MiSide Windows rendszeren érhető el, és olyan platformokról tölthető le, mint az itch.io és a Steam."
-  },
-  {
-    "question": "Mennyi egy átlagos játékmenet hossza?",
-    "answer": "Egy átlagos játékmenet körülbelül fél órát tart."
-  },
-  {
-    "question": "Van szinkron a MiSide-ban?",
-    "answer": "Igen, a MiSide tartalmaz szinkront, amely jelenleg orosz nyelven érhető el. Ez mélységet ad a karakterekkel való interakciókhoz és fokozza a történetmesélés élményét."
-  },
-  {
-    "question": "Vannak többféle befejezések?",
-    "answer": "Igen, a játék során hozott döntések különböző befejezésekhez vezetnek, ezzel növelve az újrajátszhatóságot."
-  },
-  {
-    "question": "Hány achievement van a MiSide-ban?",
-    "answer": "A MiSide 26 achievementet tartalmaz, amelyeket különféle feladatok teljesítésével lehet feloldani a játék során."
-  },
-  {
-    "question": "Újrajátszhatom a fejezeteket?",
-    "answer": "Igen, a játék befejezése után a főmenüből újra látogathatók a fejezetek. Ez lehetőséget ad achievementek feloldására vagy eltérő történeti utak felfedezésére."
-  },
-  {
-    "question": "Lesznek új tartalmak a MiSide-hoz?",
-    "answer": "Igen, várhatóak frissítések, amelyek új tartalmakat és funkciókat tartalmaznak a játékosok visszajelzései alapján."
-  },
-  {
-    "question": "Terveznek folytatást a MiSide-hoz?",
-    "answer": "Bár konkrét részletek még nem ismertek, mind a játékosok, mind a fejlesztők részéről érdeklődés mutatkozik folytatások vagy kiegészítések iránt."
-  },
-  {
-    "question": "Támogatja a játék a kontrollert?",
-    "answer": "A játék támogatja a kontrollert, de előfordulhatnak hibák. Ha problémát tapasztalsz, próbáld meg kihúzni a kontrollert és újraindítani a játékot."
-  },
-  {
-    "question": "Mit tegyek, ha a játék folyamatosan jobbra mozog?",
-    "answer": "Ez a probléma akkor fordulhat elő, ha egy kontroller csatlakoztatva van. A kontroller kihúzása és a játék újraindítása megoldhatja a problémát."
-  }
-]
+          {
+            "question": "Mi az a MiSide?",
+            "answer": "A MiSide egy kalandjáték horror elemekkel, amely egy egyszerű srác történetét meséli el, aki titokzatos módon egy mobil szimulációban találja magát."
+          },
+          {
+            "question": "Milyen játékmenetre számíthatok?",
+            "answer": "A MiSide ötvözi a kalandhorrort és a vizuális regény elemeit, beleértve a felfedezést, rejtvényfejtést és karakterekkel való interakciókat. A játékosok sötét szobákat fedeznek fel, tárgyakkal lépnek kapcsolatba, és döntéseket hoznak, amelyek befolyásolják a történet kimenetelét."
+          },
+          {
+            "question": "Milyen platformokon érhető el a MiSide?",
+            "answer": "A MiSide Windows rendszeren érhető el, és olyan platformokról tölthető le, mint az itch.io és a Steam."
+          },
+          {
+            "question": "Mennyi egy átlagos játékmenet hossza?",
+            "answer": "Egy átlagos játékmenet körülbelül fél órát tart."
+          },
+          {
+            "question": "Van szinkron a MiSide-ban?",
+            "answer": "Igen, a MiSide tartalmaz szinkront, amely jelenleg orosz nyelven érhető el. Ez mélységet ad a karakterekkel való interakciókhoz és fokozza a történetmesélés élményét."
+          },
+          {
+            "question": "Vannak többféle befejezések?",
+            "answer": "Igen, a játék során hozott döntések különböző befejezésekhez vezetnek, ezzel növelve az újrajátszhatóságot."
+          },
+          {
+            "question": "Hány achievement van a MiSide-ban?",
+            "answer": "A MiSide 26 achievementet tartalmaz, amelyeket különféle feladatok teljesítésével lehet feloldani a játék során."
+          },
+          {
+            "question": "Újrajátszhatom a fejezeteket?",
+            "answer": "Igen, a játék befejezése után a főmenüből újra látogathatók a fejezetek. Ez lehetőséget ad achievementek feloldására vagy eltérő történeti utak felfedezésére."
+          },
+          {
+            "question": "Lesznek új tartalmak a MiSide-hoz?",
+            "answer": "Igen, várhatóak frissítések, amelyek új tartalmakat és funkciókat tartalmaznak a játékosok visszajelzései alapján."
+          },
+          {
+            "question": "Terveznek folytatást a MiSide-hoz?",
+            "answer": "Bár konkrét részletek még nem ismertek, mind a játékosok, mind a fejlesztők részéről érdeklődés mutatkozik folytatások vagy kiegészítések iránt."
+          },
+          {
+            "question": "Támogatja a játék a kontrollert?",
+            "answer": "A játék támogatja a kontrollert, de előfordulhatnak hibák. Ha problémát tapasztalsz, próbáld meg kihúzni a kontrollert és újraindítani a játékot."
+          },
+          {
+            "question": "Mit tegyek, ha a játék folyamatosan jobbra mozog?",
+            "answer": "Ez a probléma akkor fordulhat elő, ha egy kontroller csatlakoztatva van. A kontroller kihúzása és a játék újraindítása megoldhatja a problémát."
+          }
+        ]
       }
     },
     "privacy": {
@@ -298,75 +297,74 @@
       "description": "Fedezd fel az átfogó MiSide útmutatót, hogy megismerd a játék legújabb frissítéseit, a játékosok választásait, a többszörös befejezést és még sok mást.",
       "subtitle": "Legújabb MiSide útmutatók",
       "blogs": [
-  {
-    "name": "A MiSide összes befejezése",
-    "date": "2024. december 25.",
-    "desc": "Ismerd meg a MiSide különféle befejezéseit, azok jelentőségét és azt, hogyan nyithatod meg őket.",
-    "path": "/blog/miside-endings/",
-    "media": {
-      "url": "/assets/choice.jpeg",
-      "alt": "MiSide befejezések",
-      "title": "MiSide befejezések"
-    }
-  },
-  {
-    "name": "A MiSide összes achievementje",
-    "date": "2024. december 25.",
-    "desc": "Fedezd fel a MiSide 26 egyedi achievementjét, és tudd meg, hogyan szerezheted meg őket.",
-    "path": "/blog/miside-achievements/",
-    "media": {
-      "url": "/assets/achievements.jpeg",
-      "alt": "MiSide Achievementek",
-      "title": "MiSide Achievementek"
-    }
-  },
-  {
-    "name": "Gyors MiSide végigjátszás",
-    "date": "2024. december 24.",
-    "desc": "Szerezz gyors áttekintést a MiSide történetéről és játékmenetéről, beleértve a prológust, fejezeteket és kihívásokat.",
-    "path": "/blog/miside-walkthrough/",
-    "media": {
-      "url": "/assets/endings.jpeg",
-      "alt": "MiSide Végigjátszás",
-      "title": "MiSide Végigjátszás"
-    }
-  }
-]
-
+        {
+          "name": "A MiSide összes befejezése",
+          "date": "2024. december 25.",
+          "desc": "Ismerd meg a MiSide különféle befejezéseit, azok jelentőségét és azt, hogyan nyithatod meg őket.",
+          "path": "/blog/miside-endings/",
+          "media": {
+            "url": "/assets/choice.jpeg",
+            "alt": "MiSide befejezések",
+            "title": "MiSide befejezések"
+          }
+        },
+        {
+          "name": "A MiSide összes achievementje",
+          "date": "2024. december 25.",
+          "desc": "Fedezd fel a MiSide 26 egyedi achievementjét, és tudd meg, hogyan szerezheted meg őket.",
+          "path": "/blog/miside-achievements/",
+          "media": {
+            "url": "/assets/achievements.jpeg",
+            "alt": "MiSide Achievementek",
+            "title": "MiSide Achievementek"
+          }
+        },
+        {
+          "name": "Gyors MiSide végigjátszás",
+          "date": "2024. december 24.",
+          "desc": "Szerezz gyors áttekintést a MiSide történetéről és játékmenetéről, beleértve a prológust, fejezeteket és kihívásokat.",
+          "path": "/blog/miside-walkthrough/",
+          "media": {
+            "url": "/assets/endings.jpeg",
+            "alt": "MiSide Végigjátszás",
+            "title": "MiSide Végigjátszás"
+          }
+        }
+      ]
     },
-"miside-endings": {
-  "title": "A MiSide összes befejezése - MiSide Útmutató",
-  "description": "A MiSide három fő befejezést tartalmaz, amelyeket a játékosok a játék során hozott döntéseik alapján érhetnek el. Itt van egy részletes áttekintés minden befejezésről:",
-  "articleTitle": "A három MiSide befejezés magyarázata",
-  "date": "2024. december 25.",
-  "media": {
-    "url": "/assets/choice.jpeg",
-    "alt": "MiSide Befejezések",
-    "title": "MiSide Befejezések"
-  }
-},
-"miside-achievements": {
-  "title": "A MiSide összes achievementje - MiSide Útmutató",
-  "description": "A MiSide 26 egyedi achievementet tartalmaz, amelyeket a játék során különféle feladatok elvégzésével lehet megszerezni. Itt van egy részletes áttekintés minden achievementről:",
-  "articleTitle": "A MiSide Achievementek gyűjtési útmutatója",
-  "date": "2024. december 25.",
-  "media": {
-    "url": "/assets/achievements.jpeg",
-    "alt": "MiSide Achievementek",
-    "title": "MiSide Achievementek"
-  }
-},
-"miside-walkthrough": {
-  "title": "Gyors MiSide végigjátszás - MiSide Útmutató",
-  "description": "Szerezz gyors áttekintést a MiSide történetéről és játékmenetéről, beleértve a prológust, fejezeteket és kihívásokat. Ez a végigjátszás segít gyorsan belépni a MiSide világába.",
-  "articleTitle": "Gyors MiSide végigjátszás",
-  "date": "2024. december 24.",
-  "media": {
-    "url": "/assets/endings.jpeg",
-    "alt": "MiSide Végigjátszás",
-    "title": "MiSide Végigjátszás"
-  }
-},
+    "miside-endings": {
+      "title": "A MiSide összes befejezése - MiSide Útmutató",
+      "description": "A MiSide három fő befejezést tartalmaz, amelyeket a játékosok a játék során hozott döntéseik alapján érhetnek el. Itt van egy részletes áttekintés minden befejezésről:",
+      "articleTitle": "A három MiSide befejezés magyarázata",
+      "date": "2024. december 25.",
+      "media": {
+        "url": "/assets/choice.jpeg",
+        "alt": "MiSide Befejezések",
+        "title": "MiSide Befejezések"
+      }
+    },
+    "miside-achievements": {
+      "title": "A MiSide összes achievementje - MiSide Útmutató",
+      "description": "A MiSide 26 egyedi achievementet tartalmaz, amelyeket a játék során különféle feladatok elvégzésével lehet megszerezni. Itt van egy részletes áttekintés minden achievementről:",
+      "articleTitle": "A MiSide Achievementek gyűjtési útmutatója",
+      "date": "2024. december 25.",
+      "media": {
+        "url": "/assets/achievements.jpeg",
+        "alt": "MiSide Achievementek",
+        "title": "MiSide Achievementek"
+      }
+    },
+    "miside-walkthrough": {
+      "title": "Gyors MiSide végigjátszás - MiSide Útmutató",
+      "description": "Szerezz gyors áttekintést a MiSide történetéről és játékmenetéről, beleértve a prológust, fejezeteket és kihívásokat. Ez a végigjátszás segít gyorsan belépni a MiSide világába.",
+      "articleTitle": "Gyors MiSide végigjátszás",
+      "date": "2024. december 24.",
+      "media": {
+        "url": "/assets/endings.jpeg",
+        "alt": "MiSide Végigjátszás",
+        "title": "MiSide Végigjátszás"
+      }
+    },
     "mita-miside-wiki": {
       "title": "Mita MiSide Karakter Wiki | MiSide",
       "description": "Mita (Őrült Mita) a MiSide főszereplője. Ez a wiki információkat nyújt Mitáról, beleértve az áttekintést, a személyiségét, a megjelenését és a szerepét.",
@@ -477,7 +475,7 @@
         "alt": "Mita MiSide karakter Wiki",
         "title": "Mita MiSide karakter Wiki"
       },
-      "media2":{
+      "media2": {
         "url": "/assets/Crazy_Mita_Revealed.webp",
         "alt": "Őrült Mita MiSide karakter Wiki",
         "title": "Őrült Mita MiSide karakter Wiki"
@@ -538,8 +536,8 @@
       ]
     },
     "chibi-mita-miside-wiki": {
-      "title": "Chibi Mita MiSide Character Wiki | MiSide",
-      "description": "Chibi Mita is the cute and innocent version of Mita in MiSide. This wiki provides information about her playful nature, appearance, and role in the game.",
+      "title": "Chibi Mita MiSide karakter Wiki | MiSide",
+      "description": "A Chibi Mita a Mita aranyos és ártatlan változata a MiSide-ban. Ez a wiki játékos természetéről, megjelenéséről és a játékban betöltött szerepéről nyújt információkat.",
       "subtitle": "MiSide Chibi Mita",
       "navigation": [
         {
@@ -551,25 +549,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "A MiSide összes befejezése",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "A MiSide összes achievementje",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -577,37 +575,37 @@
               "path": "/chibi-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/chibi-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/chibi-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/chibi-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -619,15 +617,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -635,7 +633,7 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -653,18 +651,18 @@
         "title": "Chibi Mita Playful Pose MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
+            "title": "Név",
             "content": "Chibi Mita"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "Cute, miniature version"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Playful, innocent, joyful"
           }
         ]
@@ -714,7 +712,7 @@
       "subtitle": "MiSide Short Haired Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -722,25 +720,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -748,37 +746,37 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/short-haired-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/short-haired-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/short-haired-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -790,15 +788,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -806,7 +804,7 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -824,18 +822,18 @@
         "title": "Short Haired Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
+            "title": "Név",
             "content": "Short Haired Mita"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "Short hair, bob cut, ribbon accessory"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Responsible, nurturing, organized, caretaker"
           }
         ]
@@ -884,7 +882,7 @@
       "subtitle": "MiSide Kind Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -892,25 +890,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -918,37 +916,37 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/kind-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/kind-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/kind-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -960,15 +958,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -976,13 +974,13 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Kind Mita",
+      "character": "Kedves Mita",
       "media": {
         "url": "/assets/KindMitaFullBody.webp",
         "alt": "Kind Mita MiSide Character Wiki",
@@ -994,19 +992,19 @@
         "title": "Kind Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
-            "content": "Kind Mita"
+            "title": "Név",
+            "content": "Kedves Mita"
           },
           {
-            "title": "Appearance",
-            "content": "Gentle, nurturing"
+            "title": "Megjelenés",
+            "content": "Gyengéd, ápoló"
           },
           {
-            "title": "Notable Traits",
-            "content": "Compassionate, supportive, empathetic"
+            "title": "Nevezetes tulajdonságok",
+            "content": "Együttérző, támogató, empatikus"
           }
         ]
       },
@@ -1052,7 +1050,7 @@
       "subtitle": "MiSide Cool Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -1060,25 +1058,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1086,37 +1084,37 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/cool-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/cool-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/cool-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -1128,15 +1126,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1144,13 +1142,13 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Cool Mita (Cappie)",
+      "character": "Laza Mita (Sapkás)",
       "media": {
         "url": "/assets/CappieFullBody.webp",
         "alt": "Cool Mita (Cappie) MiSide Character Wiki",
@@ -1162,18 +1160,18 @@
         "title": "Cool Mita (Cappie) Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
+            "title": "Név",
             "content": "Cool Mita (Cappie)"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "Vibrant, energetic, cap-wearing"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Playful, competitive, music-loving"
           }
         ]
@@ -1221,7 +1219,7 @@
       "subtitle": "MiSide Ghostly Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -1229,25 +1227,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1255,37 +1253,37 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/ghostly-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/ghostly-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/ghostly-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -1297,15 +1295,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1313,13 +1311,13 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Ghostly Mita",
+      "character": "Szellem Mita",
       "media": {
         "url": "/assets/Ghostly_Mita_Fullbody.webp",
         "alt": "Ghostly Mita MiSide Character Wiki",
@@ -1331,18 +1329,18 @@
         "title": "Ghostly Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
-            "content": "Ghostly Mita"
+            "title": "Név",
+            "content": "Szellem Mita"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "Faceless, ethereal"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Amnesiac, deception victim"
           }
         ]
@@ -1389,7 +1387,7 @@
       "subtitle": "MiSide Sleepy Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -1397,25 +1395,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1423,35 +1421,35 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/sleepy-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/sleepy-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/sleepy-mita-miside-wiki/#appearance"
                 }
               ]
@@ -1465,15 +1463,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1481,13 +1479,13 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
         }
       ],
-      "character": "Sleepy Mita",
+      "character": "Álmos Mita",
       "media": {
         "url": "/assets/Sleepy_Mita_Fullbody.webp",
         "alt": "Sleepy Mita MiSide Character Wiki",
@@ -1499,18 +1497,18 @@
         "title": "Sleepy Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
-            "content": "Sleepy Mita"
+            "title": "Név",
+            "content": "Álmos Mita"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "Drowsy, relaxed, half-asleep"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Narcoleptic, frequently dozing off"
           }
         ]
@@ -1557,7 +1555,7 @@
       "subtitle": "MiSide 2D Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -1565,25 +1563,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1591,23 +1589,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -1615,15 +1613,15 @@
               "path": "/2d-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/2d-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/2d-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/2d-mita-miside-wiki/#appearance"
                 }
               ]
@@ -1633,15 +1631,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1649,7 +1647,7 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -1667,18 +1665,18 @@
         "title": "2D Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
+            "title": "Név",
             "content": "2D Mita"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "2D, cartoonish, visual novel style"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Playful, wild, fearful of Original Mita"
           }
         ]
@@ -1724,7 +1722,7 @@
       "subtitle": "MiSide Mila",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -1732,25 +1730,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1758,23 +1756,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -1786,29 +1784,29 @@
               "path": "/mila-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/mila-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/mila-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/mila-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1816,7 +1814,7 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -1834,18 +1832,18 @@
         "title": "Mila Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
+            "title": "Név",
             "content": "Mila"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "Friendly, approachable, warm"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Nurturing, supportive, empathetic"
           }
         ]
@@ -1892,7 +1890,7 @@
       "subtitle": "MiSide Creepy Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -1900,25 +1898,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1926,23 +1924,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -1954,29 +1952,29 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/creepy-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/creepy-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/creepy-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -1984,7 +1982,7 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -2002,18 +2000,18 @@
         "title": "Creepy Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
+            "title": "Név",
             "content": "Creepy Mita (Ugly Mita)"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "Unsettling, grotesque, bloodshot eye, exaggerated features"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Disturbing demeanor, unsettling behavior, fondness for teddy bears"
           }
         ]
@@ -2061,7 +2059,7 @@
       "subtitle": "MiSide Core Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -2069,25 +2067,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2095,23 +2093,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -2123,29 +2121,29 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/core-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/core-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/core-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -2153,7 +2151,7 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -2171,18 +2169,18 @@
         "title": "Core Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
+            "title": "Név",
             "content": "Core Mita"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "Digital, abstract, code-like"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Enigmatic, central, essence of Mita"
           }
         ]
@@ -2229,7 +2227,7 @@
       "subtitle": "MiSide Tiny Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -2237,25 +2235,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2263,23 +2261,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -2291,27 +2289,27 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/tiny-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/tiny-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/tiny-mita-miside-wiki/#appearance"
                 }
               ]
@@ -2321,7 +2319,7 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -2339,18 +2337,18 @@
         "title": "Tiny Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
+            "title": "Név",
             "content": "Tiny Mita (Broken Mita)"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "Young, small, missing left eye and arm, horn-like growths"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Vulnerable, tragic, monster-controlling abilities"
           }
         ]
@@ -2396,7 +2394,7 @@
       "subtitle": "MiSide Dummy Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -2404,25 +2402,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2430,23 +2428,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -2458,15 +2456,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -2474,21 +2472,21 @@
               "path": "/dummy-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/dummy-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/dummy-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/dummy-mita-miside-wiki/#appearance"
                 }
               ]
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/"
             }
           ]
@@ -2506,18 +2504,18 @@
         "title": "Dummy Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
+            "title": "Név",
             "content": "Dummy Mita"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "Mannequin-like, lifeless, simplistic"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Aggressive, light-fearing, failed test version"
           }
         ]
@@ -2563,7 +2561,7 @@
       "subtitle": "MiSide Wandering Mita",
       "navigation": [
         {
-          "name": "Home",
+          "name": "Kezdőlap",
           "path": "/"
         },
         {
@@ -2571,25 +2569,25 @@
           "path": "/blogentry/",
           "children": [
             {
-              "name": "All MiSide Endings",
+              "name": "Minden MiSide befejezés",
               "path": "/blog/miside-endings/"
             },
             {
-              "name": "All MiSide Achievements",
+              "name": "Minden mellékes eredmény",
               "path": "/blog/miside-achievements/"
             },
             {
-              "name": "A Quick MiSide Walkthrough",
+              "name": "Gyors MiSide végigjátszás",
               "path": "/blog/miside-walkthrough/"
             }
           ]
         },
         {
-          "name": "The Mitas",
+          "name": "Miták",
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Crazy Mita)",
+              "name": "Mita (Őrült Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2597,23 +2595,23 @@
               "path": "/chibi-mita-miside-wiki/"
             },
             {
-              "name": "Short Haired Mita",
+              "name": "Rövid hajú Mita",
               "path": "/short-haired-mita-miside-wiki/"
             },
             {
-              "name": "Kind Mita",
+              "name": "Kedves Mita",
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Cool Mita (Cappie)",
+              "name": "Laza Mita (Sapkás)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
-              "name": "Ghostly Mita",
+              "name": "Szellem Mita",
               "path": "/ghostly-mita-miside-wiki/"
             },
             {
-              "name": "Sleepy Mita",
+              "name": "Álmos Mita",
               "path": "/sleepy-mita-miside-wiki/"
             },
             {
@@ -2625,15 +2623,15 @@
               "path": "/mila-miside-wiki/"
             },
             {
-              "name": "Creepy Mita (Ugly Mita)",
+              "name": "Ijesztő Mita (Csúnya Mita)",
               "path": "/creepy-mita-miside-wiki/"
             },
             {
-              "name": "Core Mita",
+              "name": "Mag Mita",
               "path": "/core-mita-miside-wiki/"
             },
             {
-              "name": "Tiny Mita (Broken Mita)",
+              "name": "Apró Mita (Törött Mita)",
               "path": "/tiny-mita-miside-wiki/"
             },
             {
@@ -2641,19 +2639,19 @@
               "path": "/dummy-mita-miside-wiki/"
             },
             {
-              "name": "Wandering Mita",
+              "name": "Csodálatos Mita",
               "path": "/wandering-mita-miside-wiki/",
               "children": [
                 {
-                  "name": "Overview",
+                  "name": "Áttekintés",
                   "path": "/wandering-mita-miside-wiki/#overview"
                 },
                 {
-                  "name": "Personality",
+                  "name": "Személyiség",
                   "path": "/wandering-mita-miside-wiki/#personality"
                 },
                 {
-                  "name": "Appearance",
+                  "name": "Megjelenés",
                   "path": "/wandering-mita-miside-wiki/#appearance"
                 }
               ]
@@ -2673,18 +2671,18 @@
         "title": "Wandering Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
-        "title": "Quick Information",
+        "title": "Gyors információ",
         "content": [
           {
-            "title": "Name",
+            "title": "Név",
             "content": "Wandering Mita"
           },
           {
-            "title": "Appearance",
+            "title": "Megjelenés",
             "content": "Ethereal, ghostly, translucent"
           },
           {
-            "title": "Notable Traits",
+            "title": "Nevezetes tulajdonságok",
             "content": "Elusive, mysterious, unpredictable"
           }
         ]
@@ -2735,7 +2733,6 @@
     "back": "Vissza",
     "next": "Következő",
     "previous": "Előző"
-    
   },
   "cta": {
     "title": "Kezdd el a MiSide kalandodat most!",
