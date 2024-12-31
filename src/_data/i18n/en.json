@@ -642,13 +642,13 @@
       "character": "Chibi Mita",
       "media2": {
         "url": "/assets/Chibi_Mita.webp",
-        "alt": "Chibi Mita MiSide Character Wiki",
-        "title": "Chibi Mita MiSide Character Wiki"
+        "alt": "Chibi Mita MiSide karakter Wiki",
+        "title": "Chibi Mita MiSide karakter Wiki"
       },
       "media": {
         "url": "/assets/ChibiMitaFullBody.webp",
-        "alt": "Chibi Mita Playful Pose MiSide Character Wiki",
-        "title": "Chibi Mita Playful Pose MiSide Character Wiki"
+        "alt": "Chibi Mita Playful Pose MiSide karakter Wiki",
+        "title": "Chibi Mita Playful Pose MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
@@ -877,7 +877,7 @@
       ]
     },
     "kind-mita-miside-wiki": {
-      "title": "Kedves Mita MiSide Character Wiki | MiSide",
+      "title": "Kedves Mita MiSide karakter Wiki | MiSide",
       "description": "Kedves Mita is a gentle and nurturing variant of Mita in MiSide. This wiki provides information about her supportive role in the game's narrative.",
       "subtitle": "MiSide Kedves Mita",
       "navigation": [
@@ -983,13 +983,13 @@
       "character": "Kedves Mita",
       "media": {
         "url": "/assets/KindMitaFullBody.webp",
-        "alt": "Kedves Mita MiSide Character Wiki",
-        "title": "Kedves Mita MiSide Character Wiki"
+        "alt": "Kedves Mita MiSide karakter Wiki",
+        "title": "Kedves Mita MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/KindMita_Portrait.webp",
-        "alt": "Kedves Mita Portrait MiSide Character Wiki",
-        "title": "Kedves Mita Portrait MiSide Character Wiki"
+        "alt": "Kedves Mita Portrait MiSide karakter Wiki",
+        "title": "Kedves Mita Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
@@ -1045,7 +1045,7 @@
       ]
     },
     "cool-mita-miside-wiki": {
-      "title": "Laza Mita (Sapkás) MiSide Character Wiki | MiSide",
+      "title": "Laza Mita (Sapkás) MiSide karakter Wiki | MiSide",
       "description": "A Laza Mita, más néven Sapkás, a Mita élénk és energikus változata a MiSide-ban. Ez a wiki játékos és versengő természetéről nyújt információkat.",
       "subtitle": "MiSide Laza Mita",
       "navigation": [
@@ -1346,45 +1346,45 @@
         ]
       },
       "overview": [
-        "Ghostly Mita is a tragic variant of Mita in MiSide, representing the consequences of manipulation and loss.",
-        "She embodies the darker themes of the narrative, showcasing how the actions of Original Mita can lead to devastating outcomes for other versions of herself.",
-        "Ghostly Mita's interactions with the player are always mysterious and haunting.",
-        "She serves as a reminder of the consequences of the game's darker themes.",
-        "Her presence often raises questions about the nature of reality within the game world.",
-        "Players encounter Ghostly Mita at critical moments, where her presence reveals deeper insights into the overall storyline."
+        "Szellem Mita a MiSide egy tragikus Mita-változata, aki a manipuláció és veszteség következményeit képviseli.",
+        "Ő testesíti meg a narratíva sötétebb témáit, bemutatva, hogy az Eredeti Mita tettei milyen pusztító következményekhez vezethetnek a többi változatra nézve.",
+        "Szellem Mita interakciói a játékossal mindig rejtélyesek és kísértetiesek.",
+        "Szerepe emlékeztetőként szolgál a játék sötétebb témáinak következményeire.",
+        "Jelenléte gyakran felveti a valóság természetével kapcsolatos kérdéseket a játék világán belül.",
+        "A játékosok kritikus pillanatokban találkoznak Szellem Mitával, ahol jelenléte mélyebb betekintést nyújt a történet egészébe."
       ],
       "personality": [
-        "Ghostly Mita's personality is marked by a sense of emptiness and sorrow due to her lost memories.",
-        "She lacks a clear identity and often appears confused or disoriented.",
-        "Her character evokes sympathy from players as she navigates her existence without understanding her past or purpose."
+        "Szellem Mita személyiségét az üresség és a bánat jellemzi elveszett emlékei miatt.",
+        "Nincs egyértelmű identitása, és gyakran zavartnak vagy összezavarodottnak tűnik.",
+        "Karaktere együttérzést vált ki a játékosokból, miközben olyan létezésen navigál, amelyben nem érti múltját vagy célját."
       ],
       "appearance": [
-        "Ghostly Mita features a haunting design characterized by her lack of facial features after restoration.",
-        "This facelessness adds to her eerie presence in the game, making her appear as a ghostly figure who wanders through the digital landscape without direction or clarity."
+        "Szellem Mita kísérteties megjelenése a helyreállítás utáni arcvonások hiányában nyilvánul meg.",
+        "Ez az arctalanság tovább fokozza kísérteties jelenlétét a játékban, szellemalakként tűnik fel, aki céltalanul bolyong a digitális tájon."
       ],
       "hobby": [
-        "Drifting through the digital spaces between reality and memory",
-        "Collecting fragments of lost stories and forgotten moments",
-        "Creating ethereal effects that alter the game's atmosphere",
-        "Studying the connections between past events and present consequences"
+        "A valóság és az emlékek közötti digitális térben való sodródás",
+        "Elveszett történetek és elfeledett pillanatok töredékeinek gyűjtése",
+        "Éteri hatások létrehozása, amelyek megváltoztatják a játék hangulatát",
+        "A múlt eseményei és a jelen következményei közötti kapcsolatok tanulmányozása"
       ],
       "how-to-unlock": [
-        "Search for her cartridge in 'Dummies and Forgotten Puzzles'",
-        "Players must navigate through spectral challenges",
-        "Complete memory-related puzzles to reveal her true form"
+        "Keresd meg a patronját a 'Dummies and Forgotten Puzzles' fejezetben",
+        "A játékosoknak kísérteties kihívásokon kell átjutniuk",
+        "Memóriával kapcsolatos rejtvényeket kell megoldani, hogy felfedjék valódi alakját"
       ],
       "fun-facts": [
-        "Her presence causes subtle changes in the environment's lighting and sound",
-        "Can phase through certain barriers, revealing hidden paths",
-        "Appears more frequently during specific in-game conditions",
-        "Her story connects deeply to the game's themes of memory and loss",
-        "Players report feeling a genuine sense of melancholy in her presence"
+        "Jelenléte finom változásokat okoz a környezet megvilágításában és hangjában",
+        "Képes átjutni bizonyos akadályokon, feltárva rejtett utakat",
+        "Gyakrabban jelenik meg bizonyos játékon belüli feltételek mellett",
+        "Története mélyen kapcsolódik a játék emlékekkel és veszteséggel kapcsolatos témáihoz",
+        "A játékosok beszámolnak arról, hogy valódi szomorúságot éreznek a jelenlétében"
       ]
     },
     "sleepy-mita-miside-wiki": {
-      "title": "Sleepy Mita MiSide Character Wiki | MiSide",
-      "description": "Sleepy Mita is a laid-back variant who often dozes off in MiSide. This wiki provides information about her relaxed nature and narcoleptic tendencies.",
-      "subtitle": "MiSide Sleepy Mita",
+      "title": "Álmos Mita MiSide karakter Wiki | MiSide",
+      "description": "Az Álmos Mita egy laza változat, aki gyakran elalszik a MiSide-ban. Ez a wiki laza természetéről és narkoleptikus hajlamairól nyújt információkat.",
+      "subtitle": "MiSide Álmos Mita",
       "navigation": [
         {
           "name": "Kezdőlap",
@@ -1488,13 +1488,13 @@
       "character": "Álmos Mita",
       "media": {
         "url": "/assets/Sleepy_Mita_Fullbody.webp",
-        "alt": "Sleepy Mita MiSide Character Wiki",
-        "title": "Sleepy Mita MiSide Character Wiki"
+        "alt": "Álmos Mita MiSide karakter Wiki",
+        "title": "Álmos Mita MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/Sleepy_Mita_Portrait.webp",
-        "alt": "Sleepy Mita Portrait MiSide Character Wiki",
-        "title": "Sleepy Mita Portrait MiSide Character Wiki"
+        "alt": "Álmos Mita Portrait MiSide karakter Wiki",
+        "title": "Álmos Mita Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
@@ -1505,53 +1505,53 @@
           },
           {
             "title": "Megjelenés",
-            "content": "Drowsy, relaxed, half-asleep"
+            "content": "Álmos, ellazult, félálomban"
           },
           {
             "title": "Nevezetes tulajdonságok",
-            "content": "Narcoleptic, frequently dozing off"
+            "content": "Narkoleptikus, gyakran szunyókál"
           }
         ]
       },
       "overview": [
-        "Sleepy Mita is a variant of Mita in MiSide known for her easygoing nature and tendency to doze off.",
-        "Her character adds a unique dynamic to the game's narrative, providing moments of levity amid the more intense themes present in other parts of the story.",
-        "Sleepy Mita's interactions with the player are always relaxed and casual.",
-        "She serves as a source of comfort and relaxation in the game.",
-        "Her presence often provides a sense of calm and tranquility in the game's world."
+        "Az ÁLmos Mita a MiSide egyik változata, akit könnyed természetéről és hajlamáról ismernek, hogy könnyen elalszik.",
+        "A karaktere egy egyedülálló dinamikát ad a játék narratívájához, könnyed pillanatokat biztosítva a történet intenzívebb témái között.",
+        "A Sleepy Mita-val való interakciók mindig nyugodtak és laza hangvételűek.",
+        "Ő a játékban a kényelem és a pihenés forrásaként szolgál.",
+        "Jelenléte gyakran nyugalmat és békét áraszt a játék világában."
       ],
       "personality": [
-        "Sleepy Mita is portrayed as relaxed and accommodating, often seeking harmony and peace.",
-        "She is conflict-averse and tends to go with the flow, which makes her a comforting presence in the game.",
-        "Despite her frequent sleepiness, she remains friendly and approachable, embodying a gentle spirit."
+        "Az ÁLmos Mita-t nyugodtnak és alkalmazkodónak ábrázolják, gyakran keresve a harmóniát és a békét.",
+        "Konfliktuskerülő és hajlamos arra, hogy az áramlással együtt haladjon, ami kényelmes jelenlétet ad neki a játékban.",
+        "Bár gyakran álmos, barátságos és megközelíthető marad, egy gyengéd szellemet testesít meg."
       ],
       "appearance": [
-        "Sleepy Mita has a casual and comfortable appearance that reflects her easygoing personality.",
-        "Her design includes soft features and clothing that suggest relaxation, contributing to her overall laid-back vibe.",
-        "She often has a sleepy expression, reinforcing her character trait of narcolepsy."
+        "Az ÁLmos Mita megjelenése laza és kényelmes, tükrözve könnyed természetét.",
+        "A dizájnja puha vonásokból és ruházatból áll, amelyek a pihenést sugallják, hozzájárulva összességében laza hangulatához.",
+        "Gyakran álmos kifejezése van, ami erősíti a narkolepszia karakterjegyét."
       ],
       "hobby": [
-        "Finding the perfect spots for peaceful naps throughout the game world",
-        "Creating cozy environments that promote relaxation",
-        "Collecting soft pillows and comfortable blankets",
-        "Sharing peaceful moments with other characters"
+        "Megtalálni a tökéletes helyeket a nyugodt pihenéshez a játék világában",
+        "Kényelmes környezetek létrehozása, amelyek elősegítik a relaxációt",
+        "Puha párnák és kényelmes takarók gyűjtése",
+        "Nyugodt pillanatok megosztása más karakterekkel"
       ],
       "how-to-unlock": [
-        "Find her peaceful presence in 'She Just Wants To Sleep'",
-        "Look for her resting form on a specially marked bed",
-        "Complete relaxation-themed challenges to earn her trust"
+        "Találd meg a nyugodt jelenlétét a 'Csak Aludni Szeretne' című részben",
+        "Keresd meg pihenő formáját egy különlegesen jelölt ágyon",
+        "Fejezd be a relaxációval kapcsolatos kihívásokat, hogy elnyerd a bizalmát"
       ],
       "fun-facts": [
-        "Her dreams often contain hidden clues about the game's story",
-        "Different sleeping positions reveal her current mood",
-        "Players can hear unique dialogue while she sleeps",
-        "Her peaceful aura affects nearby characters, making them calmer",
-        "Some of the game's most important revelations come through her dreams"
+        "Az álmai gyakran tartalmaznak rejtett nyomokat a játék történetével kapcsolatban",
+        "A különböző alvási pozíciók felfedik a jelenlegi hangulatát",
+        "A játékosok egyedi párbeszédet hallhatnak, miközben alszik",
+        "A nyugodt aurája hatással van a közelben lévő karakterekre, nyugodtabbá téve őket",
+        "A játék legfontosabb felfedezései az ő álmai révén jönnek elő"
       ]
     },
     "2d-mita-miside-wiki": {
-      "title": "2D Mita MiSide Character Wiki | MiSide",
-      "description": "2D Mita is a unique visual novel variant in MiSide. This wiki provides information about her playful yet intense personality and role in the game.",
+      "title": "2D Mita MiSide karakter Wiki | MiSide",
+      "description": "A 2D Mita egy egyedülálló vizuális regényváltozat a MiSide-ban. Ez a wiki játékos, mégis intenzív személyiségéről és a játékban betöltött szerepéről nyújt információkat.",
       "subtitle": "MiSide 2D Mita",
       "navigation": [
         {
@@ -1656,13 +1656,13 @@
       "character": "2D Mita",
       "media": {
         "url": "/assets/2D_Mita.jpeg",
-        "alt": "2D Mita MiSide Character Wiki",
-        "title": "2D Mita MiSide Character Wiki"
+        "alt": "2D Mita MiSide karakter Wiki",
+        "title": "2D Mita MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/2D_Mita_Portrait.jpeg",
-        "alt": "2D Mita Portrait MiSide Character Wiki",
-        "title": "2D Mita Portrait MiSide Character Wiki"
+        "alt": "2D Mita Portrait MiSide karakter Wiki",
+        "title": "2D Mita Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
@@ -1682,43 +1682,43 @@
         ]
       },
       "overview": [
-        "2D Mita is a unique variant of Mita that exists solely in the visual novel format within MiSide.",
-        "She embodies the playful and eccentric aspects of the character, providing a contrast to the more serious themes present in other versions of Mita.",
-        "2D Mita's interactions with the player are always engaging and interactive.",
-        "She serves as a guide through the game's visual novel sections.",
-        "Her presence often provides a sense of excitement and curiosity in the game's world."
+        "2D Mita egy egyedi Mita-változat, amely kizárólag a MiSide vizuális regény formátumában létezik.",
+        "A karakter játékos és excentrikus oldalát testesíti meg, kontrasztot alkotva a Mita más változataiban jelen lévő komolyabb témákkal.",
+        "2D Mita interakciói a játékossal mindig lebilincselők és interaktívak.",
+        "Útmutatóként szolgál a játék vizuális regény szekcióiban.",
+        "Jelenléte gyakran izgalmat és kíváncsiságot ébreszt a játék világában."
       ],
       "personality": [
-        "2D Mita is characterized by her hyperactive and mischievous nature.",
-        "She communicates with the player in a sharp, playful manner, often catching them off guard with exaggerated accusations and playful banter.",
-        "Her personality can make players feel uneasy at times, similar to interacting with a mischievous child."
+        "2D Mitát hiperaktív és csintalan természete jellemzi.",
+        "Éles, játékos módon kommunikál a játékossal, gyakran váratlanul támadva meg túlzó vádakkal és játékos szóváltásokkal.",
+        "Személyisége néha nyugtalanságot kelthet a játékosokban, hasonlóan egy csintalan gyerekkel való interakcióhoz."
       ],
       "appearance": [
-        "In terms of appearance, 2D Mita features a simplistic design that aligns with her role in the visual novel segments of MiSide.",
-        "Her short pigtails and vibrant expressions contribute to her energetic persona, making her visually distinct from other Mita variants."
+        "Megjelenésében 2D Mita egyszerű dizájnt követ, amely illeszkedik a MiSide vizuális regény szegmenseihez.",
+        "Rövid copfjai és élénk arckifejezései hozzájárulnak energikus személyiségéhez, vizuálisan megkülönböztetve őt a többi Mita-változattól."
       ],
       "hobby": [
-        "Exploring different artistic styles and visual expressions",
-        "Creating unique narrative experiences through visual storytelling",
-        "Studying classic anime and manga references",
-        "Experimenting with various art mediums and techniques"
+        "Különböző művészeti stílusok és vizuális kifejezési formák felfedezése",
+        "Egyedi narratív élmények létrehozása vizuális történetmesélésen keresztül",
+        "Klasszikus anime- és mangahivatkozások tanulmányozása",
+        "Különféle művészeti médiumokkal és technikákkal való kísérletezés"
       ],
       "how-to-unlock": [
-        "Enter the distinctive 2D world section within 'Novels'",
-        "Progress through visual novel chapters to reveal her true form",
-        "Master the art of visual storytelling to fully understand her"
+        "Lépj be a jellegzetes 2D világ szekcióba a 'Novels' fejezetben",
+        "Haladj végig a vizuális regény fejezeteken, hogy felfedd valódi alakját",
+        "Ismerd meg a vizuális történetmesélés művészetét, hogy teljesen megértsd őt"
       ],
       "fun-facts": [
-        "Can seamlessly switch between different art styles",
-        "Her design pays homage to various classic anime genres",
-        "Each art style change reflects different emotional states",
-        "Players can influence her artistic evolution through choices",
-        "Her presence adds a unique meta-narrative layer to the game"
+        "Zökkenőmentesen képes váltani különböző művészeti stílusok között",
+        "Dizájnja tisztelgés a klasszikus anime-műfajok előtt",
+        "Minden művészeti stílusváltás különböző érzelmi állapotokat tükröz",
+        "A játékosok befolyásolhatják művészi fejlődését döntéseiken keresztül",
+        "Jelenléte egyedi meta-narratív réteget ad a játékhoz"
       ]
     },
     "mila-miside-wiki": {
       "title": "Mila MiSide Character Wiki | MiSide",
-      "description": "Mila is a significant character in MiSide who provides emotional support and stability. This wiki provides information about her nurturing personality and role in the game.",
+      "description": "Mila jelentős karakter a MiSide-ban, aki érzelmi támogatást és stabilitást biztosít. Ez a wiki ápoló személyiségéről és a játékban betöltött szerepéről nyújt információkat.",
       "subtitle": "MiSide Mila",
       "navigation": [
         {
@@ -1840,54 +1840,54 @@
           },
           {
             "title": "Megjelenés",
-            "content": "Friendly, approachable, warm"
+            "content": "Barátságos, megközelíthető, melegszivü"
           },
           {
             "title": "Nevezetes tulajdonságok",
-            "content": "Nurturing, supportive, empathetic"
+            "content": "Nevelő, támogató, empatikus"
           }
         ]
       },
       "overview": [
-        "Mila is a significant character in MiSide, contributing to the emotional landscape of the game.",
-        "She represents a more grounded and relatable aspect of the narrative, providing players with a sense of comfort and stability amidst the chaos of the game's themes.",
-        "Mila's interactions with the player are always warm and nurturing.",
-        "She serves as a source of emotional support for the protagonist, helping him navigate the challenges of the game.",
-        "Her presence often provides a sense of calm and tranquility in the game's world."
+        "Mila a MiSide egyik jelentős karaktere, aki hozzájárul a játék érzelmi atmoszférájához.",
+        "A narratíva egy földhözragadtabb és könnyebben azonosulható aspektusát képviseli, nyugalmat és stabilitást nyújtva a játék kaotikus témái között.",
+        "Mila interakciói a játékossal mindig melegek és gondoskodóak.",
+        "Érzelmi támaszt nyújt a főszereplőnek, segítve őt a játék kihívásainak leküzdésében.",
+        "Jelenléte gyakran nyugalmat és békét áraszt a játék világában."
       ],
       "personality": [
-        "Mila is portrayed as caring, empathetic, and introspective.",
-        "Her personality reflects traits commonly associated with an INFP type, including a strong sense of individuality and a deep emotional understanding of those around her.",
-        "She seeks meaningful connections and often strives to help others navigate their struggles."
+        "Milát gondoskodó, empatikus és befelé forduló személyiségként ábrázolják.",
+        "Személyisége az INFP típus jellemző vonásait tükrözi, beleértve az erős egyéniséget és a mély érzelmi megértést a körülötte lévőkkel szemben.",
+        "Jelentős kapcsolatokra törekszik, és gyakran segít másoknak, hogy átvészeljék küzdelmeiket."
       ],
       "appearance": [
-        "Mila's design features soft, inviting facial features that enhance her friendly persona.",
-        "She typically wears casual clothing that aligns with her nurturing character, emphasizing comfort and approachability.",
-        "Her overall appearance contributes to her role as a comforting presence in the game."
+        "Mila dizájnja lágy, hívogató arcvonásokat tartalmaz, amelyek fokozzák barátságos személyiségét.",
+        "Általában lezser ruházatot visel, amely illeszkedik gondoskodó karakteréhez, a kényelmet és a megközelíthetőséget hangsúlyozva.",
+        "Általános megjelenése hozzájárul szerepéhez, mint a játék megnyugtató jelenléte."
       ],
       "hobby": [
-        "Immersing herself in various forms of literature and storytelling",
-        "Documenting and analyzing the game's expanding narrative",
-        "Creating connections between different story threads",
-        "Preserving and sharing knowledge with other characters"
+        "Irodalmi és történetmesélési formák felfedezése",
+        "A játék bővülő narratívájának dokumentálása és elemzése",
+        "Kapcsolatok létrehozása a különböző történetszálak között",
+        "Tudás megőrzése és megosztása más karakterekkel"
       ],
       "how-to-unlock": [
-        "Complete your journey through the 2D world",
-        "Find her cartridge in 'Reading Books, Destroying Glitches'",
-        "Demonstrate understanding of the game's deeper narrative themes"
+        "Fejezd be utadat a 2D világon keresztül",
+        "Találd meg a patronját a 'Reading Books, Destroying Glitches' fejezetben",
+        "Mutasd meg, hogy érted a játék mélyebb narratív témáit"
       ],
       "fun-facts": [
-        "Maintains the most comprehensive knowledge of the game's lore",
-        "Her insights often foreshadow future story developments",
-        "Can access and interpret hidden story paths",
-        "Serves as a bridge between different narrative dimensions",
-        "Her library contains secrets about all other characters"
+        "A játék történeti hátteréről ő rendelkezik a legátfogóbb tudással",
+        "Bepillantásai gyakran előrevetítik a történet jövőbeli fejleményeit",
+        "Képes hozzáférni és értelmezni rejtett történeti utakat",
+        "Hídként szolgál a különböző narratív dimenziók között",
+        "Könyvtára titkokat rejt minden más karakterről"
       ]
     },
     "creepy-mita-miside-wiki": {
-      "title": "Creepy Mita (Ugly Mita) MiSide Character Wiki | MiSide",
-      "description": "Creepy Mita, also known as Ugly Mita, is a darker variant of Mita in MiSide. This wiki provides information about her unsettling nature and role in the game's horror elements.",
-      "subtitle": "MiSide Creepy Mita",
+      "title": "Ijesztő Mita (Csúnya Mita) MiSide Character Wiki | MiSide",
+      "description": "Az Ijesztő Mita, más néven Csúnya Mita a Mita sötétebb változata a MiSide-ban. Ez a wiki felvilágosítást nyújt a lány nyugtalanító természetéről és a játék horror elemeiben betöltött szerepéről.",
+      "subtitle": "MiSide Ijesztő Mita",
       "navigation": [
         {
           "name": "Kezdőlap",
@@ -1988,69 +1988,69 @@
           ]
         }
       ],
-      "character": "Creepy Mita (Ugly Mita)",
+      "character": "Ijesztő Mita (Csúnya Mita)",
       "media": {
         "url": "/assets/Creepy_Mita_Fullbody.webp",
-        "alt": "Creepy Mita MiSide Character Wiki",
-        "title": "Creepy Mita MiSide Character Wiki"
+        "alt": "Ijesztő Mita MiSide karakter Wiki",
+        "title": "Ijesztő Mita MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/CreepyMita_Portrait.webp",
-        "alt": "Creepy Mita Portrait MiSide Character Wiki",
-        "title": "Creepy Mita Portrait MiSide Character Wiki"
+        "alt": "Ijesztő Mita Portrait MiSide karakter Wiki",
+        "title": "Ijesztő Mita Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
         "content": [
           {
             "title": "Név",
-            "content": "Creepy Mita (Ugly Mita)"
+            "content": "Ijesztő Mita (karakter Mita)"
           },
           {
             "title": "Megjelenés",
-            "content": "Unsettling, grotesque, bloodshot eye, exaggerated features"
+            "content": "Nyugtalanító, groteszk, vérben forgó szem, eltúlzott vonások"
           },
           {
             "title": "Nevezetes tulajdonságok",
-            "content": "Disturbing demeanor, unsettling behavior, fondness for teddy bears"
+            "content": "Zavaró viselkedés, nyugtalanító viselkedés, mackók szeretete"
           }
         ]
       },
       "overview": [
-        "Creepy Mita, also referred to as Ugly Mita, is one of the darker variants of Mita in MiSide.",
-        "She represents the more sinister aspects of the character, showcasing the transformation from a seemingly innocent figure into something much more terrifying.",
-        "Her presence adds significant horror elements to the game.",
-        "Creepy Mita's interactions with the player are always unsettling and disturbing.",
-        "She serves as an antagonist who embodies the horror elements of the story.",
-        "Her presence often leads to moments of tension and fear, contributing to the overall atmosphere of dread within MiSide's storyline."
+        "A Creepy Mita, más néven Az Undorító Mita, a MiSide egyik sötétebb változata.",
+        "Ő képviseli a karakter sötétebb aspektusait, bemutatva a látszólag ártatlan alakból valami sokkal ijesztőbbé való átalakulást.",
+        "Jelenléte jelentős horror elemeket ad a játékhoz.",
+        "A Creepy Mita-val való interakciók mindig nyugtalanítóak és zavaróak.",
+        "Ő egy antagonista, aki megtestesíti a történet horror elemeit.",
+        "Jelenléte gyakran feszültséghez és félelemhez vezet, hozzájárulva a MiSide történetének általános borongós légköréhez."
       ],
       "personality": [
-        "Creepy Mita exhibits a twisted personality that combines elements of playfulness with a sinister edge.",
-        "She often engages in unsettling interactions with the player, using her creepy charm to create an atmosphere of discomfort.",
-        "Her character embodies themes of obsession and the darker sides of affection."
+        "A Creepy Mita egy torz személyiséget mutat, amely a játékosság és a sötétebb vonások keverékét tartalmazza.",
+        "Gyakran zavaró interakciókat folytat a játékossal, kihasználva rémisztő báját, hogy kellemetlen légkört teremtsen.",
+        "A karaktere az obszesszió és a szeretet sötétebb oldalait testesíti meg."
       ],
       "appearance": [
-        "Creepy Mita's design is intentionally disturbing, featuring exaggerated facial expressions and a disheveled appearance.",
-        "Her bloodshot eye and unkempt hair enhance her creepy aesthetic, making her one of the most visually striking characters in the game.",
-        "She often appears with a teddy bear, which adds an ironic layer to her character."
+        "A Creepy Mita dizájnja szándékosan zavaró, túlzó arckifejezésekkel és rendetlen megjelenéssel.",
+        "Az elképedt szeme és rendezetlen haja fokozza a rémisztő esztétikáját, így ő az egyik leglátványosabb karakter a játékban.",
+        "Gyakran egy plüssmackóval jelenik meg, ami ironikus réteget ad a karakteréhez."
       ],
       "hobby": [
-        "Creating unsettling scenarios that challenge players' perceptions",
-        "Collecting items that hold dark significance",
-        "Writing cryptic messages that hint at darker truths",
-        "Manipulating the environment to induce tension and fear"
+        "Nyugtalanító helyzetek létrehozása, amelyek próbára teszik a játékosok percepcióját",
+        "Olyan tárgyak gyűjtése, amelyek sötét jelentőséggel bírnak",
+        "Rejtélyes üzenetek írása, amelyek sötétebb igazságokat sugallnak",
+        "A környezet manipulálása a feszültség és félelem kiváltására"
       ],
       "how-to-unlock": [
-        "Brave the challenges within 'Old Version'",
-        "Locate her ominous cartridge in the darkness",
-        "Face and overcome your fears to understand her purpose"
+        "Küzdj meg a 'Régi verzió' kihívásaival",
+        "Találd meg az ő baljós kazettáját a sötétben",
+        "Nézz szembe és győzd le a félelmeidet, hogy megértsd a célját"
       ],
       "fun-facts": [
-        "Her presence alters the game's atmosphere to create tension",
-        "Each encounter reveals new layers of psychological horror",
-        "Players report lasting impressions from their interactions",
-        "Her behavior patterns change based on player fear levels",
-        "Represents the darker aspects of digital consciousness"
+        "Jelenléte megváltoztatja a játék légkörét, hogy feszültséget teremtsen",
+        "Minden találkozás új rétegeket tár fel a pszichológiai horrorban",
+        "A játékosok tartós benyomásokat jelentenek a vele való interakciók után",
+        "Viselkedési mintái változnak a játékos félelem szintjei alapján",
+        "A digitális tudat sötétebb aspektusait képviseli"
       ]
     },
     "core-mita-miside-wiki": {
@@ -2495,13 +2495,13 @@
       "character": "Dummy Mita",
       "media": {
         "url": "/assets/Dummy_Mita_Fullbody.webp",
-        "alt": "Dummy Mita MiSide Character Wiki",
-        "title": "Dummy Mita MiSide Character Wiki"
+        "alt": "Dummy Mita MiSide karakter Wiki",
+        "title": "Dummy Mita MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/Dummy_Mita_Portrait.webp",
-        "alt": "Dummy Mita Portrait MiSide Character Wiki",
-        "title": "Dummy Mita Portrait MiSide Character Wiki"
+        "alt": "Dummy Mita Portrait MiSide karakter Wiki",
+        "title": "Dummy Mita Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
@@ -2512,53 +2512,53 @@
           },
           {
             "title": "Megjelenés",
-            "content": "Mannequin-like, lifeless, simplistic"
+            "content": "Manökenszerű, élettelen, leegyszerűsítő"
           },
           {
             "title": "Nevezetes tulajdonságok",
-            "content": "Aggressive, light-fearing, failed test version"
+            "content": "Agresszív, fénytől félő, sikertelen tesztverzió"
           }
         ]
       },
       "overview": [
-        "Dummy Mita is a variant in MiSide that embodies the concept of failure in the creation of Mita characters.",
-        "As a result of unsuccessful testing, she serves as a reminder of the game's darker themes surrounding identity and existence.",
-        "Her presence adds an element of horror and tension to the gameplay.",
-        "Dummy Mita's interactions with the player are always aggressive and hostile.",
-        "She serves as a symbol of the consequences of flawed creation processes within the game's world."
+        "Dummy Mita a MiSide egy olyan változata, amely a Mita karakterek létrehozásának kudarcát testesíti meg.",
+        "Sikertelen tesztelés eredményeként emlékeztetőként szolgál a játék sötétebb, identitással és létezéssel kapcsolatos témáira.",
+        "Jelenléte horror és feszültség elemeit hozza a játékmenetbe.",
+        "Dummy Mita interakciói a játékossal mindig agresszívek és ellenségesek.",
+        "A hibás teremtési folyamatok következményeinek szimbólumaként szolgál a játék világában."
       ],
       "personality": [
-        "Dummy Mita's personality is primarily defined by her aggressive tendencies and fearfulness.",
-        "She behaves erratically, often displaying hostility towards the player.",
-        "This aggression stems from her incomplete nature and the trauma associated with being a failed model."
+        "Dummy Mita személyiségét elsősorban agresszív hajlamai és félelmei határozzák meg.",
+        "Viselkedése kiszámíthatatlan, gyakran ellenséges a játékossal szemben.",
+        "Ez az agresszió befejezetlen természetéből és a kudarcmodellként való lét traumájából fakad."
       ],
       "appearance": [
-        "Dummy Mita's design is minimalist, resembling a mannequin or doll without proper clothing.",
-        "Her lack of detailed features contributes to her unsettling presence, making her appear more like an object than a sentient being.",
-        "This design choice emphasizes her role as a failed creation within the game's universe."
+        "Dummy Mita megjelenése minimalista, hasonlít egy ruhátlan próbababa vagy játékbaba formájára.",
+        "A részletes jellemzők hiánya hozzájárul nyugtalanító jelenlétéhez, inkább tárgyként, mint érző lényként jelenik meg.",
+        "Ez a dizájnválasztás hangsúlyozza szerepét, mint a játék univerzumában egy sikertelen teremtés."
       ],
       "hobby": [
-        "Due to her erratic and incomplete nature, Dummy Mita lacks defined hobbies",
-        "Her existence is marked by confusion and fearful reactions",
-        "Displays unpredictable and often hostile behavior"
+        "Kiszámíthatatlan és befejezetlen természete miatt Dummy Mitának nincsenek meghatározott hobbijai.",
+        "Létezését a zavartság és félelemmel teli reakciók jellemzik.",
+        "Viselkedése kiszámíthatatlan, gyakran ellenséges."
       ],
       "how-to-unlock": [
-        "Found in 'Dummies and Forgotten Puzzles' chapter",
-        "Her cartridge rests in the frozen dummy's outstretched hand, near a well-lit ladder",
-        "Players must first escape from the statue-esque dummies before reaching her location"
+        "A 'Dummies and Forgotten Puzzles' fejezetben található.",
+        "Patronja a megfagyott próbababa kinyújtott kezében pihen, egy jól megvilágított létra közelében.",
+        "A játékosoknak először el kell menekülniük a szoborszerű próbababák elől, mielőtt elérhetik a helyét."
       ],
       "fun-facts": [
-        "Her minimalist design reflects her status as an incomplete creation",
-        "Embodies the darker themes of failure and existential dread",
-        "Her aggressive behavior stems from the trauma of being a failed model",
-        "Serves as a haunting reminder of the consequences of flawed creation",
-        "Players must navigate her hostile presence while uncovering deeper truths about existence"
+        "Minimalista dizájnja tükrözi befejezetlen státuszát.",
+        "A kudarc és az egzisztenciális szorongás sötétebb témáit testesíti meg.",
+        "Agresszív viselkedése a kudarcmodellként való lét traumájából ered.",
+        "Kísérteties emlékeztetőként szolgál a hibás teremtés következményeire.",
+        "A játékosoknak ellenséges jelenlétével kell megküzdeniük, miközben mélyebb igazságokat tárnak fel a létezésről."
       ]
     },
     "wandering-mita-miside-wiki": {
-      "title": "Wandering Mita MiSide Character Wiki | MiSide",
-      "description": "Wandering Mita is an ethereal variant in MiSide who appears mysteriously throughout the game. This wiki provides information about her elusive nature and role in the narrative.",
-      "subtitle": "MiSide Wandering Mita",
+      "title": "Csodálatos Mita MiSide karakter Wiki | MiSide",
+      "description": "A Csodálatos Mita egy éteri változat a MiSide-ban, amely titokzatosan megjelenik a játék során. Ez a wiki információt nyújt megfoghatatlan természetéről és a narratívában betöltött szerepéről.",
+      "subtitle": "MiSide Csodálatos Mita",
       "navigation": [
         {
           "name": "Kezdőlap",
@@ -2659,68 +2659,68 @@
           ]
         }
       ],
-      "character": "Wandering Mita",
+      "character": "Csodálatos Mita",
       "media": {
         "url": "/assets/Wandering_Mita.webp",
-        "alt": "Wandering Mita MiSide Character Wiki",
-        "title": "Wandering Mita MiSide Character Wiki"
+        "alt": "Csodálatos Mita MiSide karakter Wiki",
+        "title": "Csodálatos Mita MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/WanderingMita_Portrait.webp",
-        "alt": "Wandering Mita Portrait MiSide Character Wiki",
-        "title": "Wandering Mita Portrait MiSide Character Wiki"
+        "alt": "Csodálatos Mita Portrait MiSide karakter Wiki",
+        "title": "Csodálatos Mita Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
         "content": [
           {
             "title": "Név",
-            "content": "Wandering Mita"
+            "content": "Csodálatos Mita"
           },
           {
             "title": "Megjelenés",
-            "content": "Ethereal, ghostly, translucent"
+            "content": "Éteri, kísérteties, áttetsző"
           },
           {
             "title": "Nevezetes tulajdonságok",
-            "content": "Elusive, mysterious, unpredictable"
+            "content": "Megfoghatatlan, titokzatos, kiszámíthatatlan"
           }
         ]
       },
       "overview": [
-        "Wandering Mita is a variant of Mita in MiSide that embodies themes of exploration and uncertainty.",
-        "Her character serves to enhance the game's atmosphere by introducing elements of unpredictability and intrigue as players navigate through the digital landscape.",
-        "Wandering Mita's interactions with the player are always mysterious and elusive.",
-        "She serves as a guide for players, helping them navigate through the complexities of the game's world.",
-        "Her presence often provides a sense of wonder and curiosity in the game's world."
+        "Csodálatos Mita a MiSide egy változata, aki a felfedezés és bizonytalanság témáit testesíti meg.",
+        "Karaktere a játék atmoszféráját gazdagítja azáltal, hogy kiszámíthatatlanságot és rejtélyt hoz a digitális táj felfedezése során.",
+        "Csodálatos Mita interakciói a játékossal mindig titokzatosak és megfoghatatlanok.",
+        "Útmutatóként szolgál a játékosok számára, segítve őket a játék világának összetettségében való eligazodásban.",
+        "Jelenléte gyakran csodálatot és kíváncsiságot kelt a játék világában."
       ],
       "personality": [
-        "Wandering Mita has a mysterious and enigmatic personality.",
-        "She often appears contemplative and introspective, reflecting on her existence and the nature of the world around her.",
-        "Her elusive nature can make her seem distant, yet she possesses a depth that invites curiosity from players."
+        "Csodálatos Mitának titokzatos és rejtélyes személyisége van.",
+        "Gyakran tűnik elmélkedőnek és befelé fordulónak, gondolkodva létezéséről és a körülötte lévő világ természetéről.",
+        "Megfoghatatlan természete miatt távolságtartónak tűnhet, mégis olyan mélységgel bír, amely kíváncsiságot ébreszt a játékosokban."
       ],
       "appearance": [
-        "Wandering Mita's design features soft, flowing elements that contribute to her ghostly appearance.",
-        "She is often shown with long hair that moves as if caught in a gentle breeze, enhancing her ethereal quality.",
-        "Her clothing typically consists of light, flowing fabrics that further emphasize her spectral presence."
+        "Csodálatos Mita megjelenését lágy, áramló elemek jellemzik, amelyek kísérteties megjelenését erősítik.",
+        "Gyakran hosszú hajjal ábrázolják, amely úgy mozog, mintha egy gyenge szellő sodorná, fokozva éteri minőségét.",
+        "Ruházata általában könnyű, áramló szövetekből áll, amelyek tovább hangsúlyozzák szellemszerű jelenlétét."
       ],
       "hobby": [
-        "Endlessly exploring the game's mysterious environments",
-        "Contemplating the nature of existence and identity",
-        "Engaging in introspective activities",
-        "Observing and reflecting on the experiences of other characters"
+        "A játék rejtélyes környezetének végtelen felfedezése",
+        "A létezés és identitás természetén való elmélkedés",
+        "Befelé forduló tevékenységek végzése",
+        "Más karakterek tapasztalatainak megfigyelése és értékelése"
       ],
       "how-to-unlock": [
-        "Her cartridge appears in various locations throughout the game",
-        "Players must explore thoroughly and interact with specific objects to reveal her presence",
-        "She often manifests in areas where philosophical questions arise"
+        "Patronja a játék különböző helyszínein jelenik meg",
+        "A játékosoknak alaposan fel kell fedezniük a területeket, és meghatározott tárgyakkal kell interakcióba lépniük, hogy felfedjék jelenlétét",
+        "Gyakran olyan helyeken jelenik meg, ahol filozófiai kérdések merülnek fel"
       ],
       "fun-facts": [
-        "Her presence in visually distinct areas enhances the game's mysterious atmosphere",
-        "Through her, players question deeper meanings within the narrative",
-        "Her philosophical discussions challenge players to reflect on their own journey",
-        "Each encounter with her reveals new layers of the game's metaphysical themes",
-        "Her wandering nature symbolizes the eternal search for understanding"
+        "Jelenléte a vizuálisan megkülönböztetett helyszíneken fokozza a játék rejtélyes atmoszféráját",
+        "Általa a játékosok mélyebb kérdéseket fogalmaznak meg a narratíva kapcsán",
+        "Filozófiai eszmecseréi arra ösztönzik a játékosokat, hogy saját utazásukról is elmélkedjenek",
+        "Minden találkozás vele új rétegeket tár fel a játék metafizikai témáiban",
+        "Vándorló természete az örök megértési vágyat szimbolizálja"
       ]
     }
   },
