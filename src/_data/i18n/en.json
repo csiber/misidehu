@@ -659,57 +659,57 @@
           },
           {
             "title": "Megjelenés",
-            "content": "Cute, miniature version"
+            "content": "Aranyos, miniatűr változat"
           },
           {
             "title": "Nevezetes tulajdonságok",
-            "content": "Playful, innocent, joyful"
+            "content": "Játékos, ártatlan, örömteli"
           }
         ]
       },
       "overview": [
-        "Chibi Mita represents the most adorable and innocent version of Mita in MiSide.",
-        "She appears during the lighter moments of the game, providing a stark contrast to some of the darker elements.",
-        "Her presence often serves to lighten the mood and offer moments of relief from the game's more intense sequences.",
-        "She is a reminder of the importance of innocence and joy in the game's narrative.",
-        "Chibi Mita's interactions with the player are always positive and uplifting.",
-        "She serves as a symbol of hope and happiness in the game."
+        "Chibi Mita a MiSide legaranyosabb és legártatlanabb Mita-verzióját képviseli.",
+        "A játék könnyedebb pillanataiban jelenik meg, éles kontrasztot nyújtva a sötétebb elemekkel szemben.",
+        "Jelenléte gyakran könnyíti a hangulatot, és megkönnyebbülést nyújt a játék intenzívebb jelenetei közben.",
+        "Emlékeztet az ártatlanság és az öröm fontosságára a játék narratívájában.",
+        "Chibi Mita interakciói a játékossal mindig pozitívak és felemelők.",
+        "A remény és a boldogság szimbólumaként szolgál a játékban."
       ],
       "personality": [
-        "Chibi Mita embodies pure innocence and playfulness.",
-        "She approaches everything with childlike wonder and enthusiasm, bringing joy to those around her.",
-        "Unlike other versions of Mita, she maintains a consistently cheerful demeanor and shows no signs of the darker traits that characterize some of her counterparts.",
-        "Her interactions are always genuine and heartwarming."
+        "Chibi Mita a tiszta ártatlanságot és játékosságot testesíti meg.",
+        "Gyermeki csodálattal és lelkesedéssel közelít mindenhez, örömet hozva környezetébe.",
+        "A többi Mita-verzióval ellentétben ő mindig vidám marad, és nem mutatja azokat a sötétebb jellemvonásokat, amelyek néhány társát jellemzik.",
+        "Interakciói mindig őszinték és szívet melengetők."
       ],
       "appearance": [
-        "Chibi Mita appears as a miniaturized, cute version of the standard Mita.",
-        "She has exaggerated features typical of chibi-style characters, including large expressive eyes and a small, round body.",
-        "Her design emphasizes cuteness and approachability, with soft features and a perpetual smile.",
-        "She often makes animated, expressive gestures that match her playful personality."
+        "Chibi Mita a standard Mita miniaturizált, aranyos változataként jelenik meg.",
+        "Jellemzőek rá a chibi-stílusú karakterek eltúlzott vonásai, például a nagy, kifejező szemek és a kicsi, kerek test.",
+        "Dizájnja a cukiságot és a megközelíthetőséget hangsúlyozza, lágy vonásokkal és állandó mosollyal.",
+        "Gyakran tesz animált, kifejező mozdulatokat, amelyek játékos személyiségéhez illenek."
       ],
       "hobby": [
-        "Bringing joy through playful mini-game interactions",
-        "Creating adorable artwork and decorations",
-        "Dancing and performing cute animations",
-        "Collecting colorful accessories and stickers"
+        "Örömet szerezni játékos mini-játékokkal",
+        "Aranyos műalkotások és dekorációk készítése",
+        "Táncolás és cuki animációk előadása",
+        "Színes kiegészítők és matricák gyűjtése"
       ],
       "how-to-unlock": [
-        "Discover her in the whimsical 'Mini Mita' chapter",
-        "Look for her cheerful presence near the cozy side table",
-        "Complete the 'Cute Discovery' quest to fully unlock her potential"
+        "Fedezd fel őt a vidám 'Mini Mita' fejezetben",
+        "Keresd meg derűs jelenlétét a kényelmes kis asztal közelében",
+        "Teljesítsd a 'Cuki Felfedezés' küldetést, hogy teljesen kibontakoztathasd a potenciálját"
       ],
       "fun-facts": [
-        "Her design emphasizes maximum cuteness to brighten the game's atmosphere",
-        "Features special animations exclusive to mini-games",
-        "Has the unique ability to transform objects into their adorable versions",
-        "Players often capture screenshots with her for social media sharing",
-        "Her positive energy can influence the mood of other characters"
+        "Dizájnja a maximum cukiságot hangsúlyozza, hogy feldobja a játék hangulatát",
+        "Különleges animációkkal rendelkezik, amelyek kizárólag mini-játékokban érhetők el",
+        "Egyedi képessége van, hogy tárgyakat azok aranyos változataivá alakítson",
+        "A játékosok gyakran készítenek képernyőmentéseket róla, hogy megosszák a közösségi médiában",
+        "Pozitív energiája más karakterek hangulatára is hatással lehet"
       ]
     },
     "short-haired-mita-miside-wiki": {
-      "title": "Short Haired Mita MiSide Character Wiki | MiSide",
-      "description": "Short Haired Mita is the caretaker variant of Mita in MiSide. This wiki provides information about her role in managing and developing new Mitas.",
-      "subtitle": "MiSide Short Haired Mita",
+      "title": "Rövid hajú Mita MiSide karakter Wiki | MiSide",
+      "description": "A rövid hajú Mita a Mita gondozó változata a MiSide-ban. Ez a wiki az új Miták kezelésében és fejlesztésében betöltött szerepéről nyújt információkat.",
+      "subtitle": "MiSide Rövid hajú Mita",
       "navigation": [
         {
           "name": "Kezdőlap",
@@ -810,76 +810,76 @@
           ]
         }
       ],
-      "character": "Short Haired Mita",
+      "character": "Rövid hajú Mita",
       "media": {
         "url": "/assets/ShortHairedMitaFullbody.webp",
-        "alt": "Short Haired Mita MiSide Character Wiki",
-        "title": "Short Haired Mita MiSide Character Wiki"
+        "alt": "Rövid hajú Mita MiSide karakter Wiki",
+        "title": "Rövid hajú Mita MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/ShortHairedMita_Portrait.webp",
-        "alt": "Short Haired Mita Portrait MiSide Character Wiki",
-        "title": "Short Haired Mita Portrait MiSide Character Wiki"
+        "alt": "Rövid hajú Mita Portrait MiSide karekter Wiki",
+        "title": "Rövid hajú Mita Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
         "content": [
           {
             "title": "Név",
-            "content": "Short Haired Mita"
+            "content": "Rövid hajú Mita"
           },
           {
             "title": "Megjelenés",
-            "content": "Short hair, bob cut, ribbon accessory"
+            "content": "Rövid haj, bob vágás, szalagos kiegészítő"
           },
           {
             "title": "Nevezetes tulajdonságok",
-            "content": "Responsible, nurturing, organized, caretaker"
+            "content": "Felelősségteljes, gondoskodó, szervezett, gondozó"
           }
         ]
       },
       "overview": [
-        "Short Haired Mita is a distinctive variant who serves as a caretaker and administrator for newly created and incomplete versions of Mita.",
-        "Her role is crucial in maintaining order among the various Mita variants, particularly focusing on the development and classification of new iterations.",
-        "She represents a more mature and responsible aspect of Mita's character.",
-        "Short Haired Mita's interactions with the player are always professional and informative.",
-        "She serves as a guide for players, helping them navigate the complexities of the Mita system.",
-        "Her presence often provides exposition about the nature and origin of various Mitas, helping players understand the complex hierarchy and relationships between different variants."
+        "Rövid Hajú Mita egy különleges változat, aki gondozóként és adminisztrátorként szolgál az újonnan létrehozott és befejezetlen Mita-verziók számára.",
+        "Szerepe kulcsfontosságú a különféle Mita-változatok közötti rend fenntartásában, különös tekintettel az új iterációk fejlesztésére és osztályozására.",
+        "Ő képviseli Mita érettebb és felelősségteljesebb oldalát.",
+        "Rövid Hajú Mita interakciói a játékossal mindig professzionálisak és informatívak.",
+        "Útmutatóként szolgál a játékosok számára, segítve őket a Mita rendszer összetettségének eligazodásában.",
+        "Jelenléte gyakran magyarázatot nyújt a különböző Miták természetéről és eredetéről, segítve a játékosokat a bonyolult hierarchia és a különböző változatok közötti kapcsolatok megértésében."
       ],
       "personality": [
-        "Short Haired Mita exhibits a professional and nurturing personality.",
-        "She takes her responsibilities seriously, showing great care in managing and developing new Mitas.",
-        "Her approach is methodical and patient, making her well-suited for her role as a caretaker.",
-        "While she maintains a professional demeanor, she also shows genuine concern for the well-being and proper development of the Mitas under her care."
+        "Rövid Hajú Mita professzionális és gondoskodó személyiséget mutat.",
+        "Felelősségét komolyan veszi, nagy gondot fordít az új Mita-verziók irányítására és fejlesztésére.",
+        "Módszeres és türelmes megközelítése alkalmassá teszi őt gondozói szerepére.",
+        "Miközben professzionális magatartást tanúsít, őszinte aggodalmat mutat a gondozására bízott Miták jóléte és megfelelő fejlődése iránt."
       ],
       "appearance": [
-        "Her most distinctive feature is her rough bob haircut with jagged ends, complemented by a ribbon accessory.",
-        "This practical yet stylish appearance reflects her no-nonsense approach to her duties.",
-        "Her attire is typically neat and functional, suitable for her administrative role.",
-        "The short hair symbolizes her efficiency and practicality, while the ribbon adds a touch of femininity to her otherwise businesslike appearance."
+        "Legjellemzőbb vonása a durva, cikkcakkos végekkel rendelkező bob frizura, amelyet egy szalag kiegészítő díszít.",
+        "Ez a praktikus, mégis stílusos megjelenés tükrözi a feladataihoz való határozott hozzáállását.",
+        "Öltözete általában rendezett és funkcionális, illeszkedve adminisztratív szerepéhez.",
+        "A rövid haj az ő hatékonyságát és gyakorlatiasságát szimbolizálja, míg a szalag nőies vonást kölcsönöz egyébként üzleties megjelenésének."
       ],
       "hobby": [
-        "Exploring surroundings methodically",
-        "Interacting with other characters",
-        "Organizing and cataloging items",
-        "Studying character behaviors"
+        "A környezet módszeres feltérképezése",
+        "Interakció más karakterekkel",
+        "Tárgyak rendszerezése és katalogizálása",
+        "Karakterviselkedések tanulmányozása"
       ],
       "how-to-unlock": [
-        "Located in 'Mini Mita' chapter",
-        "Found on vanity table near the door",
-        "Must complete the 'Caretaker' quest"
+        "A 'Mini Mita' fejezetben található",
+        "A fésülködőasztalon a bejárati ajtó közelében",
+        "Teljesíteni kell a 'Gondozó' küldetést"
       ],
       "fun-facts": [
-        "Her hairstyle changes reflect emotional states",
-        "Most analytical of all Mita variants",
-        "Keeps detailed records of all encounters",
-        "Can predict other characters' behaviors"
+        "Frizurája az érzelmi állapotát tükrözi",
+        "A leganalitikusabb az összes Mita-változat közül",
+        "Részletes feljegyzéseket vezet minden találkozásról",
+        "Képes megjósolni más karakterek viselkedését"
       ]
     },
     "kind-mita-miside-wiki": {
-      "title": "Kind Mita MiSide Character Wiki | MiSide",
-      "description": "Kind Mita is a gentle and nurturing variant of Mita in MiSide. This wiki provides information about her supportive role in the game's narrative.",
-      "subtitle": "MiSide Kind Mita",
+      "title": "Kedves Mita MiSide Character Wiki | MiSide",
+      "description": "Kedves Mita is a gentle and nurturing variant of Mita in MiSide. This wiki provides information about her supportive role in the game's narrative.",
+      "subtitle": "MiSide Kedves Mita",
       "navigation": [
         {
           "name": "Kezdőlap",
@@ -983,13 +983,13 @@
       "character": "Kedves Mita",
       "media": {
         "url": "/assets/KindMitaFullBody.webp",
-        "alt": "Kind Mita MiSide Character Wiki",
-        "title": "Kind Mita MiSide Character Wiki"
+        "alt": "Kedves Mita MiSide Character Wiki",
+        "title": "Kedves Mita MiSide Character Wiki"
       },
       "media2": {
         "url": "/assets/KindMita_Portrait.webp",
-        "alt": "Kind Mita Portrait MiSide Character Wiki",
-        "title": "Kind Mita Portrait MiSide Character Wiki"
+        "alt": "Kedves Mita Portrait MiSide Character Wiki",
+        "title": "Kedves Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
@@ -1009,45 +1009,45 @@
         ]
       },
       "overview": [
-        "Kind Mita is a variant of Mita that embodies the more gentle and caring side of her character.",
-        "In the game MiSide, she serves as a supportive figure who provides comfort and assistance to the protagonist.",
-        "Her presence highlights the themes of care and emotional connection within the narrative.",
-        "Kind Mita's interactions with the player are always warm and nurturing.",
-        "She serves as a source of emotional support for the protagonist, helping him navigate the challenges of the game.",
-        "Her presence often provides a sense of comfort and stability in the game's world."
+        "Kedves Mita Mita azon változata, amely karakterének gyengédebb és gondoskodóbb oldalát testesíti meg.",
+        "A MiSide játékban támogató szereplőként jelenik meg, aki vigaszt és segítséget nyújt a főszereplőnek.",
+        "Jelenléte kiemeli a törődés és az érzelmi kapcsolódás témáit a történetben.",
+        "Kedves Mita interakciói a játékossal mindig melegek és gondoskodók.",
+        "Érzelmi támaszt nyújt a főszereplőnek, segítve őt a játék kihívásainak leküzdésében.",
+        "Jelenléte gyakran nyújt kényelmet és stabilitást a játék világában."
       ],
       "personality": [
-        "Kind Mita is characterized by her deep compassion and empathy.",
-        "She is nurturing and protective, often prioritizing the well-being of others over her own needs.",
-        "This version of Mita is seen as a stabilizing force in the chaotic environment of MiSide, offering solace to both the protagonist and other characters."
+        "Kedves Mitát mély együttérzése és empátiája jellemzi.",
+        "Gondoskodó és védelmező, gyakran mások jólétét helyezi előtérbe a saját szükségletei helyett.",
+        "Ez a Mita-változat stabilizáló erőként jelenik meg a MiSide kaotikus környezetében, vigaszt nyújtva mind a főszereplőnek, mind más karaktereknek."
       ],
       "appearance": [
-        "Kind Mita features soft, inviting facial features that reflect her gentle personality.",
-        "Her long hair is styled in a way that enhances her warmth, often adorned with accessories that signify her caring nature.",
-        "Her clothing typically consists of soft colors that further emphasize her nurturing role."
+        "Kedves Mitának lágy, hívogató arcvonásai vannak, amelyek gyengéd személyiségét tükrözik.",
+        "Hosszú haja melegséget sugároz, gyakran olyan kiegészítőkkel díszítve, amelyek gondoskodó természetét jelképezik.",
+        "Ruházata általában lágy színekből áll, amelyek tovább hangsúlyozzák gondoskodó szerepét."
       ],
       "hobby": [
-        "Helping others in need",
-        "Providing emotional support",
-        "Creating nurturing environments",
-        "Writing encouraging messages"
+        "Mások segítése szükség esetén",
+        "Érzelmi támogatás nyújtása",
+        "Gondoskodó környezetek megteremtése",
+        "Bátorító üzenetek írása"
       ],
       "how-to-unlock": [
-        "Found in 'Reboot' chapter",
-        "Located on computer desk in bedroom",
-        "Must complete caring-related tasks"
+        "A 'Reboot' fejezetben található",
+        "A hálószobában, a számítógép asztalon helyezkedik el",
+        "Gondoskodással kapcsolatos feladatok teljesítésével oldható fel"
       ],
       "fun-facts": [
-        "Acts as the moral compass of the game",
-        "Has unique healing abilities",
-        "Most trusted by other characters",
-        "Creates positive energy fields"
+        "A játék erkölcsi iránytűjeként működik",
+        "Egyedi gyógyító képességekkel rendelkezik",
+        "A legmegbízhatóbb a többi karakter számára",
+        "Pozitív energiamezőket hoz létre"
       ]
     },
     "cool-mita-miside-wiki": {
-      "title": "Cool Mita (Cappie) MiSide Character Wiki | MiSide",
-      "description": "Cool Mita, also known as Cappie, is a lively and energetic variant of Mita in MiSide. This wiki provides information about her playful and competitive nature.",
-      "subtitle": "MiSide Cool Mita",
+      "title": "Laza Mita (Sapkás) MiSide Character Wiki | MiSide",
+      "description": "A Laza Mita, más néven Sapkás, a Mita élénk és energikus változata a MiSide-ban. Ez a wiki játékos és versengő természetéről nyújt információkat.",
+      "subtitle": "MiSide Laza Mita",
       "navigation": [
         {
           "name": "Kezdőlap",
@@ -1151,20 +1151,20 @@
       "character": "Laza Mita (Sapkás)",
       "media": {
         "url": "/assets/CappieFullBody.webp",
-        "alt": "Cool Mita (Cappie) MiSide Character Wiki",
-        "title": "Cool Mita (Cappie) MiSide Character Wiki"
+        "alt": "Laza Mita (Sapkás) MiSide karakter Wiki",
+        "title": "Laza Mita (Sapkás) MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/Cappie_Portrait.webp",
-        "alt": "Cool Mita (Cappie) Portrait MiSide Character Wiki",
-        "title": "Cool Mita (Cappie) Portrait MiSide Character Wiki"
+        "alt": "Laza Mita (Sapkás) Portrait MiSide karakter Wiki",
+        "title": "Laza Mita (Sapkás) Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
         "content": [
           {
             "title": "Név",
-            "content": "Cool Mita (Cappie)"
+            "content": "Laza Mita (Sapkás)"
           },
           {
             "title": "Megjelenés",
@@ -1177,46 +1177,46 @@
         ]
       },
       "overview": [
-        "Cool Mita, also referred to as Cappie, is a lively variant of Mita in MiSide.",
-        "She embodies a cheerful spirit and thrives on interaction with the player.",
-        "Her character adds a layer of fun and energy to the gameplay, contrasting with the darker elements present in other versions of Mita.",
-        "Cappie's interactions with the player are always playful and competitive.",
-        "She serves as a source of light-heartedness and entertainment in the game.",
-        "Her presence helps balance the overall tone of the game by providing moments of joy and competition."
+        "Laza Mita, más néven Sapkás (Cappie), a MiSide egyik élettel teli Mita-változata.",
+        "Vidám szellemet testesít meg, és élvezi a játékossal való interakciókat.",
+        "Karaktere szórakozást és energiát hoz a játékmenetbe, éles kontrasztot alkotva Mita sötétebb változataival.",
+        "Cappie interakciói a játékossal mindig játékosak és versengők.",
+        "Szerepe, hogy könnyedséget és szórakozást nyújtson a játékban.",
+        "Jelenléte segít kiegyensúlyozni a játék általános hangulatát, örömöt és versenyhelyzetet teremtve."
       ],
       "personality": [
-        "Cappie is depicted as bright, cheerful, and full of life.",
-        "She enjoys teasing the player and showcasing her competitive side during various activities.",
-        "Her playful nature makes her an endearing character, although she can be somewhat clingy at times.",
-        "Cappie's personality is designed to uplift the mood within the game, providing moments of levity amidst the tension."
+        "Cappie ragyogó, vidám és élettel teli karakterként jelenik meg.",
+        "Szeret ugratni a játékost, és bemutatni versengő oldalát különböző tevékenységek során.",
+        "Játékos természete kedveltté teszi, bár néha kissé ragaszkodó lehet.",
+        "Cappie személyisége arra lett tervezve, hogy feldobja a játék hangulatát, és könnyed pillanatokat hozzon a feszültség közepette."
       ],
       "appearance": [
-        "Cool Mita sports a cap and casual attire that emphasizes her energetic personality.",
-        "Her design includes bright colors and expressive features that reflect her lively spirit.",
-        "She often appears animated and ready to engage in playful activities with the protagonist."
+        "Laza Mita sapkát és lezser öltözéket visel, amelyek energikus személyiségét hangsúlyozzák.",
+        "Dizájnjában világos színek és kifejező vonások jelennek meg, amelyek tükrözik élettel teli szellemét.",
+        "Gyakran animáltan jelenik meg, készen arra, hogy játékos tevékenységekben vegyen részt a főszereplővel."
       ],
       "hobby": [
-        "Engaging in casual activities",
-        "Playing sports and games",
-        "Listening to music",
-        "Creating cool hangout spots"
+        "Könnyed tevékenységekben való részvétel",
+        "Sportolás és játék",
+        "Zenehallgatás",
+        "Menő találkozóhelyek létrehozása"
       ],
       "how-to-unlock": [
-        "Located in 'Beyond The World' chapter",
-        "Found in kitchen area",
-        "Must complete casual activity quests"
+        "A 'Beyond The World' fejezetben található",
+        "A konyhai területen helyezkedik el",
+        "Könnyed tevékenységekkel kapcsolatos küldetések teljesítésével oldható fel"
       ],
       "fun-facts": [
-        "Her cap is a symbol of relaxed personality",
-        "Most laid-back of all variants",
-        "Popular among younger players",
-        "Has special casual animations"
+        "Sapkája a laza személyiségének szimbóluma",
+        "A leglazább az összes változat közül",
+        "Népszerű a fiatalabb játékosok körében",
+        "Különleges könnyed animációkkal rendelkezik"
       ]
     },
     "ghostly-mita-miside-wiki": {
-      "title": "Ghostly Mita MiSide Character Wiki | MiSide",
-      "description": "Ghostly Mita is a tragic variant who has lost her memories in MiSide. This wiki provides information about her haunting presence and role in the narrative.",
-      "subtitle": "MiSide Ghostly Mita",
+      "title": "Szellem Mita MiSide karakter Wiki | MiSide",
+      "description": "Szellem Mita egy tragikus változat, aki elvesztette az emlékeit a MiSide-ban. Ez a wiki információt nyújt kísérteties jelenlétéről és a narratívában betöltött szerepéről.",
+      "subtitle": "MiSide Szellem Mita",
       "navigation": [
         {
           "name": "Kezdőlap",
@@ -1320,13 +1320,13 @@
       "character": "Szellem Mita",
       "media": {
         "url": "/assets/Ghostly_Mita_Fullbody.webp",
-        "alt": "Ghostly Mita MiSide Character Wiki",
-        "title": "Ghostly Mita MiSide Character Wiki"
+        "alt": "Szellem Mita MiSide karakter Wiki",
+        "title": "Szellem Mita MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/GhostlyMita_Portrait.webp",
-        "alt": "Ghostly Mita Portrait MiSide Character Wiki",
-        "title": "Ghostly Mita Portrait MiSide Character Wiki"
+        "alt": "Szellem Mita Portrait MiSide karakter Wiki",
+        "title": "Szellem Mita Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
@@ -1337,11 +1337,11 @@
           },
           {
             "title": "Megjelenés",
-            "content": "Faceless, ethereal"
+            "content": "Arctalan, éteri"
           },
           {
             "title": "Nevezetes tulajdonságok",
-            "content": "Amnesiac, deception victim"
+            "content": "Amnéziás, megtévesztés áldozata"
           }
         ]
       },
