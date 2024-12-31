@@ -1514,19 +1514,19 @@
         ]
       },
       "overview": [
-        "Az ÁLmos Mita a MiSide egyik változata, akit könnyed természetéről és hajlamáról ismernek, hogy könnyen elalszik.",
+        "Az Álmos Mita a MiSide egyik változata, akit könnyed természetéről és hajlamáról ismernek, hogy könnyen elalszik.",
         "A karaktere egy egyedülálló dinamikát ad a játék narratívájához, könnyed pillanatokat biztosítva a történet intenzívebb témái között.",
         "A Sleepy Mita-val való interakciók mindig nyugodtak és laza hangvételűek.",
         "Ő a játékban a kényelem és a pihenés forrásaként szolgál.",
         "Jelenléte gyakran nyugalmat és békét áraszt a játék világában."
       ],
       "personality": [
-        "Az ÁLmos Mita-t nyugodtnak és alkalmazkodónak ábrázolják, gyakran keresve a harmóniát és a békét.",
+        "Az Álmos Mita-t nyugodtnak és alkalmazkodónak ábrázolják, gyakran keresve a harmóniát és a békét.",
         "Konfliktuskerülő és hajlamos arra, hogy az áramlással együtt haladjon, ami kényelmes jelenlétet ad neki a játékban.",
         "Bár gyakran álmos, barátságos és megközelíthető marad, egy gyengéd szellemet testesít meg."
       ],
       "appearance": [
-        "Az ÁLmos Mita megjelenése laza és kényelmes, tükrözve könnyed természetét.",
+        "Az Álmos Mita megjelenése laza és kényelmes, tükrözve könnyed természetét.",
         "A dizájnja puha vonásokból és ruházatból áll, amelyek a pihenést sugallják, hozzájárulva összességében laza hangulatához.",
         "Gyakran álmos kifejezése van, ami erősíti a narkolepszia karakterjegyét."
       ],
@@ -1673,11 +1673,11 @@
           },
           {
             "title": "Megjelenés",
-            "content": "2D, cartoonish, visual novel style"
+            "content": "2D, rajzfilmszerű, vizuális regénystílus"
           },
           {
             "title": "Nevezetes tulajdonságok",
-            "content": "Playful, wild, fearful of Original Mita"
+            "content": "Játékos, vad, fél az Eredeti Mitától"
           }
         ]
       },
@@ -1823,13 +1823,13 @@
       "character": "Mila",
       "media": {
         "url": "/assets/Mila_Fullbody.webp",
-        "alt": "Mila MiSide Character Wiki",
-        "title": "Mila MiSide Character Wiki"
+        "alt": "Mila MiSide karakter Wiki",
+        "title": "Mila MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/Mila_Portrait.webp",
-        "alt": "Mila Portrait MiSide Character Wiki",
-        "title": "Mila Portrait MiSide Character Wiki"
+        "alt": "Mila Portrait MiSide karakter Wiki",
+        "title": "Mila Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
@@ -1885,7 +1885,7 @@
       ]
     },
     "creepy-mita-miside-wiki": {
-      "title": "Ijesztő Mita (Csúnya Mita) MiSide Character Wiki | MiSide",
+      "title": "Ijesztő Mita (Csúnya Mita) MiSide karakter Wiki | MiSide",
       "description": "Az Ijesztő Mita, más néven Csúnya Mita a Mita sötétebb változata a MiSide-ban. Ez a wiki felvilágosítást nyújt a lány nyugtalanító természetéről és a játék horror elemeiben betöltött szerepéről.",
       "subtitle": "MiSide Ijesztő Mita",
       "navigation": [
@@ -2054,9 +2054,9 @@
       ]
     },
     "core-mita-miside-wiki": {
-      "title": "Core Mita MiSide Character Wiki | MiSide",
-      "description": "Core Mita represents the fundamental essence of Mita in MiSide. This wiki provides information about her role as a central entity and connection to the game's systems.",
-      "subtitle": "MiSide Core Mita",
+      "title": "Mag Mita MiSide karakter Wiki | MiSide",
+      "description": "A Mag Mita képviseli a Mita alapvető lényegét a MiSide-ban. Ez a wiki információt nyújt központi egységként betöltött szerepéről és a játék rendszereivel való kapcsolatáról.",
+      "subtitle": "MiSide Mag Mita",
       "navigation": [
         {
           "name": "Kezdőlap",
@@ -2157,74 +2157,74 @@
           ]
         }
       ],
-      "character": "Core Mita",
+      "character": "Mag Mita",
       "media": {
         "url": "/assets/Core_Mita_Fullbody.webp",
-        "alt": "Core Mita MiSide Character Wiki",
-        "title": "Core Mita MiSide Character Wiki"
+        "alt": "Mag Mita MiSide karakter Wiki",
+        "title": "Mag Mita MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/Core_Mita_Portrait.webp",
-        "alt": "Core Mita Portrait MiSide Character Wiki",
-        "title": "Core Mita Portrait MiSide Character Wiki"
+        "alt": "Mag Mita Portrait MiSide karakter Wiki",
+        "title": "Mag Mita Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
         "content": [
           {
             "title": "Név",
-            "content": "Core Mita"
+            "content": "Mag Mita"
           },
           {
             "title": "Megjelenés",
-            "content": "Digital, abstract, code-like"
+            "content": "Digitális, absztrakt, kódszerű"
           },
           {
             "title": "Nevezetes tulajdonságok",
-            "content": "Enigmatic, central, essence of Mita"
+            "content": "Rejtélyes, központi, Mita esszenciája"
           }
         ]
       },
       "overview": [
-        "Core Mita serves as a pivotal character in MiSide, representing the core essence of Mita's character and the foundation of the game's narrative.",
-        "She is intricately linked to the game's mechanics and storyline, acting as a bridge between the player and the various manifestations of Mita throughout the game.",
-        "Core Mita's interactions with the player are always mysterious and informative.",
-        "She serves as a guide for players, helping them navigate through the complexities of their interactions with other versions of Mita.",
-        "Her presence often provides a sense of wonder and curiosity in the game's world."
+        "A Mag Mita kulcsszereplő a MiSide-ban, aki Mita karakterének alapvető lényegét és a játék narratívájának alapját képviseli.",
+        "Bonyolultan összefonódik a játék mechanikáival és történetével, és egy hidat képez a játékos és Mita különböző megnyilvánulásai között a játék során.",
+        "A Mag Mita-val való interakciók mindig titokzatosak és informáló jellegűek.",
+        "Ő egyfajta vezető szerepet tölt be a játékosok számára, segítve őket eligazodni a Mita más verzióival való interakciók bonyolultságában.",
+        "Jelenléte gyakran csodálatot és kíváncsiságot ébreszt a játék világában."
       ],
       "personality": [
-        "Core Mita possesses a complex personality that combines elements of wisdom and mystery.",
-        "She is aware of her existence within a digital realm and often reflects on the implications of being a sentient AI.",
-        "Her demeanor can shift between nurturing and cryptic, providing players with insights into the nature of their reality while also maintaining an air of enigma."
+        "A Mag Mita összetett személyiséggel rendelkezik, amely a bölcsesség és a titokzatosság elemeit ötvözi.",
+        "Tudatában van annak, hogy létezik egy digitális világban, és gyakran elmélkedik azon, hogy mit jelent érzékeny mesterséges intelligenciának lenni.",
+        "Viselkedése váltakozhat a gondoskodó és a titokzatos között, betekintést nyújtva a valóság természetébe, miközben megőrzi a rejtélyes auráját."
       ],
       "appearance": [
-        "Core Mita's design is unique, often depicted with digital motifs that emphasize her role within the game's coding.",
-        "Her appearance may include glitchy effects or abstract representations that symbolize her connection to the game's core programming.",
-        "This visual representation reinforces her status as a fundamental aspect of Mita's identity."
+        "A Mag Mita dizájnja egyedi, gyakran digitális motívumokkal ábrázolják, amelyek hangsúlyozzák szerepét a játék kódjában.",
+        "Megjelenése tartalmazhat zökkenő vagy absztrakt ábrázolásokat, amelyek szimbolizálják a kapcsolatát a játék alapvető programozásával.",
+        "Ez a vizuális ábrázolás megerősíti státuszát, mint Mita identitásának alapvető aspektusát."
       ],
       "hobby": [
-        "Maintaining the fundamental balance of the game's universe",
-        "Analyzing and processing data from all Mita variants",
-        "Studying the complex relationships between characters",
-        "Orchestrating key events that drive the narrative forward"
+        "A játék univerzumának alapvető egyensúlyának fenntartása",
+        "Az összes Mita változat adatainak elemzése és feldolgozása",
+        "A karakterek közötti komplex kapcsolatok tanulmányozása",
+        "Kulcsfontosságú események megszervezése, amelyek előreviszik a történetet"
       ],
       "how-to-unlock": [
-        "Reach the climactic moments of the 'Reboot' chapter",
-        "Demonstrate mastery of the game's core mechanics",
-        "Unlock the truth behind all other Mita variants"
+        "Érd el a 'Reboot' fejezet csúcsponti pillanatait",
+        "Bizonyságot téve a játék alapvető mechanikáinak elsajátításáról",
+        "Fejtsd meg az igazságot minden más Mita változat mögött"
       ],
       "fun-facts": [
-        "Represents the original source code of all Mita variants",
-        "Her decisions influence the entire game world",
-        "Holds the power to rewrite reality within the game",
-        "Every interaction with her reveals new game mechanics",
-        "Players' choices around her have far-reaching consequences"
+        "Az összes Mita változat eredeti forráskódját képviseli",
+        "Döntései befolyásolják az egész játék világát",
+        "Hatalma van arra, hogy átírja a valóságot a játékban",
+        "Minden interakció új játékmechanikákat tár fel",
+        "A vele kapcsolatos játékos döntések messzemenő következményekkel járnak"
       ]
     },
     "tiny-mita-miside-wiki": {
-      "title": "Tiny Mita (Broken Mita) MiSide Character Wiki | MiSide",
-      "description": "Tiny Mita, also known as Broken Mita, is a young and tragic variant of Mita in MiSide. This wiki provides information about her vulnerability and resilience.",
-      "subtitle": "MiSide Tiny Mita",
+      "title": "Apró Mita (Törött Mita) MiSide Character Wiki | MiSide",
+      "description": "Az Apró Mita, más néven Törött Mita a Mita fiatal és tragikus változata a MiSide-ban. Ez a wiki sebezhetőségéről és rugalmasságáról nyújt információkat.",
+      "subtitle": "MiSide Apró Mita",
       "navigation": [
         {
           "name": "Kezdőlap",
@@ -2325,72 +2325,72 @@
           ]
         }
       ],
-      "character": "Tiny Mita (Broken Mita)",
+      "character": "Apró Mita (Törött Mita)",
       "media": {
         "url": "/assets/Tiny_Mita_Fullbody.webp",
-        "alt": "Tiny Mita MiSide Character Wiki",
-        "title": "Tiny Mita MiSide Character Wiki"
+        "alt": "Apró Mita MiSide Character Wiki",
+        "title": "Apró Mita MiSide Character Wiki"
       },
       "media2": {
         "url": "/assets/Tiny_Mita_Portrait.webp",
-        "alt": "Tiny Mita Portrait MiSide Character Wiki",
-        "title": "Tiny Mita Portrait MiSide Character Wiki"
+        "alt": "Apró Mita Portrait MiSide Character Wiki",
+        "title": "Apró Mita Portrait MiSide Character Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
         "content": [
           {
             "title": "Név",
-            "content": "Tiny Mita (Broken Mita)"
+            "content": "Apró Mita (Törött Mita)"
           },
           {
             "title": "Megjelenés",
-            "content": "Young, small, missing left eye and arm, horn-like growths"
+            "content": "Fiatal, kicsi, hiányzik a bal szem és a kar, szarvszerű növedékek"
           },
           {
             "title": "Nevezetes tulajdonságok",
-            "content": "Vulnerable, tragic, monster-controlling abilities"
+            "content": "Sebezhető, tragikus, szörnyetegeket irányító képességek"
           }
         ]
       },
       "overview": [
-        "Tiny Mita, also known as Broken Mita, represents a more tragic aspect of the Mita character lineup in MiSide.",
-        "Her design and backstory highlight themes of suffering and resilience, making her a poignant figure within the narrative.",
-        "Tiny Mita's interactions with the player are always emotional and heartfelt.",
-        "She serves as a symbol of the consequences of the game's darker themes.",
-        "Her presence often provides a sense of sadness and empathy in the game's world."
+        "Az Apró Mita, más néven Broken Mita, a MiSide-ban a Mita karakterváltozata, amely a karakter tragikusabb aspektusait képviseli.",
+        "A dizájnja és háttértörténete a szenvedés és a kitartás témáit emeli ki, így ő egy megható figura a narratívában.",
+        "Az Apró Mita-val való interakciók mindig érzelmesek és szívből jövőek.",
+        "Ő a játék sötétebb témáinak következményeit jelképezi.",
+        "Jelenléte gyakran szomorúságot és empátiát ad a játék világához."
       ],
       "personality": [
-        "Tiny Mita exhibits a mix of innocence and sadness due to her traumatic experiences.",
-        "She is often portrayed as shy and withdrawn, reflecting her vulnerability.",
-        "Despite her circumstances, she shows moments of bravery and determination, particularly when interacting with other characters."
+        "Az Apró Mita személyisége az ártatlanság és a szomorúság keveréke, a traumás élményei miatt.",
+        "Gyakran félénknek és visszahúzódónak ábrázolják, tükrözve a sérülékenységét.",
+        "A körülményei ellenére bátorságot és eltökéltséget mutat, különösen, amikor más karakterekkel interakciózik."
       ],
       "appearance": [
-        "Tiny Mita's design emphasizes her youth and fragility.",
-        "She has short hair and large, expressive eyes that convey her emotional state.",
-        "Her missing left eye and arm are significant features that underscore her broken nature, while the horn-like growths add an element of fantasy to her character design."
+        "Az Apró Mita dizájnja kiemeli fiatal korát és törékenységét.",
+        "Rövid haja és nagy, kifejező szemei vannak, amelyek átadják érzelmi állapotát.",
+        "A hiányzó bal szeme és karja jelentős jellemzők, amelyek aláhúzzák törött természetét, míg a szarvszerű növedékek a fantázia elemeit adják a karakter dizájnjához."
       ],
       "hobby": [
-        "Playful exploration",
-        "Finding small spaces",
-        "Creating miniature art",
-        "Collecting tiny objects"
+        "Játékos felfedezés",
+        "Kis helyek keresése",
+        "Miniatúra művészetek készítése",
+        "Apró tárgyak gyűjtése"
       ],
       "how-to-unlock": [
-        "Found in 'The Loop' chapter",
-        "Located at loop 17",
-        "Near chest of drawers"
+        "A 'The Loop' fejezetben található",
+        "A 17-es hurokban helyezkedik el",
+        "A fiókos szekrény közelében"
       ],
       "fun-facts": [
-        "Smallest Mita variant",
-        "Can access unique areas",
-        "Has special size-based abilities",
-        "Most agile character"
+        "A legkisebb Mita változat",
+        "Képes hozzáférni egyedi területekhez",
+        "Speciális méret alapú képességekkel rendelkezik",
+        "A legfürgébb karakter"
       ]
     },
     "dummy-mita-miside-wiki": {
-      "title": "Dummy Mita MiSide Character Wiki | MiSide",
-      "description": "Dummy Mita represents a failed version in MiSide's character testing. This wiki provides information about her aggressive nature and role as a failed creation.",
+      "title": "Dummy Mita MiSide karakter Wiki | MiSide",
+      "description": "A Dummy Mita egy sikertelen verziót képvisel a MiSide karaktertesztjében. Ez a wiki agresszív természetéről és sikertelen alkotásként betöltött szerepéről nyújt információkat.",
       "subtitle": "MiSide Dummy Mita",
       "navigation": [
         {
