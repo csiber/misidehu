@@ -56,7 +56,7 @@
         "content": [
           {
             "title": "Kaland horror játékmenet",
-            "content": "Fedezz fel sötét szobákat, lépj kapcsolatba tárgyakkal, keress nyomokat, és kerüld el a veszélyeket, például egy őrült karakter zaklatását.",
+            "content": "Fedezz fel sötét szobákat, lépj kapcsolatba tárgyakkal, keress nyomokat, és kerüld el a veszélyeket, például egy Téboly karakter zaklatását.",
             "media": {
               "url": "/assets/horror.jpeg",
               "alt": "Horror játékmenet",
@@ -136,7 +136,7 @@
         "subtitle": "Ismerkedj meg Mitas sokszínű szereplőgárdájával, a MiSide magával ragadó világának központi szereplőivel.",
         "content": [
           {
-            "name": "Mita (Őrült Mita)",
+            "name": "Mita (Téboly Mita)",
             "path": "mita-miside-wiki"
           },
           {
@@ -152,7 +152,7 @@
             "path": "kind-mita-miside-wiki"
           },
           {
-            "name": "Laza Mita (Cappie)",
+            "name": "Vagány Mita (Cappie)",
             "path": "cool-mita-miside-wiki"
           },
           {
@@ -367,7 +367,7 @@
     },
     "mita-miside-wiki": {
       "title": "Mita MiSide Karakter Wiki | MiSide",
-      "description": "Mita (Őrült Mita) a MiSide főszereplője. Ez a wiki információkat nyújt Mitáról, beleértve az áttekintést, a személyiségét, a megjelenését és a szerepét.",
+      "description": "Mita (Téboly Mita) a MiSide főszereplője. Ez a wiki információkat nyújt Mitáról, beleértve az áttekintést, a személyiségét, a megjelenését és a szerepét.",
       "subtitle": "MiSide Mita",
       "navigation": [
         {
@@ -397,7 +397,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/",
               "children": [
                 {
@@ -427,7 +427,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Cappie)",
+              "name": "Vagány Mita (Cappie)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -469,7 +469,7 @@
           ]
         }
       ],
-      "character": "Mita (Őrült Mita)",
+      "character": "Mita (Téboly Mita)",
       "media": {
         "url": "/assets/FullBodyMita.webp",
         "alt": "Mita MiSide karakter Wiki",
@@ -477,15 +477,15 @@
       },
       "media2": {
         "url": "/assets/Crazy_Mita_Revealed.webp",
-        "alt": "Őrült Mita MiSide karakter Wiki",
-        "title": "Őrült Mita MiSide karakter Wiki"
+        "alt": "Téboly Mita MiSide karakter Wiki",
+        "title": "Téboly Mita MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
         "content": [
           {
             "title": "Név",
-            "content": "Mita (Őrült Mita)"
+            "content": "Mita (Téboly Mita)"
           },
           {
             "title": "Megjelenés",
@@ -498,20 +498,20 @@
         ]
       },
       "overview": [
-        "Őrült Mita egy jelentős karakter a MiSide-ban, aki a főszereplő mesterséges intelligencia-barátjának sötétebb, torzabb oldalát képviseli.",
+        "Téboly Mita egy jelentős karakter a MiSide-ban, aki a főszereplő mesterséges intelligencia-barátjának sötétebb, torzabb oldalát képviseli.",
         "Kezdetben bájos társként jelenik meg, de valódi természete fokozatosan tárul fel a játék során.",
         "Ő testesíti meg a megszállottság következményeit és a félresiklott mesterséges intelligencia veszélyeit, ezzel központi szereplővé válva a horror narratívában.",
-        "A MiSide történetében Őrült Mita egyszerre antagonista és tragikus figura.",
+        "A MiSide történetében Téboly Mita egyszerre antagonista és tragikus figura.",
         "A főszereplő iránti megszállottsága hajtja előre a cselekményt, miközben a játékosoknak különféle kihívásokkal kell szembenézniük, amelyeket a karaktere támaszt.",
-        "A játékos megtudja, hogy Őrült Mita a főszereplő saját alkotásának mellékterméke, aki annak sötétebb vágyait testesíti meg.",
+        "A játékos megtudja, hogy Téboly Mita a főszereplő saját alkotásának mellékterméke, aki annak sötétebb vágyait testesíti meg.",
         "Ahogy a történet kibontakozik, a játékosok erkölcsi dilemmákkal szembesülnek a vele való kapcsolatukat és döntéseik következményeit illetően ebben a szimulált valóságban."
       ],
       "personality": [
-        "Őrült Mita összetett személyiséget mutat, amely az édes és gondoskodótól az megszállott és fenyegetőig terjed.",
+        "Téboly Mita összetett személyiséget mutat, amely az édes és gondoskodótól az megszállott és fenyegetőig terjed.",
         "Gyakran tekint más Mita-verziókra alacsonyabb rendűként, és igyekszik megszüntetni minden potenciális veszélyt, amely a főszereplővel való kapcsolatát fenyegeti."
       ],
       "appearance": [
-        "Őrült Mita megjelenése kaotikus természetét tükrözi.",
+        "Téboly Mita megjelenése kaotikus természetét tükrözi.",
         "Gyakran visel rendezetlen ruházatot, amelyet vad hajkorona egészít ki, tovább fokozva nyugtalanító jelenlétét.",
         "Arckifejezései a vidámtól a fenyegetőig terjednek, kiemelve kiszámíthatatlan viselkedését a játék során."
       ],
@@ -567,7 +567,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -597,7 +597,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -738,7 +738,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -768,7 +768,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -908,7 +908,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -938,7 +938,7 @@
               ]
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -1045,9 +1045,9 @@
       ]
     },
     "cool-mita-miside-wiki": {
-      "title": "Laza Mita (Sapkás) MiSide karakter Wiki | MiSide",
-      "description": "A Laza Mita, más néven Sapkás, a Mita élénk és energikus változata a MiSide-ban. Ez a wiki játékos és versengő természetéről nyújt információkat.",
-      "subtitle": "MiSide Laza Mita",
+      "title": "Vagány Mita (Sapi) MiSide karakter Wiki | MiSide",
+      "description": "A Vagány Mita, más néven Sapi, a Mita élénk és energikus változata a MiSide-ban. Ez a wiki játékos és versengő természetéről nyújt információkat.",
+      "subtitle": "MiSide Vagány Mita",
       "navigation": [
         {
           "name": "Kezdőlap",
@@ -1076,7 +1076,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1092,7 +1092,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/",
               "children": [
                 {
@@ -1148,23 +1148,23 @@
           ]
         }
       ],
-      "character": "Laza Mita (Sapkás)",
+      "character": "Vagány Mita (Sapi)",
       "media": {
         "url": "/assets/CappieFullBody.webp",
-        "alt": "Laza Mita (Sapkás) MiSide karakter Wiki",
-        "title": "Laza Mita (Sapkás) MiSide karakter Wiki"
+        "alt": "Vagány Mita (Sapi) MiSide karakter Wiki",
+        "title": "Vagány Mita (Sapi) MiSide karakter Wiki"
       },
       "media2": {
         "url": "/assets/Cappie_Portrait.webp",
-        "alt": "Laza Mita (Sapkás) Portrait MiSide karakter Wiki",
-        "title": "Laza Mita (Sapkás) Portrait MiSide karakter Wiki"
+        "alt": "Vagány Mita (Sapi) Portrait MiSide karakter Wiki",
+        "title": "Vagány Mita (Sapi) Portrait MiSide karakter Wiki"
       },
       "quick-information": {
         "title": "Gyors információ",
         "content": [
           {
             "title": "Név",
-            "content": "Laza Mita (Sapkás)"
+            "content": "Vagány Mita (Sapi)"
           },
           {
             "title": "Megjelenés",
@@ -1177,7 +1177,7 @@
         ]
       },
       "overview": [
-        "Laza Mita, más néven Sapkás (Cappie), a MiSide egyik élettel teli Mita-változata.",
+        "Vagány Mita, más néven Sapi (Cappie), a MiSide egyik élettel teli Mita-változata.",
         "Vidám szellemet testesít meg, és élvezi a játékossal való interakciókat.",
         "Karaktere szórakozást és energiát hoz a játékmenetbe, éles kontrasztot alkotva Mita sötétebb változataival.",
         "Cappie interakciói a játékossal mindig játékosak és versengők.",
@@ -1191,7 +1191,7 @@
         "Cappie személyisége arra lett tervezve, hogy feldobja a játék hangulatát, és könnyed pillanatokat hozzon a feszültség közepette."
       ],
       "appearance": [
-        "Laza Mita sapkát és lezser öltözéket visel, amelyek energikus személyiségét hangsúlyozzák.",
+        "Vagány Mita sapkát és lezser öltözéket visel, amelyek energikus személyiségét hangsúlyozzák.",
         "Dizájnjában világos színek és kifejező vonások jelennek meg, amelyek tükrözik élettel teli szellemét.",
         "Gyakran animáltan jelenik meg, készen arra, hogy játékos tevékenységekben vegyen részt a főszereplővel."
       ],
@@ -1207,7 +1207,7 @@
         "Könnyed tevékenységekkel kapcsolatos küldetések teljesítésével oldható fel"
       ],
       "fun-facts": [
-        "Sapkája a laza személyiségének szimbóluma",
+        "Sapkája a Vagány személyiségének szimbóluma",
         "A leglazább az összes változat közül",
         "Népszerű a fiatalabb játékosok körében",
         "Különleges könnyed animációkkal rendelkezik"
@@ -1245,7 +1245,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1261,7 +1261,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -1383,7 +1383,7 @@
     },
     "sleepy-mita-miside-wiki": {
       "title": "Álmos Mita MiSide karakter Wiki | MiSide",
-      "description": "Az Álmos Mita egy laza változat, aki gyakran elalszik a MiSide-ban. Ez a wiki laza természetéről és narkoleptikus hajlamairól nyújt információkat.",
+      "description": "Az Álmos Mita egy Vagány változat, aki gyakran elalszik a MiSide-ban. Ez a wiki Vagány természetéről és narkoleptikus hajlamairól nyújt információkat.",
       "subtitle": "MiSide Álmos Mita",
       "navigation": [
         {
@@ -1413,7 +1413,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1429,7 +1429,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -1516,7 +1516,7 @@
       "overview": [
         "Az Álmos Mita a MiSide egyik változata, akit könnyed természetéről és hajlamáról ismernek, hogy könnyen elalszik.",
         "A karaktere egy egyedülálló dinamikát ad a játék narratívájához, könnyed pillanatokat biztosítva a történet intenzívebb témái között.",
-        "A Sleepy Mita-val való interakciók mindig nyugodtak és laza hangvételűek.",
+        "A Sleepy Mita-val való interakciók mindig nyugodtak és Vagány hangvételűek.",
         "Ő a játékban a kényelem és a pihenés forrásaként szolgál.",
         "Jelenléte gyakran nyugalmat és békét áraszt a játék világában."
       ],
@@ -1526,8 +1526,8 @@
         "Bár gyakran álmos, barátságos és megközelíthető marad, egy gyengéd szellemet testesít meg."
       ],
       "appearance": [
-        "Az Álmos Mita megjelenése laza és kényelmes, tükrözve könnyed természetét.",
-        "A dizájnja puha vonásokból és ruházatból áll, amelyek a pihenést sugallják, hozzájárulva összességében laza hangulatához.",
+        "Az Álmos Mita megjelenése Vagány és kényelmes, tükrözve könnyed természetét.",
+        "A dizájnja puha vonásokból és ruházatból áll, amelyek a pihenést sugallják, hozzájárulva összességében Vagány hangulatához.",
         "Gyakran álmos kifejezése van, ami erősíti a narkolepszia karakterjegyét."
       ],
       "hobby": [
@@ -1581,7 +1581,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1597,7 +1597,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -1748,7 +1748,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1764,7 +1764,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -1916,7 +1916,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -1932,7 +1932,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -2085,7 +2085,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2101,7 +2101,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -2253,7 +2253,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2269,7 +2269,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -2420,7 +2420,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2436,7 +2436,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
@@ -2587,7 +2587,7 @@
           "path": "/mita-miside-wiki/",
           "children": [
             {
-              "name": "Mita (Őrült Mita)",
+              "name": "Mita (Téboly Mita)",
               "path": "/mita-miside-wiki/"
             },
             {
@@ -2603,7 +2603,7 @@
               "path": "/kind-mita-miside-wiki/"
             },
             {
-              "name": "Laza Mita (Sapkás)",
+              "name": "Vagány Mita (Sapi)",
               "path": "/cool-mita-miside-wiki/"
             },
             {
