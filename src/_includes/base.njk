@@ -139,7 +139,7 @@
         <p class="mb-6 opacity-75 font-sg text-light bg-clip-text text-transparent bg-gradient-to-r from-light to-yellow">{{ translations.cta.description }}</p>
         <div class="flex flex-wrap justify-center gap-4 mt-6">
           {% for platform in translations.cta.platforms %}
-            <a href="{{ platform.link }}" target="_blank" class="shadow-lg shadow-red py-3 px-6 bg-gradient-to-br from-green to-green via-red animate-gradient-x rounded-full font-black hover:scale-110 transition duration-300 font-sg text-light">
+            <a href="{{ platform.link }}" target="_blank" rel="noopener noreferrer" class="shadow-lg shadow-red py-3 px-6 bg-gradient-to-br from-green to-green via-red animate-gradient-x rounded-full font-black hover:scale-110 transition duration-300 font-sg text-light">
               {{ platform.title }} →
             </a>
           {% endfor %}
@@ -155,78 +155,73 @@
         <a href="{{ '/privacy' | localizeUrl(currentLang) }}" class="text-light">
           {{ translations.footer.privacyPolicy }}
         </a>
-        <a href="{{ translations.footer.gitlink }}" target="_blank" class="ml-4 text-light">
+        <a href="{{ translations.footer.gitlink }}" target="_blank" rel="noopener noreferrer" class="ml-4 text-light">
           {{ translations.footer.github }}
         </a>
       </p>
       <p class="mt-10 text-xs font-light text-light opacity-50">*Ez a MiSide magyar rajongói oldala. A MiSide-ot a
-        <a href="https://aihasto.itch.io/miside" target="_blank" class="text-yellow">Aihasto</a>
+        <a href="https://aihasto.itch.io/miside" target="_blank" rel="noopener noreferrer" class="text-yellow">Aihasto</a>
         csapata fejlesztette.</p>
     </footer>
     <script>
       document.getElementById('copyright').innerText = new Date().getFullYear() + '';
+      const navLinks = document.querySelectorAll('.nav-link');
       document.addEventListener("DOMContentLoaded", function () {
         const currentUrlHash = window.location.hash;
-          const currentUrlPathname = window.location.pathname;
-          const currentUrl = currentUrlHash
-            ? currentUrlPathname + currentUrlHash
-            : currentUrlPathname;
-          const navLinks = document.querySelectorAll('.nav-link');
-          navLinks.forEach(link => {
+        const currentUrlPathname = window.location.pathname;
+        const currentUrl = currentUrlHash
+          ? currentUrlPathname + currentUrlHash
+          : currentUrlPathname;
+        navLinks.forEach(link => {
             const href = link.getAttribute('href');
-            // 检查当前路径是否包含blog，如果是则高亮blog链接
             if (currentUrlPathname.includes('/blog/') && href.includes('/blogentry/')) {
               link.classList.add('text-light');
-            }
-            // 其他精确匹配的情况 else if (href === currentUrl) {
-            link.classList.add('text-light');
-          }}
-      );
-      window.addEventListener('hashchange', function () {
-        const currentUrlHash = window.location.hash;
-          const currentUrlPathname = window.location.pathname;
-          const currentUrl = currentUrlHash
-            ? currentUrlPathname + currentUrlHash
-            : currentUrlPathname;
-          navLinks.forEach(link => {
-            link.classList.remove('text-light');
-            const href = link.getAttribute('href');
-            // 检查当前路径是否包含blog，如果是则高亮blog链接
-            if (currentUrlPathname.includes('/blog/') && href === '/blogentry/') {
+            } else if (href === currentUrl) {
               link.classList.add('text-light');
             }
-            // 其他精确匹配的情况 else if (href === currentUrl) {
+          });
+      });
+      window.addEventListener('hashchange', function () {
+        const currentUrlHash = window.location.hash;
+        const currentUrlPathname = window.location.pathname;
+        const currentUrl = currentUrlHash
+          ? currentUrlPathname + currentUrlHash
+          : currentUrlPathname;
+        navLinks.forEach(link => {
+          link.classList.remove('text-light');
+          const href = link.getAttribute('href');
+          if (currentUrlPathname.includes('/blog/') && href.includes('/blogentry/')) {
             link.classList.add('text-light');
-          }}
-      );
-    });
-  });
+          } else if (href === currentUrl) {
+            link.classList.add('text-light');
+          }
+        });
+      });
   document.getElementById('menu-toggle').addEventListener('click', function () {
     const navMenu = document.getElementById('nav-menu');
     navMenu.classList.toggle('hidden');
   });
-  // 语言切换功能
+  // Language switch functionality
   {
-    # const langButton = document.getElementById('language-button');
+    const langButton = document.getElementById('language-button');
     const langMenu = document.getElementById('language-menu');
     let isMenuOpen = false;
     langButton.addEventListener('click', function (e) {
       e.stopPropagation();
-      isMenuOpen = ! isMenuOpen;
+      isMenuOpen = !isMenuOpen;
       if (isMenuOpen) {
         langMenu.classList.remove('hidden');
       } else {
         langMenu.classList.add('hidden');
       }
     });
-    // 点击其他地方关闭菜单
+    // Close menu when clicking elsewhere
     document.addEventListener('click', function (e) {
-      if (! langMenu.contains(e.target) && ! langButton.contains(e.target)) {
+      if (!langMenu.contains(e.target) && !langButton.contains(e.target)) {
         langMenu.classList.add('hidden');
         isMenuOpen = false;
       }
     });
-    #
   }
   function copyPageUrl () {
     navigator
