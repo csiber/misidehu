@@ -1,59 +1,74 @@
-# MiSide
+# MiSide Fan Hub
 
-> This a fan site for MiSide. MiSide is a amazing horror video game developed by [Aihasto](https://aihasto.itch.io/miside). This repository is not a game repo. We provide guides, wiki, community discussions, and other information about the game. You can download it on [Steam](https://store.steampowered.com/app/2527500/MiSide/).
+> This is a **fan site** for MiSide — an amazing psychological horror video game developed by [Aihasto](https://aihasto.itch.io/miside).  
+> ⚠️ **Note:** This repository does not contain the game itself. Instead, it provides **guides, wiki content, community discussions, and resources** for fans.  
+> You can purchase and download the official game on [Steam](https://store.steampowered.com/app/2527500/MiSide/).
 
 ![MiSide Guide](https://miside.im/assets/miside-guide.jpeg)
 
-## About MiSide
+---
 
-[MiSide](https://miside.im) is a unique psychological horror adventure game that blends first-person exploration with visual novel elements. Developed by Aihasto, the game tells the story of an ordinary protagonist who mysteriously finds themselves trapped within a mobile simulation game. What begins as seemingly mundane tasks typical of romance games takes a dark turn, leading to an increasingly unsettling journey filled with tension and unpredictability.
+## 🎮 About MiSide
+
+[MiSide](https://miside.im) is a **unique psychological horror adventure game** that blends  
+first-person exploration with visual novel storytelling.  
+
+Developed by **Aihasto**, the game follows an ordinary protagonist who suddenly becomes trapped in what seems to be a mobile simulation game.  
+What begins as mundane, romance-game-like tasks soon transforms into a chilling descent filled with tension, unpredictability, and horror.
 
 ![MiSide Mita Wiki](https://miside.im/assets/mita-wiki.jpeg)
 
-## Key Features of MiSide
+---
 
-### 🎮 Adventure Horror Gameplay
-- Explore dark rooms and environments
-- Interact with objects and search for clues
-- Avoid dangers, including being stalked by unhinged characters
-- Engage with various minigames and puzzles scattered throughout
+## 🗝️ Key Features
 
-### 🎭 Rich Storytelling
-- Multiple endings based on your choices
-- Dynamic character interactions, especially with Mita
-- Psychological and supernatural horror elements
-- Choice-driven progression affecting storyline outcomes
+### Adventure Horror Gameplay
+- Explore unsettling environments and hidden rooms  
+- Interact with objects, uncover secrets, and solve puzzles  
+- Survive dangerous encounters and stalker-like characters  
+- Engage in minigames and mystery challenges  
 
-### 🎨 Unique Visual Style
-- Distinctive art style with 3D graphics
-- Anime-inspired visuals contrasting with horror themes
-- Customizable protagonist appearance
-- Carefully crafted environments
+### Rich Storytelling
+- Multiple endings influenced by player choices  
+- Dynamic interactions with characters, especially Mita  
+- Psychological and supernatural horror blend  
+- Branching, choice-driven narrative paths  
 
-### 🎵 Immersive Audio
-- Atmospheric sound design
-- Voice acting support (currently in Russian)
-- Soundtrack transitions from warm melodies to eerie ambient sounds
-- Audio cues enhancing the horror experience
+### Unique Visual Style
+- Distinct anime-inspired 3D art  
+- Contrast between romance-game visuals and horror themes  
+- Customizable protagonist appearance  
+- Highly detailed environments  
 
-## Game Features
+### Immersive Audio
+- Atmospheric soundtrack and sound effects  
+- Russian voice acting (English subtitles supported)  
+- Smooth transitions between cozy and unsettling soundscapes  
+- Subtle audio cues amplifying horror moments  
 
-- **Customizable Protagonist**: Personalize your character's appearance and attributes
-- **Dynamic Character Interactions**: Engage with evolving character personalities
-- **Progress Tracking**: Monitor achievements and collectibles
-- **Multiple Endings**: Different outcomes based on your choices
-- **Puzzle Elements**: Various minigames and puzzles to solve
-- **Achievement System**: 26 unique achievements to unlock
+---
 
-## Availability and Guides
+## 📋 Game Features Summary
 
-MiSide is available on:
-- [Steam](https://store.steampowered.com/app/2527500/MiSide/)
-- [Demo on itch.io](https://aihasto.itch.io/miside)
+- **Customizable Protagonist**  
+- **Dynamic Character Interactions**  
+- **Progress Tracking & Collectibles**  
+- **Multiple Endings**  
+- **Puzzle & Minigame Mechanics**  
+- **26 Achievements to Unlock**  
 
-For guides and community discussions:
-- MiSide: [miside.im](https://miside.im)
-- MiSide Guides: [Walkthrough, Achievements and Endings](https://miside.im/blogentry/)
-- MiSide Characters: [The Mitas](https://miside.im/mita-miside-wiki/)
+---
 
-![MiSide Characters](https://miside.im/assets/mitas-pic.jpeg)
+## 📥 Availability & Resources
+
+MiSide is available on:  
+- [Steam](https://store.steampowered.com/app/2527500/MiSide/)  
+- [Demo on itch.io](https://aihasto.itch.io/miside)  
+
+Fan guides and community:  
+- [miside.hu](https://miside.hu) – Hungarian language fan site  
+
+---
+
+⚠️ **Disclaimer:** This project is not affiliated with Aihasto or the official MiSide development team.  
+All rights to the game and its assets belong to their original creators.
