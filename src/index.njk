@@ -19,15 +19,24 @@ layout: base.njk
     .flip-card {
         perspective: 1000px;
         height: 300px;
+        outline: none;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+    .flip-card:focus-visible {
+        box-shadow: 0 0 0 3px rgba(255, 84, 157, 0.7);
+        transform: translateY(-4px);
     }
     .flip-card-inner {
         position: relative;
         width: 100%;
         height: 100%;
-        transition: transform 0.8s;
+        transition: transform 0.8s ease;
         transform-style: preserve-3d;
     }
-    .flip-card:hover .flip-card-inner {
+    .flip-card:hover .flip-card-inner,
+    .flip-card:focus-within .flip-card-inner,
+    .flip-card.is-flipped .flip-card-inner {
         transform: rotateY(180deg);
     }
     .flip-card-front,
@@ -59,12 +68,12 @@ layout: base.njk
                         font-black hover:scale-110 transition duration-300 font-sg text-light">{{ translations.pages.index.hero.buttonText }}</a>
             </div>
             <div class="w-full md:w-1/2 order-first md:order-last">
-                <img src="{{ translations.pages.index.hero.media.url }}" alt="{{ translations.pages.index.hero.media.alt }}" title="{{ translations.pages.index.hero.media.title }}" class="w-full m-auto rounded-lg shadow-lg"></div>
+                <img src="{{ translations.pages.index.hero.media.url }}" alt="{{ translations.pages.index.hero.media.alt }}" title="{{ translations.pages.index.hero.media.title }}" class="w-full m-auto rounded-lg shadow-lg" loading="lazy" decoding="async"></div>
             </div>
         </section>
         <section class="mt-32 text-center h-full" id="about">
             <div class="relative w-full h-[600px] md:h-[280px]">
-                <img src="/assets/hero.jpg" class="absolute inset-0 w-full h-[300px] object-cover filter blur-3xl">
+                <img src="/assets/hero.jpg" class="absolute inset-0 w-full h-[300px] object-cover filter blur-3xl" alt="Miside hős háttér" loading="lazy" decoding="async">
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="">
                             <h2 class="text-2xl font-sg text-light font-bold mb-4 md:mb-6">{{ translations.pages.index.about.title }}</h2>
@@ -84,7 +93,7 @@ layout: base.njk
                     {% for feature in translations.pages.index.gameplay.content %}
                         <div class="relative mb-8 overflow-hidden rounded-lg flex flex-col md:flex-row md:h-72">
                             <div class="w-full md:w-1/2 {% if loop.index is even %}md:order-2{% endif %}">
-                                <img src="{{ feature.media.url }}" alt="{{ feature.media.alt }}" class="w-full h-64 md:h-full object-cover hover:scale-110 transition duration-300" title="{{ feature.media.title }}"/>
+                                <img src="{{ feature.media.url }}" alt="{{ feature.media.alt }}" class="w-full h-64 md:h-full object-cover hover:scale-110 transition duration-300" title="{{ feature.media.title }}" loading="lazy" decoding="async"/>
                             </div>
                             <div class="w-full md:w-1/2 bg-red bg-opacity-50 flex items-center justify-center {% if loop.index is even %}md:order-1{%
                                     endif %}">
@@ -115,12 +124,12 @@ layout: base.njk
                 <p class="mb-10 opacity-75 text-md w-full md:w-2/3 mx-auto text-center">{{ translations.pages.index.mitas.subtitle }}</p>
                 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
                     {% for item in translations.pages.index.mitas.content %}
-                        <div class="flip-card">
+                        <div class="flip-card" tabindex="0" role="button" aria-expanded="false" aria-label="{{ translations.pages[item.path].character }} kártya részletei">
                             <div
                                 class="flip-card-inner">
                                 <!-- 正面 -->
                                 <div class="flip-card-front bg-red bg-opacity-20 rounded-lg overflow-hidden shadow-lg">
-                                    <img src="{{ translations.pages[item.path].media.url }}" alt="{{ translations.pages[item.path].character }}" class="w-full h-60 object-cover object-top">
+                                    <img src="{{ translations.pages[item.path].media.url }}" alt="{{ translations.pages[item.path].character }}" class="w-full h-60 object-cover object-top" loading="lazy" decoding="async">
                                         <p class="text-md font-bold p-4 text-center font-sg text-light">{{ translations.pages[item.path].character }}</p>
                                     </div>
                                     <!-- 背面 -->
@@ -153,7 +162,7 @@ layout: base.njk
                         {% for post in translations.pages.blogentry.blogs %}
                             <div class="w-full cursor-pointer hover:brightness-50 overflow-hidden rounded-lg">
                                 <a href="{{ post.path }}" class="">
-                                    <img src="{{ post.media.url }}" alt="{{ post.media.alt }}" title="{{ post.media.title }}" style="height: 200px; width: 100%;">
+                                    <img src="{{ post.media.url }}" alt="{{ post.media.alt }}" title="{{ post.media.title }}" style="height: 200px; width: 100%;" loading="lazy" decoding="async">
                                         <div class="w-full bg-red text-light bg-opacity-20 p-4">
                                             <p class="mb-2 text-xs">{{ post.date }}</p>
                                             <h3 class="text-sm font-bold">{{ post.name }}</h3>
