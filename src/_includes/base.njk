@@ -84,51 +84,76 @@
         z-[999] font-sg"> <a href="{{ '/' | localizeUrl(currentLang) }}" alt="MiSide">
         <div class="w-60 font-black text-md flex items-center">
           <div class="w-10 h-10 rounded-full overflow-hidden">
-            <img src="/assets/favicon.ico" class="w-20"/>
+            <img src="/assets/favicon.ico" class="w-20" alt="{{ translations.navigation.logoAlt | default('MiSide logó') }}" loading="lazy" decoding="async"/>
           </div>
           <span class="ml-2 text-light font-black text-xl">{{ translations.navigation.logoText }}</span>
         </div>
       </a>
       <div class="flex items-center gap-4">
-        <nav id="nav-menu" class="hidden lg:block">
+        <nav id="nav-menu" class="hidden lg:block" aria-label="{{ translations.navigation.ariaMainNav | default('Fő navigáció') }}">
           <div class="shadow-md shadow-red bg-green lg:shadow-none flex flex-col fixed z-[9999] top-14 right-4 shadow-md lg:static p-4
               text-sm lg:text-md lg:flex-row items-center gap-6 font-bold">
             {% for item in translations.navigation.navbar %}
               <a href="{{ item.url | localizeUrl(currentLang) }}" class="nav-link hover:text-light hover:underline hover:decoration-2 hover:underline-offset-8">{{ item.title }}</a>
             {% endfor %}
             <!-- Language Dropdown -->
-            {# <div class="relative">
-                                    <button id="language-button" class="border border-red text-xs px-2 py-1 flex items-center space-x-1 hover:bg-red hover:bg-opacity-80 rounded-lg">
-                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"></path></svg>
-                                      <span>{{ translations.languageSwitcher.currentLanguage }}</span>
-                                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                                      </svg>
-                                    </button>
-                                    <div id="language-menu" class="absolute shadow-red shadow-md right-0 mt-2 w-28 lg:w-48 bg-green bg-opacity-80 rounded shadow-lg hidden">
-                                      
-                                      {% for lang in ["en", "zh"] %}
-                                        {% if lang == "en" %}
-                                          {% set langPath = "" %}
-                                        {% else %}
-                                          {% set langPath = "/" + lang %}
-                                        {% endif %}
-                                        {% if i18n[lang] %}
-                                          {% set langName = i18n[lang].meta.language %}
-                                        {% else %}
-                                          {% set langName = lang %}
-                                        {% endif %}
-                                        <a href="{{ langPath }}{{ page.url | replace("/" + currentLang + "/", "/") }}"
-                                          class="block px-4 py-2 hover:bg-red hover:bg-opacity-100 {% if lang == currentLang %}text-light hover:text-white{% endif %}">
-                                          {{ langName }}
-                                        </a>
-                                      {% endfor %}
-                                    </div>
-                                  </div>  #}
+            <div class="relative" id="language-switcher">
+              <button
+                id="language-button"
+                class="border border-red text-xs px-2 py-1 flex items-center space-x-1 hover:bg-red hover:bg-opacity-80 rounded-lg transition duration-200"
+                type="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-controls="language-menu"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+                </svg>
+                <span>{{ translations.languageSwitcher.currentLanguage }}</span>
+                <svg class="w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div
+                id="language-menu"
+                class="absolute shadow-red shadow-md right-0 mt-2 w-32 lg:w-48 bg-green bg-opacity-90 rounded shadow-lg origin-top scale-y-0 opacity-0 transition transform duration-200 ease-out"
+                role="menu"
+                aria-labelledby="language-button"
+                hidden
+              >
+
+                {% for lang in ["en", "zh"] %}
+                  {% if lang == "en" %}
+                    {% set langPath = "" %}
+                  {% else %}
+                    {% set langPath = "/" + lang %}
+                  {% endif %}
+                  {% if i18n[lang] %}
+                    {% set langName = i18n[lang].meta.language %}
+                  {% else %}
+                    {% set langName = lang %}
+                  {% endif %}
+                  <a
+                    href="{{ langPath }}{{ page.url | replace("/" + currentLang + "/", "/") }}"
+                    role="menuitem"
+                    class="block px-4 py-2 hover:bg-red hover:bg-opacity-100 transition duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-light {% if lang == currentLang %}text-light hover:text-white{% endif %}"
+                  >
+                    {{ langName }}
+                  </a>
+                {% endfor %}
+              </div>
+            </div>
           </div>
         </nav>
-        <button id="menu-toggle" class="lg:hidden p-2">
-          <img src="/assets/hum.svg" class="w-6 h-6" alt="unfold"/>
+        <button
+          id="menu-toggle"
+          class="lg:hidden p-2"
+          type="button"
+          aria-label="{{ translations.navigation.ariaToggleMenu | default('Menü megnyitása') }}"
+          aria-controls="nav-menu"
+          aria-expanded="false"
+        >
+          <img src="/assets/hum.svg" class="w-6 h-6" alt="{{ translations.navigation.ariaToggleMenuIconAlt | default('Menü ikon') }}" loading="lazy" decoding="async"/>
         </button>
       </div>
     </header>
@@ -197,30 +222,97 @@
           }
         });
       });
-  document.getElementById('menu-toggle').addEventListener('click', function () {
+  {
+    const menuToggle = document.getElementById('menu-toggle');
     const navMenu = document.getElementById('nav-menu');
-    navMenu.classList.toggle('hidden');
-  });
+    if (menuToggle && navMenu) {
+      menuToggle.addEventListener('click', function () {
+        const isHidden = navMenu.classList.toggle('hidden');
+        menuToggle.setAttribute('aria-expanded', (!isHidden).toString());
+      });
+    }
+  }
   // Language switch functionality
   {
     const langButton = document.getElementById('language-button');
     const langMenu = document.getElementById('language-menu');
-    let isMenuOpen = false;
-    langButton.addEventListener('click', function (e) {
-      e.stopPropagation();
-      isMenuOpen = !isMenuOpen;
-      if (isMenuOpen) {
-        langMenu.classList.remove('hidden');
-      } else {
-        langMenu.classList.add('hidden');
-      }
-    });
-    // Close menu when clicking elsewhere
-    document.addEventListener('click', function (e) {
-      if (!langMenu.contains(e.target) && !langButton.contains(e.target)) {
-        langMenu.classList.add('hidden');
-        isMenuOpen = false;
-      }
+    if (langButton && langMenu) {
+      let isMenuOpen = false;
+      const chevron = langButton.querySelector('svg.w-4');
+      const setMenuState = (open) => {
+        isMenuOpen = open;
+        langButton.setAttribute('aria-expanded', open.toString());
+        langMenu.toggleAttribute('hidden', !open);
+        langMenu.classList.toggle('scale-y-0', !open);
+        langMenu.classList.toggle('opacity-0', !open);
+        langMenu.classList.toggle('scale-y-100', open);
+        langMenu.classList.toggle('opacity-100', open);
+        if (chevron) {
+          chevron.classList.toggle('rotate-180', open);
+        }
+      };
+      setMenuState(false);
+      langButton.addEventListener('click', function (e) {
+        e.stopPropagation();
+        setMenuState(!isMenuOpen);
+      });
+      langButton.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowDown' && !isMenuOpen) {
+          e.preventDefault();
+          setMenuState(true);
+          const firstItem = langMenu.querySelector('[role="menuitem"]');
+          if (firstItem) {
+            firstItem.focus();
+          }
+        } else if (e.key === 'Escape' && isMenuOpen) {
+          setMenuState(false);
+        }
+      });
+      // Close menu when clicking elsewhere
+      document.addEventListener('click', function (e) {
+        if (isMenuOpen && !langMenu.contains(e.target) && !langButton.contains(e.target)) {
+          setMenuState(false);
+        }
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && isMenuOpen) {
+          setMenuState(false);
+          langButton.focus();
+        }
+      });
+    }
+  }
+  // Flip card accessibility and interaction
+  {
+    const flipCards = document.querySelectorAll('.flip-card');
+    flipCards.forEach(card => {
+      const updateState = (open) => {
+        card.classList.toggle('is-flipped', open);
+        card.setAttribute('aria-expanded', open.toString());
+      };
+      updateState(card.classList.contains('is-flipped'));
+      card.addEventListener('click', (event) => {
+        if (event.target.closest('a, button')) {
+          return;
+        }
+        const willOpen = !card.classList.contains('is-flipped');
+        updateState(willOpen);
+      });
+      card.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          const willOpen = !card.classList.contains('is-flipped');
+          updateState(willOpen);
+        } else if (event.key === 'Escape' && card.classList.contains('is-flipped')) {
+          event.preventDefault();
+          updateState(false);
+        }
+      });
+      card.addEventListener('focusout', (event) => {
+        if (!card.contains(event.relatedTarget)) {
+          updateState(false);
+        }
+      });
     });
   }
   function copyPageUrl () {
