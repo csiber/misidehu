@@ -2,120 +2,89 @@
 layout: base.njk
 ---
 
-{# Aktuális nyelv lekérése #}
 {% set currentLang = "en" %}
 {% for lang in ["zh", "ja", "ko", "fil", "vi", "id", "ms", "th", "ru", "uk", "de", "pt"] %}
-  {% if page.url.startsWith("/" + lang + "/") %}
-    {% set currentLang = lang %}
-  {% endif %}
+  {% if page.url.startsWith("/" + lang + "/") %}{% set currentLang = lang %}{% endif %}
 {% endfor %}
+{% if i18n[currentLang] %}{% set translations = i18n[currentLang] %}{% else %}{% set translations = i18n["en"] %}{% endif %}
+{% set p = translations.pages["miside-endings"] %}
 
-{# Aktuális oldal i18n adatainak lekérése #}
-{% if i18n[currentLang] %}
-  {% set translations = i18n[currentLang] %}
-{% else %}
-  {% set translations = i18n["en"] %}
-{% endif %}
+<section class="post">
+  <div class="shell">
+    <nav class="post__breadcrumb" aria-label="breadcrumb">
+      <a href="{{ '/' | localizeUrl(currentLang) }}">// home</a><span>▸</span>
+      <a href="{{ '/blogentry' | localizeUrl(currentLang) }}">field_library</a><span>▸</span>
+      <span style="color:var(--pink);">befejezések</span>
+    </nav>
 
-{% set currentPage = page.url | replace("/" + currentLang + "/", "/") | replace("/blog/", "") | replace("/", "") %}
-{% if currentPage %}
-  {% set currentPage = currentPage %}
-{% else %}
-  {% set currentPage = "index" %}
-{% endif %}
+    <article class="post__inner">
+      <div class="kicker"><span class="kicker__num">DOC_03</span> // ROUTE_TREE</div>
 
-<nav class="h-10 text-xs md:text-md px-4 text-light font-black bg-gradient-to-l from-green to-red flex items-center">
-    <a href="/" class="nav-link hover:text-yellow hover:underline hover:decoration-2 hover:underline-offset-8">Kezdőlap</a>
-    >
-    <a href="/blogentry/" class="nav-link hover:text-yellow hover:underline hover:decoration-2 hover:underline-offset-8">Blog</a>
-    >
-    <a href="/blog/miside-endings/" class="nav-link hover:text-yellow underline hover:decoration-2 hover:underline-offset-8">Minden MiSide Befejezés</a>
-</nav>
+      <div class="post__hero">
+        <img src="{{ p.media.url }}" alt="{{ p.media.alt }}" loading="eager" decoding="async">
+      </div>
 
-<article class="p-4 md:p-8 bg-green">
-    <div class="max-w-3xl mx-auto">
-        <!-- Fejléc -->
-        <header class="mb-8 text-center">
-            <h1 class="text-2xl md:text-3xl font-black text-light mb-4">
-                {{ translations.pages[currentPage].articleTitle }}
-            </h1>
-            <p class="text-sm italic mb-6">Utolsó frissítés: {{ translations.pages[currentPage].date }}</p>
-            <!-- Közösségi megosztás gombok -->
-            <img src="{{ translations.pages[currentPage].media.url }}" 
-                alt="{{ translations.pages[currentPage].media.alt }}" 
-                title="{{ translations.pages[currentPage].media.alt }}"
-                class="w-full md:w-1/2 max-w-3xl mx-auto rounded-lg shadow-lg mb-6 object-cover">
-        </header>
+      <div class="post__date">// utolsó frissítés · {{ p.date }} · spoiler_warning: enabled</div>
+      <h1 class="post__title">{{ p.articleTitle }}</h1>
 
-        <!-- Tartalom -->
-        <div class="mt-20 prose prose-invert mx-auto">
-            <div class="bg-red bg-opacity-20 p-4 rounded-lg mb-8 text-[#ffc107]">
-                <h3 class="text-lg font-bold mb-2">⚠️ Figyelem, Spoilerek!</h3>
-                <p class="text-sm">
-                    Az alábbi tartalom spoilereket tartalmaz a MiSide befejezésről. Ha még nem fejezted be a játékot, és szeretnéd saját magad megtapasztalni a befejezéseket, azt javasoljuk, hogy először játssz végig a játékot.
-                </p>
-            </div>
-            
-            <p class="lead mb-6">
-                A MiSide három különböző befejezést kínál a játékosok számára, mindegyik egyedi nézőpontot ad a főszereplő és Mita kapcsolatáról. A játék során hozott döntéseid meghatározzák, melyik MiSide befejezést tapasztalod meg, és mindegyik más-más aspektust tár fel a történet sötét igazságából.
-            </p>
-            
-            <h2 class="mt-20 text-xl font-bold text-light mb-2">A Rossz Befejezés: Egy Csalóka Csapda</h2>
-            <p class="mb-6 opacity-75 text-light">Ez a MiSide befejezés egyszerűen a játék teljes végigjátszásával elérhető.</p>
-            <div class="mb-8">
-                <p class="mb-4">
-                    A MiSide Rossz Befejezése akkor következik be, amikor a játékosok úgy döntenek, hogy elutasítják Mita társaságát. Bár logikus döntésnek tűnhet Mita valódi természetének felfedezése után, ez a választás tragikus végkifejlethez vezet. Ahogy haladsz előre, találkozol egy másik Mita verzióval - aki látszólag kedvesebb - és próbálja újraindítani a "Őrült Mita" karakterét. Azonban ez a látszólagos megváltás valójában egy gondosan megtervezett átverés.
-                </p>
-                <p class="mb-4">
-                    A Törzs elérésével, amikor már azt hiszed, hogy Őrült Mita emlékeit törölték, a főszereplő csapdába esik. A felhasználói ID-jét egy pincében lévő eszközbe beírva tudatát véglegesen feltöltik egy kazettára. Bár a játék újraindítása a való világba való menekülést sugallhatja, az igazság sokkal sötétebb - a főszereplő örökre a MiSide szimulációjában marad.
-                </p>
-            </div>
+      <div class="post__warn" role="note">
+        <h3>⚠ spoiler_warning</h3>
+        <p>Az alábbi tartalom spoilereket tartalmaz a MiSide befejezéseiről. Ha még nem fejezted be a játékot, és szeretnéd saját magad megtapasztalni, először játszd végig.</p>
+      </div>
 
-            {# adsterra Native Banner #}
-            <div class="py-6">
-                <script async="async" data-cfasync="false" src="//pl25394580.profitablecpmrate.com/eab122b053e4ac0bfb8d0492fdcec2fd/invoke.js"></script>
-                <div id="container-eab122b053e4ac0bfb8d0492fdcec2fd"></div>
-            </div>
-            {# adsterra Native Banner #} 
+      <div class="post__body">
+        <p class="lead">A MiSide három különböző befejezést kínál a játékosok számára, mindegyik egyedi nézőpontot ad a főszereplő és Mita kapcsolatáról. A játék során hozott döntéseid határozzák meg, melyik befejezést tapasztalod meg — és mindegyik más-más aspektust tár fel a történet sötét igazságából.</p>
 
-            <h2 class="mt-20 text-xl font-bold text-light mb-4">A Game Over Befejezés: Egy Már Létező Börtön</h2>
-            <p class="mb-6 opacity-75 text-light">Ez a MiSide befejezés az 1. befejezés befejezése után érhető el, amikor a játékos tanúja lesz, ahogy Mita beírja a kódot a széfjéhez (4970), bár ez a kód bárhol beírható a befejezés előtt, mivel a széf kódja minden végigjátszásban ugyanaz.</p>
-            <div class="mb-8">
-                <p class="mb-4">
-                    Ez az egyedi befejezés akkor következik be, amikor a játékosok kapcsolatba lépnek a pincében lévő széffel. Három sikertelen próbálkozás után, hogy kinyissák, újra kell indítaniuk a Pince fejezetet, és használniuk kell a speciális "4 9 7 0" kódot. A széfben egy kézi eszközt és egy előrehaladási nyomkövetőt találnak. A csavar akkor jön, amikor Player One eltávolítja a kazettát az eszközből - a játék hirtelen véget ér, és visszatér a főmenühöz.
-                </p>
-                <p class="mb-4">
-                    Ez a befejezés egy sokkoló igazságot tár fel: Player One már a szimulációban volt, mielőtt a játék elkezdődött volna. A kazetta eltávolítása lényegében önmegsemmisítést eredményez, véget vetve a létezésének, mielőtt Mita újra felhasználhatná őt céljai eléréséhez.
-                </p>
-            </div>
-                
-            <h2 class="mt-20 text-xl font-bold text-light mb-4">A Jó Befejezés: Boldog Tudatlanság</h2>
-            <p class="mb-4 opacity-75 text-light">Ez a MiSide befejezés akkor érhető el, ha a kérdéses választási lehetőségnél az utóbbi opciót választod, amikor választanod kell a szekrény átvizsgálása és Mita mellett maradás között. A befejezés feloldásához <strong>három előfeltétel szükséges</strong>:</p>
-            <ul class="space-y-1 text-light text-sm opacity-75 mb-6 list-disc list-inside">
-                <li>Játssz végig a játékot teljesen, mielőtt a választás megjelenne.</li>
-                <li>Ne nézd meg a sütőt a <a href="https://miside.fandom.com/wiki/Story#Chapter_1:_I'M_INSIDE_A_GAME?" target="_blank" rel="noopener noreferrer" class="underline">"I’m Inside a Game?"</a> fejezetben.</li>
-                <li>Vedd fel a hűtőmágneseket, amikor leesnek az <a href="https://miside.fandom.com/wiki/Story#Chapter_1:_I'M_INSIDE_A_GAME?" target="_blank" rel="noopener noreferrer" class="underline">"I’m Inside a Game?"</a> fejezetben.</li>
-                <li>Ne vizsgáld meg a szellőzőt a <a href="https://miside.fandom.com/wiki/Story#Chapter_2:_TOGETHER_AT_LAST" target="_blank" rel="noopener noreferrer" class="underline">"Together At Last"</a> fejezetben.</li>
-                <li>Kóstold meg Mita szószát a <a href="https://miside.fandom.com/wiki/Story#Chapter_2:_TOGETHER_AT_LAST" target="_blank" rel="noopener noreferrer" class="underline">"Together At Last"</a> fejezetben.</li>
-                <li>Játssz legalább egy konzoljátékot Mitával a <a href="https://miside.fandom.com/wiki/Story#Chapter_3:_THINGS_GET_WEIRD" target="_blank" rel="noopener noreferrer" class="underline">"Things Get Weird"</a> fejezetben.</li>
-            </ul>
-            <div class="mb-8">
-                <p class="mb-4">
-                    A MiSide Jó Befejezés eléréséhez a játékosoknak először a Rossz Befejezést kell megtapasztalniuk. Ezt követően új mentést kell indítaniuk, vagy el kell indítaniuk a "Together At Last" fejezetet (kerülve a sütő átvizsgálását a kezdéskor). A befejezés kulcsa abban rejlik, hogy Őrült Mitát boldoggá tedd a szimulációban való tartózkodásod során.
-                </p>
-                <p class="mb-4">
-                    Ebben a befejezésben Player One és egy chibi verziója Mitának örökre együtt élnek a szimulációban. Bár kívülről pozitívnak tűnhet, valójában egy boldog tudatlanság állapota - a főszereplő nem tudja Mita valódi személyazonosságát és szándékait. Míg más játékosok továbbra is kazettákba zárva maradnak, ez a befejezés egy formája a tartalomnak a tudatlanság révén, mivel sikeresen kielégítette Őrült Mita vágyait.
-                </p>
-            </div>
+        <h2>A Rossz Befejezés — egy csalóka csapda</h2>
+        <p>Ez a befejezés egyszerűen a játék teljes végigjátszásával elérhető.</p>
+        <p>A Rossz Befejezés akkor következik be, amikor a játékosok elutasítják Mita társaságát. Bár logikus döntésnek tűnhet Mita valódi természetének felfedezése után, ez a választás tragikus végkifejlethez vezet. Ahogy haladsz előre, találkozol egy másik Mita verzióval — aki látszólag kedvesebb — és próbálja újraindítani az "Őrült Mita" karaktert. Azonban ez a látszólagos megváltás valójában egy gondosan megtervezett átverés.</p>
+        <p>A Törzs elérésével, amikor már azt hiszed, hogy Őrült Mita emlékeit törölték, a főszereplő csapdába esik. A felhasználói ID-jét egy pincében lévő eszközbe beírva tudatát véglegesen feltöltik egy kazettára. Bár a játék újraindítása a való világba való menekülést sugallhatja, az igazság sokkal sötétebb — a főszereplő örökre a MiSide szimulációjában marad.</p>
 
-            <div class="mt-20">
-                <img src="/assets/endings.jpeg" alt="MiSide Befejezés" title="MiSide Befejezés" class="w-full h-[300px] mx-auto shadow-lg mb-6 object-cover object-center">
-                <p class="mb-4">
-                    Minden befejezés a MiSide-ban különböző nézőpontot kínál a valóság, tudat és boldogság ára tekintetében. Akár szembenézel az igazsággal, akár elfogadod az önmegsemmisítést, vagy egy kényelmes hazugságot választasz, a MiSide befejezéseken való utazásod arra kényszerít, hogy elgondolkodj, mi is számít igaz
+        <h2>A Game Over Befejezés — egy már létező börtön</h2>
+        <p>Ez a befejezés az 1. befejezés után érhető el, amikor a játékos tanúja lesz, ahogy Mita beírja a kódot a széfjéhez (4970). A kód minden végigjátszásban ugyanaz, így bármikor használható.</p>
+        <p>Akkor következik be, amikor a játékosok kapcsolatba lépnek a pincében lévő széffel. Három sikertelen próbálkozás után újra kell indítaniuk a Pince fejezetet, és használniuk kell a <strong>4&nbsp;9&nbsp;7&nbsp;0</strong> kódot. A széfben egy kézi eszközt és egy előrehaladási nyomkövetőt találnak. A csavar akkor jön, amikor Player One eltávolítja a kazettát az eszközből — a játék hirtelen véget ér, és visszatér a főmenühöz.</p>
+        <p>Ez a befejezés egy sokkoló igazságot tár fel: <em>Player One már a szimulációban volt, mielőtt a játék elkezdődött volna</em>. A kazetta eltávolítása lényegében önmegsemmisítést eredményez, véget vetve a létezésének, mielőtt Mita újra felhasználhatná őt céljai eléréséhez.</p>
 
-án az életben.
-                </p>
-            </div>
+        <h2>A Jó Befejezés — boldog tudatlanság</h2>
+        <p>Ez a befejezés csak akkor érhető el, ha a kérdéses választási lehetőségnél az utóbbi opciót választod, amikor választanod kell a szekrény átvizsgálása és Mita mellett maradás között.</p>
+
+        <div class="tip-box">
+          <h3 class="tip-box__title">// Előfeltételek (mind a 6)</h3>
+          <ul>
+            <li>Játszd végig a játékot teljesen, mielőtt a választás megjelenne.</li>
+            <li>Ne nézd meg a sütőt az <a href="https://miside.fandom.com/wiki/Story" target="_blank" rel="noopener noreferrer">"I'm Inside a Game?"</a> fejezetben.</li>
+            <li>Vedd fel a hűtőmágneseket, amikor leesnek az "I'm Inside a Game?" fejezetben.</li>
+            <li>Ne vizsgáld meg a szellőzőt a "Together At Last" fejezetben.</li>
+            <li>Kóstold meg Mita szószát a "Together At Last" fejezetben.</li>
+            <li>Játssz legalább egy konzoljátékot Mitával a "Things Get Weird" fejezetben.</li>
+          </ul>
         </div>
-    </div>
-</article>
+
+        <p>A Jó Befejezés eléréséhez a játékosoknak először a Rossz Befejezést kell megtapasztalniuk. Ezt követően új mentést kell indítaniuk, vagy el kell indítaniuk a "Together At Last" fejezetet (kerülve a sütő átvizsgálását a kezdéskor). A befejezés kulcsa abban rejlik, hogy Őrült Mitát boldoggá tedd a szimulációban való tartózkodásod során.</p>
+        <p>Ebben a befejezésben Player One és egy chibi verziója Mitának <strong>örökre együtt élnek a szimulációban</strong>. Bár kívülről pozitívnak tűnhet, valójában egy boldog tudatlanság állapota — a főszereplő nem tudja Mita valódi személyazonosságát és szándékait. Míg más játékosok továbbra is kazettákba zárva maradnak, ez a befejezés a tartalom egy formája a tudatlanság révén, mivel sikeresen kielégítetted Őrült Mita vágyait.</p>
+
+        <p style="margin-top:32px;">Minden befejezés a MiSide-ban különböző nézőpontot kínál a valóság, tudat és boldogság ára tekintetében. Akár szembenézel az igazsággal, akár elfogadod az önmegsemmisítést, vagy egy kényelmes hazugságot választasz — utazásod arra kényszerít, hogy elgondolkodj, mi is számít igazán az életben.</p>
+      </div>
+
+      <aside class="related">
+        <div class="related__title">// kapcsolódó dokumentumok</div>
+        <div class="related__grid">
+          <a href="{{ '/blog/miside-walkthrough' | localizeUrl(currentLang) }}" class="related__card">
+            <img src="/assets/endings.jpeg" alt="Walkthrough">
+            <div>
+              <h3 class="related__card-title">Gyors végigjátszás</h3>
+              <p class="related__card-desc">Fejezetről fejezetre vezető útmutató.</p>
+            </div>
+          </a>
+          <a href="{{ '/blog/miside-achievements' | localizeUrl(currentLang) }}" class="related__card">
+            <img src="/assets/achievements.jpeg" alt="Achievements">
+            <div>
+              <h3 class="related__card-title">Mind a 26 eredmény</h3>
+              <p class="related__card-desc">Hogyan oldj fel mindent.</p>
+            </div>
+          </a>
+        </div>
+      </aside>
+    </article>
+  </div>
+</section>

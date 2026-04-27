@@ -2,346 +2,150 @@
 layout: base.njk
 ---
 
-{# 获取当前语言 #}
 {% set currentLang = "en" %}
 {% for lang in ["zh", "ja", "ko", "fil", "vi", "id", "ms", "th", "ru", "uk", "de", "pt"] %}
-    {% if page.url.startsWith("/" + lang + "/") %}
-        {% set currentLang = lang %}
-    {% endif %}
+  {% if page.url.startsWith("/" + lang + "/") %}{% set currentLang = lang %}{% endif %}
 {% endfor %}
-{# 获取当前页面的i18n数据 #}
-{% if i18n[currentLang] %}
-    {% set translations = i18n[currentLang] %}
-{% else %}
-    {% set translations = i18n["en"] %}
-{% endif %}
-{% set currentPage = page.url | replace("/" + currentLang + "/", "/") | replace("/blog/", "") | replace("/", "") %}
-{% if currentPage %}
-    {% set currentPage = currentPage %}
-{% else %}
-    {% set currentPage = "index" %}
-{% endif %}
-<nav class="h-10 text-xs md:text-md px-4 text-light font-black bg-gradient-to-l from-green to-red flex items-center">
-    <a href="/" class="nav-link hover:text-yellow hover:underline hover:decoration-2 hover:underline-offset-8">Home</a>
-    >
-    <a href="/blogentry/" class="nav-link hover:text-yellow hover:underline hover:decoration-2 hover:underline-offset-8">
-        Blog</a>
-    >
-    <a
-        href="/blog/miside-achievements/"
-        class="nav-link hover:text-yellow underline hover:decoration-2 hover:underline-offset-8">All MiSide Achievements</a>
-</nav>
-<article class="p-4 md:p-8 bg-green">
-    <div
-        class="max-w-3xl mx-auto">
-        <!-- Header -->
-        <header class="mb-8 text-center">
-            <h1 class="text-2xl md:text-3xl font-black text-light mb-4">
-                {{ translations.pages[currentPage].articleTitle }}
-            </h1>
-            <p class="text-sm italic mb-6">Utoljára frissítve: {{ translations.pages[currentPage].date }}</p>
-            <img src="{{ translations.pages[currentPage].media.url }}" alt="{{ translations.pages[currentPage].media.alt }}" title="{{ translations.pages[currentPage].media.alt }}" class="w-full md:w-1/2 max-w-3xl mx-auto rounded-lg shadow-lg mb-6 object-cover"></header>
-            <!-- Content -->
-            <div class="prose prose-invert mx-auto">
-                <div class="bg-red bg-opacity-20 p-4 rounded-lg mb-8 text-[#ffc107]">
-                    <h3 class="text-lg font-bold mb-2">⚠️ Spoiler veszély!</h3>
-                    <p class="text-sm opacity-75">
-                        A következő tartalom a MiSide eredményeivel kapcsolatos spoilereket tartalmaz. Játék végigjátszását javasoljuk, mielőtt
-                        tovább olvasnál.
-                    </p>
-                </div>
-                <p class="lead mb-8">
-                    A MiSide egy átfogó, 26 egyedi eredményből álló rendszert kínál, amelyeket a játékosok felfedezhetnek kalandjuk során. A
-                    mini-játékok mesteri elsajátításától kezdve a rejtett titkok felfedezéséig ezek az eredmények extra kihívást és
-                    felfedezést adnak a játékhoz. Nézzük meg, hogyan érheted el mindegyiket!
-                </p>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">Történettel kapcsolatos eredmények</h2>
-                    <div class="grid gap-6">
-                        <div class="p-6 rounded-lg">
-                            <h3 class="font-bold mb-2 text-yellow">Ez a vég?</h3>
-                            <p class="text-sm mb-2 opacity-75">Természetesen ez a vég!</p>
-                            <p class="text-sm opacity-75">Hogyan szerezd meg: Szerezd meg a rossz befejezést, ha visszautasítod Mita ajánlatát az
-                                első játékod elején a "Reboot" során.</p>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="font-bold mb-2 text-yellow">Életmentő Páncél</h3>
-                            <img
-                                src="/assets/safeoflife.jpeg"
-                                alt="Életmentő Páncél - MiSide Eredmények"
-                                title="Életmentő Páncél - MiSide Eredmények"
-                                class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover">
-                                <p class="text-sm mb-2 opacity-75">Tartsd magad biztonságban és épségben.</p>
-                                <p class="text-sm opacity-75">Hogyan szerezd meg: Nyisd ki a pincei páncélt a 4 9 7 0 kóddal, miután elérted a rossz
-                                    befejezést.</p>
-                            </div>
-                            <div class="p-6 rounded-lg">
-                                <h3 class="font-bold mb-2 text-yellow">Teljesítve a Feltételek</h3>
-                                <p class="text-sm mb-2 opacity-75">Maradhatok veled?</p>
-                                <p class="text-sm opacity-75">Hogyan szerezd meg: Érd el a jó befejezést úgy, hogy teljesíted a speciális feltételeket,
-                                    hogy Mita-val maradhass a "Benn a játékban?" és "Végre együtt" fejezetekben.</p>
-                            </div>
-                            <!-- adsterra Native Banner -->
-                            <div class="p-6">
-                                <script
-                                    async="async"
-                                    data-cfasync="false"
-                                    src="//pl25394580.profitablecpmrate.com/eab122b053e4ac0bfb8d0492fdcec2fd/invoke.js"></script>
-                                <div id="container-eab122b053e4ac0bfb8d0492fdcec2fd"></div>
-                            </div>
-                            <!-- adsterra Native Banner -->
-                        </div>
-                        <div class="mt-20 mb-12">
-                            <h2 class="text-xl font-bold text-light mb-4">Minijátékban elért eredmények</h2>
-                            <div class="grid gap-6">
-                                <div class="p-6 rounded-lg">
-                                    <h3 class="font-bold mb-2 text-yellow">Pingvin Dilemma!</h3>
-                                    <p class="text-sm mb-2 opacity-75">Tarts egy hóembert!</p>
-                                    <p class="text-sm opacity-75">Hogyan szerezd meg: Győzd le Mitát a Pingvin Halmok játékban a "Fura dolgok történnek"
-                                        fejezetben.</p>
-                                </div>
-                                <div class="p-6 rounded-lg">
-                                    <h3 class="font-bold mb-2 text-yellow">Aludttej</h3>
-                                    <img
-                                        src="/assets/clabber.jpeg"
-                                        alt="Clabber - MiSide Achievements"
-                                        title="Clabber - MiSide Achievements"
-                                        class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                                        <p class="text-sm mb-2 opacity-75">Felvert és savanyú.</p>
-                                        <p class="text-sm opacity-75">Hogyan lehet feloldani: Győzd le Mitát a tejbotrányban a „Furcsikává válnak” fejezetben.</p>
-                                    </div>
-                                    <div class="p-6 rounded-lg">
-                                        <h3 class="font-bold mb-2 text-yellow">Maximális sebességgel haladunk!</h3>
-                                        <img
-                                            src="/assets/speed.jpeg"
-                                            alt="Maximális sebességgel haladunk! - MiSide Achievements"
-                                            title="Maximális sebességgel haladunk! - MiSide Achievements"
-                                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                                            <p class="text-sm mb-2 opacity-75">Vroom!</p>
-                                            <p class="text-sm opacity-75">Feloldás: Gyűjtsd össze mind a 10 érmét a Spacecar játékgépben, mielőtt beszélsz Mitával a
-                                                „Világon túl."</p>
-                                        </div>
-                                        <div class="p-6 rounded-lg">
-                                            <h3 class="font-bold mb-2 text-yellow">Gyorsíts!</h3>
-                                            <img
-                                                src="/assets/accelerate.jpeg"
-                                                alt="Gyorsíts! - MiSide Achievements"
-                                                title="Gyorsíts! - MiSide Achievements"
-                                                class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                                                <p class="text-sm mb-2 opacity-75">Vroom-vroom!</p>
-                                                <p class="text-sm opacity-75">Feloldás: Szerezd meg az első helyet a Spacecar arcade minijátékban a „Túl a Világ."</p>
-                                            </div>
-                                            <div class="p-6 rounded-lg">
-                                                <h3 class="font-bold mb-2 text-yellow">A légy győzelme</h3>
-                                                <img
-                                                    src="/assets/fly.jpeg"
-                                                    alt="A légy győzelme - MiSide Achievements"
-                                                    title="A légy győzelme - MiSide Achievements"
-                                                    class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                                                    <p class="text-sm mb-2 opacity-75">Károgás-krokkant.</p>
-                                                    <p class="text-sm opacity-75">A zárolás feloldása: Álljon mozdulatlanul körülbelül egy percig 50 másodpercig, amíg a
-                                                        Player One el nem játszik a játékban, majd szerezzen 25 pontot a The Fly minijátékban.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="mt-20 mb-12">
-                                            <h2 class="text-xl font-bold text-light mb-4">Felfedezési eredmények</h2>
-                                            <div class="grid gap-6">
-                                                <div class="p-6 rounded-lg">
-                                                    <h3 class="font-bold mb-2 text-yellow">Répa</h3>
-                                                    <img
-                                                        src="/assets/carrot.jpeg"
-                                                        alt="Répa - MiSide Achievements"
-                                                        title="Répa - MiSide Achievements"
-                                                        class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                                                        <p class="text-sm mb-2 opacity-75">Keresd meg a teleportáló sárgarépát.</p>
-                                                        <p class="text-sm opacity-75">Feloldás: Keresd meg és találd meg hétszer a teleportáló sárgarépát Mila lakásában "Kész
-                                                            könyvek, hibák elpusztítása" alatt.</p>
-                                                    </div>
-                                                    <div class="p-6 rounded-lg">
-                                                        <h3 class="font-bold mb-2 text-yellow">Elkapta őket</h3>
-                                                        <p class="text-sm mb-2 opacity-75">Most ki a következő?</p>
-                                                        <p class="text-sm opacity-75">A feloldás módja: Keresd meg az összes kazettát a különböző fejezetekben.</p>
-                                                    </div>
-                                                    <div class="p-6 rounded-lg">
-                                                        <h3 class="font-bold mb-2 text-yellow">Szia, Mita</h3>
-                                                        <p class="text-sm mb-2 opacity-75">Mindegyik egyedi.</p>
-                                                        <p class="text-sm opacity-75">Feloldás: Keresd meg az összes karakterprofilt több fejezetben.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="mt-20 mb-12">
-                                                <h2 class="text-xl font-bold text-light mb-4">Interakciós eredmények</h2>
-                                                <div class="grid gap-6">
-                                                    <div class="p-6 rounded-lg">
-                                                        <h3 class="font-bold mb-2 text-yellow">Ízletes szerelem</h3>
-                                                        <p class="text-sm mb-2 opacity-75">Milyen ízű a liszt?</p>
-                                                        <p class="text-sm opacity-75">Feloldás: Fogyaszd el a szószt a „Végre együtt” fejezetben.</p>
-                                                    </div>
-                                                    <div class="p-6 rounded-lg">
-                                                        <h3 class="font-bold mb-2 text-yellow">Holt lé</h3>
-                                                        <img
-                                                            src="/assets/juice.jpeg"
-                                                            alt="Holt lé - MiSide Achievements"
-                                                            title="Holt lé - MiSide Achievements"
-                                                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                                                            <p class="text-sm mb-2 opacity-75">A hirdetésben látható léből készült.</p>
-                                                            <p class="text-sm opacity-75">Hogyan lehet feloldani: Meg kell innod a Mita által kínált gyümölcslevet a "Végre együtt"
-                                                                fejezetben.</p>
-                                                        </div>
-                                                        <div class="p-6 rounded-lg">
-                                                            <h3 class="font-bold mb-2 text-yellow">Ropogás a Sötétben</h3>
-                                                            <p class="text-sm mb-2 opacity-75">Nagyon sötét van…</p>
-                                                            <p class="text-sm opacity-75">A zárolás feloldása: Ne maradj ott, amikor átnézi a szekrényt a „Furcsává váló dolgok”
-                                                                című fejezetben.</p>
-                                                        </div>
-                                                        <div class="p-6 rounded-lg">
-                                                            <h3 class="font-bold mb-2 text-yellow">Ó, nagy Mita</h3>
-                                                            <p class="text-sm mb-2 opacity-75">Különleges interakció Mitával.</p>
-                                                            <p class="text-sm opacity-75">Hogyan lehet feloldani: Lépj kapcsolatba Mitával olyan konkrét kontextusban, amely tükrözi
-                                                                jelentőségét a történetet.</p>
-                                                        </div>
-                                                        <div class="p-6 rounded-lg">
-                                                            <h3 class="font-bold mb-2 text-yellow">Megtaláltalak!</h3>
-                                                            <img
-                                                                src="/assets/foundyou.jpeg"
-                                                                alt="Megtaláltalak! - MiSide Achievements"
-                                                                title="Megtaláltalak! - MiSide Achievements"
-                                                                class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                                                                <p class="text-sm mb-2 opacity-75">A felfedezés pillanata.</p>
-                                                                <p class="text-sm opacity-75">Feloldás: Sikeresen fedezz fel egy adott karaktert vagy elemet, vagy lépj kapcsolatba
-                                                                    velük a játékon belül.</p>
-                                                            </div>
-                                                            <div class="p-6 rounded-lg">
-                                                                <h3 class="font-bold mb-2 text-yellow">Pofon a fejére</h3>
-                                                                <img
-                                                                    src="/assets/slap.jpeg"
-                                                                    alt="Pofon a fejére - MiSide Achievements"
-                                                                    title="Pofon a fejére - MiSide Achievements"
-                                                                    class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                                                                    <p class="text-sm mb-2 opacity-75">Egy játékos pillanat Mitával.</p>
-                                                                    <p class="text-sm opacity-75">A feloldás módja: Vegyél részt egy adott minijátékban vagy interakcióban, ahol
-                                                                        "rácsaphatsz" Mita fejére.</p>
-                                                                </div>
-                                                                <div class="p-6 rounded-lg">
-                                                                    <h3 class="font-bold mb-2 text-yellow">Hosszú farok</h3>
-                                                                    <p class="text-sm mb-2 opacity-75">Érdekes farokkal kapcsolatos találkozás.</p>
-                                                                    <p class="text-sm opacity-75">Feloldás: Végezz el egy adott interakciót vagy eseményt, amely egy karakter farkával
-                                                                        kapcsolatos.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="mt-20 mb-12">
-                                                            <h2 class="text-xl font-bold text-light mb-4">Kihívás Eredmények</h2>
-                                                            <div class="grid gap-6">
-                                                                <div class="p-6 rounded-lg">
-                                                                    <h3 class="font-bold mb-2 text-yellow">A Nagy Tánc</h3>
-                                                                    {# <img src="/assets/dance.jpeg" 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            alt="A Nagy Tánc - MiSide Achievements" 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            title="A Nagy Tánc - MiSide Achievements"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top"> #}
-                                                                    <p class="text-sm mb-2 opacity-75">Tökéletes ritmus és időzítés.</p>
-                                                                    <p class="text-sm opacity-75">Hogyan lehet feloldani: A „Túl a világon” című fejezetben győzd le Cappie-t egy
-                                                                        ritmusjátékban. A teljes dalt hiba nélkül kell befejezni.</p>
-                                                                </div>
-                                                                <div class="p-6 rounded-lg">
-                                                                    <h3 class="font-bold mb-2 text-yellow">Pokoli Győzelem</h3>
-                                                                    <p class="text-sm mb-2 opacity-75">Győzelem egy kihívásokkal teli ellenfél felett.</p>
-                                                                    <p class="text-sm opacity-75">Hogyan lehet feloldani: Győzz le egy különösen nagy kihívást jelentő forgatókönyvet vagy
-                                                                        ellenséget.</p>
-                                                                </div>
-                                                                <div class="p-6 rounded-lg">
-                                                                    <h3 class="font-bold mb-2 text-yellow">Sérülés nélkül!?</h3>
-                                                                    <p class="text-sm mb-2 opacity-75">Tökéletes védekezés.</p>
-                                                                    <p class="text-sm opacity-75">Feloldás: Végezz el bizonyos kihívásokat vagy minijátékokat sérülés nélkül.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="mt-20 mb-12">
-                                                            <h2 class="text-xl font-bold text-light mb-4">Haladás Eredmények</h2>
-                                                            <div class="grid gap-6">
-                                                                <div class="p-6 rounded-lg">
-                                                                    <h3 class="font-bold mb-2 text-yellow">Bármilyen eredmény?</h3>
-                                                                    <p class="text-sm mb-2 opacity-75">Egy ajtó az új lehetőségekhez.</p>
-                                                                    <p class="text-sm opacity-75">Feloldás: Lépj a „Régi verzió” fejezetre, és nyisd ki sikeresen a bejárati ajtót.</p>
-                                                                </div>
-                                                                <div class="p-6 rounded-lg">
-                                                                    <h3 class="font-bold mb-2 text-yellow">Nem fogsz átmenni!</h3>
-                                                                    <p class="text-sm mb-2 opacity-75">A javítás mestere.</p>
-                                                                    <p class="text-sm opacity-75">Feloldás: Teljesíts bizonyos, a játék javításával kapcsolatos feltételeket.</p>
-                                                                </div>
-                                                                <div class="p-6 rounded-lg">
-                                                                    <h3 class="font-bold mb-2 text-yellow">1. szakasz naplók</h3>
-                                                                    <img
-                                                                        src="/assets/log1.jpeg"
-                                                                        alt="1. szakasz naplók - MiSide Achievements"
-                                                                        title="1. szakasz naplók - MiSide Achievements"
-                                                                        class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top">
-                                                                        <p class="text-sm mb-2 opacity-75">Az első szakasz feltárása.</p>
-                                                                        <p class="text-sm opacity-75">Feloldás: Gyűjts naplókat vagy adatokat a játék 1. szakaszához.</p>
-                                                                    </div>
-                                                                    <div class="p-6 rounded-lg">
-                                                                        <h3 class="font-bold mb-2 text-yellow">2. szakasz naplók</h3>
-                                                                        {# <img src="/assets/phase2.jpeg" 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        alt="2. szakasz naplók - MiSide Achievements" 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        title="2. szakasz naplók - MiSide Achievements"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        class="w-full md:w-1/2 h-[250px] shadow-lg mb-6 object-cover object-top"> #}
-                                                                        <p class="text-sm mb-2 opacity-75">A második szakasz felfedezése.</p>
-                                                                        <p class="text-sm opacity-75">A zárolás feloldása: Gyűjts naplókat vagy információkat a 2. szakaszához kapcsolódóan.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="mt-20 mb-12">
-                                                                <h2 class="text-xl font-bold text-light mb-4">Befejező teljesítmény</h2>
-                                                                <div class="p-6 rounded-lg">
-                                                                    <h3 class="font-bold mb-2 text-yellow">Pro Gamer</h3>
-                                                                    <p class="text-sm mb-2 opacity-75">Szinte mindenhol ellenőrizték.</p>
-                                                                    <p class="text-sm opacity-75">Feloldás: Gyűjtsd össze mind a 26 kitüntetést a MiSide-ban.</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="bg-red bg-opacity-20 p-6 rounded-lg mb-8">
-                                                                <h3 class="text-lg font-bold mb-2">💡 Eredményvadász tippek</h3>
-                                                                <ul class="list-disc list-inside space-y-2 text-sm">
-                                                                    <li>Használd a fejezetválasztó opciót a főmenüből, hogy visszalépj a korábbi fejezetekhez és megszerezd a kihagyott
-                                                                        eredményeket.</li>
-                                                                    <li>Néhány eredmény speciális feltételeket vagy több végigjátszást igényel a feloldáshoz.</li>
-                                                                    <li>Figyelj a környezetre, és alaposan felfedezd minden egyes fejezetet.</li>
-                                                                    <li>Ne félj különböző döntéseket hozni és interakciókat kipróbálni.</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <!-- Related Reading -->
-                                                        <section class="mt-20 mb-8">
-                                                            <h2 class="text-2xl font-bold text-light mb-4">Kapcsolódó olvasmányok</h2>
-                                                            <div class="text-light">
-                                                                <a href="/blog/miside-endings/" class="block p-4 transition-all duration-300 hover:bg-opacity-20">
-                                                                    <div class="flex items-center gap-4">
-                                                                        <img
-                                                                            src="/assets/choice.jpeg"
-                                                                            alt="MiSide befejezés útmutató"
-                                                                            title="MiSide befejezés útmutató"
-                                                                            class="w-24 h-24 object-cover rounded">
-                                                                            <div>
-                                                                                <h3 class="font-bold mb-2 underline text-light">Összes MiSide befejezés útmutató</h3>
-                                                                                <p class="text-sm text-gray-300">Fedezd fel a három különböző befejezést a MiSide-ban, és tanuld meg, hogyan oldhatod
-                                                                                    fel mindegyiket.</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </a>
-                                                                    <a href="/blog/miside-walkthrough/" class="block p-4 transition-all duration-300 hover:bg-opacity-20">
-                                                                        <div class="flex items-center gap-4">
-                                                                            <img
-                                                                                src="/assets/endings.jpeg"
-                                                                                alt="MiSide bemutató útmutató"
-                                                                                title="MiSide bemutató útmutató"
-                                                                                class="w-24 h-24 object-cover rounded">
-                                                                                <div>
-                                                                                    <h3 class="font-bold mb-2 underline text-light">MiSide bemutató útmutató</h3>
-                                                                                    <p class="text-sm text-gray-300">Gyors áttekintés MiSide történetéről és játékmenetéről</p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </a>
-                                                                    </div>
-                                                                </section>
-                                                            </div>
-                                                        </article>
+{% if i18n[currentLang] %}{% set translations = i18n[currentLang] %}{% else %}{% set translations = i18n["en"] %}{% endif %}
+{% set p = translations.pages["miside-achievements"] %}
+
+{# Achievement data: [num, name, quote, how, image?] #}
+{% set story = [
+  ["01", "Ez a vég?", "Természetesen ez a vég!", "Szerezd meg a rossz befejezést, ha visszautasítod Mita ajánlatát az első játékod elején a Reboot során.", ""],
+  ["02", "Életmentő Páncél", "Tartsd magad biztonságban és épségben.", "Nyisd ki a pincei páncélt a 4&nbsp;9&nbsp;7&nbsp;0 kóddal, miután elérted a rossz befejezést.", "/assets/safeoflife.jpeg"],
+  ["03", "Teljesítve a Feltételek", "Maradhatok veled?", "Érd el a jó befejezést úgy, hogy teljesíted a speciális feltételeket, hogy Mitával maradhass a Benn a játékban? és Végre együtt fejezetekben.", ""]
+] %}
+{% set minigames = [
+  ["04", "Pingvin Dilemma!", "Tarts egy hóembert!", "Győzd le Mitát a Pingvin Halmok játékban a Fura dolgok történnek fejezetben.", ""],
+  ["05", "Aludttej", "Felvert és savanyú.", "Győzd le Mitát a tejbotrányban a Furcsikává válnak fejezetben.", "/assets/clabber.jpeg"],
+  ["06", "Maximális sebességgel haladunk!", "Vroom!", "Gyűjtsd össze mind a 10 érmét a Spacecar játékgépben, mielőtt beszélsz Mitával a Világon túl fejezetben.", "/assets/speed.jpeg"],
+  ["07", "Gyorsíts!", "Vroom-vroom!", "Szerezd meg az első helyet a Spacecar arcade minijátékban a Túl a Világ fejezetben.", "/assets/accelerate.jpeg"],
+  ["08", "A légy győzelme", "Károgás-krokkant.", "Állj mozdulatlanul körülbelül 50 másodpercig, amíg Player One el nem játszik a játékban, majd szerezz 25 pontot a The Fly minijátékban.", "/assets/fly.jpeg"]
+] %}
+{% set discovery = [
+  ["09", "Répa", "Keresd meg a teleportáló sárgarépát.", "Keresd meg és találd meg hétszer a teleportáló sárgarépát Mita lakásában a Kész könyvek, hibák elpusztítása alatt.", "/assets/carrot.jpeg"],
+  ["10", "Elkapta őket", "Most ki a következő?", "Keresd meg az összes kazettát a különböző fejezetekben.", ""],
+  ["11", "Szia, Mita", "Mindegyik egyedi.", "Keresd meg az összes karakterprofilt több fejezetben.", ""]
+] %}
+{% set interaction = [
+  ["12", "Ízletes szerelem", "Milyen ízű a liszt?", "Fogyaszd el a szószt a Végre együtt fejezetben.", ""],
+  ["13", "Holt lé", "A hirdetésben látható léből készült.", "Idd meg a Mita által kínált gyümölcslevet a Végre együtt fejezetben.", "/assets/juice.jpeg"],
+  ["14", "Ropogás a Sötétben", "Nagyon sötét van…", "Ne maradj ott, amikor átnézi a szekrényt a Furcsává váló dolgok fejezetben.", ""],
+  ["15", "Ó, nagy Mita", "Különleges interakció Mitával.", "Lépj kapcsolatba Mitával olyan konkrét kontextusban, amely tükrözi jelentőségét a történetben.", ""],
+  ["16", "Megtaláltalak!", "A felfedezés pillanata.", "Sikeresen fedezz fel egy adott karaktert vagy elemet, vagy lépj kapcsolatba velük a játékon belül.", "/assets/foundyou.jpeg"],
+  ["17", "Pofon a fejére", "Egy játékos pillanat Mitával.", "Vegyél részt egy adott minijátékban vagy interakcióban, ahol rácsaphatsz Mita fejére.", "/assets/slap.jpeg"],
+  ["18", "Hosszú farok", "Érdekes farokkal kapcsolatos találkozás.", "Végezz el egy adott interakciót vagy eseményt, amely egy karakter farkával kapcsolatos.", ""]
+] %}
+{% set challenge = [
+  ["19", "A Nagy Tánc", "Tökéletes ritmus és időzítés.", "A Túl a világon fejezetben győzd le Cappie-t egy ritmusjátékban. A teljes dalt hiba nélkül kell befejezni.", ""],
+  ["20", "Pokoli Győzelem", "Győzelem egy kihívásokkal teli ellenfél felett.", "Győzz le egy különösen nagy kihívást jelentő forgatókönyvet vagy ellenséget.", ""],
+  ["21", "Sérülés nélkül!?", "Tökéletes védekezés.", "Végezz el bizonyos kihívásokat vagy minijátékokat sérülés nélkül.", ""]
+] %}
+{% set progression = [
+  ["22", "Bármilyen eredmény?", "Egy ajtó az új lehetőségekhez.", "Lépj a Régi verzió fejezetre, és nyisd ki sikeresen a bejárati ajtót.", ""],
+  ["23", "Nem fogsz átmenni!", "A javítás mestere.", "Teljesíts bizonyos, a játék javításával kapcsolatos feltételeket.", ""],
+  ["24", "1. szakasz naplók", "Az első szakasz feltárása.", "Gyűjts naplókat vagy adatokat a játék 1. szakaszához.", "/assets/log1.jpeg"],
+  ["25", "2. szakasz naplók", "A második szakasz felfedezése.", "Gyűjts naplókat vagy információkat a 2. szakaszához kapcsolódóan.", ""]
+] %}
+{% set completion = [
+  ["26", "Pro Gamer", "Szinte mindenhol ellenőrizték.", "Gyűjtsd össze mind a 26 kitüntetést a MiSide-ban.", ""]
+] %}
+
+{% macro achList(items) %}
+  <div class="ach-grid">
+    {% for a in items %}
+      <div class="ach {% if a[4] %}ach--with-img{% endif %}">
+        {% if a[4] %}<img src="{{ a[4] }}" alt="{{ a[1] }}" class="ach__img" loading="lazy" decoding="async">{% endif %}
+        <div>
+          <div class="ach__head">
+            <span class="ach__num">// ACH_{{ a[0] }}</span>
+            <h3 class="ach__name">{{ a[1] }}</h3>
+          </div>
+          <p class="ach__quote">"{{ a[2] | safe }}"</p>
+          <p class="ach__how"><strong>How to unlock</strong>{{ a[3] | safe }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endmacro %}
+
+<section class="post">
+  <div class="shell">
+    <nav class="post__breadcrumb" aria-label="breadcrumb">
+      <a href="{{ '/' | localizeUrl(currentLang) }}">// home</a><span>▸</span>
+      <a href="{{ '/blogentry' | localizeUrl(currentLang) }}">field_library</a><span>▸</span>
+      <span style="color:var(--pink);">eredmények</span>
+    </nav>
+
+    <article class="post__inner">
+      <div class="kicker"><span class="kicker__num">DOC_01</span> // ACHIEVEMENT_INDEX_26</div>
+
+      <div class="post__hero">
+        <img src="{{ p.media.url }}" alt="{{ p.media.alt }}" loading="eager" decoding="async">
+      </div>
+
+      <div class="post__date">// utolsó frissítés · {{ p.date }} · 26 trófea · 7 kategória</div>
+      <h1 class="post__title">{{ p.articleTitle }}</h1>
+
+      <div class="post__warn" role="note">
+        <h3>⚠ spoiler_warning</h3>
+        <p>A következő tartalom a MiSide eredményeivel kapcsolatos spoilereket tartalmaz. A játék végigjátszását javasoljuk, mielőtt tovább olvasnál.</p>
+      </div>
+
+      <div class="post__body">
+        <p class="lead">A MiSide egy átfogó, 26 egyedi eredményből álló rendszert kínál, amelyeket a játékosok felfedezhetnek kalandjuk során. A mini-játékok mesteri elsajátításától kezdve a rejtett titkok felfedezéséig ezek az eredmények extra kihívást és felfedezést adnak a játékhoz.</p>
+
+        <div class="section-head"><p class="section-head__num">// CAT_01 — STORY</p><h2 class="section-head__title" style="border:0;padding:0;">Történettel kapcsolatos eredmények</h2></div>
+        {{ achList(story) }}
+
+        <div class="section-head"><p class="section-head__num">// CAT_02 — MINIGAMES</p><h2 class="section-head__title" style="border:0;padding:0;">Minijátékban elért eredmények</h2></div>
+        {{ achList(minigames) }}
+
+        <div class="section-head"><p class="section-head__num">// CAT_03 — DISCOVERY</p><h2 class="section-head__title" style="border:0;padding:0;">Felfedezési eredmények</h2></div>
+        {{ achList(discovery) }}
+
+        <div class="section-head"><p class="section-head__num">// CAT_04 — INTERACTION</p><h2 class="section-head__title" style="border:0;padding:0;">Interakciós eredmények</h2></div>
+        {{ achList(interaction) }}
+
+        <div class="section-head"><p class="section-head__num">// CAT_05 — CHALLENGE</p><h2 class="section-head__title" style="border:0;padding:0;">Kihívás eredmények</h2></div>
+        {{ achList(challenge) }}
+
+        <div class="section-head"><p class="section-head__num">// CAT_06 — PROGRESSION</p><h2 class="section-head__title" style="border:0;padding:0;">Haladás eredmények</h2></div>
+        {{ achList(progression) }}
+
+        <div class="section-head"><p class="section-head__num">// CAT_07 — COMPLETION</p><h2 class="section-head__title" style="border:0;padding:0;">Befejező teljesítmény</h2></div>
+        {{ achList(completion) }}
+
+        <div class="tip-box">
+          <h3 class="tip-box__title">// hunter_tips</h3>
+          <ul>
+            <li>Használd a fejezetválasztó opciót a főmenüből, hogy visszalépj a korábbi fejezetekhez és megszerezd a kihagyott eredményeket.</li>
+            <li>Néhány eredmény speciális feltételeket vagy több végigjátszást igényel a feloldáshoz.</li>
+            <li>Figyelj a környezetre, és alaposan fedezd fel minden egyes fejezetet.</li>
+            <li>Ne félj különböző döntéseket hozni és interakciókat kipróbálni.</li>
+          </ul>
+        </div>
+      </div>
+
+      <aside class="related">
+        <div class="related__title">// kapcsolódó dokumentumok</div>
+        <div class="related__grid">
+          <a href="{{ '/blog/miside-endings' | localizeUrl(currentLang) }}" class="related__card">
+            <img src="/assets/choice.jpeg" alt="Endings">
+            <div>
+              <h3 class="related__card-title">Mind a 3 befejezés</h3>
+              <p class="related__card-desc">Útvonalak és előfeltételek.</p>
+            </div>
+          </a>
+          <a href="{{ '/blog/miside-walkthrough' | localizeUrl(currentLang) }}" class="related__card">
+            <img src="/assets/endings.jpeg" alt="Walkthrough">
+            <div>
+              <h3 class="related__card-title">Gyors végigjátszás</h3>
+              <p class="related__card-desc">Fejezetenként.</p>
+            </div>
+          </a>
+        </div>
+      </aside>
+    </article>
+  </div>
+</section>

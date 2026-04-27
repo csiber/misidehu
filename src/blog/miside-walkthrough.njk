@@ -2,295 +2,114 @@
 layout: base.njk
 ---
 
-{# 获取当前语言 #}
 {% set currentLang = "en" %}
 {% for lang in ["zh", "ja", "ko", "fil", "vi", "id", "ms", "th", "ru", "uk", "de", "pt"] %}
-    {% if page.url.startsWith("/" + lang + "/") %}
-        {% set currentLang = lang %}
-    {% endif %}
+  {% if page.url.startsWith("/" + lang + "/") %}{% set currentLang = lang %}{% endif %}
 {% endfor %}
-{# 获取当前页面的i18n数据 #}
-{% if i18n[currentLang] %}
-    {% set translations = i18n[currentLang] %}
-{% else %}
-    {% set translations = i18n["en"] %}
-{% endif %}
-{% set currentPage = page.url | replace("/" + currentLang + "/", "/") | replace("/blog/", "") | replace("/", "") %}
-{% if currentPage %}
-    {% set currentPage = currentPage %}
-{% else %}
-    {% set currentPage = "index" %}
-{% endif %}
-<nav class="h-10 text-xs md:text-md px-4 text-light font-black bg-gradient-to-l from-green to-red flex items-center">
-    <a href="/" class="nav-link hover:text-yellow hover:underline hover:decoration-2 hover:underline-offset-8">Kezdőlap</a>
-    >
-    <a href="/blogentry/" class="nav-link hover:text-yellow hover:underline hover:decoration-2 hover:underline-offset-8">
-        Blog</a>
-    >
-    <a
-        href="/blog/miside-walkthrough/"
-        class="nav-link hover:text-yellow underline hover:decoration-2 hover:underline-offset-8">MiSide gyors bemutató</a>
-</nav>
-<article class="p-4 md:p-8 bg-green">
-    <div
-        class="max-w-3xl mx-auto">
-        <!-- Header -->
-        <header class="mb-8 text-center">
-            <h1 class="text-2xl md:text-3xl font-black text-light mb-4">
-                {{ translations.pages[currentPage].articleTitle }}
-            </h1>
-            <p class="text-sm italic mb-6">Utoljára frissítve: {{ translations.pages[currentPage].date }}</p>
-            <img src="{{ translations.pages[currentPage].media.url }}" alt="{{ translations.pages[currentPage].media.alt }}" title="{{ translations.pages[currentPage].media.alt }}" class="w-full md:w-1/2 max-w-3xl mx-auto rounded-lg shadow-lg mb-6 object-cover"></header>
-            <!-- Content -->
-            <div class="prose prose-invert mx-auto">
-                <div class="bg-red bg-opacity-20 p-4 rounded-lg mb-8 text-[#ffc107]">
-                    <h3 class="text-lg font-bold mb-2">⚠️ Spoiler Veszély!</h3>
-                    <p class="text-sm opacity-75">
-                        Ez a bemutató jelentős spoilereket tartalmaz MiSide történetéhez és játékmenetéhez. Javasoljuk, hogy először játsszd
-                        végig a játékot tapasztald meg magad.
-                    </p>
-                </div>
-                <p class="lead mb-8">
-                    Üdvözöllek a MiSide gyors bemutatójában! Ez az útmutató végigvezeti ennek a pszichológiai horrornak az összes fejezetét
-                    játék, amely segít eligazodni a rejtélyekben és feltárni titkait.
-                </p>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">Prológus</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Az utazás a MiSide alkalmazással kezdődik. 37 napon keresztül kommunikálhat Mitával, és napi feladatokat lát el. Minden
-                            megváltozik a 37. napon, amikor Mita kifejezi vágyát, hogy személyesen találkozzon veled.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">1. fejezet: JÁTÉKBAN VAGYOK?</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Mita átvisz a játékvilágába, és utasít, hogy tedd le a telefonodat. A játék beállítása figyelemre méltóvá válik
-                            valósághű, amikor elkezdi megtalálni Mitát.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">2. fejezet: VÉGRE EGYÜTT</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Végre személyesen találkozol Mitával a játék világában. Együtt felfedezitek a házat, és elkezditek feltárni annak
-                            titkait.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">3. fejezet: A DOLGOK FURCSÁLNAK</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            A játék világában furcsa és nyugtalanító jelenségek kezdődnek megjelenni, amelyek arra késztetnek, hogy megkérdőjelezd a
-                            környezeted valóságát.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">4. fejezet: A pince</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Leereszkedsz a ház pincéjébe, felfedezve rejtett területeket. A légkör egyre hátborzongatóbbá válik, ahogy mélyebbre
-                            merészkedsz.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">5. fejezet: A VILÁGON TÚL</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Átléped a játék világának ismert határait, új kihívásokkal szembesülve, miközben a valóság és a virtuális világ továbbra
-                            is elmosódik.
-                        </p>
-                    </div>
-                </div>
-                {# adsterra Native Banner #}
-                <div class="py-6">
-                    <script
-                        async="async"
-                        data-cfasync="false"
-                        src="//pl25394580.profitablecpmrate.com/eab122b053e4ac0bfb8d0492fdcec2fd/invoke.js"></script>
-                    <div id="container-eab122b053e4ac0bfb8d0492fdcec2fd"></div>
-                </div>
-                {# adsterra Native Banner #}
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">6. fejezet: SAPKA</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Találkozol egy olyan Mita verzióval, aki sapkát visel, új dinamikát hozva az interakcióitokba. Ez a találkozás
-                            bonyolítja a Mita-ról alkotott elképzelésedet.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">7. fejezet: A HUROK</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Egy ismétlődő eseményekből álló ciklusba ragadsz. A szabaduláshoz alapos megfigyelésre és cselekvésre van szükség.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">8. fejezet: MINI MITA</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Megjelenik Mita egy kisebb verziója, új rejtvényeket és kihívásokat hozva. A Mini Mita-val való interakció mélyebb
-                            betekintést nyújt a játék narratívájába.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">9. fejezet: BABÁK ÉS ELFELEJTETT REJTVÉNYEK</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Bábukba botlasz, és rég elfeledett rejtvényeket oldasz meg. Ezek a kihívások még többet árulnak el a játék
-                            háttértörténetéből.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">10. fejezet: SZELLEMES</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Szellemszerű apparíciók kezdenek kísérteni a játék világában. Ezen entitásokkal való szembenézés elengedhetetlen a
-                            továbblépéshez.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">11. fejezet: CSAK ALUDNI AKAR</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Mita kifejezi kimerültségét és vágyát, hogy pihenjen. Segítened kell neki, hogy békét találjon a játék világában.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">12. fejezet: REGÉNYEK</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            A játékban olvasható regények kulcsfontosságú betekintést nyújtanak a történet egészébe. A fikció és a valóság határai
-                            továbbra is elmosódnak.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">13. fejezet: KÖNYVEK OLVASÁSA, GLITCHES MEGSEMMISÍTÉSE</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            A könyvekkel való interakcióval felismerheted és eltávolíthatod a játékban lévő hibákat. Ez a folyamat létfontosságú a
-                            játék stabilitásának helyreállításához.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">14. fejezet: FUSS ÉS REJTEKEZZ!</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Ismeretlen fenyegetések üldöznek, ami rejtőzködést és gyors gondolkodást igényel. A túlélés a menekülési képességeden
-                            múlik.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">15. fejezet: RÉGI VÁLTOZAT</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            A játék régebbi verziójának felfedezése feltárja annak történelmét és fejlődését. Ez az út Mita eredetéről szóló
-                            titkokat hoz felszínre.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">16. fejezet: NYÍLT DIALOGUS</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            Mita mély beszélgetései során még többet tudsz meg a múltjáról. Az érzelmi kapcsolatotok egyre erősebbé válik.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">17. fejezet: A VALÓDI VILÁG?</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            A valóság természetével kapcsolatos kételyek fokozódnak. Meg kell határoznod, mi valós és mi a játék része.
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-20 mb-12">
-                    <h2 class="text-xl font-bold text-light mb-4">18. fejezet: ÚJRAINDÍTÁS</h2>
-                    <div class="">
-                        <p class="text-sm opacity-75">
-                            A rendszer újraindításával próbálod megoldani a játék mélyebb problémáit. Azonban ez a lépés előre nem látott
-                            következményekhez vezet.
-                        </p>
-                    </div>
-                </div>
-                <div class="bg-red bg-opacity-20 p-6 rounded-lg mb-8">
-                    <h2 class="text-lg font-bold mb-2">💡 Játékbeli Tippek</h2>
-                    <ul class="list-disc list-inside space-y-2 text-sm">
-                        <li>Figyelj oda a környezeti részletekre és a párbeszédekre - gyakran kulcsfontosságú nyomokat tartalmaznak.</li>
-                        <li>Gyakran mentsd el a játékot, különösen fontos döntések előtt.</li>
-                        <li>Ne siettesd a felfedezést, és alaposan nézd át minden területet - sok titok van, ami nyíltan látható.</li>
-                        <li>Jegyezd meg azokat a kódokat vagy számokat, amelyeket találsz - később hasznosak lehetnek.</li>
-                        <li>Ne félj különböző döntéseket hozni, hogy lásd, hogyan befolyásolják a történetet.</li>
-                    </ul>
-                </div>
-                <div class="mt-20">
-                    <p>Ez csupán egy gyors áttekintés a MiSide történetéről és játékmenetéről. Részletesebb információkért a
-                        <a href="https://miside.fandom.com/wiki/Story" target="_blank" rel="noopener noreferrer" class="underline text-light">MiSide Wiki</a>
-                        oldalt keresheted fel.
-                    </p>
-                    <p class="mt-8">A játék vizuális áttekintéséhez az alábbi videó segíthet:</p>
-                    <div class="video-container mt-4">
-                        <div class="relative w-full" style="padding-top: 56.25%;">
-                            <iframe
-                                class="absolute top-0 left-0 w-full h-full"
-                                src="https://www.youtube.com/embed/onlyto2owWY?si=ql0YE1OZX6mIY_UO"
-                                title="YouTube videó lejátszó"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                <!-- Related Reading -->
-                <section class="mt-20 mb-8">
-                    <h2 class="text-2xl font-bold text-light mb-4">Kapcsolódó olvasmányok</h2>
-                    <div class="text-light grid gap-4">
-                        <a href="/blog/miside-endings/" class="block p-4 transition-all duration-300 hover:bg-opacity-20">
-                            <div class="flex items-center gap-4">
-                                <img
-                                    src="/assets/choice.jpeg"
-                                    alt="MiSide befejezések útmutató"
-                                    title="MiSide befejezések útmutató"
-                                    class="w-24 h-24 object-cover rounded">
-                                    <div>
-                                        <h3 class="font-bold mb-2 underline text-light">Minden MiSide befejezés</h3>
-                                        <p class="text-sm text-gray-300">Fedezd fel a MiSide három különböző befejezését, és tudd meg, hogyan érheted el
-                                            mindegyiket.</p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="/blog/miside-achievements/" class="block p-4 transition-all duration-300 hover:bg-opacity-20">
-                                <div class="flex items-center gap-4">
-                                    <img
-                                        src="/assets/achievements.jpeg"
-                                        alt="MiSide Achievements Guide"
-                                        title="MiSide Achievements Guide"
-                                        class="w-24 h-24 object-cover rounded">
-                                        <div>
-                                            <h3 class="font-bold mb-2 underline text-light">Minden MiSide érdem</h3>
-                                            <p class="text-sm text-gray-300">Fedezd fel az összes érdemet a MiSide-ban, és tudd meg, hogyan oldhatod fel őket.</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </section>
-                    </div>
-                </article>
+{% if i18n[currentLang] %}{% set translations = i18n[currentLang] %}{% else %}{% set translations = i18n["en"] %}{% endif %}
+{% set p = translations.pages["miside-walkthrough"] %}
+
+{% set chapters = [
+  ["00", "Prológus", "Az utazás a MiSide alkalmazással kezdődik. 37 napon keresztül kommunikálsz Mitával, és napi feladatokat látsz el. Minden megváltozik a 37. napon, amikor Mita kifejezi vágyát, hogy személyesen találkozzon veled."],
+  ["01", "I'M INSIDE A GAME?", "Mita átvisz a játékvilágába, és utasít, hogy tedd le a telefonodat. A játék beállítása figyelemre méltóan valósághű, ahogy elkezded megtalálni Mitát."],
+  ["02", "TOGETHER AT LAST", "Végre személyesen találkozol Mitával a játék világában. Együtt felfedezitek a házat, és elkezditek feltárni a titkait."],
+  ["03", "THINGS GET WEIRD", "Furcsa és nyugtalanító jelenségek kezdenek megjelenni, amelyek arra késztetnek, hogy megkérdőjelezd a környezeted valóságát."],
+  ["04", "THE BASEMENT", "Leereszkedsz a ház pincéjébe, rejtett területeket fedezve fel. A légkör egyre hátborzongatóbbá válik, ahogy mélyebbre merészkedsz."],
+  ["05", "BEYOND THE WORLD", "Átléped a játék világának ismert határait, új kihívásokkal szembesülve, miközben a valóság és a virtuális világ továbbra is elmosódik."],
+  ["06", "CAP", "Találkozol egy sapkát viselő Mita verzióval, új dinamikát hozva az interakcióitokba. Ez a találkozás bonyolítja a Mitáról alkotott elképzelésedet."],
+  ["07", "THE LOOP", "Egy ismétlődő eseményekből álló ciklusba ragadsz. A szabaduláshoz alapos megfigyelésre és cselekvésre van szükség."],
+  ["08", "MINI MITA", "Megjelenik Mita egy kisebb verziója, új rejtvényeket és kihívásokat hozva. A Mini Mitával való interakció mélyebb betekintést nyújt a játék narratívájába."],
+  ["09", "DOLLS & FORGOTTEN PUZZLES", "Bábukba botlasz, és rég elfeledett rejtvényeket oldasz meg. Ezek a kihívások még többet árulnak el a háttértörténetből."],
+  ["10", "GHOSTLY", "Szellemszerű apparíciók kezdenek kísérteni a játék világában. Ezen entitásokkal való szembenézés elengedhetetlen a továbblépéshez."],
+  ["11", "JUST WANTS TO SLEEP", "Mita kifejezi kimerültségét és vágyát, hogy pihenjen. Segítened kell neki, hogy békét találjon a játék világában."],
+  ["12", "NOVELS", "A játékban olvasható regények kulcsfontosságú betekintést nyújtanak. A fikció és a valóság határai továbbra is elmosódnak."],
+  ["13", "READING BOOKS, DESTROYING GLITCHES", "A könyvekkel való interakcióval felismerheted és eltávolíthatod a játékban lévő hibákat. Ez létfontosságú a stabilitás helyreállításához."],
+  ["14", "RUN AND HIDE!", "Ismeretlen fenyegetések üldöznek, ami rejtőzködést és gyors gondolkodást igényel. A túlélés a menekülési képességeden múlik."],
+  ["15", "OLD VERSION", "A játék régebbi verziójának felfedezése feltárja történelmét és fejlődését. Mita eredetéről szóló titkok kerülnek felszínre."],
+  ["16", "OPEN DIALOGUE", "Mita mély beszélgetései során még többet tudsz meg a múltjáról. Az érzelmi kapcsolatotok egyre erősebbé válik."],
+  ["17", "THE REAL WORLD?", "A valóság természetével kapcsolatos kételyek fokozódnak. Meg kell határoznod, mi valós és mi a játék része."],
+  ["18", "REBOOT", "A rendszer újraindításával próbálod megoldani a játék mélyebb problémáit. Azonban ez a lépés előre nem látott következményekhez vezet."]
+] %}
+
+<section class="post">
+  <div class="shell">
+    <nav class="post__breadcrumb" aria-label="breadcrumb">
+      <a href="{{ '/' | localizeUrl(currentLang) }}">// home</a><span>▸</span>
+      <a href="{{ '/blogentry' | localizeUrl(currentLang) }}">field_library</a><span>▸</span>
+      <span style="color:var(--pink);">walkthrough</span>
+    </nav>
+
+    <article class="post__inner">
+      <div class="kicker"><span class="kicker__num">DOC_02</span> // CHAPTER_MAP</div>
+
+      <div class="post__hero">
+        <img src="{{ p.media.url }}" alt="{{ p.media.alt }}" loading="eager" decoding="async">
+      </div>
+
+      <div class="post__date">// utolsó frissítés · {{ p.date }} · 19 fejezet</div>
+      <h1 class="post__title">{{ p.articleTitle }}</h1>
+
+      <div class="post__warn" role="note">
+        <h3>⚠ spoiler_warning</h3>
+        <p>Ez a bemutató jelentős spoilereket tartalmaz MiSide történetéhez és játékmenetéhez. Javasoljuk, hogy először játszd végig a játékot, és tapasztald meg magad.</p>
+      </div>
+
+      <div class="post__body">
+        <p class="lead">Üdvözöllek a MiSide gyors bemutatójában. Ez az útmutató végigvezet a pszichológiai horror-játék összes fejezetén, segít eligazodni a rejtélyekben és feltárni a titkait.</p>
+
+        <div class="section-head">
+          <p class="section-head__num">// 01_chapters</p>
+          <h2 class="section-head__title" style="border:0;padding:0;">Fejezetenkénti útmutató</h2>
+        </div>
+
+        {% for ch in chapters %}
+          <div class="chapter">
+            <div class="chapter__num">{{ ch[0] }}</div>
+            <div>
+              <h3 class="chapter__title">{{ ch[1] }}</h3>
+              <p class="chapter__desc">{{ ch[2] }}</p>
+            </div>
+          </div>
+        {% endfor %}
+
+        <div class="tip-box">
+          <h3 class="tip-box__title">// 02_field_tips</h3>
+          <ul>
+            <li>Figyelj oda a környezeti részletekre és a párbeszédekre — gyakran kulcsfontosságú nyomokat tartalmaznak.</li>
+            <li>Gyakran mentsd el a játékot, különösen fontos döntések előtt.</li>
+            <li>Ne siettesd a felfedezést, és alaposan nézd át minden területet — sok titok van, ami nyíltan látható.</li>
+            <li>Jegyezd meg azokat a kódokat vagy számokat, amelyeket találsz — később hasznosak lehetnek.</li>
+            <li>Ne félj különböző döntéseket hozni, hogy lásd, hogyan befolyásolják a történetet.</li>
+          </ul>
+        </div>
+
+        <p>Ez csupán egy gyors áttekintés a MiSide történetéről és játékmenetéről. Részletesebb információkért keresd fel a <a href="https://miside.fandom.com/wiki/Story" target="_blank" rel="noopener noreferrer">MiSide Wiki</a> oldalát.</p>
+
+        <h2>Vizuális áttekintés</h2>
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/onlyto2owWY?si=ql0YE1OZX6mIY_UO" title="MiSide visual walkthrough" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <aside class="related">
+        <div class="related__title">// kapcsolódó dokumentumok</div>
+        <div class="related__grid">
+          <a href="{{ '/blog/miside-endings' | localizeUrl(currentLang) }}" class="related__card">
+            <img src="/assets/choice.jpeg" alt="Endings">
+            <div>
+              <h3 class="related__card-title">Mind a 3 befejezés</h3>
+              <p class="related__card-desc">Jó, rossz, game over — feltételek és útvonalak.</p>
+            </div>
+          </a>
+          <a href="{{ '/blog/miside-achievements' | localizeUrl(currentLang) }}" class="related__card">
+            <img src="/assets/achievements.jpeg" alt="Achievements">
+            <div>
+              <h3 class="related__card-title">Mind a 26 eredmény</h3>
+              <p class="related__card-desc">Hogyan oldj fel mindent.</p>
+            </div>
+          </a>
+        </div>
+      </aside>
+    </article>
+  </div>
+</section>

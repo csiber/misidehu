@@ -1,0 +1,33 @@
+{# Shared blog post layout. Caller sets layout: base.njk and provides {% block postBody %}{% endblock %} #}
+
+{% set currentLang = "en" %}
+{% for lang in ["zh", "ja", "ko", "fil", "vi", "id", "ms", "th", "ru", "uk", "de", "pt"] %}
+  {% if page.url.startsWith("/" + lang + "/") %}{% set currentLang = lang %}{% endif %}
+{% endfor %}
+{% if i18n[currentLang] %}{% set translations = i18n[currentLang] %}{% else %}{% set translations = i18n["en"] %}{% endif %}
+{% set currentPage = page.url | replace("/" + currentLang + "/", "/") | replace("/blog/", "") | replace("/", "") %}
+{% if not currentPage %}{% set currentPage = "index" %}{% endif %}
+{% set p = translations.pages[currentPage] %}
+
+<section class="post">
+  <div class="shell">
+    <nav class="post__breadcrumb" aria-label="breadcrumb">
+      <a href="{{ '/' | localizeUrl(currentLang) }}">// home</a><span>▸</span>
+      <a href="{{ '/blogentry' | localizeUrl(currentLang) }}">blog</a><span>▸</span>
+      <span style="color:var(--pink);">{{ p.articleTitle }}</span>
+    </nav>
+
+    <article class="post__inner">
+      <div class="post__hero">
+        <img src="{{ p.media.url }}" alt="{{ p.media.alt }}" loading="eager" decoding="async">
+      </div>
+
+      <div class="post__date">// utolsó frissítés · {{ p.date }}</div>
+      <h1 class="post__title">{{ p.articleTitle }}</h1>
+
+      <div class="post__body">
+        {% block postBody %}{% endblock %}
+      </div>
+    </article>
+  </div>
+</section>

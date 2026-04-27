@@ -3,15 +3,23 @@ layout: base.njk
 permalink: 404.html
 ---
 
-<section class="p-10 bg-green bg-opacity-80">
-  <div class="min-h-96 flex flex-col items-center justify-center">
-    <div class="text-center">
-        <h1 class="text-6xl font-bold mb-4 text-light">404</h1>
-        <h2 class="text-2xl mb-8">Hoppá! Az oldal nem található!</h2>
-        <p class="mb-8 text-lg">Úgy tűnik, hogy a keresett oldal eltűnt az árnyékban... vagy talán Mita volt?</p>
-        <a href="/" class="inline-block px-6 py-3 bg-light text-yellow hover:bg-blood transition-colors duration-300 rounded-full">
-            Vissza a kezdőoldalra
-        </a>
+<section class="post">
+  <div class="shell">
+    <div class="error-page">
+      <div class="kicker" style="justify-content:center;display:inline-flex;"><span class="kicker__num">ERR</span> // NODE_NOT_FOUND</div>
+      <h1 class="error-page__code">404</h1>
+      <h2 class="error-page__title">Az oldal eltűnt az árnyékban...</h2>
+      <p class="error-page__sub">Úgy tűnik, a keresett dokumentum nem létezik ezen a node-on. Talán Mita volt? Vagy egy hibás link.</p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+        <a href="/" class="btn btn--primary">vissza a kezdőoldalra <span class="btn__arrow">→</span></a>
+        <a href="/blogentry/" class="btn btn--ghost">field_library</a>
+      </div>
+
+      <pre style="margin-top:64px;font-family:var(--font-mono);font-size:11px;color:var(--text-dim);line-height:1.7;text-align:left;display:inline-block;opacity:.5;">
+> trace_route /requested
+  ▸ resolving... <span style="color:var(--pink-2);">node_unreachable</span>
+  ▸ fallback... <span style="color:var(--pink);">/index</span>
+  ▸ status: <span style="color:#ffb547;">recoverable</span></pre>
     </div>
   </div>
 </section>

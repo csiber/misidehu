@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-{# 获取当前语言 #}
+{# Aktuális nyelv detektálása az URL alapján #}
 {% set currentLang = "en" %}
 {% for lang in ["zh", "ja", "ko", "fil", "vi", "id", "ms", "th", "ru", "uk", "de", "pt"] %}
   {% if page.url.startsWith("/" + lang + "/") %}
     {% set currentLang = lang %}
   {% endif %}
 {% endfor %}
-{# 获取当前页面的i18n数据 #}
 {% if i18n[currentLang] %}
   {% set translations = i18n[currentLang] %}
 {% else %}
@@ -19,346 +18,188 @@
   {% set currentPage = "index" %}
 {% endif %}
 <html lang="{{ translations.meta.lang }}" dir="{{ translations.meta.dir }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <title>{{ translations.pages[currentPage].title }}</title>
-    <meta
-    name="description" content="{{ translations.pages[currentPage].description }}"> {# OpenGraph和Twitter卡片标签 #}
-    <meta property="og:title" content="{{ translations.pages[currentPage].title }}"/>
-    <meta property="og:description" content="{{ translations.pages[currentPage].description }}"/>
-    <meta property="og:url" content="https://miside.hu{{ page.url }}"/>
-    <meta property="og:site_name" content="miside.hu"/>
-    <meta property="og:image" content="https://miside.hu/assets/hero.gif"/>
-    <meta property="og:type" content="website"/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content="{{ translations.pages[currentPage].title }}"/>
-    <meta name="twitter:description" content="{{ translations.pages[currentPage].description }}"/>
-    <meta name="twitter:image" content="https://miside.hu/assets/hero.gif"/>
-    <link rel="canonical" href="https://miside.hu{{ page.url }}"/> {# 添加语言替代链接 #}
-    {# {% for lang in ["en", "zh", "ja", "ko", "fil", "vi", "id", "ms", "th", "ru", "uk", "de", "pt"] %} #}
-    {# {% for lang in ["en", "zh"] %}
-            {% if lang == "en" %}
-              {% set langPath = "" %}
-            {% else %}
-              {% set langPath = "/" + lang %}
-            {% endif %}
-            <link rel="alternate" hreflang="{{ lang }}" href="https://miside.im{{ langPath }}{{ page.url | replace("/" + currentLang + "/", "/") }}" />
-          {% endfor %} #} <meta name="google-adsense-account" content="ca-pub-5331303144323541">
-    <link id="favicon" rel="icon" href="/assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/normalize.min.css">
-    <link rel="stylesheet" href="/css/fonts.css"> <!-- <link rel="stylesheet" type="text/css" href="./toastify.min.css"> -->
-    <!-- <script type="text/javascript" src="./toastify-js.js"></script> --><script src="/js/tailwindcss.js"> </script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              green: '#231a22',
-              yellow: '#ffffff',
-              red: '#5f2e6b',
-              light: '#ff549d'
-            },
-            fontFamily: {
-              'sg': [
-                'SourGummy',
-                'Verdana',
-                'Arial',
-                'Helvetica',
-                'sans-serif'
-              ]
-            }
-          }
-        }
-      }
-    </script>
-  </head>
-  <body class="bg-[url('/assets/miside.jpeg')] bg-cover w-full max-w-[1200px] m-auto px-4 text-yellow font-mono bg-fixed
-      backdrop-blur-sm">
-    {# FB comment #}
-    {# <div id="fb-root"></div>
-          <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script> #}
-    {# FB comment #}
-      <header class="bg-green bg-opacity-80 backdrop-blur-lg h-20 flex justify-between items-center py-4 px-4 shadow-md sticky top-0
-        z-[999] font-sg"> <a href="{{ '/' | localizeUrl(currentLang) }}" alt="MiSide">
-        <div class="w-60 font-black text-md flex items-center">
-          <div class="w-10 h-10 rounded-full overflow-hidden">
-            <img src="/assets/favicon.ico" class="w-20" alt="{{ translations.navigation.logoAlt | default('MiSide logó') }}" loading="lazy" decoding="async"/>
-          </div>
-          <span class="ml-2 text-light font-black text-xl">{{ translations.navigation.logoText }}</span>
-        </div>
-      </a>
-      <div class="flex items-center gap-4">
-        <nav id="nav-menu" class="hidden lg:block" aria-label="{{ translations.navigation.ariaMainNav | default('Fő navigáció') }}">
-          <div class="shadow-md shadow-red bg-green lg:shadow-none flex flex-col fixed z-[9999] top-14 right-4 shadow-md lg:static p-4
-              text-sm lg:text-md lg:flex-row items-center gap-6 font-bold">
-            {% for item in translations.navigation.navbar %}
-              <a href="{{ item.url | localizeUrl(currentLang) }}" class="nav-link hover:text-light hover:underline hover:decoration-2 hover:underline-offset-8">{{ item.title }}</a>
-            {% endfor %}
-            <!-- Language Dropdown -->
-            <div class="relative" id="language-switcher">
-              <button
-                id="language-button"
-                class="border border-red text-xs px-2 py-1 flex items-center space-x-1 hover:bg-red hover:bg-opacity-80 rounded-lg transition duration-200"
-                type="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-                aria-controls="language-menu"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
-                </svg>
-                <span>{{ translations.languageSwitcher.currentLanguage }}</span>
-                <svg class="w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              <div
-                id="language-menu"
-                class="absolute shadow-red shadow-md right-0 mt-2 w-32 lg:w-48 bg-green bg-opacity-90 rounded shadow-lg origin-top scale-y-0 opacity-0 transition transform duration-200 ease-out"
-                role="menu"
-                aria-labelledby="language-button"
-                hidden
-              >
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ translations.pages[currentPage].title }}</title>
+  <meta name="description" content="{{ translations.pages[currentPage].description }}">
+  <meta property="og:title" content="{{ translations.pages[currentPage].title }}"/>
+  <meta property="og:description" content="{{ translations.pages[currentPage].description }}"/>
+  <meta property="og:url" content="https://miside.hu{{ page.url }}"/>
+  <meta property="og:site_name" content="miside.hu"/>
+  <meta property="og:image" content="https://miside.hu/assets/hero.gif"/>
+  <meta property="og:type" content="website"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="{{ translations.pages[currentPage].title }}"/>
+  <meta name="twitter:description" content="{{ translations.pages[currentPage].description }}"/>
+  <meta name="twitter:image" content="https://miside.hu/assets/hero.gif"/>
+  <link rel="canonical" href="https://miside.hu{{ page.url }}"/>
+  <meta name="google-adsense-account" content="ca-pub-5331303144323541">
+  <link id="favicon" rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/normalize.min.css">
+  <link rel="stylesheet" href="/css/hud.css">
+  <link rel="stylesheet" href="/css/pages.css">
+</head>
+<body>
 
-                {% for lang in ["en", "zh"] %}
-                  {% if lang == "en" %}
-                    {% set langPath = "" %}
-                  {% else %}
-                    {% set langPath = "/" + lang %}
-                  {% endif %}
-                  {% if i18n[lang] %}
-                    {% set langName = i18n[lang].meta.language %}
-                  {% else %}
-                    {% set langName = lang %}
-                  {% endif %}
-                  <a
-                    href="{{ langPath }}{{ page.url | replace("/" + currentLang + "/", "/") }}"
-                    role="menuitem"
-                    class="block px-4 py-2 hover:bg-red hover:bg-opacity-100 transition duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-light {% if lang == currentLang %}text-light hover:text-white{% endif %}"
-                  >
-                    {{ langName }}
-                  </a>
-                {% endfor %}
-              </div>
-            </div>
-          </div>
+  {# ============================================ HEADER ============================================ #}
+  <header class="hud-header">
+    <div class="shell">
+      <div class="hud-header__top">
+        <span class="hud-header__top-dot"></span>
+        <span>SYS//MISIDE.HU</span>
+        <span class="hud-header__top-sep">▌</span>
+        <span>NODE_{{ currentLang | upper }}</span>
+        <span class="hud-header__top-sep">▌</span>
+        <span>STATUS: ONLINE</span>
+        <span class="hud-header__top-grow"></span>
+        <span>v.2.4 // unofficial fan node</span>
+      </div>
+      <div class="hud-header__main">
+        <a href="{{ '/' | localizeUrl(currentLang) }}" class="hud-logo">
+          <span class="hud-logo__mark"><img src="/assets/favicon.ico" alt="MiSide"></span>
+          <span class="hud-logo__text">
+            <span class="hud-logo__name">MiSide<em>.hu</em></span>
+            <span class="hud-logo__sub">unofficial fan archive</span>
+          </span>
+        </a>
+        <nav id="nav-menu" class="hud-nav" aria-label="{{ translations.navigation.ariaMainNav | default('Fő navigáció') }}">
+          {% for item in translations.navigation.navbar %}
+            <a href="{{ item.url | localizeUrl(currentLang) }}" class="hud-nav__link">{{ item.title }}</a>
+          {% endfor %}
         </nav>
-        <button
-          id="menu-toggle"
-          class="lg:hidden p-2"
-          type="button"
-          aria-label="{{ translations.navigation.ariaToggleMenu | default('Menü megnyitása') }}"
-          aria-controls="nav-menu"
-          aria-expanded="false"
-        >
-          <img src="/assets/hum.svg" class="w-6 h-6" alt="{{ translations.navigation.ariaToggleMenuIconAlt | default('Menü ikon') }}" loading="lazy" decoding="async"/>
+        <div class="hud-lang" id="language-switcher">
+          <button id="language-button" class="hud-lang__btn" type="button" aria-haspopup="true" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" /></svg>
+            <span>{{ translations.languageSwitcher.currentLanguage }}</span>
+          </button>
+          <div id="language-menu" class="hud-lang__menu" role="menu">
+            {% for lang in ["en", "zh"] %}
+              {% if lang == "en" %}{% set langPath = "" %}{% else %}{% set langPath = "/" + lang %}{% endif %}
+              {% if i18n[lang] %}{% set langName = i18n[lang].meta.language %}{% else %}{% set langName = lang %}{% endif %}
+              <a href="{{ langPath }}{{ page.url | replace("/" + currentLang + "/", "/") }}" role="menuitem" class="hud-lang__item {% if lang == currentLang %}is-current{% endif %}">{{ langName }}</a>
+            {% endfor %}
+          </div>
+        </div>
+        <button id="menu-toggle" class="hud-burger" type="button" aria-label="{{ translations.navigation.ariaToggleMenu | default('Menü') }}" aria-controls="nav-menu" aria-expanded="false">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
         </button>
       </div>
-    </header>
-    {{ content | safe }}
-    <section class="bg-green bg-gradient-to-l from-green via-red to-green" id="cta">
-      <div class="text-center p-8 rounded-lg text-yellow">
-        <h2 class="text-2xl font-bold mb-2 font-sg text-light">{{ translations.cta.title }}</h2>
-        <p class="mb-6 opacity-75 font-sg text-light bg-clip-text text-transparent bg-gradient-to-r from-light to-yellow">{{ translations.cta.description }}</p>
-        <div class="flex flex-wrap justify-center gap-4 mt-6">
-          {% for platform in translations.cta.platforms %}
-            <a href="{{ platform.link }}" target="_blank" rel="noopener noreferrer" class="shadow-lg shadow-red py-3 px-6 bg-gradient-to-br from-green to-green via-red animate-gradient-x rounded-full font-black hover:scale-110 transition duration-300 font-sg text-light">
-              {{ platform.title }} →
-            </a>
+    </div>
+  </header>
+
+  {{ content | safe }}
+
+  {# ============================================ CTA ============================================ #}
+  <section class="cta" id="cta">
+    <div class="shell cta__inner">
+      <div class="kicker"><span class="kicker__num">CTA</span> SYSTEM_PROMPT</div>
+      <h2 class="cta__title">{{ translations.cta.title }}</h2>
+      <p class="cta__desc">{{ translations.cta.description }}</p>
+      <div class="cta__actions">
+        {% for platform in translations.cta.platforms %}
+          <a href="{{ platform.link }}" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+            {{ platform.title }} <span class="btn__arrow">→</span>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {# ============================================ FOOTER ============================================ #}
+  <footer class="hud-footer">
+    <div class="shell">
+      <div class="hud-footer__top">
+        <div class="hud-footer__brand">
+          <span class="hud-footer__brand-name">MiSide<em style="color:var(--text);font-style:normal;">.hu</em></span>
+          <p class="hud-footer__tag">A MiSide magyar rajongói archívuma. Karakterek, útmutatók és minden, ami a Mita-univerzumhoz tartozik.</p>
+        </div>
+        <div class="hud-footer__col">
+          <div class="hud-footer__col-title">// nav</div>
+          {% for item in translations.navigation.navbar %}
+            <a href="{{ item.url | localizeUrl(currentLang) }}">{{ item.title }}</a>
           {% endfor %}
         </div>
+        <div class="hud-footer__col">
+          <div class="hud-footer__col-title">// linkek</div>
+          <a href="{{ '/privacy' | localizeUrl(currentLang) }}">{{ translations.footer.privacyPolicy }}</a>
+          <a href="{{ translations.footer.gitlink }}" target="_blank" rel="noopener noreferrer">{{ translations.footer.github }}</a>
+          <a href="https://store.steampowered.com/app/2527280/MiSide/" target="_blank" rel="noopener noreferrer">Steam</a>
+          <a href="https://aihasto.itch.io/miside" target="_blank" rel="noopener noreferrer">itch.io</a>
+        </div>
       </div>
-    </section>
-    <footer class="bg-green bg-opacity-80 py-5 flex flex-col justify-center items-center text-center">
-      <p class="text-xs mt-10">
-        &copy;
-        <span id="copyright"></span>
-        miside.hu
-        <span id="copyright-year">{{ translations.footer.copyright }}</span>
-        <a href="{{ '/privacy' | localizeUrl(currentLang) }}" class="text-light">
-          {{ translations.footer.privacyPolicy }}
-        </a>
-        <a href="{{ translations.footer.gitlink }}" target="_blank" rel="noopener noreferrer" class="ml-4 text-light">
-          {{ translations.footer.github }}
-        </a>
-      </p>
-      <p class="mt-10 text-xs font-light text-light opacity-50">*Ez a MiSide magyar rajongói oldala. A MiSide-ot a
-        <a href="https://aihasto.itch.io/miside" target="_blank" rel="noopener noreferrer" class="text-yellow">Aihasto</a>
-        csapata fejlesztette.</p>
-    </footer>
-    <script>
-      document.getElementById('copyright').innerText = new Date().getFullYear() + '';
-      const navLinks = document.querySelectorAll('.nav-link');
-      document.addEventListener("DOMContentLoaded", function () {
-        const currentUrlHash = window.location.hash;
-        const currentUrlPathname = window.location.pathname;
-        const currentUrl = currentUrlHash
-          ? currentUrlPathname + currentUrlHash
-          : currentUrlPathname;
-        navLinks.forEach(link => {
-            const href = link.getAttribute('href');
-            if (currentUrlPathname.includes('/blog/') && href.includes('/blogentry/')) {
-              link.classList.add('text-light');
-            } else if (href === currentUrl) {
-              link.classList.add('text-light');
-            }
-          });
-      });
-      window.addEventListener('hashchange', function () {
-        const currentUrlHash = window.location.hash;
-        const currentUrlPathname = window.location.pathname;
-        const currentUrl = currentUrlHash
-          ? currentUrlPathname + currentUrlHash
-          : currentUrlPathname;
-        navLinks.forEach(link => {
-          link.classList.remove('text-light');
-          const href = link.getAttribute('href');
-          if (currentUrlPathname.includes('/blog/') && href.includes('/blogentry/')) {
-            link.classList.add('text-light');
-          } else if (href === currentUrl) {
-            link.classList.add('text-light');
-          }
+      <div class="hud-footer__bottom">
+        <span>&copy; <span id="copyright"></span> miside.hu // {{ translations.footer.copyright }}</span>
+        <span>// build_2.4.1 // status: stable</span>
+      </div>
+      <p class="hud-footer__disclaimer">*Ez a MiSide nem-hivatalos magyar rajongói oldala. A MiSide-ot a <a href="https://aihasto.itch.io/miside" target="_blank" rel="noopener noreferrer">Aihasto</a> csapata fejlesztette.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('copyright').innerText = new Date().getFullYear();
+
+    // Mobile nav toggle
+    {
+      const menuToggle = document.getElementById('menu-toggle');
+      const navMenu = document.getElementById('nav-menu');
+      if (menuToggle && navMenu) {
+        menuToggle.addEventListener('click', () => {
+          const isOpen = navMenu.classList.toggle('is-open');
+          menuToggle.setAttribute('aria-expanded', isOpen);
         });
-      });
-  {
-    const menuToggle = document.getElementById('menu-toggle');
-    const navMenu = document.getElementById('nav-menu');
-    if (menuToggle && navMenu) {
-      menuToggle.addEventListener('click', function () {
-        const isHidden = navMenu.classList.toggle('hidden');
-        menuToggle.setAttribute('aria-expanded', (!isHidden).toString());
-      });
+      }
     }
-  }
-  // Language switch functionality
-  {
-    const langButton = document.getElementById('language-button');
-    const langMenu = document.getElementById('language-menu');
-    if (langButton && langMenu) {
-      let isMenuOpen = false;
-      const chevron = langButton.querySelector('svg.w-4');
-      const setMenuState = (open) => {
-        isMenuOpen = open;
-        langButton.setAttribute('aria-expanded', open.toString());
-        langMenu.toggleAttribute('hidden', !open);
-        langMenu.classList.toggle('scale-y-0', !open);
-        langMenu.classList.toggle('opacity-0', !open);
-        langMenu.classList.toggle('scale-y-100', open);
-        langMenu.classList.toggle('opacity-100', open);
-        if (chevron) {
-          chevron.classList.toggle('rotate-180', open);
-        }
-      };
-      setMenuState(false);
-      langButton.addEventListener('click', function (e) {
-        e.stopPropagation();
-        setMenuState(!isMenuOpen);
-      });
-      langButton.addEventListener('keydown', function (e) {
-        if (e.key === 'ArrowDown' && !isMenuOpen) {
-          e.preventDefault();
-          setMenuState(true);
-          const firstItem = langMenu.querySelector('[role="menuitem"]');
-          if (firstItem) {
-            firstItem.focus();
-          }
-        } else if (e.key === 'Escape' && isMenuOpen) {
-          setMenuState(false);
-        }
-      });
-      // Close menu when clicking elsewhere
-      document.addEventListener('click', function (e) {
-        if (isMenuOpen && !langMenu.contains(e.target) && !langButton.contains(e.target)) {
-          setMenuState(false);
-        }
-      });
-      document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape' && isMenuOpen) {
-          setMenuState(false);
-          langButton.focus();
+
+    // Language switcher
+    {
+      const wrap = document.getElementById('language-switcher');
+      const btn = document.getElementById('language-button');
+      if (btn && wrap) {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          wrap.classList.toggle('is-open');
+        });
+        document.addEventListener('click', (e) => {
+          if (!wrap.contains(e.target)) wrap.classList.remove('is-open');
+        });
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') wrap.classList.remove('is-open');
+        });
+      }
+    }
+
+    // Mark current nav link
+    {
+      const path = window.location.pathname;
+      document.querySelectorAll('.hud-nav__link').forEach(a => {
+        const href = a.getAttribute('href');
+        if (href === path || (path.includes('/blog/') && href.includes('/blogentry'))) {
+          a.classList.add('is-active');
         }
       });
     }
-  }
-  // Flip card accessibility and interaction
-  {
-    const flipCards = document.querySelectorAll('.flip-card');
-    flipCards.forEach(card => {
-      const updateState = (open) => {
-        card.classList.toggle('is-flipped', open);
-        card.setAttribute('aria-expanded', open.toString());
-      };
-      updateState(card.classList.contains('is-flipped'));
-      card.addEventListener('click', (event) => {
-        if (event.target.closest('a, button')) {
-          return;
-        }
-        const willOpen = !card.classList.contains('is-flipped');
-        updateState(willOpen);
+
+    function copyPageUrl () {
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        const t = document.createElement('div');
+        t.textContent = 'Link másolva!';
+        t.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--pink);color:var(--ink);padding:10px 18px;border-radius:6px;z-index:9999;font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;';
+        document.body.appendChild(t);
+        setTimeout(() => t.remove(), 1800);
       });
-      card.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          const willOpen = !card.classList.contains('is-flipped');
-          updateState(willOpen);
-        } else if (event.key === 'Escape' && card.classList.contains('is-flipped')) {
-          event.preventDefault();
-          updateState(false);
-        }
-      });
-      card.addEventListener('focusout', (event) => {
-        if (!card.contains(event.relatedTarget)) {
-          updateState(false);
-        }
-      });
-    });
-  }
-  function copyPageUrl () {
-    navigator
-      .clipboard
-      .writeText(window.location.href)
-      .then(() => {
-        const toast = document.createElement('div');
-        toast.textContent = 'Link copied!';
-        toast.style.cssText = `
-          position: fixed;
-          bottom: 20px;
-          left: 50%;
-          transform: translateX(-50%);
-          background: rgba(255, 255, 255, 0.9);
-          color: #000;
-          padding: 8px 16px;
-          border-radius: 4px;
-          z-index: 1000;
-      `;
-        document.body.appendChild(toast);
-        setTimeout(() => {
-          toast.remove();
-        }, 2000);
-      })
-      .catch(err => {
-        console.error('Failed to copy: ', err);
-      });
-  }
-    </html>
+    }
   </script>
-  <!-- For Analysis -->
+
   <script defer data-domain="miside.im" src="https://app.pageview.app/js/script.js"></script>
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQFZFB4EEN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag () {
-      dataLayer.push(arguments);
-    }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-FQFZFB4EEN');
   </script>
-  {# Google Adsense #}
-  <script
-    async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5331303144323541"
-    crossorigin="anonymous"></script>
-</body></html>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5331303144323541" crossorigin="anonymous"></script>
+</body>
+</html>

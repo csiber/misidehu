@@ -1,0 +1,125 @@
+{# Shared character wiki layout. Caller must set `layout: base.njk`. #}
+
+{% set currentLang = "en" %}
+{% for lang in ["zh", "ja", "ko", "fil", "vi", "id", "ms", "th", "ru", "uk", "de", "pt"] %}
+  {% if page.url.startsWith("/" + lang + "/") %}
+    {% set currentLang = lang %}
+  {% endif %}
+{% endfor %}
+{% if i18n[currentLang] %}{% set translations = i18n[currentLang] %}{% else %}{% set translations = i18n["en"] %}{% endif %}
+{% set currentPage = page.url | replace("/" + currentLang + "/", "/") | replace("/blog/", "") | replace("/", "") %}
+{% if not currentPage %}{% set currentPage = "index" %}{% endif %}
+{% set p = translations.pages[currentPage] %}
+
+<section class="shell">
+  <div class="wiki">
+
+    <aside class="wiki__sidebar">
+      <div class="wiki__breadcrumb">
+        <a href="{{ '/' | localizeUrl(currentLang) }}">// home</a> ▸
+        <a href="{{ '/mita-miside-wiki' | localizeUrl(currentLang) }}">archive</a> ▸
+        <span style="color:var(--pink);">{{ p.character }}</span>
+      </div>
+      <h3 class="wiki__nav-title">/// karakter index</h3>
+      <nav class="wiki__nav" aria-label="Karakter wiki navigáció">
+        <ul>
+          {% for mita in translations.pages.index.mitas.content %}
+            <li>
+              <a href="{{ ('/' + mita.path) | localizeUrl(currentLang) }}"
+                 {% if mita.path == currentPage %}style="color:var(--pink); border-left-color:var(--pink); background:rgba(255,84,157,.08);"{% endif %}>
+                {{ '%02d' | format(loop.index) }} · {{ mita.name }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="wiki__main">
+      <header class="wiki__hero">
+        <div class="wiki__portrait">
+          <span class="wiki__portrait-id">UNIT_{{ '%03d' | format(1) }}</span>
+          <img src="{{ p.media.url }}" alt="{{ p.media.alt }}" loading="eager" decoding="async">
+        </div>
+        <div class="wiki__heading">
+          <span class="wiki__subkicker">// {{ p.subtitle }}</span>
+          <h1 class="wiki__name">{{ p.character }}</h1>
+          {% if p['quick-information'] and p['quick-information'].content %}
+            <div class="wiki__quick">
+              {% for item in p['quick-information'].content %}
+                <div class="wiki__quick-row">
+                  <span class="wiki__quick-k">{{ item.title }}</span>
+                  <span class="wiki__quick-v">{{ item.content | safe }}</span>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </header>
+
+      {% if p.overview %}
+        <section class="wiki__section" id="overview">
+          <h2 class="wiki__section-title">Áttekintés</h2>
+          <div class="wiki__prose">
+            {% for item in p.overview %}<p>{{ item | safe }}</p>{% endfor %}
+          </div>
+        </section>
+      {% endif %}
+
+      {% if p.personality %}
+        <section class="wiki__section" id="personality">
+          <h2 class="wiki__section-title">Személyiség</h2>
+          <div class="wiki__prose">
+            {% for item in p.personality %}<p>{{ item | safe }}</p>{% endfor %}
+          </div>
+        </section>
+      {% endif %}
+
+      {% if p.appearance %}
+        <section class="wiki__section" id="appearance">
+          <h2 class="wiki__section-title">Megjelenés</h2>
+          <div class="wiki__prose">
+            {% for item in p.appearance %}<p>{{ item | safe }}</p>{% endfor %}
+          </div>
+        </section>
+      {% endif %}
+
+      {% if p.hobby %}
+        <section class="wiki__section" id="hobby">
+          <h2 class="wiki__section-title">Hobbi</h2>
+          <ul class="wiki__list">
+            {% for item in p.hobby %}<li>{{ item | safe }}</li>{% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+
+      {% if p['how-to-unlock'] %}
+        <section class="wiki__section" id="unlock">
+          <h2 class="wiki__section-title">Hogyan lehet feloldani?</h2>
+          <ul class="wiki__list">
+            {% for item in p['how-to-unlock'] %}<li>{{ item | safe }}</li>{% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+
+      {% if p['fun-facts'] %}
+        <section class="wiki__section" id="fun-facts">
+          <h2 class="wiki__section-title">Érdekes tények</h2>
+          <ul class="wiki__list">
+            {% for item in p['fun-facts'] %}<li>{{ item | safe }}</li>{% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+
+      {% if p.media2 %}
+        <section class="wiki__section" id="extra-art">
+          <h2 class="wiki__section-title">Galéria</h2>
+          <div style="border:1px solid var(--panel-line-strong); border-radius:var(--r-md); overflow:hidden; max-width:520px;">
+            <img src="{{ p.media2.url }}" alt="{{ p.media2.alt }}" loading="lazy" decoding="async" style="width:100%; display:block;">
+          </div>
+        </section>
+      {% endif %}
+
+    </main>
+  </div>
+</section>

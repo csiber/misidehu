@@ -47,15 +47,15 @@ module.exports = function(eleventyConfig) {
   // Add filter to localize URLs
   eleventyConfig.addFilter("localizeUrl", function(url, lang) {
     if (!url) return url;
-    
+
     // Remove any existing language prefix
     url = url.replace(/^\/[a-z]{2}(-[A-Z]{2})?\//, '/');
-    
+
     // For English (default language), don't add language prefix
     if (lang === defaultLanguage) {
       return url;
     }
-    
+
     // For other languages, add language prefix
     const cleanUrl = url.startsWith('/') ? url.slice(1) : url;
     return `/${lang}/${cleanUrl}`;
@@ -104,7 +104,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/fonts");
   eleventyConfig.addPassthroughCopy("src/sitemap.xml");
-  eleventyConfig.addPassthroughCopy("src/ads.txt"); 
+  eleventyConfig.addPassthroughCopy("src/ads.txt");
 
   // Add filter to check if URL starts with a string
   eleventyConfig.addFilter("startsWith", function(str, prefix) {
@@ -122,6 +122,10 @@ module.exports = function(eleventyConfig) {
       output: "_site",
       includes: "_includes",
       data: "_data"
-    }
+    },
+    // Disable template parsing on HTML files so React/JSX `{{ ... }}` and
+    // CSS `{ ... }` braces don't get interpreted as Liquid output tags.
+    htmlTemplateEngine: false,
+    markdownTemplateEngine: false
   };
 };
