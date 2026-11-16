@@ -111,7 +111,7 @@
         </section>
       {% endif %}
 
-      {% if p.media2 %}
+      {% if p.media2 and (p.media2.url | assetExists) %}
         <section class="wiki__section" id="extra-art">
           <h2 class="wiki__section-title">Galéria</h2>
           <div style="border:1px solid var(--panel-line-strong); border-radius:var(--r-md); overflow:hidden; max-width:520px;">

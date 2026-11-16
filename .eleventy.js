@@ -111,6 +111,26 @@ module.exports = function(eleventyConfig) {
     return str.startsWith(prefix);
   });
 
+  // Minimal printf-style "format" filter (Jinja-compatible subset: %d, %0Nd, %s),
+  // used by the HUD templates, e.g. {{ '%02d' | format(loop.index) }}.
+  eleventyConfig.addFilter("format", function(fmt, ...args) {
+    let i = 0;
+    return String(fmt).replace(/%(0?)(\d*)([ds%])/g, (m, zero, width, type) => {
+      if (type === '%') return '%';
+      let v = args[i++];
+      v = type === 'd' ? String(parseInt(v, 10) || 0) : String(v ?? '');
+      const w = parseInt(width, 10) || 0;
+      return v.padStart(w, zero ? '0' : ' ');
+    });
+  });
+
+  // True if a site-relative asset (e.g. "/assets/x.webp") exists in src/,
+  // so optional images (wiki gallery) aren't rendered as broken links.
+  eleventyConfig.addFilter("assetExists", function(url) {
+    if (!url || !String(url).startsWith('/')) return false;
+    return require('fs').existsSync(require('path').join(__dirname, 'src', String(url)));
+  });
+
   // Add filter for ternary operation
   eleventyConfig.addFilter("ternary", function(condition, trueValue, falseValue) {
     return condition ? trueValue : falseValue;
