@@ -3,6 +3,12 @@ layout: base.njk
 permalink: "/{% if currentLang != 'en' %}{{ currentLang }}/{% endif %}index.html"
 ---
 
+{# A layoutban beállított fordítás a tartalomban még nem látszik (a tartalom előbb renderel), ezért itt is kell. #}
+{% set currentLang = "en" %}
+{% for lang in ["zh", "ja", "ko", "fil", "vi", "id", "ms", "th", "ru", "uk", "de", "pt"] %}
+  {% if page.url.startsWith("/" + lang + "/") %}{% set currentLang = lang %}{% endif %}
+{% endfor %}
+{% if i18n[currentLang] %}{% set translations = i18n[currentLang] %}{% else %}{% set translations = i18n["en"] %}{% endif %}
 {% set t = translations.pages.index %}
 
 {# ============================================ HERO ============================================ #}
